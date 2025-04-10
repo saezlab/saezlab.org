@@ -1,4 +1,5 @@
 import { Calendar } from 'lucide-react';
+import { getInternalLink } from '../lib/utils';
 
 interface NewsCardProps {
   title: string;
@@ -25,7 +26,7 @@ export default function NewsCard({
           <time dateTime={date}>{new Date(date).toLocaleDateString()}</time>
         </div>
         <h2 className="text-2xl font-bold">
-          <a href={`/news/${slug}`} className="hover:underline">
+          <a href={getInternalLink(`/news/${slug}`)} className="hover:underline">
             {title}
           </a>
         </h2>
@@ -34,7 +35,7 @@ export default function NewsCard({
       {image && (
         <div className="relative aspect-video overflow-hidden rounded-lg">
           <img
-            src={image}
+            src={getInternalLink(image)}
             alt={title}
             className="h-full w-full object-cover"
           />
@@ -42,7 +43,7 @@ export default function NewsCard({
       )}
       <p className="flex-1">{excerpt}</p>
       <a
-        href={`/news/${slug}`}
+        href={getInternalLink(`/news/${slug}`)}
         className="inline-flex items-center text-sm font-medium text-primary hover:underline"
       >
         Read more

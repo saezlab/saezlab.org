@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Menu } from 'lucide-react';
+import { getInternalLink } from '../lib/utils';
 
 export default function MobileNav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,43 +20,43 @@ export default function MobileNav() {
           <div className="relative z-20 grid gap-6 rounded-md bg-popover p-4 text-popover-foreground shadow-md">
             <nav className="grid grid-flow-row auto-rows-max text-sm">
               <a
-                href="/research"
+                href={getInternalLink('/research')}
                 className="flex w-full items-center rounded-md p-2 text-sm font-medium hover:underline"
               >
                 Research
               </a>
               <a
-                href="/publications"
+                href={getInternalLink('/publications')}
                 className="flex w-full items-center rounded-md p-2 text-sm font-medium hover:underline"
               >
                 Publications
               </a>
               <a
-                href="/team"
+                href={getInternalLink('/team')}
                 className="flex w-full items-center rounded-md p-2 text-sm font-medium hover:underline"
               >
                 Team
               </a>
               <a
-                href="/software"
+                href={getInternalLink('/software')}
                 className="flex w-full items-center rounded-md p-2 text-sm font-medium hover:underline"
               >
                 Software
               </a>
               <a
-                href="/partners"
+                href={getInternalLink('/partners')}
                 className="flex w-full items-center rounded-md p-2 text-sm font-medium hover:underline"
               >
                 Partners & Funding
               </a>
               <a
-                href="/jobs"
+                href={getInternalLink('/jobs')}
                 className="flex w-full items-center rounded-md p-2 text-sm font-medium hover:underline"
               >
                 Jobs
               </a>
               <a
-                href="/contact"
+                href={getInternalLink('/contact')}
                 className="flex w-full items-center rounded-md p-2 text-sm font-medium hover:underline"
               >
                 Contact

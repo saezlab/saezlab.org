@@ -2,6 +2,7 @@
 import { ClientRouter } from 'astro:transitions';
 import '../styles/global.css';
 import MobileNav from '../components/MobileNav.tsx';
+import { getInternalLink } from '../lib/utils';
 
 type Props = {
   title: string;
@@ -16,7 +17,7 @@ const { title } = Astro.props;
     <meta charset="UTF-8" />
     <meta name="description" content="Saez Lab - Systems Biology and Bioinformatics Research" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href={getInternalLink('/favicon.svg')} />
     <meta name="generator" content={Astro.generator} />
     <title>{title} | Saez Lab</title>
     <ClientRouter />
@@ -24,32 +25,32 @@ const { title } = Astro.props;
   <body class="min-h-screen bg-background font-sans antialiased">
     <div class="relative flex min-h-screen flex-col">
       <header class="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div class="container mx-auto px-4 flex items-center justify-between h-16">
-          <a class="flex items-center space-x-2" href="/">
+        <div class="container flex h-16 items-center space-x-4 sm:justify-between sm:space-x-0">
+          <a class="flex items-center space-x-2" href={getInternalLink('/')}>
             <span class="font-bold">
               Saez Lab
             </span>
           </a>
           <nav class="hidden items-center space-x-6 text-sm font-medium md:flex">
-            <a class="transition-colors hover:text-foreground/80 text-foreground" href="/research">
+            <a class="transition-colors hover:text-foreground/80 text-foreground" href={getInternalLink('/research')}>
               Research
             </a>
-            <a class="transition-colors hover:text-foreground/80 text-foreground" href="/publications">
+            <a class="transition-colors hover:text-foreground/80 text-foreground" href={getInternalLink('/publications')}>
               Publications
             </a>
-            <a class="transition-colors hover:text-foreground/80 text-foreground" href="/team">
+            <a class="transition-colors hover:text-foreground/80 text-foreground" href={getInternalLink('/team')}>
               Team
             </a>
-            <a class="transition-colors hover:text-foreground/80 text-foreground" href="/software">
+            <a class="transition-colors hover:text-foreground/80 text-foreground" href={getInternalLink('/software')}>
               Software
             </a>
-            <a class="transition-colors hover:text-foreground/80 text-foreground" href="/partners">
+            <a class="transition-colors hover:text-foreground/80 text-foreground" href={getInternalLink('/partners')}>
               Partners
             </a>
-            <a class="transition-colors hover:text-foreground/80 text-foreground" href="/jobs">
+            <a class="transition-colors hover:text-foreground/80 text-foreground" href={getInternalLink('/jobs')}>
               Jobs
             </a>
-            <a class="transition-colors hover:text-foreground/80 text-foreground" href="/contact">
+            <a class="transition-colors hover:text-foreground/80 text-foreground" href={getInternalLink('/contact')}>
               Contact
             </a>
           </nav>
