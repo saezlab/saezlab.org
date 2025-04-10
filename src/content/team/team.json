@@ -1,40 +1,698 @@
 {
   "current": [
     {
-      "name": "Dr. Pedro Saez",
-      "role": "Principal Investigator",
-      "image": "/team/saez.jpg",
-      "bio": "Dr. Saez leads the Systems Biology and Bioinformatics Research Group.",
-      "email": "pedro.saez@example.com",
-      "website": "https://example.com/saez"
+      "name": "Julio Saez-Rodriguez",
+      "role": "Group Leader",
+      "image": "/team/saez-rodriguez.jpg",
+      "bio": "Group Leader of the Systems Biology and Bioinformatics Research Group",
+      "email": "julio.saez-rodriguez@example.com",
+      "website": "https://example.com/saez-rodriguez"
     },
     {
-      "name": "Dr. Jane Smith",
-      "role": "Postdoctoral Researcher",
-      "image": "/team/smith.jpg",
-      "bio": "Dr. Smith's research focuses on network analysis of signaling pathways.",
-      "email": "jane.smith@example.com"
+      "name": "Erika Schulz",
+      "role": "Administration",
+      "image": "/team/schulz.jpg",
+      "bio": "Administrative support for the research group",
+      "email": "erika.schulz@example.com",
+      "website": ""
     },
     {
-      "name": "John Doe",
+      "name": "Lydia Roeder",
+      "role": "Administration",
+      "image": "/team/roeder.jpg",
+      "bio": "Administrative support for the research group",
+      "email": "lydia.roeder@example.com",
+      "website": ""
+    },
+    {
+      "name": "Paula Frampton",
+      "role": "Administration",
+      "image": "/team/frampton.jpg",
+      "bio": "Administrative support for the research group",
+      "email": "paula.frampton@example.com",
+      "website": ""
+    },
+    {
+      "name": "Anna Moore",
+      "role": "Administration",
+      "image": "/team/moore.jpg",
+      "bio": "Administrative support for the research group",
+      "email": "anna.moore@example.com",
+      "website": ""
+    },
+    {
+      "name": "Aurélien Dugourd",
+      "role": "Staff Scientist",
+      "image": "/team/dugourd.jpg",
+      "bio": "Staff Scientist in Systems Biology",
+      "email": "aurelien.dugourd@example.com",
+      "website": "https://example.com/dugourd"
+    },
+    {
+      "name": "Ricardo O. Ramirez-Flores",
+      "role": "Staff Scientist",
+      "image": "/team/ramirez-flores.jpg",
+      "bio": "Staff Scientist in Systems Biology",
+      "email": "ricardo.ramirez-flores@example.com",
+      "website": "https://example.com/ramirez-flores"
+    },
+    {
+      "name": "Nicolàs Palacio",
+      "role": "Bioinformatician",
+      "image": "/team/palacio.jpg",
+      "bio": "Bioinformatician in the research group",
+      "email": "nicolas.palacio@example.com",
+      "website": "https://example.com/palacio"
+    },
+    {
+      "name": "Edwin Carreño",
+      "role": "Bioinformatician",
+      "image": "/team/carreno.jpg",
+      "bio": "Bioinformatician in the research group",
+      "email": "edwin.carreno@example.com",
+      "website": "https://example.com/carreno"
+    },
+    {
+      "name": "Paul To",
+      "role": "Bioinformatician",
+      "image": "/team/to.jpg",
+      "bio": "Bioinformatician in the research group",
+      "email": "paul.to@example.com",
+      "website": "https://example.com/to"
+    },
+    {
+      "name": "Francesco Carli",
+      "role": "Bioinformatician",
+      "image": "/team/carli.jpg",
+      "bio": "Bioinformatician in the research group",
+      "email": "francesco.carli@example.com",
+      "website": "https://example.com/carli"
+    },
+    {
+      "name": "Denes Turei",
+      "role": "Postdoc",
+      "image": "/team/turei.jpg",
+      "bio": "Postdoctoral Researcher in Systems Biology",
+      "email": "denes.turei@example.com",
+      "website": "https://example.com/turei"
+    },
+    {
+      "name": "Attila Gabor",
+      "role": "Postdoc",
+      "image": "/team/gabor.jpg",
+      "bio": "Postdoctoral Researcher in Systems Biology",
+      "email": "attila.gabor@example.com",
+      "website": "https://example.com/gabor"
+    },
+    {
+      "name": "Jan Lanzer",
+      "role": "Postdoc",
+      "image": "/team/lanzer.jpg",
+      "bio": "Postdoctoral Researcher in Systems Biology",
+      "email": "jan.lanzer@example.com",
+      "website": "https://example.com/lanzer"
+    },
+    {
+      "name": "Pau Badia i Mompel",
+      "role": "Postdoc",
+      "image": "/team/badia.jpg",
+      "bio": "Postdoctoral Researcher in Systems Biology",
+      "email": "pau.badia@example.com",
+      "website": "https://example.com/badia"
+    },
+    {
+      "name": "Sophia Müller-Dott",
+      "role": "Postdoc",
+      "image": "/team/muller-dott.jpg",
+      "bio": "Postdoctoral Researcher in Systems Biology",
+      "email": "sophia.muller-dott@example.com",
+      "website": "https://example.com/muller-dott"
+    },
+    {
+      "name": "Martín Garrido Rodríguez-Córdoba",
+      "role": "Postdoc",
+      "image": "/team/garrido.jpg",
+      "bio": "Postdoctoral Researcher in Systems Biology",
+      "email": "martin.garrido@example.com",
+      "website": "https://example.com/garrido"
+    },
+    {
+      "name": "Ahmet Sureyya Rifaioglu",
+      "role": "Postdoc",
+      "image": "/team/rifaioglu.jpg",
+      "bio": "Postdoctoral Researcher in Systems Biology",
+      "email": "ahmet.rifaioglu@example.com",
+      "website": "https://example.com/rifaioglu"
+    },
+    {
+      "name": "Pablo Rodríguez Mier",
+      "role": "Postdoc",
+      "image": "/team/rodriguez-mier.jpg",
+      "bio": "Postdoctoral Researcher in Systems Biology",
+      "email": "pablo.rodriguez-mier@example.com",
+      "website": "https://example.com/rodriguez-mier"
+    },
+    {
+      "name": "Chang Lu",
+      "role": "Postdoc",
+      "image": "/team/lu.jpg",
+      "bio": "Postdoctoral Researcher in Systems Biology",
+      "email": "chang.lu@example.com",
+      "website": "https://example.com/lu"
+    },
+    {
+      "name": "Christina Schmidt",
+      "role": "Postdoc",
+      "image": "/team/schmidt.jpg",
+      "bio": "Postdoctoral Researcher in Systems Biology",
+      "email": "christina.schmidt@example.com",
+      "website": "https://example.com/schmidt"
+    },
+    {
+      "name": "José Liñares Blanco",
+      "role": "Postdoc",
+      "image": "/team/linares-blanco.jpg",
+      "bio": "Postdoctoral Researcher in Systems Biology",
+      "email": "jose.linares-blanco@example.com",
+      "website": "https://example.com/linares-blanco"
+    },
+    {
+      "name": "Yunfan Bai",
+      "role": "Postdoc",
+      "image": "/team/bai.jpg",
+      "bio": "Postdoctoral Researcher in Systems Biology",
+      "email": "yunfan.bai@example.com",
+      "website": "https://example.com/bai"
+    },
+    {
+      "name": "Ines Rivero Garcia",
+      "role": "Postdoc",
+      "image": "/team/rivero-garcia.jpg",
+      "bio": "Postdoctoral Researcher in Systems Biology",
+      "email": "ines.rivero-garcia@example.com",
+      "website": "https://example.com/rivero-garcia"
+    },
+    {
+      "name": "Robin Fallegger",
       "role": "PhD Student",
-      "image": "/team/doe.jpg",
-      "bio": "John is developing machine learning methods for drug discovery.",
-      "email": "john.doe@example.com"
+      "image": "/team/fallegger.jpg",
+      "bio": "PhD Student in Systems Biology",
+      "email": "robin.fallegger@example.com",
+      "website": "https://example.com/fallegger"
+    },
+    {
+      "name": "Charlotte Boys",
+      "role": "PhD Student",
+      "image": "/team/boys.jpg",
+      "bio": "PhD Student in Systems Biology",
+      "email": "charlotte.boys@example.com",
+      "website": "https://example.com/boys"
+    },
+    {
+      "name": "Leonie Küchenhoff",
+      "role": "PhD Student",
+      "image": "/team/kuchenhoff.jpg",
+      "bio": "PhD Student in Systems Biology",
+      "email": "leonie.kuchenhoff@example.com",
+      "website": "https://example.com/kuchenhoff"
+    },
+    {
+      "name": "Philipp Schaefer",
+      "role": "PhD Student",
+      "image": "/team/schaefer.jpg",
+      "bio": "PhD Student in Systems Biology",
+      "email": "philipp.schaefer@example.com",
+      "website": "https://example.com/schaefer"
+    },
+    {
+      "name": "Bárbara Zita Peters Couto",
+      "role": "PhD Student",
+      "image": "/team/peters-couto.jpg",
+      "bio": "PhD Student in Systems Biology",
+      "email": "barbara.peters-couto@example.com",
+      "website": "https://example.com/peters-couto"
+    },
+    {
+      "name": "Miguel Hernandez",
+      "role": "PhD Student",
+      "image": "/team/hernandez.jpg",
+      "bio": "PhD Student in Systems Biology",
+      "email": "miguel.hernandez@example.com",
+      "website": "https://example.com/hernandez"
+    },
+    {
+      "name": "Naomi Murphy",
+      "role": "PhD Student",
+      "image": "/team/murphy.jpg",
+      "bio": "PhD Student in Systems Biology",
+      "email": "naomi.murphy@example.com",
+      "website": "https://example.com/murphy"
+    },
+    {
+      "name": "Jenna Keung",
+      "role": "PhD Student",
+      "image": "/team/keung.jpg",
+      "bio": "PhD Student in Systems Biology",
+      "email": "jenna.keung@example.com",
+      "website": "https://example.com/keung"
+    },
+    {
+      "name": "Jovan Tanevski",
+      "role": "Associated Member",
+      "image": "/team/tanevski.jpg",
+      "bio": "Associated Member of the research group",
+      "email": "jovan.tanevski@example.com",
+      "website": "https://example.com/tanevski"
+    },
+    {
+      "name": "Olga Ivanova",
+      "role": "Associated Member",
+      "image": "/team/ivanova.jpg",
+      "bio": "Associated Member of the research group",
+      "email": "olga.ivanova@example.com",
+      "website": "https://example.com/ivanova"
+    },
+    {
+      "name": "Sebastian Lobentanzer",
+      "role": "Associated Member",
+      "image": "/team/lobentanzer.jpg",
+      "bio": "Associated Member of the research group",
+      "email": "sebastian.lobentanzer@example.com",
+      "website": "https://example.com/lobentanzer"
+    },
+    {
+      "name": "Mira Burtscher",
+      "role": "Associated Member",
+      "image": "/team/burtscher.jpg",
+      "bio": "Associated Member of the research group",
+      "email": "mira.burtscher@example.com",
+      "website": "https://example.com/burtscher"
+    },
+    {
+      "name": "Lorna Wessels",
+      "role": "Associated Member",
+      "image": "/team/wessels.jpg",
+      "bio": "Associated Member of the research group",
+      "email": "lorna.wessels@example.com",
+      "website": "https://example.com/wessels"
+    },
+    {
+      "name": "Loan Vulliard",
+      "role": "Associated Member",
+      "image": "/team/vulliard.jpg",
+      "bio": "Associated Member of the research group",
+      "email": "loan.vulliard@example.com",
+      "website": "https://example.com/vulliard"
+    },
+    {
+      "name": "Maria Puschhof",
+      "role": "Associated Member",
+      "image": "/team/puschhof.jpg",
+      "bio": "Associated Member of the research group",
+      "email": "maria.puschhof@example.com",
+      "website": "https://example.com/puschhof"
+    },
+    {
+      "name": "Remi Trimbour",
+      "role": "Associated Member",
+      "image": "/team/trimbour.jpg",
+      "bio": "Associated Member of the research group",
+      "email": "remi.trimbour@example.com",
+      "website": "https://example.com/trimbour"
+    },
+    {
+      "name": "Jennifer Habbes",
+      "role": "Associated Member",
+      "image": "/team/habbes.jpg",
+      "bio": "Associated Member of the research group",
+      "email": "jennifer.habbes@example.com",
+      "website": "https://example.com/habbes"
+    },
+    {
+      "name": "Thorben Söhngen",
+      "role": "Associated Member",
+      "image": "/team/sohngen.jpg",
+      "bio": "Associated Member of the research group",
+      "email": "thorben.sohngen@example.com",
+      "website": "https://example.com/sohngen"
+    },
+    {
+      "name": "Macabe Daley",
+      "role": "Associated Member",
+      "image": "/team/daley.jpg",
+      "bio": "Associated Member of the research group",
+      "email": "macabe.daley@example.com",
+      "website": "https://example.com/daley"
+    },
+    {
+      "name": "Louisa Gerhardt",
+      "role": "Associated Member",
+      "image": "/team/gerhardt.jpg",
+      "bio": "Associated Member of the research group",
+      "email": "louisa.gerhardt@example.com",
+      "website": "https://example.com/gerhardt"
+    },
+    {
+      "name": "Francisca Gaspar Vieira",
+      "role": "Associated Member",
+      "image": "/team/vieira.jpg",
+      "bio": "Associated Member of the research group",
+      "email": "francisca.vieira@example.com",
+      "website": "https://example.com/vieira"
+    },
+    {
+      "name": "Christoph Mahler",
+      "role": "Associated Member",
+      "image": "/team/mahler.jpg",
+      "bio": "Associated Member of the research group",
+      "email": "christoph.mahler@example.com",
+      "website": "https://example.com/mahler"
     }
   ],
   "alumni": [
     {
-      "name": "Dr. Alice Johnson",
-      "role": "Former Postdoc",
-      "years": "2018-2021",
-      "current": "Assistant Professor at University X"
+      "name": "Fabian Fröhlich",
+      "role": "PostDoc",
+      "years": "2022-2023",
+      "linkedin": "https://www.linkedin.com/in/fabian-frohlich/"
     },
     {
-      "name": "Dr. Bob Wilson",
-      "role": "Former PhD Student",
-      "years": "2015-2020",
-      "current": "Research Scientist at Company Y"
+      "name": "Katharina Zirngibl",
+      "role": "PostDoc",
+      "years": "2021-2023",
+      "linkedin": "https://www.linkedin.com/in/katharina-zirngibl/"
+    },
+    {
+      "name": "Marzia Sidri",
+      "role": "Project Manager",
+      "years": "2021-2022",
+      "linkedin": "https://www.linkedin.com/in/marzia-sidri/"
+    },
+    {
+      "name": "Bartosz Bartmanski",
+      "role": "Postdoc",
+      "years": "2021",
+      "linkedin": "https://www.linkedin.com/in/bartosz-bartmanski/"
+    },
+    {
+      "name": "Arezou Rahimi",
+      "role": "Postdoc",
+      "years": "2021-2024",
+      "linkedin": "https://www.linkedin.com/in/arezou-rahimi/"
+    },
+    {
+      "name": "Ece Kartal",
+      "role": "Postdoc",
+      "years": "2021-2024",
+      "linkedin": "https://www.linkedin.com/in/ece-kartal/"
+    },
+    {
+      "name": "Hanna Schumacher",
+      "role": "Bioinformatician",
+      "years": "2021-2023",
+      "linkedin": "https://www.linkedin.com/in/hanna-schumacher/"
+    },
+    {
+      "name": "Daniel Dimitrov",
+      "role": "PhD Student",
+      "years": "2020-2024",
+      "linkedin": "https://www.linkedin.com/in/daniel-dimitrov/"
+    },
+    {
+      "name": "Eleanor Fewings",
+      "role": "Bioinformatician",
+      "years": "2020-2021",
+      "linkedin": "https://www.linkedin.com/in/eleanor-fewings/"
+    },
+    {
+      "name": "Rosa Hernansaiz Ballesteros",
+      "role": "PostDoc",
+      "years": "2019-2021",
+      "linkedin": "https://www.linkedin.com/in/rosa-hernansaiz-ballesteros/"
+    },
+    {
+      "name": "Igor Bulanov",
+      "role": "Intern",
+      "years": "2019-2020",
+      "linkedin": "https://www.linkedin.com/in/igor-bulanov/"
+    },
+    {
+      "name": "Minoo Ashtiani",
+      "role": "Intern",
+      "years": "2019-2020",
+      "linkedin": "https://www.linkedin.com/in/minoo-ashtiani/"
+    },
+    {
+      "name": "Alice Driessen",
+      "role": "Intern",
+      "years": "2019-2020",
+      "linkedin": "https://www.linkedin.com/in/alice-driessen/"
+    },
+    {
+      "name": "Ana Victoria Ponce-Bobadilla",
+      "role": "Postdoc",
+      "years": "2019-2020",
+      "linkedin": "https://www.linkedin.com/in/ana-victoria-ponce-bobadilla/"
+    },
+    {
+      "name": "Alberto Valdeolivas Urbelz",
+      "role": "Postdoc",
+      "years": "2019-2020",
+      "linkedin": "https://www.linkedin.com/in/alberto-valdeolivas/"
+    },
+    {
+      "name": "Nadine Tüchler",
+      "role": "PhD Student",
+      "years": "2019-2024",
+      "linkedin": "https://www.linkedin.com/in/nadine-tuechler/"
+    },
+    {
+      "name": "Javier Perales-Patón",
+      "role": "Postdoc",
+      "years": "2018-2022",
+      "linkedin": "https://www.linkedin.com/in/javier-perales-patón/"
+    },
+    {
+      "name": "Charlie Pieterman",
+      "role": "Intern",
+      "years": "2018",
+      "linkedin": "https://www.linkedin.com/in/charlie-pieterman/"
+    },
+    {
+      "name": "Anika Liu",
+      "role": "Master Thesis",
+      "years": "2018",
+      "linkedin": "https://www.linkedin.com/in/anika-liu/"
+    },
+    {
+      "name": "Hyojin Kim",
+      "role": "PhD Student",
+      "years": "2017-2020",
+      "linkedin": "https://www.linkedin.com/in/hyojin-kim/"
+    },
+    {
+      "name": "Nicolas Palacio-Escat",
+      "role": "PhD Student",
+      "years": "2017-2020",
+      "linkedin": "https://www.linkedin.com/in/nicolas-palacio-escat/"
+    },
+    {
+      "name": "Panuwat Trairatphisan",
+      "role": "Postdoc",
+      "years": "2017-2019",
+      "linkedin": "https://www.linkedin.com/in/panuwat-trairatphisan/"
+    },
+    {
+      "name": "Bence Szalai",
+      "role": "Postdoc",
+      "years": "2017-2018",
+      "linkedin": "https://www.linkedin.com/in/bence-szalai/"
+    },
+    {
+      "name": "Ferenc Tajti",
+      "role": "Intern",
+      "years": "2017-2018",
+      "linkedin": "https://www.linkedin.com/in/ferenc-tajti/"
+    },
+    {
+      "name": "Francesco Ceccarelli",
+      "role": "Intern",
+      "years": "2017-2018",
+      "linkedin": "https://www.linkedin.com/in/francesco-ceccarelli/"
+    },
+    {
+      "name": "Vigneshwari Subramanian",
+      "role": "Postdoc",
+      "years": "2017-2018",
+      "linkedin": "https://www.linkedin.com/in/vigneshwari-subramanian/"
+    },
+    {
+      "name": "Christian Holland",
+      "role": "PhD Student",
+      "years": "2017-2021",
+      "linkedin": "https://www.linkedin.com/in/christian-holland/"
+    },
+    {
+      "name": "Mahmoud Ibrahim",
+      "role": "Postdoc",
+      "years": "2017",
+      "linkedin": "https://www.linkedin.com/in/mahmoud-ibrahim/"
+    },
+    {
+      "name": "Enio Gjerga",
+      "role": "PhD Student",
+      "years": "2016-2020",
+      "linkedin": "https://www.linkedin.com/in/enio-gjerga/"
+    },
+    {
+      "name": "Luis Tobalina Segura",
+      "role": "Postdoc",
+      "years": "2016-2019",
+      "linkedin": "https://www.linkedin.com/in/luis-tobalina-segura/"
+    },
+    {
+      "name": "Melanie Rinas",
+      "role": "Postdoc",
+      "years": "2016-2019",
+      "linkedin": "https://www.linkedin.com/in/melanie-rinas/"
+    },
+    {
+      "name": "Mi Yang",
+      "role": "PhD Student / Postdoc",
+      "years": "2015-2019",
+      "linkedin": "https://www.linkedin.com/in/mi-yang/"
+    },
+    {
+      "name": "Angeliki Kalamara",
+      "role": "PhD Student",
+      "years": "2015-2019",
+      "linkedin": "https://www.linkedin.com/in/angeliki-kalamara/"
+    },
+    {
+      "name": "Jakob Wirbel",
+      "role": "Intern & Master Thesis",
+      "years": "2015-2017",
+      "linkedin": "https://www.linkedin.com/in/jakob-wirbel/"
+    },
+    {
+      "name": "Fatemeh Ghavidel",
+      "role": "Postdoc",
+      "years": "2015-2016",
+      "linkedin": "https://www.linkedin.com/in/fatemeh-ghavidel/"
+    },
+    {
+      "name": "Pisanu Buphamalai",
+      "role": "Trainee",
+      "years": "2015-2016",
+      "linkedin": "https://www.linkedin.com/in/pisanu-buphamalai/"
+    },
+    {
+      "name": "Ricardo Ramirez",
+      "role": "Trainee",
+      "years": "2015-2016",
+      "linkedin": "https://www.linkedin.com/in/ricardo-ramirez/"
+    },
+    {
+      "name": "Luz Garcia-Alonso",
+      "role": "Postdoc",
+      "years": "2014-2018",
+      "linkedin": "https://www.linkedin.com/in/luz-garcia-alonso/"
+    },
+    {
+      "name": "Johannes Stephan",
+      "role": "Postdoc",
+      "years": "2014-2015",
+      "linkedin": "https://www.linkedin.com/in/johannes-stephan/"
+    },
+    {
+      "name": "Claudia Hernandez",
+      "role": "Trainee",
+      "years": "2014-2015",
+      "linkedin": "https://www.linkedin.com/in/claudia-hernandez/"
+    },
+    {
+      "name": "Martí Bernardo-Faura",
+      "role": "Postdoc",
+      "years": "2013-2015",
+      "linkedin": "https://www.linkedin.com/in/marti-bernardo-faura/"
+    },
+    {
+      "name": "Ioannis Melas",
+      "role": "Postdoc",
+      "years": "2013-2014",
+      "linkedin": "https://www.linkedin.com/in/ioannis-melas/"
+    },
+    {
+      "name": "Vitor Costa",
+      "role": "Master Thesis",
+      "years": "2013",
+      "linkedin": "https://www.linkedin.com/in/vitor-costa/"
+    },
+    {
+      "name": "Luca Cerone",
+      "role": "Postdoc",
+      "years": "2013",
+      "linkedin": "https://www.linkedin.com/in/luca-cerone/"
+    },
+    {
+      "name": "Emanuel Gonçalves",
+      "role": "PhD Student",
+      "years": "2012-2017",
+      "linkedin": "https://www.linkedin.com/in/emanuel-goncalves/"
+    },
+    {
+      "name": "Michael Schubert",
+      "role": "PhD Student",
+      "years": "2012-2016",
+      "linkedin": "https://www.linkedin.com/in/michael-schubert/"
+    },
+    {
+      "name": "Michael Menden",
+      "role": "PhD Student",
+      "years": "2011-2016",
+      "linkedin": "https://www.linkedin.com/in/michael-menden/"
+    },
+    {
+      "name": "Thomas Cokelaer",
+      "role": "Staff Scientist",
+      "years": "2011-2015",
+      "linkedin": "https://www.linkedin.com/in/thomas-cokelaer/"
+    },
+    {
+      "name": "Martijn van Iersel",
+      "role": "Postdoc",
+      "years": "2011-2012",
+      "linkedin": "https://www.linkedin.com/in/martijn-van-iersel/"
+    },
+    {
+      "name": "Federica Eduati",
+      "role": "Postdoc",
+      "years": "2011-2017",
+      "linkedin": "https://www.linkedin.com/in/federica-eduati/"
+    },
+    {
+      "name": "Francesco Iorio",
+      "role": "Postdoc / Senior Bioinformatician",
+      "years": "2010-2017",
+      "linkedin": "https://www.linkedin.com/in/francesco-iorio/"
+    },
+    {
+      "name": "Aidan MacNamara",
+      "role": "Postdoc",
+      "years": "2010-2014",
+      "linkedin": "https://www.linkedin.com/in/aidan-macnamara/"
+    },
+    {
+      "name": "Camille Terfve",
+      "role": "PhD Student",
+      "years": "2010-2014",
+      "linkedin": "https://www.linkedin.com/in/camille-terfve/"
+    },
+    {
+      "name": "David Henriques",
+      "role": "Master Thesis",
+      "years": "2010-2011",
+      "linkedin": "https://www.linkedin.com/in/david-henriques/"
     }
   ]
 } 

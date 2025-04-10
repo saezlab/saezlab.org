@@ -24,7 +24,7 @@ export default function PublicationCard({
   tags,
 }: PublicationProps) {
   return (
-    <div className="rounded-lg border p-6">
+    <div className="rounded-lg border p-6 my-4">
       <h3 className="text-xl font-bold">{title}</h3>
       <p className="mt-2 text-sm text-muted-foreground">{authors}</p>
       <p className="mt-1 text-sm">

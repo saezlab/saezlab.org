@@ -43,10 +43,16 @@ export default function MobileNav() {
                 Software
               </a>
               <a
-                href="/news"
+                href="/partners"
                 className="flex w-full items-center rounded-md p-2 text-sm font-medium hover:underline"
               >
-                News
+                Partners & Funding
+              </a>
+              <a
+                href="/jobs"
+                className="flex w-full items-center rounded-md p-2 text-sm font-medium hover:underline"
+              >
+                Jobs
               </a>
               <a
                 href="/contact"

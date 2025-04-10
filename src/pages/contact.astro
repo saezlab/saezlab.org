@@ -1,23 +1,8 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import ContactForm from '../components/ContactForm';
 ---
 
 <Layout title="Contact">
-  <div class="container py-6 md:py-12">
-    <div class="mx-auto max-w-[980px]">
-      <h1 class="mb-4 text-3xl font-bold leading-tight tracking-tighter md:text-6xl lg:leading-[1.1]">
-        Contact Us
-      </h1>
-      <p class="max-w-[750px] text-lg text-muted-foreground sm:text-xl">
-        Get in touch with the Saez Lab
-      </p>
-    </div>
-
-    <div class="mx-auto max-w-[980px] py-6 md:py-12">
-      <ContactForm client:load />
-    </div>
-
     <div class="mx-auto max-w-[980px] py-6 md:py-12">
       <h2 class="mb-6 text-2xl font-bold">Find Us</h2>
       <div class="aspect-video w-full overflow-hidden rounded-lg">
@@ -32,5 +17,42 @@ import ContactForm from '../components/ContactForm';
         ></iframe>
       </div>
     </div>
-  </div>
+
+    <div class="mx-auto max-w-[980px] py-6 md:py-12">
+      <div class="grid gap-8 md:grid-cols-2">
+        <div>
+          <h2 class="mb-6 text-2xl font-bold">Contact Information</h2>
+          <div class="space-y-4">
+            <div>
+              <h3 class="font-semibold">General Contact</h3>
+              <p>admin.saez&#64;uni-heidelberg.de</p>
+            </div>
+            <div>
+              <h3 class="font-semibold">Jobs/Internships</h3>
+              <p>jobs.saez&#64;uni-heidelberg.de</p>
+            </div>
+            <div>
+              <p class="text-muted-foreground">You can find the email of lab members in the Team section.</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h2 class="mb-6 text-2xl font-bold">Locations</h2>
+          <div class="space-y-6">
+            <div>
+              <h3 class="font-semibold">European Bioinformatics Institute (EMBL-EBI)</h3>
+              <p>Wellcome Genome Campus</p>
+              <p>CB10 1SD Hinxton, Cambridgeshire, UK</p>
+            </div>
+            <div>
+              <h3 class="font-semibold">Institute for Computational Biomedicine</h3>
+              <p>Im Neuenheimer Feld 130.3, 69120 Heidelberg</p>
+              <p>10th floor (Marsiliusarkaden), AG Saez-Rodriguez</p>
+              <p>Tel: +49 6221 56 7521</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 </Layout> 

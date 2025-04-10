@@ -1,5 +1,5 @@
 ---
-import { ViewTransitions } from 'astro:transitions';
+import { ClientRouter } from 'astro:transitions';
 import '../styles/global.css';
 import MobileNav from '../components/MobileNav.tsx';
 
@@ -19,51 +19,54 @@ const { title } = Astro.props;
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
     <title>{title} | Saez Lab</title>
-    <ViewTransitions />
+    <ClientRouter />
   </head>
   <body class="min-h-screen bg-background font-sans antialiased">
     <div class="relative flex min-h-screen flex-col">
       <header class="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div class="container flex h-14 items-center">
-          <div class="mr-4 flex">
-            <a class="mr-6 flex items-center space-x-2" href="/">
-              <span class="font-bold">
-                Saez Lab
-              </span>
+        <div class="container mx-auto px-4 flex items-center justify-between h-16">
+          <a class="flex items-center space-x-2" href="/">
+            <span class="font-bold">
+              Saez Lab
+            </span>
+          </a>
+          <nav class="hidden items-center space-x-6 text-sm font-medium md:flex">
+            <a class="transition-colors hover:text-foreground/80 text-foreground" href="/research">
+              Research
             </a>
-            <nav class="hidden items-center space-x-6 text-sm font-medium md:flex">
-              <a class="transition-colors hover:text-foreground/80 text-foreground" href="/research">
-                Research
-              </a>
-              <a class="transition-colors hover:text-foreground/80 text-foreground" href="/publications">
-                Publications
-              </a>
-              <a class="transition-colors hover:text-foreground/80 text-foreground" href="/team">
-                Team
-              </a>
-              <a class="transition-colors hover:text-foreground/80 text-foreground" href="/software">
-                Software
-              </a>
-              <a class="transition-colors hover:text-foreground/80 text-foreground" href="/news">
-                News
-              </a>
-              <a class="transition-colors hover:text-foreground/80 text-foreground" href="/contact">
-                Contact
-              </a>
-            </nav>
-            <div class="flex flex-1 items-center justify-end space-x-2 md:hidden">
-              <MobileNav client:load />
-            </div>
+            <a class="transition-colors hover:text-foreground/80 text-foreground" href="/publications">
+              Publications
+            </a>
+            <a class="transition-colors hover:text-foreground/80 text-foreground" href="/team">
+              Team
+            </a>
+            <a class="transition-colors hover:text-foreground/80 text-foreground" href="/software">
+              Software
+            </a>
+            <a class="transition-colors hover:text-foreground/80 text-foreground" href="/partners">
+              Partners
+            </a>
+            <a class="transition-colors hover:text-foreground/80 text-foreground" href="/jobs">
+              Jobs
+            </a>
+            <a class="transition-colors hover:text-foreground/80 text-foreground" href="/contact">
+              Contact
+            </a>
+          </nav>
+          <div class="flex items-center justify-end space-x-2 md:hidden">
+            <MobileNav client:load />
           </div>
         </div>
       </header>
       <main class="flex-1">
-        <slot />
+        <div class="container mx-auto px-4">
+          <slot />
+        </div>
       </main>
       <footer class="border-t py-6 md:py-0">
-        <div class="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
+        <div class="container flex flex-col items-center justify-center gap-4 md:h-24 mx-auto">
           <div class="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
-            <p class="text-center text-sm leading-loose text-muted-foreground md:text-left">
+            <p class="text-center text-sm leading-loose text-muted-foreground">
               Built by the Saez Lab. All rights reserved.
             </p>
           </div>

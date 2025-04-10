@@ -11,11 +11,36 @@ import SoftwareCard from '../components/SoftwareCard';
         Software & Tools
       </h1>
       <p class="max-w-[750px] text-lg text-muted-foreground sm:text-xl">
-        Open-source tools developed by the Saez Lab
+        Open-source tools and databases developed by the Saez Lab
       </p>
     </div>
 
     <div class="mx-auto max-w-[980px] py-6 md:py-12">
+      <h2 class="mb-8 text-2xl font-bold">Featured</h2>
+      <div class="grid gap-6 md:grid-cols-2">
+        {softwareData.tools.filter(tool => tool.featured).map((tool) => (
+          <SoftwareCard
+            client:load
+            name={tool.name}
+            description={tool.description}
+            category={tool.category}
+            language={tool.language}
+          />
+        ))}
+        {softwareData.databases.filter(db => db.featured).map((db) => (
+          <SoftwareCard
+            client:load
+            name={db.name}
+            description={db.description}
+            category={db.category}
+            language=""
+          />
+        ))}
+      </div>
+    </div>
+
+    <div class="mx-auto max-w-[980px] py-6 md:py-12">
+      <h2 class="mb-8 text-2xl font-bold">All Tools</h2>
       <div class="grid gap-6 md:grid-cols-2">
         {softwareData.tools.map((tool) => (
           <SoftwareCard
@@ -24,10 +49,21 @@ import SoftwareCard from '../components/SoftwareCard';
             description={tool.description}
             category={tool.category}
             language={tool.language}
-            github={tool.github}
-            documentation={tool.documentation}
-            version={tool.version}
-            features={tool.features}
+          />
+        ))}
+      </div>
+    </div>
+
+    <div class="mx-auto max-w-[980px] py-6 md:py-12">
+      <h2 class="mb-8 text-2xl font-bold">All Databases</h2>
+      <div class="grid gap-6 md:grid-cols-2">
+        {softwareData.databases.map((db) => (
+          <SoftwareCard
+            client:load
+            name={db.name}
+            description={db.description}
+            category={db.category}
+            language=""
           />
         ))}
       </div>

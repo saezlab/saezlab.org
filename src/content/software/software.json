@@ -1,49 +1,169 @@
 {
   "tools": [
     {
-      "name": "NetworkAnalyzer",
-      "description": "A comprehensive tool for analyzing biological networks",
-      "category": "Network Analysis",
+      "name": "BioCypher",
+      "description": "A unifying framework for biomedical research knowledge graphs",
+      "category": "Knowledge Graphs",
       "language": "Python",
-      "github": "https://github.com/saezlab/network-analyzer",
-      "documentation": "https://network-analyzer.readthedocs.io",
-      "version": "2.1.0",
-      "features": [
-        "Network visualization",
-        "Topological analysis",
-        "Pathway enrichment",
-        "Module detection"
-      ]
+      "featured": true
     },
     {
-      "name": "BioML",
-      "description": "Machine learning toolkit for biological data analysis",
+      "name": "BioServices",
+      "description": "Python package to access Bioinformatics Web Services",
+      "category": "Web Services",
+      "language": "Python"
+    },
+    {
+      "name": "Birewire",
+      "description": "R package for the randomisation of bipartite graphs",
+      "category": "Network Analysis",
+      "language": "R"
+    },
+    {
+      "name": "CARNIVAL",
+      "description": "Find causal paths upstream of transcription factors in signaling networks from transcriptomics",
+      "category": "Network Inference",
+      "language": "R"
+    },
+    {
+      "name": "CellNOpt",
+      "description": "Create logic models of signaling networks and train them with perturbation data",
+      "category": "Network Modeling",
+      "language": "R",
+      "featured": true
+    },
+    {
+      "name": "CORNETO",
+      "description": "Unified framework for network inference problems",
+      "category": "Network Inference",
+      "language": "Python",
+      "featured": true
+    },
+    {
+      "name": "COSMOS",
+      "description": "Mechanistic integration of multi-omics with prior knowledge into causal networks",
+      "category": "Multi-omics",
+      "language": "R",
+      "featured": true
+    },
+    {
+      "name": "DOT",
+      "description": "An optimization framework for transferring cell features from a reference data to spatial omics",
+      "category": "Spatial Omics",
+      "language": "Python",
+      "featured": true
+    },
+    {
+      "name": "DREAMTools",
+      "description": "Code used in the scoring of DREAM challenges",
+      "category": "Challenge Scoring",
+      "language": "Python"
+    },
+    {
+      "name": "DrugVsDisease",
+      "description": "R/Cytoscape pipeline to compare drug and disease gene expression profiles",
+      "category": "Drug Discovery",
+      "language": "R"
+    },
+    {
+      "name": "GDSCTools",
+      "description": "Python library dedicated to the study pharmacogenomic relationships",
+      "category": "Pharmacogenomics",
+      "language": "Python"
+    },
+    {
+      "name": "LIANA+",
+      "description": "Framework to infer inter- and intra-cellular signalling from single-cell and spatial omics",
+      "category": "Cell Signaling",
+      "language": "Python",
+      "featured": true
+    },
+    {
+      "name": "lipyd",
+      "description": "Python module for lipidomics LC MS/MS data analysis",
+      "category": "Lipidomics",
+      "language": "Python"
+    },
+    {
+      "name": "MEIGO",
+      "description": "Global optimization toolbox including metaheuristic and Bayesian methods",
+      "category": "Optimization",
+      "language": "MATLAB"
+    },
+    {
+      "name": "NetworkCommons",
+      "description": "Platform for network inference based on prior knowledge and omics data",
+      "category": "Network Inference",
+      "language": "Web",
+      "featured": true
+    },
+    {
+      "name": "ocEAn",
+      "description": "Metabolic enzyme enrichment analysis",
+      "category": "Metabolomics",
+      "language": "R"
+    },
+    {
+      "name": "PHONEMeS",
+      "description": "Build causal signaling networks from untargeted mass-spectrometry Phosphoproteomics and prior knowledge",
+      "category": "Proteomics",
+      "language": "R"
+    },
+    {
+      "name": "SLAPenrich",
+      "description": "R package to identify pathway-level enrichments of genetic alterations",
+      "category": "Pathway Analysis",
+      "language": "R"
+    },
+    {
+      "name": "decoupleR",
+      "description": "Estimate biological activities from omics data",
+      "category": "Omics Analysis",
+      "language": "R",
+      "featured": true
+    },
+    {
+      "name": "MISTy",
+      "description": "Explainable machine learning models for single-cell, highly multiplexed, spatially resolved data",
       "category": "Machine Learning",
       "language": "R",
-      "github": "https://github.com/saezlab/bioml",
-      "documentation": "https://bioml.readthedocs.io",
-      "version": "1.0.0",
-      "features": [
-        "Feature selection",
-        "Model training",
-        "Performance evaluation",
-        "Visualization tools"
-      ]
+      "featured": true
+    }
+  ],
+  "databases": [
+    {
+      "name": "BioChatter",
+      "description": "A platform for the biomedical application of Large Language Models",
+      "category": "LLM Platform",
+      "featured": true,
+      "language": "Python, R"
     },
     {
-      "name": "OmicsIntegrator",
-      "description": "Tool for integrating multi-omics data",
-      "category": "Data Integration",
-      "language": "Python",
-      "github": "https://github.com/saezlab/omics-integrator",
-      "documentation": "https://omics-integrator.readthedocs.io",
-      "version": "1.5.0",
-      "features": [
-        "Data preprocessing",
-        "Integration algorithms",
-        "Visualization",
-        "Statistical analysis"
-      ]
+      "name": "CollecTRI",
+      "description": "Collection of Transcriptional Regulatory Interactions",
+      "category": "Regulatory Networks",
+      "featured": true,
+      "language": "Python, R"
+    },
+    {
+      "name": "MetalinksDB",
+      "description": "Database of protein-metabolite and small molecule ligand-receptor interactions",
+      "category": "Molecular Interactions",
+      "language": "Python, R"
+    },
+    {
+      "name": "OmniPath",
+      "description": "Molecular prior knowledge from more than 170 databases. Pathways, intercellular communication and more",
+      "category": "Knowledge Base",
+      "language": "Python, R",
+      "featured": true
+    },
+    {
+      "name": "PROGENy",
+      "description": "Collection of target genes (footprints) of signaling pathways",
+      "category": "Pathway Analysis",
+      "featured": true,
+      "language": "Python, R"
     }
   ]
 } 

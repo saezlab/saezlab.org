@@ -16,9 +16,111 @@ import TeamMemberCard from '../components/TeamMemberCard';
     </div>
 
     <div class="mx-auto max-w-[980px] py-6 md:py-12">
-      <h2 class="mb-8 text-2xl font-bold">Current Members</h2>
+      <h2 class="mb-8 text-2xl font-bold">Group Leader</h2>
       <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {teamData.current.map((member) => (
+        {teamData.current.filter(member => member.role === "Group Leader").map((member) => (
+          <TeamMemberCard
+            client:load
+            name={member.name}
+            role={member.role}
+            image={member.image}
+            bio={member.bio}
+            email={member.email}
+            website={member.website}
+          />
+        ))}
+      </div>
+    </div>
+
+    <div class="mx-auto max-w-[980px] py-6 md:py-12">
+      <h2 class="mb-8 text-2xl font-bold">Administration</h2>
+      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {teamData.current.filter(member => member.role === "Administration").map((member) => (
+          <TeamMemberCard
+            client:load
+            name={member.name}
+            role={member.role}
+            image={member.image}
+            bio={member.bio}
+            email={member.email}
+            website={member.website}
+          />
+        ))}
+      </div>
+    </div>
+
+    <div class="mx-auto max-w-[980px] py-6 md:py-12">
+      <h2 class="mb-8 text-2xl font-bold">Staff Scientists</h2>
+      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {teamData.current.filter(member => member.role === "Staff Scientist").map((member) => (
+          <TeamMemberCard
+            client:load
+            name={member.name}
+            role={member.role}
+            image={member.image}
+            bio={member.bio}
+            email={member.email}
+            website={member.website}
+          />
+        ))}
+      </div>
+    </div>
+
+    <div class="mx-auto max-w-[980px] py-6 md:py-12">
+      <h2 class="mb-8 text-2xl font-bold">Bioinformaticians</h2>
+      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {teamData.current.filter(member => member.role === "Bioinformatician").map((member) => (
+          <TeamMemberCard
+            client:load
+            name={member.name}
+            role={member.role}
+            image={member.image}
+            bio={member.bio}
+            email={member.email}
+            website={member.website}
+          />
+        ))}
+      </div>
+    </div>
+
+    <div class="mx-auto max-w-[980px] py-6 md:py-12">
+      <h2 class="mb-8 text-2xl font-bold">Postdocs</h2>
+      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {teamData.current.filter(member => member.role === "Postdoc").map((member) => (
+          <TeamMemberCard
+            client:load
+            name={member.name}
+            role={member.role}
+            image={member.image}
+            bio={member.bio}
+            email={member.email}
+            website={member.website}
+          />
+        ))}
+      </div>
+    </div>
+
+    <div class="mx-auto max-w-[980px] py-6 md:py-12">
+      <h2 class="mb-8 text-2xl font-bold">PhD Students</h2>
+      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {teamData.current.filter(member => member.role === "PhD Student").map((member) => (
+          <TeamMemberCard
+            client:load
+            name={member.name}
+            role={member.role}
+            image={member.image}
+            bio={member.bio}
+            email={member.email}
+            website={member.website}
+          />
+        ))}
+      </div>
+    </div>
+
+    <div class="mx-auto max-w-[980px] py-6 md:py-12">
+      <h2 class="mb-8 text-2xl font-bold">Associated Members</h2>
+      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {teamData.current.filter(member => member.role === "Associated Member").map((member) => (
           <TeamMemberCard
             client:load
             name={member.name}
@@ -34,13 +136,37 @@ import TeamMemberCard from '../components/TeamMemberCard';
 
     <div class="mx-auto max-w-[980px] py-6 md:py-12">
       <h2 class="mb-8 text-2xl font-bold">Alumni</h2>
-      <div class="grid gap-6 sm:grid-cols-2">
+      <p class="mb-8 text-muted-foreground">The following people spent over 6 months with us:</p>
+      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {teamData.alumni.map((member) => (
           <div class="rounded-lg border p-6">
             <h3 class="text-xl font-bold">{member.name}</h3>
             <p class="text-sm text-muted-foreground">{member.role}</p>
             <p class="text-sm text-muted-foreground">{member.years}</p>
-            <p class="mt-2 text-sm">{member.current}</p>
+            {member.linkedin && (
+              <a
+                href={member.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="mt-2 inline-flex items-center text-sm text-primary hover:underline"
+              >
+                LinkedIn
+                <svg
+                  class="ml-1 h-4 w-4"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                  />
+                </svg>
+              </a>
+            )}
           </div>
         ))}
       </div>
