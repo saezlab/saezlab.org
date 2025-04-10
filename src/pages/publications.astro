@@ -1,0 +1,37 @@
+---
+import Layout from '../layouts/Layout.astro';
+import publicationsData from '../content/publications/publications.json';
+import PublicationCard from '../components/PublicationCard';
+---
+
+<Layout title="Publications">
+  <div class="container py-6 md:py-12">
+    <div class="mx-auto max-w-[980px]">
+      <h1 class="mb-4 text-3xl font-bold leading-tight tracking-tighter md:text-6xl lg:leading-[1.1]">
+        Publications
+      </h1>
+      <p class="max-w-[750px] text-lg text-muted-foreground sm:text-xl">
+        Our latest research publications
+      </p>
+    </div>
+
+    <div class="mx-auto max-w-[980px] py-6 md:py-12">
+      <div class="space-y-6">
+        {publicationsData.publications.map((publication) => (
+          <PublicationCard
+            client:load
+            title={publication.title}
+            authors={publication.authors}
+            journal={publication.journal}
+            year={publication.year}
+            volume={publication.volume}
+            pages={publication.pages}
+            doi={publication.doi}
+            abstract={publication.abstract}
+            tags={publication.tags}
+          />
+        ))}
+      </div>
+    </div>
+  </div>
+</Layout> 

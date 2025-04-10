@@ -1,0 +1,36 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ContactForm from '../components/ContactForm';
+---
+
+<Layout title="Contact">
+  <div class="container py-6 md:py-12">
+    <div class="mx-auto max-w-[980px]">
+      <h1 class="mb-4 text-3xl font-bold leading-tight tracking-tighter md:text-6xl lg:leading-[1.1]">
+        Contact Us
+      </h1>
+      <p class="max-w-[750px] text-lg text-muted-foreground sm:text-xl">
+        Get in touch with the Saez Lab
+      </p>
+    </div>
+
+    <div class="mx-auto max-w-[980px] py-6 md:py-12">
+      <ContactForm client:load />
+    </div>
+
+    <div class="mx-auto max-w-[980px] py-6 md:py-12">
+      <h2 class="mb-6 text-2xl font-bold">Find Us</h2>
+      <div class="aspect-video w-full overflow-hidden rounded-lg">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.21501812593!2d-73.987844924266!3d40.757988971389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1710105600000!5m2!1sen!2sus"
+          width="100%"
+          height="100%"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+  </div>
+</Layout> 

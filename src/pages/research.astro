@@ -1,0 +1,26 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import ResearchContent from '../content/research/index.mdx';
+
+const research = await getCollection('research');
+const researchContent = research[0];
+---
+
+<Layout title="Research">
+  <div class="container relative">
+    <div class="mx-auto max-w-[980px]">
+      <h1 class="mb-4 text-3xl font-bold leading-tight tracking-tighter md:text-6xl lg:leading-[1.1]">
+        {researchContent.data.title}
+      </h1>
+      <p class="max-w-[750px] text-lg text-muted-foreground sm:text-xl">
+        {researchContent.data.description}
+      </p>
+    </div>
+    <div class="mx-auto max-w-[980px] py-6 md:py-12">
+      <article class="prose prose-slate dark:prose-invert">
+        <ResearchContent />
+      </article>
+    </div>
+  </div>
+</Layout> 

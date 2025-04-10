@@ -1,0 +1,49 @@
+---
+import Layout from '../layouts/Layout.astro';
+import teamData from '../content/team/team.json';
+import TeamMemberCard from '../components/TeamMemberCard';
+---
+
+<Layout title="Team">
+  <div class="container py-6 md:py-12">
+    <div class="mx-auto max-w-[980px]">
+      <h1 class="mb-4 text-3xl font-bold leading-tight tracking-tighter md:text-6xl lg:leading-[1.1]">
+        Our Team
+      </h1>
+      <p class="max-w-[750px] text-lg text-muted-foreground sm:text-xl">
+        Meet the people behind our research
+      </p>
+    </div>
+
+    <div class="mx-auto max-w-[980px] py-6 md:py-12">
+      <h2 class="mb-8 text-2xl font-bold">Current Members</h2>
+      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {teamData.current.map((member) => (
+          <TeamMemberCard
+            client:load
+            name={member.name}
+            role={member.role}
+            image={member.image}
+            bio={member.bio}
+            email={member.email}
+            website={member.website}
+          />
+        ))}
+      </div>
+    </div>
+
+    <div class="mx-auto max-w-[980px] py-6 md:py-12">
+      <h2 class="mb-8 text-2xl font-bold">Alumni</h2>
+      <div class="grid gap-6 sm:grid-cols-2">
+        {teamData.alumni.map((member) => (
+          <div class="rounded-lg border p-6">
+            <h3 class="text-xl font-bold">{member.name}</h3>
+            <p class="text-sm text-muted-foreground">{member.role}</p>
+            <p class="text-sm text-muted-foreground">{member.years}</p>
+            <p class="mt-2 text-sm">{member.current}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</Layout> 

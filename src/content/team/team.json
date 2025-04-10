@@ -1,0 +1,40 @@
+{
+  "current": [
+    {
+      "name": "Dr. Pedro Saez",
+      "role": "Principal Investigator",
+      "image": "/team/saez.jpg",
+      "bio": "Dr. Saez leads the Systems Biology and Bioinformatics Research Group.",
+      "email": "pedro.saez@example.com",
+      "website": "https://example.com/saez"
+    },
+    {
+      "name": "Dr. Jane Smith",
+      "role": "Postdoctoral Researcher",
+      "image": "/team/smith.jpg",
+      "bio": "Dr. Smith's research focuses on network analysis of signaling pathways.",
+      "email": "jane.smith@example.com"
+    },
+    {
+      "name": "John Doe",
+      "role": "PhD Student",
+      "image": "/team/doe.jpg",
+      "bio": "John is developing machine learning methods for drug discovery.",
+      "email": "john.doe@example.com"
+    }
+  ],
+  "alumni": [
+    {
+      "name": "Dr. Alice Johnson",
+      "role": "Former Postdoc",
+      "years": "2018-2021",
+      "current": "Assistant Professor at University X"
+    },
+    {
+      "name": "Dr. Bob Wilson",
+      "role": "Former PhD Student",
+      "years": "2015-2020",
+      "current": "Research Scientist at Company Y"
+    }
+  ]
+} 

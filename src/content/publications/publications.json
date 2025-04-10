@@ -1,0 +1,40 @@
+{
+  "publications": [
+    {
+      "id": "1",
+      "title": "Network analysis of signaling pathways in cancer",
+      "authors": "Saez P, Smith J, et al.",
+      "journal": "Nature Communications",
+      "year": 2023,
+      "volume": "14",
+      "pages": "1234-1245",
+      "doi": "10.1038/s41467-023-12345-6",
+      "abstract": "This study presents a comprehensive analysis of signaling pathways in cancer using network-based approaches...",
+      "tags": ["systems biology", "cancer", "network analysis"]
+    },
+    {
+      "id": "2",
+      "title": "Machine learning approaches for drug discovery",
+      "authors": "Doe J, Saez P, et al.",
+      "journal": "Bioinformatics",
+      "year": 2022,
+      "volume": "38",
+      "pages": "i123-i130",
+      "doi": "10.1093/bioinformatics/btac123",
+      "abstract": "We present a novel machine learning framework for predicting drug-target interactions...",
+      "tags": ["machine learning", "drug discovery", "bioinformatics"]
+    },
+    {
+      "id": "3",
+      "title": "Integration of multi-omics data for systems biology",
+      "authors": "Smith J, Johnson A, Saez P",
+      "journal": "PLOS Computational Biology",
+      "year": 2021,
+      "volume": "17",
+      "pages": "e1008765",
+      "doi": "10.1371/journal.pcbi.1008765",
+      "abstract": "This paper describes a new method for integrating different types of omics data...",
+      "tags": ["systems biology", "multi-omics", "data integration"]
+    }
+  ]
+} 
