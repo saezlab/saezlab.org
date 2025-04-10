@@ -13,6 +13,5 @@ export default defineConfig({
     },
    site: 'https://saezlab.github.io',
    base: '/saezlab.org-draft',
-   trailingSlash: 'always',
   integrations: [react(), mdx()]
 });
