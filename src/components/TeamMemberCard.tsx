@@ -10,7 +10,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog"
 import { Separator } from "@/components/ui/separator"
-import { Calendar, Mail, User } from "lucide-react"
+import { Calendar, Mail, User, Phone, Link } from "lucide-react"
 import { useState } from "react"
 
 interface TeamMemberProps {
@@ -19,7 +19,8 @@ interface TeamMemberProps {
   image: string
   bio: string
   email?: string
-  website?: string
+  telephone?: string
+  orcid?: string
   research_interests?: string
   professional_career?: Array<{
     period: string
@@ -37,7 +38,8 @@ export default function TeamMemberCard({
   image,
   bio,
   email,
-  website,
+  telephone,
+  orcid,
   research_interests,
   professional_career,
   education,
@@ -63,7 +65,7 @@ export default function TeamMemberCard({
           </div>
         </div>
       </DialogTrigger>
-      <DialogContent className="sm:max-w-[800px] max-h-[85vh] overflow-y-auto p-6">
+      <DialogContent className="sm:max-w-[1024px] max-h-[85vh] overflow-y-auto p-6">
         <DialogHeader className="flex flex-col sm:flex-row sm:items-start gap-4 mb-6">
           <Avatar className="w-28 h-28 border">
             <AvatarImage src={`/saezlab.org-draft/team_images/${image}`} alt={name} />
@@ -141,7 +143,7 @@ export default function TeamMemberCard({
             </>
           )}
 
-          {(email || website) && (
+          {(email || telephone || orcid) && (
             <>
               <Separator />
               <section>
@@ -155,11 +157,22 @@ export default function TeamMemberCard({
                       </a>
                     </div>
                   )}
-                  {website && (
+                  {telephone && (
                     <div className="flex items-center gap-2">
-                      <User className="h-5 w-5 text-muted-foreground" />
-                      <a href={website} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
-                        Website
+                      <Phone className="h-5 w-5 text-muted-foreground" />
+                      <span className="text-muted-foreground">{telephone}</span>
+                    </div>
+                  )}
+                  {orcid && (
+                    <div className="flex items-center gap-2">
+                      <Link className="h-5 w-5 text-muted-foreground" />
+                      <a 
+                        href={`https://orcid.org/${orcid}`} 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="text-blue-600 hover:underline"
+                      >
+                        ORCID: {orcid}
                       </a>
                     </div>
                   )}

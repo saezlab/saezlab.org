@@ -1,7 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import publicationsData from '../content/publications/publications.json';
-import PublicationCard from '../components/PublicationCard';
+import PublicationsTabs from '../components/PublicationsTabs';
 ---
 
 <Layout title="Publications">
@@ -16,22 +16,7 @@ import PublicationCard from '../components/PublicationCard';
     </div>
 
     <div class="mx-auto max-w-[980px] py-6 md:py-12">
-      <div class="space-y-6">
-        {publicationsData.publications.map((publication) => (
-          <PublicationCard
-            client:load
-            title={publication.title}
-            authors={publication.authors}
-            journal={publication.journal}
-            year={publication.year}
-            volume={publication.volume}
-            pages={publication.pages}
-            doi={publication.doi}
-            abstract={publication.abstract}
-            tags={publication.tags}
-          />
-        ))}
-      </div>
+      <PublicationsTabs client:load publications={publicationsData} />
     </div>
   </div>
 </Layout> 

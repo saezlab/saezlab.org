@@ -1,292 +1,2178 @@
-{
-  "publications": [
-    {
-      "id": "1",
-      "title": "A platform for the biomedical application of large language models",
-      "authors": "Lobentanzer et al.",
-      "journal": "Nature Biotechnology",
-      "year": 2025,
-      "volume": "43",
-      "pages": "1-15",
-      "doi": "10.1038/s41587-025-00001-1",
-      "abstract": "A comprehensive platform for applying large language models in biomedical research.",
-      "tags": ["machine learning", "biomedicine", "AI"]
-    },
-    {
-      "id": "2",
-      "title": "Cell type mapping reveals tissue niches and interactions in subcortical multiple sclerosis lesions",
-      "authors": "Lerma-Martin et al.",
-      "journal": "Nature Neuroscience",
-      "year": 2024,
-      "volume": "27",
-      "pages": "1-15",
-      "doi": "10.1038/s41593-024-01600-1",
-      "abstract": "Spatial mapping of cell types and their interactions in multiple sclerosis lesions.",
-      "tags": ["neuroscience", "spatial biology", "immunology"]
-    },
-    {
-      "id": "3",
-      "title": "LIANA+ provides an all-in-one framework for cell-cell communication inference",
-      "authors": "Dimitrov et al.",
-      "journal": "Nature Cell Biology",
-      "year": 2024,
-      "volume": "26",
-      "pages": "1-15",
-      "doi": "10.1038/s41556-024-01300-1",
-      "abstract": "A comprehensive framework for inferring cell-cell communication from single-cell data.",
-      "tags": ["cell-cell communication", "single-cell", "bioinformatics"]
-    },
-    {
-      "id": "4",
-      "title": "Molecular causality in the advent of foundation models",
-      "authors": "Lobentanzer et al.",
-      "journal": "Molecular Systems Biology",
-      "year": 2024,
-      "volume": "20",
-      "pages": "1-15",
-      "doi": "10.1038/msb.2024.1",
-      "abstract": "Exploring molecular causality using foundation models in systems biology.",
-      "tags": ["systems biology", "machine learning", "causality"]
-    },
-    {
-      "id": "5",
-      "title": "DOT: a flexible multi-objective optimization framework for transferring features across single-cell and spatial omics",
-      "authors": "Rahimi et al.",
-      "journal": "Nature Communications",
-      "year": 2024,
-      "volume": "15",
-      "pages": "1-15",
-      "doi": "10.1038/s41467-024-00001-1",
-      "abstract": "A framework for feature transfer between single-cell and spatial omics data.",
-      "tags": ["single-cell", "spatial omics", "data integration"]
-    },
-    {
-      "id": "6",
-      "title": "Network integration of thermal proteome profiling with multi-omics data decodes PARP inhibition",
-      "authors": "Burtscher et al.",
-      "journal": "Molecular Systems Biology",
-      "year": 2024,
-      "volume": "20",
-      "pages": "1-15",
-      "doi": "10.1038/msb.2024.2",
-      "abstract": "Integrating thermal proteome profiling with multi-omics data to understand PARP inhibition.",
-      "tags": ["proteomics", "multi-omics", "drug discovery"]
-    },
-    {
-      "id": "7",
-      "title": "Integrating single-cell multi-omics and prior biological knowledge for a functional characterization of the immune system",
-      "authors": "Schäfer et al.",
-      "journal": "Nature Immunology",
-      "year": 2024,
-      "volume": "25",
-      "pages": "1-15",
-      "doi": "10.1038/s41590-024-00001-1",
-      "abstract": "Comprehensive functional characterization of the immune system using single-cell multi-omics.",
-      "tags": ["immunology", "single-cell", "multi-omics"]
-    },
-    {
-      "id": "8",
-      "title": "Multicellular factor analysis of single-cell data for a tissue-centric understanding of disease",
-      "authors": "Ramirez et al.",
-      "journal": "eLife",
-      "year": 2023,
-      "volume": "12",
-      "pages": "e00001",
-      "doi": "10.7554/eLife.00001",
-      "abstract": "A tissue-centric approach to disease understanding using single-cell data.",
-      "tags": ["single-cell", "disease", "tissue biology"]
-    },
-    {
-      "id": "9",
-      "title": "Expanding the coverage of regulons from high-confidence prior knowledge for accurate estimation of transcription factor activities",
-      "authors": "Müller-Dott et al.",
-      "journal": "Nucleic Acids Research",
-      "year": 2023,
-      "volume": "51",
-      "pages": "1-15",
-      "doi": "10.1093/nar/gkad0001",
-      "abstract": "Improved estimation of transcription factor activities using expanded regulon coverage.",
-      "tags": ["transcription factors", "regulons", "gene regulation"]
-    },
-    {
-      "id": "10",
-      "title": "Gene regulatory network inference in the era of single-cell multi-omics",
-      "authors": "Badia-I-Mompel et al.",
-      "journal": "Nature Reviews Genetics",
-      "year": 2023,
-      "volume": "24",
-      "pages": "1-15",
-      "doi": "10.1038/s41576-023-00001-1",
-      "abstract": "Review of gene regulatory network inference methods in the context of single-cell multi-omics.",
-      "tags": ["gene regulation", "single-cell", "multi-omics"]
-    },
-    {
-      "id": "11",
-      "title": "Democratizing knowledge representation with BioCypher",
-      "authors": "Lobentanzer et al.",
-      "journal": "Nature Biotechnology",
-      "year": 2023,
-      "volume": "41",
-      "pages": "1-15",
-      "doi": "10.1038/s41587-023-00001-1",
-      "abstract": "A framework for democratizing biological knowledge representation.",
-      "tags": ["knowledge representation", "bioinformatics", "data integration"]
-    },
-    {
-      "id": "12",
-      "title": "Spatial multi-omic map of human myocardial infarction",
-      "authors": "Kuppe, Ramirez Flores, Li, et al.",
-      "journal": "Nature",
-      "year": 2022,
-      "volume": "608",
-      "pages": "1-15",
-      "doi": "10.1038/s41586-022-00001-1",
-      "abstract": "Comprehensive spatial multi-omic mapping of human myocardial infarction.",
-      "tags": ["spatial biology", "multi-omics", "cardiology"]
-    },
-    {
-      "id": "13",
-      "title": "Comparison of methods and resources for cell-cell communication inference from single-cell RNA-Seq data",
-      "authors": "Dimitrov et al.",
-      "journal": "Nature Communications",
-      "year": 2022,
-      "volume": "13",
-      "pages": "1-15",
-      "doi": "10.1038/s41467-022-00001-1",
-      "abstract": "Comprehensive comparison of methods for inferring cell-cell communication from single-cell data.",
-      "tags": ["cell-cell communication", "single-cell", "bioinformatics"]
-    },
-    {
-      "id": "14",
-      "title": "Explainable multiview framework for dissecting spatial relationships from highly multiplexed data",
-      "authors": "Tanevski et al.",
-      "journal": "Genome Biology",
-      "year": 2022,
-      "volume": "23",
-      "pages": "1-15",
-      "doi": "10.1186/s13059-022-00001-1",
-      "abstract": "A framework for analyzing spatial relationships in multiplexed biological data.",
-      "tags": ["spatial biology", "data analysis", "bioinformatics"]
-    },
-    {
-      "id": "15",
-      "title": "Integrated intra- and intercellular signaling knowledge for multicellular omics analysis",
-      "authors": "Türei et al.",
-      "journal": "Molecular Systems Biology",
-      "year": 2021,
-      "volume": "17",
-      "pages": "1-15",
-      "doi": "10.1038/msb.2021.1",
-      "abstract": "Integration of signaling knowledge for multicellular omics analysis.",
-      "tags": ["signaling", "multi-omics", "systems biology"]
-    },
-    {
-      "id": "16",
-      "title": "Causal integration of multi-omics data with prior knowledge to generate mechanistic hypotheses",
-      "authors": "Dugourd et al.",
-      "journal": "Molecular Systems Biology",
-      "year": 2021,
-      "volume": "17",
-      "pages": "1-15",
-      "doi": "10.1038/msb.2021.2",
-      "abstract": "Causal integration of multi-omics data for hypothesis generation.",
-      "tags": ["causality", "multi-omics", "systems biology"]
-    },
-    {
-      "id": "17",
-      "title": "Robustness and applicability of transcription factor and pathway analysis tools on single-cell RNA-seq data",
-      "authors": "Holland et al.",
-      "journal": "Genome Biology",
-      "year": 2020,
-      "volume": "21",
-      "pages": "1-15",
-      "doi": "10.1186/s13059-020-00001-1",
-      "abstract": "Evaluation of transcription factor and pathway analysis tools for single-cell data.",
-      "tags": ["transcription factors", "single-cell", "pathway analysis"]
-    },
-    {
-      "id": "18",
-      "title": "Patient-specific logic models of signaling pathways from screenings on cancer biopsies to prioritize personalized combination therapies",
-      "authors": "Eduati et al.",
-      "journal": "Molecular Systems Biology",
-      "year": 2020,
-      "volume": "16",
-      "pages": "1-15",
-      "doi": "10.1038/msb.2020.1",
-      "abstract": "Personalized cancer therapy using logic models of signaling pathways.",
-      "tags": ["cancer", "personalized medicine", "signaling"]
-    },
-    {
-      "id": "19",
-      "title": "Benchmark and integration of resources for the estimation of human transcription factor activities",
-      "authors": "Garcia-Alonso et al.",
-      "journal": "Genome Research",
-      "year": 2019,
-      "volume": "29",
-      "pages": "1-15",
-      "doi": "10.1101/gr.000001.19",
-      "abstract": "Comprehensive benchmarking of transcription factor activity estimation methods.",
-      "tags": ["transcription factors", "benchmarking", "bioinformatics"]
-    },
-    {
-      "id": "20",
-      "title": "Community assessment to advance computational prediction of cancer drug combinations in a pharmacogenomic screen",
-      "authors": "Menden et al.",
-      "journal": "Nature Communications",
-      "year": 2019,
-      "volume": "10",
-      "pages": "1-15",
-      "doi": "10.1038/s41467-019-00001-1",
-      "abstract": "Community assessment of computational methods for predicting cancer drug combinations.",
-      "tags": ["cancer", "drug discovery", "pharmacogenomics"]
-    },
-    {
-      "id": "21",
-      "title": "Perturbation-response genes reveal signaling footprints in cancer gene expression",
-      "authors": "Schubert et al.",
-      "journal": "Nature Communications",
-      "year": 2018,
-      "volume": "9",
-      "pages": "1-15",
-      "doi": "10.1038/s41467-018-00001-1",
-      "abstract": "Identification of signaling footprints in cancer through perturbation-response genes.",
-      "tags": ["cancer", "signaling", "gene expression"]
-    },
-    {
-      "id": "22",
-      "title": "OmniPath: guidelines and gateway for literature-curated signaling pathway resources",
-      "authors": "Türei et al.",
-      "journal": "Nature Methods",
-      "year": 2016,
-      "volume": "13",
-      "pages": "1-15",
-      "doi": "10.1038/nmeth.0001",
-      "abstract": "A comprehensive resource for literature-curated signaling pathways.",
-      "tags": ["signaling pathways", "data integration", "bioinformatics"]
-    },
-    {
-      "id": "23",
-      "title": "A Landscape of Pharmacogenomic Interactions in Cancer",
-      "authors": "Iorio et al.",
-      "journal": "Cell",
-      "year": 2016,
-      "volume": "166",
-      "pages": "1-15",
-      "doi": "10.1016/j.cell.2016.00001",
-      "abstract": "Comprehensive mapping of pharmacogenomic interactions in cancer.",
-      "tags": ["cancer", "pharmacogenomics", "drug discovery"]
-    },
-    {
-      "id": "24",
-      "title": "Inferring causal molecular networks: empirical assessment through a community-based effort",
-      "authors": "Hill et al.",
-      "journal": "Nature Methods",
-      "year": 2016,
-      "volume": "13",
-      "pages": "1-15",
-      "doi": "10.1038/nmeth.0002",
-      "abstract": "Community-based assessment of methods for inferring causal molecular networks.",
-      "tags": ["causal inference", "molecular networks", "benchmarking"]
-    }
-  ]
-} 
+[
+  {
+    "title": "A platform for the biomedical application of large language models.",
+    "url": "http://europepmc.org/abstract/MED/39843580",
+    "authors": "Lobentanzer et al",
+    "journal": "Nat Biotechnol",
+    "year": "2025",
+    "featured": true
+  },
+  {
+    "title": "NetworkCommons: bridging data, knowledge, and methods to build and evaluate context-specific biological networks.",
+    "url": "http://europepmc.org/abstract/MED/39907203",
+    "authors": "Paton et al",
+    "journal": "Bioinformatics",
+    "year": "2025",
+    "featured": false
+  },
+  {
+    "title": "Single-cell integration reveals metaplasia in inflammatory gut diseases.",
+    "url": "http://europepmc.org/abstract/MED/39567783",
+    "authors": "Oliver et al",
+    "journal": "Nature",
+    "year": "2024",
+    "featured": false
+  },
+  {
+    "title": "Author Correction: Community assessment of methods to deconvolve cellular composition from bulk gene expression.",
+    "url": "http://europepmc.org/abstract/MED/39532851",
+    "authors": "White et al",
+    "journal": "Nat Commun",
+    "year": "2024",
+    "featured": false
+  },
+  {
+    "title": "Cell type mapping reveals tissue niches and interactions in subcortical multiple sclerosis lesions.",
+    "url": "http://europepmc.org/abstract/MED/39501036",
+    "authors": "Lerma-Martin et al",
+    "journal": "Nat Neurosci",
+    "year": "2024",
+    "featured": true
+  },
+  {
+    "title": "PhosX: data-driven kinase activity inference from phosphoproteomics experiments.",
+    "url": "http://europepmc.org/abstract/MED/39563468",
+    "authors": "Lussana et al",
+    "journal": "Bioinformatics",
+    "year": "2024",
+    "featured": false
+  },
+  {
+    "title": "Author Correction: Compartments in medulloblastoma with extensive nodularity are connected through differentiation along the granular precursor lineage.",
+    "url": "http://europepmc.org/abstract/MED/39366943",
+    "authors": "Ghasemi et al",
+    "journal": "Nat Commun",
+    "year": "2024",
+    "featured": false
+  },
+  {
+    "title": "Single-cell transcriptomics reveal distinctive patterns of fibroblast activation in heart failure with preserved ejection fraction.",
+    "url": "http://europepmc.org/abstract/MED/39311911",
+    "authors": "Lanzer et al",
+    "journal": "Basic Res Cardiol",
+    "year": "2024",
+    "featured": false
+  },
+  {
+    "title": "LIANA+ provides an all-in-one framework for cell-cell communication inference.",
+    "url": "http://europepmc.org/abstract/MED/39223377",
+    "authors": "Dimitrov et al",
+    "journal": "Nat Cell Biol",
+    "year": "2024",
+    "featured": true
+  },
+  {
+    "title": "Community assessment of methods to deconvolve cellular composition from bulk gene expression.",
+    "url": "http://europepmc.org/abstract/MED/39191725",
+    "authors": "White et al",
+    "journal": "Nat Commun",
+    "year": "2024",
+    "featured": false
+  },
+  {
+    "title": "Assessing the impact of transcriptomics data analysis pipelines on downstream functional enrichment results.",
+    "url": "http://europepmc.org/abstract/MED/38943333",
+    "authors": "Paton et al",
+    "journal": "Nucleic Acids Res",
+    "year": "2024",
+    "featured": false
+  },
+  {
+    "title": "A single-sample workflow for joint metabolomic and proteomic analysis of clinical specimens.",
+    "url": "http://europepmc.org/abstract/MED/38969985",
+    "authors": "Gegner et al",
+    "journal": "Clin Proteomics",
+    "year": "2024",
+    "featured": false
+  },
+  {
+    "title": "Drugst.One\u00a0\u2013\u00a0a plug-and-play solution for online systems medicine and network-based drug repurposing.",
+    "url": "http://europepmc.org/abstract/MED/38783119",
+    "authors": "Maier et al",
+    "journal": "Nucleic Acids Res",
+    "year": "2024",
+    "featured": false
+  },
+  {
+    "title": "Molecular causality in the advent of foundation models.",
+    "url": "http://europepmc.org/abstract/MED/38890548",
+    "authors": "Lobentanzer et al",
+    "journal": "Mol Syst Biol",
+    "year": "2024",
+    "featured": true
+  },
+  {
+    "title": "Gene regulatory networks in disease and ageing.",
+    "url": "http://europepmc.org/abstract/MED/38867109",
+    "authors": "Unger et al",
+    "journal": "Nat Rev Nephrol",
+    "year": "2024",
+    "featured": false
+  },
+  {
+    "title": "Spatially resolved multiomics on the neuronal effects induced by spaceflight in mice.",
+    "url": "http://europepmc.org/abstract/MED/38862479",
+    "authors": "Masarapu et al",
+    "journal": "Nat Commun",
+    "year": "2024",
+    "featured": false
+  },
+  {
+    "title": "DOT: a flexible multi-objective optimization framework for transferring features across single-cell and spatial omics.",
+    "url": "http://europepmc.org/abstract/MED/38862466",
+    "authors": "Rahimi et al",
+    "journal": "Nat Commun",
+    "year": "2024",
+    "featured": true
+  },
+  {
+    "title": "Opening the Black Box: Spatial Transcriptomics and the Relevance of Artificial Intelligence-Detected Prognostic Regions in High-Grade Serous Carcinoma.",
+    "url": "http://europepmc.org/abstract/MED/38704029",
+    "authors": "Laury et al",
+    "journal": "Mod Pathol",
+    "year": "2024",
+    "featured": false
+  },
+  {
+    "title": "MetalinksDB: a flexible and contextualizable resource of metabolite-protein interactions.",
+    "url": "http://europepmc.org/abstract/MED/39038934",
+    "authors": "Farr et al",
+    "journal": "Brief Bioinform",
+    "year": "2024",
+    "featured": false
+  },
+  {
+    "title": "Combining LIANA and Tensor-cell2cell to decipher cell-cell communication across multiple samples.",
+    "url": "http://europepmc.org/abstract/MED/38631346",
+    "authors": "Baghdassarian et al",
+    "journal": "Cell Rep Methods",
+    "year": "2024",
+    "featured": false
+  },
+  {
+    "title": "Network integration of thermal proteome profiling with multi-omics data decodes PARP inhibition.",
+    "url": "http://europepmc.org/abstract/MED/38454145",
+    "authors": "Burtscher et al",
+    "journal": "Mol Syst Biol",
+    "year": "2024",
+    "featured": true
+  },
+  {
+    "title": "Integrating single-cell multi-omics and prior biological knowledge for a functional characterization of the immune system.",
+    "url": "https://rdcu.be/dzKsv",
+    "authors": "Sch\u00e4fer et al",
+    "journal": "Nat Immunol",
+    "year": "2024",
+    "featured": true
+  },
+  {
+    "title": "Drug-target identification in COVID-19 disease mechanisms using computational systems biology approaches.",
+    "url": "http://europepmc.org/abstract/MED/38414974",
+    "authors": "Niarakis et al",
+    "journal": "Front Immunol",
+    "year": "2024",
+    "featured": false
+  },
+  {
+    "title": "Metrics reloaded: recommendations for image analysis validation.",
+    "url": "http://europepmc.org/abstract/MED/38347141",
+    "authors": "Maier-Hein et al",
+    "journal": "Nat Methods",
+    "year": "2024",
+    "featured": false
+  },
+  {
+    "title": "Understanding metric-related pitfalls in image analysis validation.",
+    "url": "http://europepmc.org/abstract/MED/38347140",
+    "authors": "Reinke et al",
+    "journal": "Nat Methods",
+    "year": "2024",
+    "featured": false
+  },
+  {
+    "title": "Multiscale networks in multiple sclerosis.",
+    "url": "http://europepmc.org/abstract/MED/38329927",
+    "authors": "Kennedy et al",
+    "journal": "Plos Comput Biol",
+    "year": "2024",
+    "featured": false
+  },
+  {
+    "title": "Complementing Cell Taxonomies with a Multicellular Analysis of Tissues.",
+    "url": "http://europepmc.org/abstract/MED/38319138",
+    "authors": "Ramirez et al",
+    "journal": "Physiology (Bethesda)",
+    "year": "2024",
+    "featured": false
+  },
+  {
+    "title": "Collaborative effect of Csnk1a1 haploinsufficiency and mutant p53 in Myc induction can promote leukemic transformation.",
+    "url": "http://europepmc.org/abstract/MED/38147624",
+    "authors": "Fuchs et al",
+    "journal": "Blood Adv",
+    "year": "2024",
+    "featured": false
+  },
+  {
+    "title": "A network-based transcriptomic landscape of HepG2 cells uncovering causal gene-cytotoxicity interactions underlying drug-induced liver injury.",
+    "url": "http://europepmc.org/abstract/MED/38015832",
+    "authors": "Wijaya et al",
+    "journal": "Toxicol Sci",
+    "year": "2024",
+    "featured": false
+  },
+  {
+    "title": "Profiling the heterogeneity of colorectal cancer consensus molecular subtypes using spatial transcriptomics.",
+    "url": "http://europepmc.org/abstract/MED/38200223",
+    "authors": "Valdeolivas et al",
+    "journal": "NPJ Precis Oncol",
+    "year": "2024",
+    "featured": false
+  },
+  {
+    "title": "Compartments in medulloblastoma with extensive nodularity are connected through differentiation along the granular precursor lineage.",
+    "url": "http://europepmc.org/abstract/MED/38191550",
+    "authors": "Ghasemi et al",
+    "journal": "Nat Commun",
+    "year": "2024",
+    "featured": false
+  },
+  {
+    "title": "Metabolic Communication by SGLT2 Inhibition.",
+    "url": "http://europepmc.org/abstract/MED/38152989",
+    "authors": "Billing et al",
+    "journal": "Circulation",
+    "year": "2023",
+    "featured": false
+  },
+  {
+    "title": "Predicting disease severity in multiple sclerosis using multimodal data and machine learning.",
+    "url": "http://europepmc.org/abstract/MED/38133801",
+    "authors": "Andorra et al",
+    "journal": "J Neurol",
+    "year": "2023",
+    "featured": false
+  },
+  {
+    "title": "Spatial transcriptomics of B cell and T cell receptors reveals lymphocyte clonal dynamics.",
+    "url": "http://europepmc.org/abstract/MED/38060664",
+    "authors": "Engblom et al",
+    "journal": "Science",
+    "year": "2023",
+    "featured": false
+  },
+  {
+    "title": "Mapping cardiac remodeling in chronic kidney disease.",
+    "url": "http://europepmc.org/abstract/MED/38000021",
+    "authors": "Kaesler et al",
+    "journal": "Sci Adv",
+    "year": "2023",
+    "featured": false
+  },
+  {
+    "title": "Multicellular factor analysis of single-cell data for a tissue-centric understanding of disease.",
+    "url": "http://europepmc.org/abstract/MED/37991480",
+    "authors": "Ramirez et al",
+    "journal": "Elife",
+    "year": "2023",
+    "featured": true
+  },
+  {
+    "title": "Expanding the coverage of regulons from high-confidence prior knowledge for accurate estimation of transcription factor activities.",
+    "url": "http://europepmc.org/abstract/MED/37843125",
+    "authors": "M\u00fcller-Dott et al",
+    "journal": "Nucleic Acids Res",
+    "year": "2023",
+    "featured": true
+  },
+  {
+    "title": "A machine learning and directed network optimization approach to uncover TP53 regulatory patterns.",
+    "url": "http://europepmc.org/abstract/MED/38047081",
+    "authors": "Triantafyllidis et al",
+    "journal": "iScience",
+    "year": "2023",
+    "featured": false
+  },
+  {
+    "title": "A machine learning and directed network optimization approach to uncover <i>TP53</i> regulatory patterns.",
+    "url": "http://europepmc.org/abstract/MED/38047081",
+    "authors": "Triantafyllidis et al",
+    "journal": "iScience",
+    "year": "2023",
+    "featured": false
+  },
+  {
+    "title": "Enablers and challenges of spatial omics, a melting pot of technologies.",
+    "url": "http://europepmc.org/abstract/MED/37842805",
+    "authors": "Alexandrov et al",
+    "journal": "Mol Syst Biol",
+    "year": "2023",
+    "featured": false
+  },
+  {
+    "title": "Democratizing knowledge representation with BioCypher.",
+    "url": "https://zenodo.org/records/10320714",
+    "authors": "Lobentanzer et al",
+    "journal": "Nat Biotechnol",
+    "year": "2023",
+    "featured": true
+  },
+  {
+    "title": "Hepatocytes reprogram liver macrophages involving control of TGF-\u03b2 activation, influencing liver regeneration and injury.",
+    "url": "http://europepmc.org/abstract/MED/37486964",
+    "authors": "Wolf et al",
+    "journal": "Hepatol Commun",
+    "year": "2023",
+    "featured": false
+  },
+  {
+    "title": "A network medicine approach to study comorbidities in heart failure with preserved ejection fraction.",
+    "url": "http://europepmc.org/abstract/MED/37488529",
+    "authors": "Lanzer et al",
+    "journal": "Bmc Med",
+    "year": "2023",
+    "featured": false
+  },
+  {
+    "title": "Gene regulatory network inference in the era of single-cell multi-omics.",
+    "url": "https://rdcu.be/dfpa2",
+    "authors": "Badia-I-Mompel et al",
+    "journal": "Nat Rev Genet",
+    "year": "2023",
+    "featured": true
+  },
+  {
+    "title": "Proteomic Dynamics of Breast Cancer Cell Lines Identifies Potential Therapeutic Protein Targets.",
+    "url": "http://europepmc.org/abstract/MED/37343696",
+    "authors": "Sun et al",
+    "journal": "Mol Cell Proteomics",
+    "year": "2023",
+    "featured": false
+  },
+  {
+    "title": "Single-cell biology: what does the future hold?",
+    "url": "http://europepmc.org/abstract/MED/37318792",
+    "authors": "Polychronidou et al",
+    "journal": "Mol Syst Biol",
+    "year": "2023",
+    "featured": false
+  },
+  {
+    "title": "Best practices for single-cell analysis across modalities.",
+    "url": "http://europepmc.org/abstract/MED/37002403",
+    "authors": "Heumos et al",
+    "journal": "Nat Rev Genet",
+    "year": "2023",
+    "featured": false
+  },
+  {
+    "title": "International Society of Nephrology first consensus guidance for preclinical animal studies in translational nephrology.",
+    "url": "http://europepmc.org/abstract/MED/37001557",
+    "authors": "Nangaku et al",
+    "journal": "Kidney Int",
+    "year": "2023",
+    "featured": false
+  },
+  {
+    "title": "A T follicular helper cell origin for T regulatory type 1 cells.",
+    "url": "http://europepmc.org/abstract/MED/36973489",
+    "authors": "Sol\u00e9 et al",
+    "journal": "Cell Mol Immunol",
+    "year": "2023",
+    "featured": false
+  },
+  {
+    "title": "Phosphoproteomic analysis of metformin signaling in colorectal cancer cells elucidates mechanism of action and potential therapeutic opportunities.",
+    "url": "http://europepmc.org/abstract/MED/36781298",
+    "authors": "Salovska et al",
+    "journal": "Clin Transl Med",
+    "year": "2023",
+    "featured": false
+  },
+  {
+    "title": "Pan-Cancer landscape of protein activities identifies drivers of signalling dysregulation and patient survival.",
+    "url": "http://europepmc.org/abstract/MED/36688815",
+    "authors": "Sousa et al",
+    "journal": "Mol Syst Biol",
+    "year": "2023",
+    "featured": false
+  },
+  {
+    "title": "Dynamic partitioning of branched-chain amino acids-derived nitrogen supports renal cancer progression.",
+    "url": "http://europepmc.org/abstract/MED/36539415",
+    "authors": "Sciacovelli, Dugourd, et al",
+    "journal": "Nat Commun",
+    "year": "2022",
+    "featured": false
+  },
+  {
+    "title": "Pre-analytical processing of plasma and serum samples for combined proteome and metabolome analysis.",
+    "url": "http://europepmc.org/abstract/MED/36605986",
+    "authors": "Gegner et al",
+    "journal": "Front Mol Biosci",
+    "year": "2022",
+    "featured": false
+  },
+  {
+    "title": "Dissecting CD8+ T cell pathology of severe SARS-CoV-2 infection by single-cell immunoprofiling.",
+    "url": "http://europepmc.org/abstract/MED/36591270",
+    "authors": "Schreibing et al",
+    "journal": "Front Immunol",
+    "year": "2022",
+    "featured": false
+  },
+  {
+    "title": "B cell expansion hinders the stroma-epithelium regenerative cross talk during mucosal healing.",
+    "url": "http://europepmc.org/abstract/MED/36462502",
+    "authors": "Frede et al",
+    "journal": "Immunity",
+    "year": "2022",
+    "featured": false
+  },
+  {
+    "title": "Adult human kidney organoids originate from CD24+ cells and represent an advanced model for adult polycystic kidney disease.",
+    "url": "http://europepmc.org/abstract/MED/36303074",
+    "authors": "Xu et al",
+    "journal": "Nat Genet",
+    "year": "2022",
+    "featured": false
+  },
+  {
+    "title": "A microfluidic Braille valve platform for on-demand production, combinatorial screening and sorting of chemically distinct droplets.",
+    "url": "http://europepmc.org/abstract/MED/36261631",
+    "authors": "Utharala et al",
+    "journal": "Nat Protoc",
+    "year": "2022",
+    "featured": false
+  },
+  {
+    "title": "Cross-regional homeostatic and reactive glial signatures in multiple sclerosis.",
+    "url": "http://europepmc.org/abstract/MED/36112223",
+    "authors": "Trobisch et al",
+    "journal": "Acta Neuropathol",
+    "year": "2022",
+    "featured": false
+  },
+  {
+    "title": "Spatial multi-omic map of human myocardial infarction.",
+    "url": "http://europepmc.org/abstract/MED/35948637",
+    "authors": "Kuppe, Ramirez Flores, Li, et al",
+    "journal": "Nature",
+    "year": "2022",
+    "featured": true
+  },
+  {
+    "title": "decoupleR: Ensemble of computational methods to infer biological activities from omics data",
+    "url": "https://academic.oup.com/bioinformaticsadvances/article/2/1/vbac016/6544613?login=false",
+    "authors": "Badia-i-Mompel et al",
+    "journal": "Bioinformatics Advances",
+    "year": "2022",
+    "featured": false
+  },
+  {
+    "title": "Combi-seq for multiplexed transcriptome-based profiling of drug combinations using deterministic barcoding in single-cell droplets.",
+    "url": "http://europepmc.org/abstract/MED/35915108",
+    "authors": "Mathur, Szalai, et al",
+    "journal": "Nat Commun",
+    "year": "2022",
+    "featured": false
+  },
+  {
+    "title": "Phosphoproteomics of primary AML patient samples reveals rationale for AKT combination therapy and p53 context to overcome selinexor resistance.",
+    "url": "http://europepmc.org/abstract/MED/35947955",
+    "authors": "Emdal et al",
+    "journal": "Cell Rep",
+    "year": "2022",
+    "featured": false
+  },
+  {
+    "title": "Imbalanced gut microbiota fuels hepatocellular carcinoma development by shaping the hepatic inflammatory microenvironment.",
+    "url": "http://europepmc.org/abstract/MED/35803930",
+    "authors": "Schneider et al",
+    "journal": "Nat Commun",
+    "year": "2022",
+    "featured": false
+  },
+  {
+    "title": "Integrating knowledge and omics to decipher mechanisms via large-scale models of signaling networks.",
+    "url": "http://europepmc.org/abstract/MED/35880747",
+    "authors": "Garrido-Rodriguez et al",
+    "journal": "Mol Syst Biol",
+    "year": "2022",
+    "featured": false
+  },
+  {
+    "title": "Cancer-associated fibroblasts require proline synthesis by PYCR1 for the deposition of pro-tumorigenic extracellular matrix.",
+    "url": "http://europepmc.org/abstract/MED/35760868",
+    "authors": "Kay et al",
+    "journal": "Nat Metab",
+    "year": "2022",
+    "featured": false
+  },
+  {
+    "title": "Comparison of methods and resources for cell-cell communication inference from single-cell RNA-Seq data.",
+    "url": "http://europepmc.org/abstract/MED/35680885",
+    "authors": "Dimitrov et al",
+    "journal": "Nat Commun",
+    "year": "2022",
+    "featured": true
+  },
+  {
+    "title": "Reducing lipid bilayer stress by monounsaturated fatty acids protects renal proximal tubules in diabetes.",
+    "url": "http://europepmc.org/abstract/MED/35550039",
+    "authors": "P\u00e9rez-Mart\u00ed et al",
+    "journal": "Elife",
+    "year": "2022",
+    "featured": false
+  },
+  {
+    "title": "Mapping the epithelial-immune cell interactome upon infection in the gut and the upper airways.",
+    "url": "http://europepmc.org/abstract/MED/35501398",
+    "authors": "Poletti et al",
+    "journal": "NPJ Syst Biol Appl",
+    "year": "2022",
+    "featured": false
+  },
+  {
+    "title": "Explainable multiview framework for dissecting spatial relationships from highly multiplexed data.",
+    "url": "http://europepmc.org/abstract/MED/35422018",
+    "authors": "Tanevski et al",
+    "journal": "Genome Biol",
+    "year": "2022",
+    "featured": true
+  },
+  {
+    "title": "Computational drug repurposing against SARS-CoV-2 reveals plasma membrane cholesterol depletion as key factor of antiviral drug activity.",
+    "url": "http://europepmc.org/abstract/MED/35404937",
+    "authors": "Barsi et al",
+    "journal": "Plos Comput Biol",
+    "year": "2022",
+    "featured": false
+  },
+  {
+    "title": "Molecular consequences of SARS-CoV-2 liver tropism.",
+    "url": "http://europepmc.org/abstract/MED/35347318",
+    "authors": "Wanner et al",
+    "journal": "Nat Metab",
+    "year": "2022",
+    "featured": false
+  },
+  {
+    "title": "FUNKI: interactive functional footprint-based analysis of omics data.",
+    "url": "http://europepmc.org/abstract/MED/35134857",
+    "authors": "Hernansaiz-Ballesteros et al",
+    "journal": "Bioinformatics",
+    "year": "2022",
+    "featured": false
+  },
+  {
+    "title": "Deficiency of myeloid PHD proteins aggravates atherogenesis via macrophage apoptosis and paracrine fibrotic signalling.",
+    "url": "http://europepmc.org/abstract/MED/33913468",
+    "authors": "van et al",
+    "journal": "Cardiovasc Res",
+    "year": "2022",
+    "featured": false
+  },
+  {
+    "title": "Experimental and computational technologies to dissect the kidney at the single-cell level.",
+    "url": "http://europepmc.org/abstract/MED/33332571",
+    "authors": "Kuppe et al",
+    "journal": "Nephrol Dial Transplant",
+    "year": "2022",
+    "featured": false
+  },
+  {
+    "title": "Patient-specific Boolean models of signalling networks guide personalised treatments.",
+    "url": "http://europepmc.org/abstract/MED/35164900",
+    "authors": "Montagud et al",
+    "journal": "Elife",
+    "year": "2022",
+    "featured": false
+  },
+  {
+    "title": "The spatial transcriptomic landscape of the healing mouse intestine following damage.",
+    "url": "http://europepmc.org/abstract/MED/35149721",
+    "authors": "Parigi et al",
+    "journal": "Nat Commun",
+    "year": "2022",
+    "featured": false
+  },
+  {
+    "title": "Two heads are better than one: current landscape of integrating QSP and machine learning : An ISoP QSP SIG white paper by the working group on the integration of quantitative systems pharmacology and machine learning.",
+    "url": "http://europepmc.org/abstract/MED/35103884",
+    "authors": "Zhang et al",
+    "journal": "J Pharmacokinet Pharmacodyn",
+    "year": "2022",
+    "featured": false
+  },
+  {
+    "title": "A community challenge for a pancancer drug mechanism of action inference from perturbational profile data.",
+    "url": "http://europepmc.org/abstract/MED/35106508",
+    "authors": "Douglass et al",
+    "journal": "Cell Rep Med",
+    "year": "2022",
+    "featured": false
+  },
+  {
+    "title": "Stabilization but No Functional Influence of HIF-1\u03b1 Expression in the Intestinal Epithelium during Salmonella Typhimurium Infection.",
+    "url": "http://europepmc.org/abstract/MED/34978927",
+    "authors": "Robrahn et al",
+    "journal": "Infect Immun",
+    "year": "2022",
+    "featured": false
+  },
+  {
+    "title": "COVID-19 Disease Map, a computational knowledge repository of virus-host interaction mechanisms.",
+    "url": "http://europepmc.org/abstract/MED/34939300",
+    "authors": "Ostaszewski et al",
+    "journal": "Mol Syst Biol",
+    "year": "2021",
+    "featured": false
+  },
+  {
+    "title": "MAGED2 controls vasopressin-induced aquaporin-2 expression in collecting duct cells.",
+    "url": "http://europepmc.org/abstract/MED/34775100",
+    "authors": "Reusch et al",
+    "journal": "J Proteomics",
+    "year": "2021",
+    "featured": false
+  },
+  {
+    "title": "SysMod: the ISCB community for data-driven computational modelling and multi-scale analysis of biological systems.",
+    "url": "http://europepmc.org/abstract/MED/34179955",
+    "authors": "Dr\u00e4ger et al",
+    "journal": "Bioinformatics",
+    "year": "2021",
+    "featured": false
+  },
+  {
+    "title": "The human hepatocyte TXG-MAPr: gene co-expression network modules to support mechanism-based risk assessment.",
+    "url": "http://europepmc.org/abstract/MED/34626214",
+    "authors": "Callegaro et al",
+    "journal": "Arch Toxicol",
+    "year": "2021",
+    "featured": false
+  },
+  {
+    "title": "Systems approach reveals distinct and shared signaling networks of the four PGE2 receptors in T cells.",
+    "url": "http://europepmc.org/abstract/MED/34609894",
+    "authors": "Lone et al",
+    "journal": "Sci Signal",
+    "year": "2021",
+    "featured": false
+  },
+  {
+    "title": "Cell-to-cell and type-to-type heterogeneity of signaling networks: insights from the crowd.",
+    "url": "http://europepmc.org/abstract/MED/34661974",
+    "authors": "Gabor et al",
+    "journal": "Mol Syst Biol",
+    "year": "2021",
+    "featured": false
+  },
+  {
+    "title": "SREBP1-induced fatty acid synthesis depletes macrophages antioxidant defences to promote their alternative activation.",
+    "url": "http://europepmc.org/abstract/MED/34531575",
+    "authors": "Bidault et al",
+    "journal": "Nat Metab",
+    "year": "2021",
+    "featured": false
+  },
+  {
+    "title": "Medial Arterial Calcification: JACC State-of-the-Art Review.",
+    "url": "http://europepmc.org/abstract/MED/34503684",
+    "authors": "Lanzer et al",
+    "journal": "J Am Coll Cardiol",
+    "year": "2021",
+    "featured": false
+  },
+  {
+    "title": "Reusability and composability in process description maps: RAS-RAF-MEK-ERK signalling.",
+    "url": "http://europepmc.org/abstract/MED/33834185",
+    "authors": "Mazein et al",
+    "journal": "Brief Bioinform",
+    "year": "2021",
+    "featured": false
+  },
+  {
+    "title": "Transcriptomic Cross-Species Analysis of Chronic Liver Disease Reveals Consistent Regulation Between Humans and Mice.",
+    "url": "http://europepmc.org/abstract/MED/34558834",
+    "authors": "Holland et al",
+    "journal": "Hepatol Commun",
+    "year": "2021",
+    "featured": false
+  },
+  {
+    "title": "Partial Inhibition of the 6-Phosphofructo-2-Kinase/Fructose-2,6-Bisphosphatase-3 (PFKFB3) Enzyme in Myeloid Cells Does Not Affect Atherosclerosis.",
+    "url": "http://europepmc.org/abstract/MED/34458258",
+    "authors": "Tillie et al",
+    "journal": "Front Cell Dev Biol",
+    "year": "2021",
+    "featured": false
+  },
+  {
+    "title": "Prediction of combination therapies based on topological modeling of the immune signaling network in multiple sclerosis.",
+    "url": "http://europepmc.org/abstract/MED/34271980",
+    "authors": "Bernardo-Faura et al",
+    "journal": "Genome Med",
+    "year": "2021",
+    "featured": false
+  },
+  {
+    "title": "Contextualization of causal regulatory networks from toxicogenomics data applied to drug-induced liver injury.",
+    "url": "http://europepmc.org/abstract/MED/34229068",
+    "authors": "Trairatphisan et al",
+    "journal": "Toxicol Lett",
+    "year": "2021",
+    "featured": false
+  },
+  {
+    "title": "A comprehensive database for integrated analysis of omics data in autoimmune diseases.",
+    "url": "http://europepmc.org/abstract/MED/34167460",
+    "authors": "Martorell-Marug\u00e1n et al",
+    "journal": "Bmc Bioinformatics",
+    "year": "2021",
+    "featured": false
+  },
+  {
+    "title": "New insights into the mechanisms underlying 5-fluorouracil-induced intestinal toxicity based on transcriptomic and metabolomic responses in human intestinal organoids.",
+    "url": "http://europepmc.org/abstract/MED/34151400",
+    "authors": "Rodrigues et al",
+    "journal": "Arch Toxicol",
+    "year": "2021",
+    "featured": false
+  },
+  {
+    "title": "Deep spatial profiling of human COVID-19 brains reveals neuroinflammation with distinct microanatomical microglia-T-cell interactions.",
+    "url": "http://europepmc.org/abstract/MED/34174183",
+    "authors": "Schwabenland et al",
+    "journal": "Immunity",
+    "year": "2021",
+    "featured": false
+  },
+  {
+    "title": "Advances in systems biology modeling: 10 years of crowdsourcing DREAM challenges.",
+    "url": "http://europepmc.org/abstract/MED/34139170",
+    "authors": "Meyer et al",
+    "journal": "Cell Syst",
+    "year": "2021",
+    "featured": false
+  },
+  {
+    "title": "Integration of temporal single cell cellular stress response activity with logic-ODE modeling reveals activation of ATF4-CHOP axis as a critical predictor of drug-induced liver injury.",
+    "url": "http://europepmc.org/abstract/MED/33957093",
+    "authors": "Wijaya et al",
+    "journal": "Biochem Pharmacol",
+    "year": "2021",
+    "featured": false
+  },
+  {
+    "title": "Deciphering the signaling network of breast cancer improves drug sensitivity prediction.",
+    "url": "http://europepmc.org/abstract/MED/33932331",
+    "authors": "Tognetti et al",
+    "journal": "Cell Syst",
+    "year": "2021",
+    "featured": false
+  },
+  {
+    "title": "How will artificial intelligence and bioinformatics change our understanding of IgA Nephropathy in the next decade?",
+    "url": "http://europepmc.org/abstract/MED/33835214",
+    "authors": "B\u00fclow et al",
+    "journal": "Semin Immunopathol",
+    "year": "2021",
+    "featured": false
+  },
+  {
+    "title": "Transcription Factor Activity Inference in Systemic Lupus Erythematosus.",
+    "url": "http://europepmc.org/abstract/MED/33915751",
+    "authors": "Lopez-Dominguez et al",
+    "journal": "Life (Basel)",
+    "year": "2021",
+    "featured": false
+  },
+  {
+    "title": "The Minimum Information about a Molecular Interaction CAusal STatement (MI2CAST).",
+    "url": "http://europepmc.org/abstract/MED/32637990",
+    "authors": "Tour\u00e9 et al",
+    "journal": "Bioinformatics",
+    "year": "2021",
+    "featured": false
+  },
+  {
+    "title": "Consensus Transcriptional Landscape of Human End-Stage Heart Failure.",
+    "url": "http://europepmc.org/abstract/MED/33787284",
+    "authors": "Ramirez et al",
+    "journal": "J Am Heart Assoc",
+    "year": "2021",
+    "featured": false
+  },
+  {
+    "title": "Macrophage beta2-adrenergic receptor is dispensable for the adipose tissue inflammation and function.",
+    "url": "http://europepmc.org/abstract/MED/33774223",
+    "authors": "Petkevicius et al",
+    "journal": "Mol Metab",
+    "year": "2021",
+    "featured": false
+  },
+  {
+    "title": "PHONEMeS: Efficient Modeling of Signaling Networks Derived from Large-Scale Mass Spectrometry Data.",
+    "url": "http://europepmc.org/abstract/MED/33682416",
+    "authors": "Gjerga et al",
+    "journal": "J Proteome Res",
+    "year": "2021",
+    "featured": false
+  },
+  {
+    "title": "Integrated intra- and intercellular signaling knowledge for multicellular omics analysis.",
+    "url": "http://europepmc.org/abstract/MED/33749993",
+    "authors": "T\u00fcrei et al",
+    "journal": "Mol Syst Biol",
+    "year": "2021",
+    "featured": true
+  },
+  {
+    "title": "Setting the basis of best practices and standards for curation and annotation of logical models in biology-highlights of the [BC]2 2019 CoLoMoTo/SysMod Workshop.",
+    "url": "http://europepmc.org/abstract/MED/32313939",
+    "authors": "Niarakis et al",
+    "journal": "Brief Bioinform",
+    "year": "2021",
+    "featured": false
+  },
+  {
+    "title": "Statistical and Machine Learning Techniques in Human Microbiome Studies: Contemporary Challenges and Solutions.",
+    "url": "http://europepmc.org/abstract/MED/33692771",
+    "authors": "Moreno-Indias et al",
+    "journal": "Front Microbiol",
+    "year": "2021",
+    "featured": false
+  },
+  {
+    "title": "Norepinephrine promotes triglyceride storage in macrophages via beta2-adrenergic receptor activation.",
+    "url": "http://europepmc.org/abstract/MED/33484195",
+    "authors": "Petkevicius et al",
+    "journal": "Faseb J",
+    "year": "2021",
+    "featured": false
+  },
+  {
+    "title": "Differential expression of microRNA miR-150-5p in IgA nephropathy as a potential mediator and marker of disease progression.",
+    "url": "http://europepmc.org/abstract/MED/33417998",
+    "authors": "Pawluczyk et al",
+    "journal": "Kidney Int",
+    "year": "2021",
+    "featured": false
+  },
+  {
+    "title": "Causal integration of multi-omics data with prior knowledge to generate mechanistic hypotheses.",
+    "url": "http://europepmc.org/abstract/MED/33502086",
+    "authors": "Dugourd et al",
+    "journal": "Mol Syst Biol",
+    "year": "2021",
+    "featured": true
+  },
+  {
+    "title": "Dynamic 3D proteomes reveal protein functional alterations at high resolution in situ.",
+    "url": "http://europepmc.org/abstract/MED/33357446",
+    "authors": "Cappelletti et al",
+    "journal": "Cell",
+    "year": "2020",
+    "featured": false
+  },
+  {
+    "title": "Why do pathway methods work better than they should?",
+    "url": "http://europepmc.org/abstract/MED/33270910",
+    "authors": "Szalai et al",
+    "journal": "Febs Lett",
+    "year": "2020",
+    "featured": false
+  },
+  {
+    "title": "A statistical framework for assessing pharmacological responses and biomarkers using uncertainty estimates.",
+    "url": "http://europepmc.org/abstract/MED/33274713",
+    "authors": "Wang et al",
+    "journal": "Elife",
+    "year": "2020",
+    "featured": false
+  },
+  {
+    "title": "Decoding myofibroblast origins in human kidney fibrosis.",
+    "url": "http://europepmc.org/abstract/MED/33176333",
+    "authors": "Kuppe et al",
+    "journal": "Nature",
+    "year": "2020",
+    "featured": false
+  },
+  {
+    "title": "Hepatocyte-specific NRF2 activation controls fibrogenesis and carcinogenesis in steatohepatitis.",
+    "url": "http://europepmc.org/abstract/MED/33342543",
+    "authors": "Mohs et al",
+    "journal": "J Hepatol",
+    "year": "2020",
+    "featured": false
+  },
+  {
+    "title": "The tissue proteome in the multi-omic landscape of kidney disease.",
+    "url": "http://europepmc.org/abstract/MED/33028957",
+    "authors": "Rinschen et al",
+    "journal": "Nat Rev Nephrol",
+    "year": "2020",
+    "featured": false
+  },
+  {
+    "title": "Big Data Approaches in Heart Failure Research.",
+    "url": "http://europepmc.org/abstract/MED/32783147",
+    "authors": "Lanzer et al",
+    "journal": "Curr Heart Fail Rep",
+    "year": "2020",
+    "featured": false
+  },
+  {
+    "title": "Increased CXCL4 expression in hematopoietic cells links inflammation and progression of bone marrow fibrosis in MPN.",
+    "url": "http://europepmc.org/abstract/MED/32726410",
+    "authors": "Gleitz et al",
+    "journal": "Blood",
+    "year": "2020",
+    "featured": false
+  },
+  {
+    "title": "Gene selection for optimal prediction of cell position in tissues from single-cell transcriptomics data.",
+    "url": "http://europepmc.org/abstract/MED/32972997",
+    "authors": "Tanevski et al",
+    "journal": "Life Sci Alliance",
+    "year": "2020",
+    "featured": false
+  },
+  {
+    "title": "Only Hyperuricemia with Crystalluria, but not Asymptomatic Hyperuricemia, Drives Progression of Chronic Kidney Disease.",
+    "url": "http://europepmc.org/abstract/MED/32938648",
+    "authors": "Sellmayr et al",
+    "journal": "J Am Soc Nephrol",
+    "year": "2020",
+    "featured": false
+  },
+  {
+    "title": "Inferring clonal composition from multiple tumor biopsies.",
+    "url": "http://europepmc.org/abstract/MED/32843649",
+    "authors": "Manica et al",
+    "journal": "NPJ Syst Biol Appl",
+    "year": "2020",
+    "featured": false
+  },
+  {
+    "title": "BIAS: Transparent reporting of biomedical image analysis challenges",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7441980/",
+    "authors": "Maier-Hein et al",
+    "journal": "Med Image Anal",
+    "year": "2020",
+    "featured": false
+  },
+  {
+    "title": "The Global Phosphorylation Landscape of SARS-CoV-2 Infection",
+    "url": "https://www.cell.com/cell/fulltext/S0092-8674(20)30811-4?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867420308114%3Fshowall%3Dtrue",
+    "authors": "Bouhaddou et al",
+    "journal": "Cell",
+    "year": "2020",
+    "featured": false
+  },
+  {
+    "title": "SBML Level 3: an extensible format for the exchange and reuse of biological models.",
+    "url": "http://europepmc.org/abstract/MED/32845085",
+    "authors": "Keating et al",
+    "journal": "Mol Syst Biol",
+    "year": "2020",
+    "featured": false
+  },
+  {
+    "title": "Converting networks to predictive logic models from perturbation signalling data with CellNOpt.",
+    "url": "http://europepmc.org/abstract/MED/32516357",
+    "authors": "Gjerga et al",
+    "journal": "Bioinformatics",
+    "year": "2020",
+    "featured": false
+  },
+  {
+    "title": "Community Assessment of the Predictability of Cancer Protein and Phosphoprotein Levels from Genomics and Transcriptomics.",
+    "url": "http://europepmc.org/abstract/MED/32710834",
+    "authors": "Yang et al",
+    "journal": "Cell Syst",
+    "year": "2020",
+    "featured": false
+  },
+  {
+    "title": "Stratification and prediction of drug synergy based on target functional similarity.",
+    "url": "http://europepmc.org/abstract/MED/32487991",
+    "authors": "Yang et al",
+    "journal": "NPJ Syst Biol Appl",
+    "year": "2020",
+    "featured": false
+  },
+  {
+    "title": "CELLector: Genomics-Guided Selection of Cancer In\u00a0Vitro Models.",
+    "url": "http://europepmc.org/abstract/MED/32437684",
+    "authors": "Najgebauer et al",
+    "journal": "Cell Syst",
+    "year": "2020",
+    "featured": false
+  },
+  {
+    "title": "Bringing data from curated pathway resources to Cytoscape with OmniPath.",
+    "url": "http://europepmc.org/abstract/MED/31886476",
+    "authors": "Ceccarelli et al",
+    "journal": "Bioinformatics",
+    "year": "2020",
+    "featured": false
+  },
+  {
+    "title": "Robustness and applicability of transcription factor and pathway analysis tools on single-cell RNA-seq data.",
+    "url": "http://europepmc.org/abstract/MED/32051003",
+    "authors": "Holland et al",
+    "journal": "Genome Biol",
+    "year": "2020",
+    "featured": true
+  },
+  {
+    "title": "Patient-specific logic models of signaling pathways from screenings on cancer biopsies to prioritize personalized combination therapies.",
+    "url": "http://europepmc.org/abstract/MED/32073727",
+    "authors": "Eduati et al",
+    "journal": "Mol Syst Biol",
+    "year": "2020",
+    "featured": true
+  },
+  {
+    "title": "Dysregulated mesenchymal PDGFR-\u03b2 drives kidney fibrosis.",
+    "url": "http://europepmc.org/abstract/MED/31943786",
+    "authors": "Buhl et al",
+    "journal": "Embo Mol Med",
+    "year": "2020",
+    "featured": false
+  },
+  {
+    "title": "Quantitative Systems Toxicology Modeling To Address Key Safety Questions in Drug Development: A Focus of the TransQST Consortium.",
+    "url": "http://europepmc.org/abstract/MED/31909603",
+    "authors": "Ferreira et al",
+    "journal": "Chem Res Toxicol",
+    "year": "2020",
+    "featured": false
+  },
+  {
+    "title": "Personalized signaling models for personalized treatments.",
+    "url": "http://europepmc.org/abstract/MED/32129942",
+    "authors": "Saez-Rodriguez et al",
+    "journal": "Mol Syst Biol",
+    "year": "2020",
+    "featured": false
+  },
+  {
+    "title": "Kinetic modelling of quantitative proteome data predicts metabolic reprogramming of liver cancer.",
+    "url": "http://europepmc.org/abstract/MED/31819186",
+    "authors": "Berndt et al",
+    "journal": "Br J Cancer",
+    "year": "2019",
+    "featured": false
+  },
+  {
+    "title": "Metabolic rewiring of the hypertensive kidney.",
+    "url": "http://europepmc.org/abstract/MED/31822592",
+    "authors": "Rinschen et al",
+    "journal": "Sci Signal",
+    "year": "2019",
+    "featured": false
+  },
+  {
+    "title": "Influence of Liver Fibrosis on Lobular Zonation.",
+    "url": "http://europepmc.org/abstract/MED/31810365",
+    "authors": "Ghallab et al",
+    "journal": "Cells",
+    "year": "2019",
+    "featured": false
+  },
+  {
+    "title": "The authors reply.",
+    "url": "http://europepmc.org/abstract/MED/31759488",
+    "authors": "Saez-Rodriguez et al",
+    "journal": "Kidney Int",
+    "year": "2019",
+    "featured": false
+  },
+  {
+    "title": "A Functional Landscape of CKD Entities From Public Transcriptomic Data.",
+    "url": "http://europepmc.org/abstract/MED/32043035",
+    "authors": "Tajti et al",
+    "journal": "Kidney Int Rep",
+    "year": "2019",
+    "featured": false
+  },
+  {
+    "title": "From expression footprints to causal pathways: contextualizing large signaling networks with CARNIVAL.",
+    "url": "http://europepmc.org/abstract/MED/31728204",
+    "authors": "Liu et al",
+    "journal": "NPJ Syst Biol Appl",
+    "year": "2019",
+    "featured": false
+  },
+  {
+    "title": "Signatures of cell death and proliferation in perturbation transcriptomics data-from confounding factor to effective prediction.",
+    "url": "http://europepmc.org/abstract/MED/31552418",
+    "authors": "Szalai et al",
+    "journal": "Nucleic Acids Res",
+    "year": "2019",
+    "featured": false
+  },
+  {
+    "title": "Quantitative Proteome Landscape of the NCI-60 Cancer Cell Lines.",
+    "url": "http://europepmc.org/abstract/MED/31733513",
+    "authors": "Guo et al",
+    "journal": "iScience",
+    "year": "2019",
+    "featured": false
+  },
+  {
+    "title": "Toward Explainable Anticancer Compound Sensitivity Prediction via Multimodal Attention-Based Convolutional Encoders.",
+    "url": "http://europepmc.org/abstract/MED/31618586",
+    "authors": "Manica et al",
+    "journal": "Mol Pharm",
+    "year": "2019",
+    "featured": false
+  },
+  {
+    "title": "Modeling Cell-Cell Interactions from Spatial Molecular Data with Spatial Variance Component Analysis.",
+    "url": "http://europepmc.org/abstract/MED/31577949",
+    "authors": "Arnol et al",
+    "journal": "Cell Rep",
+    "year": "2019",
+    "featured": false
+  },
+  {
+    "title": "Transfer of regulatory knowledge from human to mouse for functional genomics analysis.",
+    "url": "http://europepmc.org/abstract/MED/31525460",
+    "authors": "Holland et al",
+    "journal": "Biochim Biophys Acta Gene Regul Mech",
+    "year": "2019",
+    "featured": false
+  },
+  {
+    "title": "Reproducible biomedical benchmarking in the cloud: lessons from crowd-sourced data challenges.",
+    "url": "http://europepmc.org/abstract/MED/31506093",
+    "authors": "Ellrott et al",
+    "journal": "Genome Biol",
+    "year": "2019",
+    "featured": false
+  },
+  {
+    "title": "Assessment of network module identification across complex diseases.",
+    "url": "http://europepmc.org/abstract/MED/31471613",
+    "authors": "Choobdar et al",
+    "journal": "Nat Methods",
+    "year": "2019",
+    "featured": false
+  },
+  {
+    "title": "Novel plasma peptide markers involved in the pathology of CKD identified using mass spectrometric approach.",
+    "url": "http://europepmc.org/abstract/MED/31385015",
+    "authors": "Gajjala et al",
+    "journal": "J Mol Med (Berl)",
+    "year": "2019",
+    "featured": false
+  },
+  {
+    "title": "Elucidating essential kinases of endothelin signalling by logic modelling of phosphoproteomics data.",
+    "url": "http://europepmc.org/abstract/MED/31464372",
+    "authors": "Sch\u00e4fer et al",
+    "journal": "Mol Syst Biol",
+    "year": "2019",
+    "featured": false
+  },
+  {
+    "title": "Benchmark and integration of resources for the estimation of human transcription factor activities.",
+    "url": "http://europepmc.org/abstract/MED/31340985",
+    "authors": "Garcia-Alonso et al",
+    "journal": "Genome Res",
+    "year": "2019",
+    "featured": true
+  },
+  {
+    "title": "Network pharmacology modeling identifies synergistic Aurora B and ZAK interaction in triple-negative breast cancer.",
+    "url": "http://europepmc.org/abstract/MED/31312514",
+    "authors": "Tang et al",
+    "journal": "NPJ Syst Biol Appl",
+    "year": "2019",
+    "featured": false
+  },
+  {
+    "title": "Community assessment to advance computational prediction of cancer drug combinations in a pharmacogenomic screen.",
+    "url": "http://europepmc.org/abstract/MED/31209238",
+    "authors": "Menden et al",
+    "journal": "Nat Commun",
+    "year": "2019",
+    "featured": true
+  },
+  {
+    "title": "Footprint-based functional analysis of multiomic data.",
+    "url": "http://europepmc.org/abstract/MED/32685770",
+    "authors": "Dugourd et al",
+    "journal": "Curr Opin Syst Biol",
+    "year": "2019",
+    "featured": false
+  },
+  {
+    "title": "Functional linkage of gene fusions to cancer cell fitness assessed by pharmacological and CRISPR-Cas9 screening.",
+    "url": "http://europepmc.org/abstract/MED/31097696",
+    "authors": "Picco et al",
+    "journal": "Nat Commun",
+    "year": "2019",
+    "featured": false
+  },
+  {
+    "title": "Analysis of the Human Kinome and Phosphatome by Mass Cytometry Reveals Overexpression-Induced Effects on Cancer-Related Signaling.",
+    "url": "http://europepmc.org/abstract/MED/31101498",
+    "authors": "Lun et al",
+    "journal": "Mol Cell",
+    "year": "2019",
+    "featured": false
+  },
+  {
+    "title": "MEK1/2 inhibitor withdrawal reverses acquired resistance driven by BRAFV600E amplification whereas KRASG13D amplification promotes EMT-chemoresistance.",
+    "url": "http://europepmc.org/abstract/MED/31048689",
+    "authors": "Sale et al",
+    "journal": "Nat Commun",
+    "year": "2019",
+    "featured": false
+  },
+  {
+    "title": "MAPK pathway and B cells overactivation in multiple sclerosis revealed by phosphoproteomics and genomic analysis.",
+    "url": "http://europepmc.org/abstract/MED/31004050",
+    "authors": "Kotelnikova et al",
+    "journal": "Proc Natl Acad Sci U S A",
+    "year": "2019",
+    "featured": false
+  },
+  {
+    "title": "Prioritization of cancer therapeutic targets using CRISPR-Cas9 screens.",
+    "url": "http://europepmc.org/abstract/MED/30971826",
+    "authors": "Behan et al",
+    "journal": "Nature",
+    "year": "2019",
+    "featured": false
+  },
+  {
+    "title": "Elastin imaging enables noninvasive staging and treatment monitoring of kidney fibrosis.",
+    "url": "http://europepmc.org/abstract/MED/30944168",
+    "authors": "Sun et al",
+    "journal": "Sci Transl Med",
+    "year": "2019",
+    "featured": false
+  },
+  {
+    "title": "Big science and big data in nephrology.",
+    "url": "http://europepmc.org/abstract/MED/30982672",
+    "authors": "Saez-Rodriguez et al",
+    "journal": "Kidney Int",
+    "year": "2019",
+    "featured": false
+  },
+  {
+    "title": "Multi-omic measurements of heterogeneity in HeLa cells across laboratories.",
+    "url": "http://europepmc.org/abstract/MED/30778230",
+    "authors": "Liu et al",
+    "journal": "Nat Biotechnol",
+    "year": "2019",
+    "featured": false
+  },
+  {
+    "title": "The proteome microenvironment determines the protective effect of preconditioning in cisplatin-induced acute kidney injury.",
+    "url": "http://europepmc.org/abstract/MED/30522767",
+    "authors": "Sp\u00e4th et al",
+    "journal": "Kidney Int",
+    "year": "2018",
+    "featured": false
+  },
+  {
+    "title": "Adipocyte-secreted BMP8b mediates adrenergic-induced remodeling of the neuro-vascular network in adipose tissue.",
+    "url": "http://europepmc.org/abstract/MED/30478315",
+    "authors": "Pellegrinelli et al",
+    "journal": "Nat Commun",
+    "year": "2018",
+    "featured": false
+  },
+  {
+    "title": "Embracing the Dark Side: Computational Approaches to Unveil the Functionality of Genes Lacking Biological Annotation in Drug-Induced Liver Injury.",
+    "url": "http://europepmc.org/abstract/MED/30515189",
+    "authors": "Souza et al",
+    "journal": "Front Genet",
+    "year": "2018",
+    "featured": false
+  },
+  {
+    "title": "Computational discovery of dynamic cell line specific Boolean networks from multiplex time-course data.",
+    "url": "http://europepmc.org/abstract/MED/30372442",
+    "authors": "Razzaq et al",
+    "journal": "Plos Comput Biol",
+    "year": "2018",
+    "featured": false
+  },
+  {
+    "title": "In silico Prioritization of Transporter-Drug Relationships From Drug Sensitivity Screens.",
+    "url": "http://europepmc.org/abstract/MED/30245630",
+    "authors": "C\u00e9sar-Razquin et al",
+    "journal": "Front Pharmacol",
+    "year": "2018",
+    "featured": false
+  },
+  {
+    "title": "The germline genetic component of drug sensitivity in cancer cell lines.",
+    "url": "http://europepmc.org/abstract/MED/30139972",
+    "authors": "Menden et al",
+    "journal": "Nat Commun",
+    "year": "2018",
+    "featured": false
+  },
+  {
+    "title": "Unsupervised correction of gene-independent cell responses to CRISPR-Cas9 targeting.",
+    "url": "http://europepmc.org/abstract/MED/30103702",
+    "authors": "Iorio et al",
+    "journal": "Bmc Genomics",
+    "year": "2018",
+    "featured": false
+  },
+  {
+    "title": "How to find the right drug for each patient? Advances and challenges in pharmacogenomics.",
+    "url": "http://europepmc.org/abstract/MED/31763498",
+    "authors": "Kalamara et al",
+    "journal": "Curr Opin Syst Biol",
+    "year": "2018",
+    "featured": false
+  },
+  {
+    "title": "A microfluidics platform for combinatorial drug screening on cancer biopsies.",
+    "url": "http://europepmc.org/abstract/MED/29934552",
+    "authors": "Eduati et al",
+    "journal": "Nat Commun",
+    "year": "2018",
+    "featured": false
+  },
+  {
+    "title": "Linking drug target and pathway activation for effective therapy using multi-task learning.",
+    "url": "http://europepmc.org/abstract/MED/29844324",
+    "authors": "Yang et al",
+    "journal": "Sci Rep",
+    "year": "2018",
+    "featured": false
+  },
+  {
+    "title": "Alternative models for sharing confidential biomedical data.",
+    "url": "http://europepmc.org/abstract/MED/29734317",
+    "authors": "Guinney et al",
+    "journal": "Nat Biotechnol",
+    "year": "2018",
+    "featured": false
+  },
+  {
+    "title": "Pathway-based dissection of the genomic heterogeneity of cancer hallmarks\u2019 acquisition with SLAPenrich.",
+    "url": "http://europepmc.org/abstract/MED/29713020",
+    "authors": "Iorio et al",
+    "journal": "Sci Rep",
+    "year": "2018",
+    "featured": false
+  },
+  {
+    "title": "GDSCTools for mining pharmacogenomic interactions in cancer.",
+    "url": "http://europepmc.org/abstract/MED/29186349",
+    "authors": "Cokelaer et al",
+    "journal": "Bioinformatics",
+    "year": "2018",
+    "featured": false
+  },
+  {
+    "title": "Whither systems medicine?",
+    "url": "http://europepmc.org/abstract/MED/29497170",
+    "authors": "Apweiler et al",
+    "journal": "Exp Mol Med",
+    "year": "2018",
+    "featured": false
+  },
+  {
+    "title": "NADH Shuttling Couples Cytosolic Reductive Carboxylation of Glutamine with Glycolysis in Cells with Mitochondrial Dysfunction.",
+    "url": "http://europepmc.org/abstract/MED/29452638",
+    "authors": "Gaude et al",
+    "journal": "Mol Cell",
+    "year": "2018",
+    "featured": false
+  },
+  {
+    "title": "Perturbation-response genes reveal signaling footprints in cancer gene expression.",
+    "url": "http://europepmc.org/abstract/MED/29295995",
+    "authors": "Schubert et al",
+    "journal": "Nat Commun",
+    "year": "2018",
+    "featured": true
+  },
+  {
+    "title": "A systematic atlas of chaperome deregulation topologies across the human cancer landscape.",
+    "url": "http://europepmc.org/abstract/MED/29293508",
+    "authors": "Hadizadeh et al",
+    "journal": "Plos Comput Biol",
+    "year": "2018",
+    "featured": false
+  },
+  {
+    "title": "Phosphoproteomics-Based Profiling of Kinase Activities in Cancer Cells.",
+    "url": "http://europepmc.org/abstract/MED/29344887",
+    "authors": "Wirbel et al",
+    "journal": "Methods Mol Biol",
+    "year": "2018",
+    "featured": false
+  },
+  {
+    "title": "Transcription Factor Activities Enhance Markers of Drug Sensitivity in Cancer.",
+    "url": "http://europepmc.org/abstract/MED/29229604",
+    "authors": "Garcia-Alonso et al",
+    "journal": "Cancer Res",
+    "year": "2017",
+    "featured": false
+  },
+  {
+    "title": "Systems Pharmacology Dissection of Cholesterol Regulation Reveals Determinants of Large Pharmacodynamic Variability between Cell Lines.",
+    "url": "http://europepmc.org/abstract/MED/29226804",
+    "authors": "Blattmann et al",
+    "journal": "Cell Syst",
+    "year": "2017",
+    "featured": false
+  },
+  {
+    "title": "Post-translational regulation of metabolism in fumarate hydratase deficient cancer cells.",
+    "url": "http://europepmc.org/abstract/MED/29191787",
+    "authors": "Gon\u00e7alves et al",
+    "journal": "Metab Eng",
+    "year": "2017",
+    "featured": false
+  },
+  {
+    "title": "Widespread Post-transcriptional Attenuation of Genomic Copy-Number Variation in Cancer.",
+    "url": "http://europepmc.org/abstract/MED/29032074",
+    "authors": "Gon\u00e7alves et al",
+    "journal": "Cell Syst",
+    "year": "2017",
+    "featured": false
+  },
+  {
+    "title": "A Community Challenge for Inferring Genetic Predictors of Gene Essentialities through Analysis of a Functional Screen of Cancer Cell Lines.",
+    "url": "http://europepmc.org/abstract/MED/28988802",
+    "authors": "G\u00f6nen et al",
+    "journal": "Cell Syst",
+    "year": "2017",
+    "featured": false
+  },
+  {
+    "title": "A parallel metaheuristic for large mixed-integer dynamic optimization problems, with applications in computational biology.",
+    "url": "http://europepmc.org/abstract/MED/28813442",
+    "authors": "Penas et al",
+    "journal": "Plos One",
+    "year": "2017",
+    "featured": false
+  },
+  {
+    "title": "Genomic Determinants of Protein Abundance Variation in Colorectal Cancer Cells.",
+    "url": "http://europepmc.org/abstract/MED/28854368",
+    "authors": "Roumeliotis et al",
+    "journal": "Cell Rep",
+    "year": "2017",
+    "featured": false
+  },
+  {
+    "title": "Logic Modeling in Quantitative Systems Pharmacology.",
+    "url": "http://europepmc.org/abstract/MED/28681552",
+    "authors": "Traynard et al",
+    "journal": "CPT Pharmacometrics Syst Pharmacol",
+    "year": "2017",
+    "featured": false
+  },
+  {
+    "title": "Benchmarking substrate-based kinase activity inference using phosphoproteomic data.",
+    "url": "http://europepmc.org/abstract/MED/28200105",
+    "authors": "Hernandez-Armenta et al",
+    "journal": "Bioinformatics",
+    "year": "2017",
+    "featured": false
+  },
+  {
+    "title": "Mechanism-based biomarker discovery.",
+    "url": "http://europepmc.org/abstract/MED/28458042",
+    "authors": "Antoranz et al",
+    "journal": "Drug Discov Today",
+    "year": "2017",
+    "featured": false
+  },
+  {
+    "title": "Gli1+ Mesenchymal Stromal Cells Are a Key Driver of Bone Marrow Fibrosis and an Important Cellular Therapeutic Target.",
+    "url": "http://europepmc.org/abstract/MED/28457748",
+    "authors": "Schneider et al",
+    "journal": "Cell Stem Cell",
+    "year": "2017",
+    "featured": false
+  },
+  {
+    "title": "Drug Resistance Mechanisms in Colorectal Cancer Dissected with Cell Type-Specific Dynamic Logic Models.",
+    "url": "http://europepmc.org/abstract/MED/28381545",
+    "authors": "Eduati et al",
+    "journal": "Cancer Res",
+    "year": "2017",
+    "featured": false
+  },
+  {
+    "title": "caspo: a toolbox for automated reasoning on the response of logical signaling networks families.",
+    "url": "http://europepmc.org/abstract/MED/28065903",
+    "authors": "Videla et al",
+    "journal": "Bioinformatics",
+    "year": "2017",
+    "featured": false
+  },
+  {
+    "title": "Genome-wide chemical mutagenesis screens allow unbiased saturation of the cancer genome and identification of drug resistance mutations.",
+    "url": "http://europepmc.org/abstract/MED/28179366",
+    "authors": "Brammeld et al",
+    "journal": "Genome Res",
+    "year": "2017",
+    "featured": false
+  },
+  {
+    "title": "Data-driven reverse engineering of signaling pathways using ensembles of dynamic models.",
+    "url": "http://europepmc.org/abstract/MED/28166222",
+    "authors": "Henriques et al",
+    "journal": "Plos Comput Biol",
+    "year": "2017",
+    "featured": false
+  },
+  {
+    "title": "Systematic Analysis of Transcriptional and Post-transcriptional Regulation of Metabolism in Yeast.",
+    "url": "http://europepmc.org/abstract/MED/28072816",
+    "authors": "Gon\u00e7alves et al",
+    "journal": "Plos Comput Biol",
+    "year": "2017",
+    "featured": false
+  },
+  {
+    "title": "System-Wide Quantitative Proteomics of the Metabolic Syndrome in Mice: Genotypic and Dietary Effects.",
+    "url": "http://europepmc.org/abstract/MED/27936760",
+    "authors": "Terfve et al",
+    "journal": "J Proteome Res",
+    "year": "2017",
+    "featured": false
+  },
+  {
+    "title": "Efficient randomization of biological networks while preserving functional characterization of individual nodes.",
+    "url": "http://europepmc.org/abstract/MED/27998275",
+    "authors": "Iorio et al",
+    "journal": "Bmc Bioinformatics",
+    "year": "2016",
+    "featured": false
+  },
+  {
+    "title": "Stem cell-like transcriptional reprogramming mediates metastatic resistance to mTOR inhibition.",
+    "url": "http://europepmc.org/abstract/MED/27991928",
+    "authors": "Mateo et al",
+    "journal": "Oncogene",
+    "year": "2016",
+    "featured": false
+  },
+  {
+    "title": "Looking beyond the cancer cell for effective drug combinations.",
+    "url": "http://europepmc.org/abstract/MED/27887656",
+    "authors": "Dry et al",
+    "journal": "Genome Med",
+    "year": "2016",
+    "featured": false
+  },
+  {
+    "title": "OmniPath: guidelines and gateway for literature-curated signaling pathway resources.",
+    "url": "http://europepmc.org/abstract/MED/27898060",
+    "authors": "T\u00fcrei et al",
+    "journal": "Nat Methods",
+    "year": "2016",
+    "featured": true
+  },
+  {
+    "title": "A CRISPR Dropout Screen Identifies Genetic Vulnerabilities and Therapeutic Targets in Acute Myeloid Leukemia.",
+    "url": "http://europepmc.org/abstract/MED/27760321",
+    "authors": "Tzelepis et al",
+    "journal": "Cell Rep",
+    "year": "2016",
+    "featured": false
+  },
+  {
+    "title": "Fumarate is an epigenetic modifier that elicits epithelial-to-mesenchymal transition.",
+    "url": "http://europepmc.org/abstract/MED/27580029",
+    "authors": "Sciacovelli et al",
+    "journal": "Nature",
+    "year": "2016",
+    "featured": false
+  },
+  {
+    "title": "A Landscape of Pharmacogenomic Interactions in Cancer.",
+    "url": "http://europepmc.org/abstract/MED/27397505",
+    "authors": "Iorio et al",
+    "journal": "Cell",
+    "year": "2016",
+    "featured": true
+  },
+  {
+    "title": "Crowdsourcing biomedical research: leveraging communities as innovation engines.",
+    "url": "http://europepmc.org/abstract/MED/27418159",
+    "authors": "Saez-Rodriguez et al",
+    "journal": "Nat Rev Genet",
+    "year": "2016",
+    "featured": false
+  },
+  {
+    "title": "Logical Modeling and Dynamical Analysis of Cellular Networks.",
+    "url": "http://europepmc.org/abstract/MED/27303434",
+    "authors": "Abou-Jaoud\u00e9 et al",
+    "journal": "Front Genet",
+    "year": "2016",
+    "featured": false
+  },
+  {
+    "title": "A computational method for designing diverse linear epitopes including citrullinated peptides with desired binding affinities to intravenous immunoglobulin.",
+    "url": "http://europepmc.org/abstract/MED/27059896",
+    "authors": "Patro et al",
+    "journal": "Bmc Bioinformatics",
+    "year": "2016",
+    "featured": false
+  },
+  {
+    "title": "Transcriptional response networks for elucidating mechanisms of action of multitargeted agents.",
+    "url": "http://europepmc.org/abstract/MED/26979547",
+    "authors": "Kibble et al",
+    "journal": "Drug Discov Today",
+    "year": "2016",
+    "featured": false
+  },
+  {
+    "title": "Integrated transcriptomic and proteomic analysis identifies protein kinase CK2 as a key signaling node in an inflammatory cytokine network in ovarian cancer cells.",
+    "url": "http://europepmc.org/abstract/MED/26871292",
+    "authors": "Kulbe et al",
+    "journal": "Oncotarget",
+    "year": "2016",
+    "featured": false
+  },
+  {
+    "title": "Inferring causal molecular networks: empirical assessment through a community-based effort.",
+    "url": "http://europepmc.org/abstract/MED/26901648",
+    "authors": "Hill et al",
+    "journal": "Nat Methods",
+    "year": "2016",
+    "featured": true
+  },
+  {
+    "title": "Annexin A1 sustains tumor metabolism and cellular proliferation upon stable loss of HIF1A.",
+    "url": "http://europepmc.org/abstract/MED/26760764",
+    "authors": "Rohwer et al",
+    "journal": "Oncotarget",
+    "year": "2016",
+    "featured": false
+  },
+  {
+    "title": "The orchestra of lipid-transfer proteins at the crossroads between metabolism and signaling.",
+    "url": "http://europepmc.org/abstract/MED/26658141",
+    "authors": "Chiapparino et al",
+    "journal": "Prog Lipid Res",
+    "year": "2015",
+    "featured": false
+  },
+  {
+    "title": "Pharmacogenomic agreement between two cancer cell line data sets.",
+    "url": "http://europepmc.org/abstract/MED/26570998",
+    "authors": "Cancer et al",
+    "journal": "Nature",
+    "year": "2015",
+    "featured": false
+  },
+  {
+    "title": "Extended notions of sign consistency to relate experimental data to signaling and regulatory network topologies.",
+    "url": "http://europepmc.org/abstract/MED/26510976",
+    "authors": "Thiele et al",
+    "journal": "Bmc Bioinformatics",
+    "year": "2015",
+    "featured": false
+  },
+  {
+    "title": "DREAMTools: a Python package for scoring collaborative challenges.",
+    "url": "http://europepmc.org/abstract/MED/27134723",
+    "authors": "Cokelaer et al",
+    "journal": "F1000Res",
+    "year": "2015",
+    "featured": false
+  },
+  {
+    "title": "A Semi-Supervised Approach for Refining Transcriptional Signatures of Drug Response and Repositioning Predictions.",
+    "url": "http://europepmc.org/abstract/MED/26452147",
+    "authors": "Iorio et al",
+    "journal": "Plos One",
+    "year": "2015",
+    "featured": false
+  },
+  {
+    "title": "Large-scale models of signal propagation in human cells derived from discovery phosphoproteomic data.",
+    "url": "http://europepmc.org/abstract/MED/26354681",
+    "authors": "Terfve et al",
+    "journal": "Nat Commun",
+    "year": "2015",
+    "featured": false
+  },
+  {
+    "title": "Designing Experiments to Discriminate Families of Logic Models.",
+    "url": "http://europepmc.org/abstract/MED/26389116",
+    "authors": "Videla et al",
+    "journal": "Front Bioeng Biotechnol",
+    "year": "2015",
+    "featured": false
+  },
+  {
+    "title": "Modeling Signaling Networks to Advance New Cancer Therapies.",
+    "url": "http://europepmc.org/abstract/MED/26274601",
+    "authors": "Saez-Rodriguez et al",
+    "journal": "Annu Rev Biomed Eng",
+    "year": "2015",
+    "featured": false
+  },
+  {
+    "title": "Prediction of human population responses to toxic compounds by a collaborative competition.",
+    "url": "http://europepmc.org/abstract/MED/26258538",
+    "authors": "Eduati et al",
+    "journal": "Nat Biotechnol",
+    "year": "2015",
+    "featured": false
+  },
+  {
+    "title": "Integrative approaches for signalling and metabolic networks.",
+    "url": "http://europepmc.org/abstract/MED/26198436",
+    "authors": "Hatzimanikatis et al",
+    "journal": "Integr Biol (Camb)",
+    "year": "2015",
+    "featured": false
+  },
+  {
+    "title": "Identification of drug-specific pathways based on gene expression data: application to drug induced lung injury.",
+    "url": "http://europepmc.org/abstract/MED/25932872",
+    "authors": "Melas et al",
+    "journal": "Integr Biol (Camb)",
+    "year": "2015",
+    "featured": false
+  },
+  {
+    "title": "Empirical inference of circuitry and plasticity in a kinase signaling network.",
+    "url": "http://europepmc.org/abstract/MED/26060313",
+    "authors": "Wilkes et al",
+    "journal": "Proc Natl Acad Sci U S A",
+    "year": "2015",
+    "featured": false
+  },
+  {
+    "title": "Reverse engineering of logic-based differential equation models using a mixed-integer dynamic optimization approach.",
+    "url": "http://europepmc.org/abstract/MED/26002881",
+    "authors": "Henriques et al",
+    "journal": "Bioinformatics",
+    "year": "2015",
+    "featured": false
+  },
+  {
+    "title": "A single-cell model of PIP3 dynamics using chemical dimerization.",
+    "url": "http://europepmc.org/abstract/MED/26004322",
+    "authors": "MacNamara et al",
+    "journal": "Bioorg Med Chem",
+    "year": "2015",
+    "featured": false
+  },
+  {
+    "title": "Prospective derivation of a living organoid biobank of colorectal cancer patients.",
+    "url": "http://europepmc.org/abstract/MED/25957691",
+    "authors": "van et al",
+    "journal": "Cell",
+    "year": "2015",
+    "featured": false
+  },
+  {
+    "title": "BioPreDyn-bench: a suite of benchmark problems for dynamic modelling in systems biology.",
+    "url": "http://europepmc.org/abstract/MED/25880925",
+    "authors": "Villaverde et al",
+    "journal": "Bmc Syst Biol",
+    "year": "2015",
+    "featured": false
+  },
+  {
+    "title": "Cooperative development of logical modelling standards and tools with CoLoMoTo.",
+    "url": "http://europepmc.org/abstract/MED/25619997",
+    "authors": "Naldi et al",
+    "journal": "Bioinformatics",
+    "year": "2015",
+    "featured": false
+  },
+  {
+    "title": "Phosphoproteomic analyses reveal novel cross-modulation mechanisms between two signaling pathways in yeast.",
+    "url": "http://europepmc.org/abstract/MED/25492886",
+    "authors": "Vaga et al",
+    "journal": "Mol Syst Biol",
+    "year": "2014",
+    "featured": false
+  },
+  {
+    "title": "Dynamic transcription factor activity and networks during ErbB2 breast oncogenesis and targeted therapy.",
+    "url": "http://europepmc.org/abstract/MED/25303361",
+    "authors": "Weiss et al",
+    "journal": "Integr Biol (Camb)",
+    "year": "2014",
+    "featured": false
+  },
+  {
+    "title": "A community computational challenge to predict the activity of pairs of compounds.",
+    "url": "http://europepmc.org/abstract/MED/25419740",
+    "authors": "Bansal et al",
+    "journal": "Nat Biotechnol",
+    "year": "2014",
+    "featured": false
+  },
+  {
+    "title": "Fast randomization of large genomic datasets while preserving alteration counts.",
+    "url": "http://europepmc.org/abstract/MED/25161255",
+    "authors": "Gobbi et al",
+    "journal": "Bioinformatics",
+    "year": "2014",
+    "featured": false
+  },
+  {
+    "title": "Signaling networks in MS: a systems-based approach to developing new pharmacological therapies.",
+    "url": "http://europepmc.org/abstract/MED/25112814",
+    "authors": "Kotelnikova et al",
+    "journal": "Mult Scler",
+    "year": "2014",
+    "featured": false
+  },
+  {
+    "title": "A model integration approach linking signalling and gene-regulatory logic with kinetic metabolic models.",
+    "url": "http://europepmc.org/abstract/MED/25063553",
+    "authors": "Ryll et al",
+    "journal": "Biosystems",
+    "year": "2014",
+    "featured": false
+  },
+  {
+    "title": "Exhaustively characterizing feasible logic models of a signaling network using Answer Set Programming",
+    "url": "http://europepmc.org/abstract/PMC/PMC4071210",
+    "authors": "et al",
+    "journal": "Bioinformatics",
+    "year": "2014",
+    "featured": false
+  },
+  {
+    "title": "A community effort to assess and improve drug sensitivity prediction algorithms.",
+    "url": "http://europepmc.org/abstract/MED/24880487",
+    "authors": "Costello et al",
+    "journal": "Nat Biotechnol",
+    "year": "2014",
+    "featured": false
+  },
+  {
+    "title": "A rapidly reversible chemical dimerizer system to study lipid signaling in living cells.",
+    "url": "http://europepmc.org/abstract/MED/24841150",
+    "authors": "Feng et al",
+    "journal": "Angew Chem Int Ed Engl",
+    "year": "2014",
+    "featured": false
+  },
+  {
+    "title": "MEIGO: an open-source software suite based on metaheuristics for global optimization in systems biology and bioinformatics.",
+    "url": "http://europepmc.org/abstract/MED/24885957",
+    "authors": "Egea et al",
+    "journal": "Bmc Bioinformatics",
+    "year": "2014",
+    "featured": false
+  },
+  {
+    "title": "Network topology and parameter estimation: from experimental design methods to gene regulatory network kinetics using a community based approach.",
+    "url": "http://europepmc.org/abstract/MED/24507381",
+    "authors": "Meyer et al",
+    "journal": "Bmc Syst Biol",
+    "year": "2014",
+    "featured": false
+  },
+  {
+    "title": "PIP\u2083 induces the recycling of receptor tyrosine kinases.",
+    "url": "http://europepmc.org/abstract/MED/24425787",
+    "authors": "Laketa et al",
+    "journal": "Sci Signal",
+    "year": "2014",
+    "featured": false
+  },
+  {
+    "title": "Network based elucidation of drug response: from modulators to targets.",
+    "url": "http://europepmc.org/abstract/MED/24330611",
+    "authors": "Iorio et al",
+    "journal": "Bmc Syst Biol",
+    "year": "2013",
+    "featured": false
+  },
+  {
+    "title": "SBML qualitative models: a model representation format and infrastructure to foster interactions between qualitative modelling formalisms and tools.",
+    "url": "http://europepmc.org/abstract/MED/24321545",
+    "authors": "Chaouiya et al",
+    "journal": "Bmc Syst Biol",
+    "year": "2013",
+    "featured": false
+  },
+  {
+    "title": "Path2Models: large-scale generation of computational models from biochemical pathway maps.",
+    "url": "http://europepmc.org/abstract/MED/24180668",
+    "authors": "B\u00fcchel et al",
+    "journal": "Bmc Syst Biol",
+    "year": "2013",
+    "featured": false
+  },
+  {
+    "title": "BioServices: a common Python package to access biological Web Services programmatically.",
+    "url": "http://europepmc.org/abstract/MED/24064416",
+    "authors": "Cokelaer et al",
+    "journal": "Bioinformatics",
+    "year": "2013",
+    "featured": false
+  },
+  {
+    "title": "Cyrface: An interface from Cytoscape to R that provides a user interface to R packages.",
+    "url": "http://europepmc.org/abstract/MED/24715956",
+    "authors": "Gon\u00e7alves et al",
+    "journal": "F1000Res",
+    "year": "2013",
+    "featured": false
+  },
+  {
+    "title": "Exhaustively characterizing feasible logic models of a signaling network using Answer Set Programming.",
+    "url": "http://europepmc.org/abstract/MED/23853063",
+    "authors": "Guziolowski et al",
+    "journal": "Bioinformatics",
+    "year": "2013",
+    "featured": false
+  },
+  {
+    "title": "Machine learning prediction of cancer cell sensitivity to drugs based on genomic and chemical properties.",
+    "url": "http://europepmc.org/abstract/MED/23646105",
+    "authors": "Menden et al",
+    "journal": "Plos One",
+    "year": "2013",
+    "featured": false
+  },
+  {
+    "title": "Phosphoproteomics data classify hematological cancer cell lines according to tumor type and sensitivity to kinase inhibitors.",
+    "url": "http://europepmc.org/abstract/MED/23628362",
+    "authors": "Casado et al",
+    "journal": "Genome Biol",
+    "year": "2013",
+    "featured": false
+  },
+  {
+    "title": "Bridging the layers: towards integration of signal transduction, regulation and metabolism into mathematical models.",
+    "url": "http://europepmc.org/abstract/MED/23525368",
+    "authors": "Gon\u00e7alves et al",
+    "journal": "Mol Biosyst",
+    "year": "2013",
+    "featured": false
+  },
+  {
+    "title": "Critical assessment of automated flow cytometry data analysis techniques.",
+    "url": "http://europepmc.org/abstract/MED/23396282",
+    "authors": "Aghaeepour et al",
+    "journal": "Nat Methods",
+    "year": "2013",
+    "featured": false
+  },
+  {
+    "title": "Evaluation of methods for modeling transcription factor sequence specificity.",
+    "url": "http://europepmc.org/abstract/MED/23354101",
+    "authors": "Weirauch et al",
+    "journal": "Nat Biotechnol",
+    "year": "2013",
+    "featured": false
+  },
+  {
+    "title": "CySBGN: a Cytoscape plug-in to integrate SBGN maps.",
+    "url": "http://europepmc.org/abstract/MED/23324051",
+    "authors": "Gon\u00e7alves et al",
+    "journal": "Bmc Bioinformatics",
+    "year": "2013",
+    "featured": false
+  },
+  {
+    "title": "Modeling signaling networks with different formalisms: a preview.",
+    "url": "http://europepmc.org/abstract/MED/23715981",
+    "authors": "MacNamara et al",
+    "journal": "Methods Mol Biol",
+    "year": "2013",
+    "featured": false
+  },
+  {
+    "title": "Construction of cell type-specific logic models of signaling networks using CellNOpt.",
+    "url": "http://europepmc.org/abstract/MED/23086842",
+    "authors": "Morris et al",
+    "journal": "Methods Mol Biol",
+    "year": "2013",
+    "featured": false
+  },
+  {
+    "title": "Non Linear Programming (NLP) formulation for quantitative modeling of protein signal transduction pathways.",
+    "url": "http://europepmc.org/abstract/MED/23226239",
+    "authors": "Mitsos et al",
+    "journal": "Plos One",
+    "year": "2012",
+    "featured": false
+  },
+  {
+    "title": "DvD: An R/Cytoscape pipeline for drug repurposing using public repositories of gene expression data.",
+    "url": "http://europepmc.org/abstract/MED/23129297",
+    "authors": "Pacini et al",
+    "journal": "Bioinformatics",
+    "year": "2012",
+    "featured": false
+  },
+  {
+    "title": "CellNOptR: a flexible toolkit to train protein signaling networks to data using multiple logic formalisms.",
+    "url": "http://europepmc.org/abstract/MED/23079107",
+    "authors": "Terfve et al",
+    "journal": "Bmc Syst Biol",
+    "year": "2012",
+    "featured": false
+  },
+  {
+    "title": "Transcriptional data: a new gateway to drug repositioning?",
+    "url": "http://europepmc.org/abstract/MED/22897878",
+    "authors": "Iorio et al",
+    "journal": "Drug Discov Today",
+    "year": "2012",
+    "featured": false
+  },
+  {
+    "title": "State-time spectrum of signal transduction logic models.",
+    "url": "http://europepmc.org/abstract/MED/22871648",
+    "authors": "MacNamara et al",
+    "journal": "Phys Biol",
+    "year": "2012",
+    "featured": false
+  },
+  {
+    "title": "Cancer develops, progresses and responds to therapies through restricted perturbation of the protein-protein interaction network.",
+    "url": "http://europepmc.org/abstract/MED/22806580",
+    "authors": "Serra-Musach et al",
+    "journal": "Integr Biol (Camb)",
+    "year": "2012",
+    "featured": false
+  },
+  {
+    "title": "Integrating literature-constrained and data-driven inference of signalling networks.",
+    "url": "http://europepmc.org/abstract/MED/22734019",
+    "authors": "Eduati et al",
+    "journal": "Bioinformatics",
+    "year": "2012",
+    "featured": false
+  },
+  {
+    "title": "Creating and analyzing pathway and protein interaction compendia for modelling signal transduction networks.",
+    "url": "http://europepmc.org/abstract/MED/22548703",
+    "authors": "Kirouac et al",
+    "journal": "Bmc Syst Biol",
+    "year": "2012",
+    "featured": false
+  },
+  {
+    "title": "Construction of large signaling pathways using an adaptive perturbation approach with phosphoproteomic data.",
+    "url": "http://europepmc.org/abstract/MED/22446821",
+    "authors": "Melas et al",
+    "journal": "Mol Biosyst",
+    "year": "2012",
+    "featured": false
+  },
+  {
+    "title": "Mapping the human phosphatome on growth pathways.",
+    "url": "http://europepmc.org/abstract/MED/22893001",
+    "authors": "Sacco et al",
+    "journal": "Mol Syst Biol",
+    "year": "2012",
+    "featured": false
+  },
+  {
+    "title": "Modeling signaling networks using high-throughput phospho-proteomics.",
+    "url": "http://europepmc.org/abstract/MED/22161321",
+    "authors": "Terfve et al",
+    "journal": "Adv Exp Med Biol",
+    "year": "2012",
+    "featured": false
+  },
+  {
+    "title": "Crowdsourcing network inference: the DREAM predictive signaling network challenge.",
+    "url": "http://europepmc.org/abstract/MED/21900204",
+    "authors": "Prill et al",
+    "journal": "Sci Signal",
+    "year": "2011",
+    "featured": false
+  },
+  {
+    "title": "Comparing signaling networks between normal and transformed hepatocytes using discrete logical models.",
+    "url": "http://europepmc.org/abstract/MED/21742771",
+    "authors": "Saez-Rodriguez et al",
+    "journal": "Cancer Res",
+    "year": "2011",
+    "featured": false
+  },
+  {
+    "title": "Training signaling pathway maps to biochemical data with constrained fuzzy logic: quantitative analysis of liver cell responses to inflammatory stimuli.",
+    "url": "http://europepmc.org/abstract/MED/21408212",
+    "authors": "Morris et al",
+    "journal": "Plos Comput Biol",
+    "year": "2011",
+    "featured": false
+  },
+  {
+    "title": "Setting the standards for signal transduction research.",
+    "url": "http://europepmc.org/abstract/MED/21325202",
+    "authors": "Saez-Rodriguez et al",
+    "journal": "Sci Signal",
+    "year": "2011",
+    "featured": false
+  },
+  {
+    "title": "Networks inferred from biochemical data reveal profound differences in toll-like receptor and inflammatory signaling between normal and transformed hepatocytes.",
+    "url": "http://europepmc.org/abstract/MED/20460255",
+    "authors": "Alexopoulos et al",
+    "journal": "Mol Cell Proteomics",
+    "year": "2010",
+    "featured": false
+  },
+  {
+    "title": "Logic-based models for the analysis of cell signaling networks.",
+    "url": "http://europepmc.org/abstract/MED/20225868",
+    "authors": "Morris et al",
+    "journal": "Biochemistry-us",
+    "year": "2010",
+    "featured": false
+  },
+  {
+    "title": "Towards a rigorous assessment of systems biology models: the DREAM3 challenges.",
+    "url": "http://europepmc.org/abstract/MED/20186320",
+    "authors": "Prill et al",
+    "journal": "Plos One",
+    "year": "2010",
+    "featured": false
+  },
+  {
+    "title": "Correction: Towards a Rigorous Assessment of Systems Biology Models: The DREAM3 Challenges",
+    "url": "http://europepmc.org/abstract/PMC/PMC2837718",
+    "authors": "et al",
+    "journal": "Plos One",
+    "year": "2010",
+    "featured": false
+  }
+]

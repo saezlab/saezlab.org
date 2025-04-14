@@ -2,6 +2,7 @@
 import { ClientRouter } from 'astro:transitions';
 import '../styles/global.css';
 import MobileNav from '../components/MobileNav.tsx';
+import { ModeToggle } from '@/components/ModeToggle';
 import { getInternalLink } from '../lib/utils';
 
 type Props = {
@@ -10,6 +11,43 @@ type Props = {
 
 const { title } = Astro.props;
 ---
+
+<script is:inline>
+  function setDarkMode(document) {
+    const getThemePreference = () => {
+      if (
+        typeof localStorage !== 'undefined' &&
+        localStorage.getItem('theme')
+      ) {
+        return localStorage.getItem('theme');
+      }
+      return window.matchMedia('(prefers-color-scheme: dark)').matches
+        ? 'dark'
+        : 'theme-light';
+    };
+    const isDark = getThemePreference() === 'dark';
+    document.documentElement.classList[isDark ? 'add' : 'remove']('dark');
+
+    if (typeof localStorage !== 'undefined') {
+      const observer = new MutationObserver(() => {
+        const isDark = document.documentElement.classList.contains('dark');
+        localStorage.setItem('theme', isDark ? 'dark' : 'theme-light');
+      });
+      observer.observe(document.documentElement, {
+        attributes: true,
+        attributeFilter: ['class'],
+      });
+    }
+  }
+
+  setDarkMode(document);
+
+  document.addEventListener('astro:before-swap', (ev) => {
+    // Pass the incoming document to set the theme on it
+    setDarkMode(ev.newDocument);
+  });
+</script>
+
 
 <!doctype html>
 <html lang="en">
@@ -53,6 +91,7 @@ const { title } = Astro.props;
             <a class="transition-colors hover:text-foreground/80 text-foreground" href={getInternalLink('/contact')}>
               Contact
             </a>
+            <ModeToggle client:load />
           </nav>
           <div class="flex items-center justify-end space-x-2 md:hidden">
             <MobileNav client:load />

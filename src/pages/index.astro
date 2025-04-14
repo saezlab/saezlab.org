@@ -1,5 +1,4 @@
 ---
-import '../styles/global.css';
 // Component Imports
 import Layout from '../layouts/Layout.astro';
 
@@ -7,75 +6,63 @@ import Layout from '../layouts/Layout.astro';
 // https://docs.astro.build/basics/astro-components/
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Saez-Rodriguez Group - Systems Biomedicine</title>
-	</head>
-
-	<body>
-		<Layout title="Home">
-			<div class="flex-1">
-				<section class="space-y-6 pb-8 pt-6 md:pb-12 md:pt-10 lg:py-32">
-					<div class="container flex max-w-[64rem] mx-auto flex-col items-center gap-4 text-center">
-						<h1 class="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl">
-							Saez-Rodriguez Group
-						</h1>
-						<p class="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
-							Systems Biomedicine
-						</p>
-					</div>
-				</section>
-
-				<section class="container space-y-6 bg-slate-50 py-8 dark:bg-transparent md:py-12 lg:py-24">
-					<div class="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
-						<h2 class="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
-							Our Mission
-						</h2>
-						<p class="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
-							Our goal is to acquire a functional understanding of the deregulation of signalling networks in disease and to apply this knowledge to develop novel therapeutics. We focus on cancer, auto-immune and fibrotic disease. Towards this goal, we integrate big ('Omics') data with mechanistic molecular knowledge into statistical and machine learning methods.
-						</p>
-					</div>
-				</section>
-
-				<section class="container space-y-6 py-8 md:py-12 lg:py-24">
-					<div class="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3">
-						<div class="relative overflow-hidden rounded-lg border bg-background p-2">
-							<div class="flex h-[180px] flex-col justify-between rounded-md p-6">
-								<div class="space-y-2">
-									<h3 class="font-bold">Disease Understanding</h3>
-									<p class="text-sm text-muted-foreground">
-										Analyzing deregulation of signalling networks in cancer, auto-immune and fibrotic diseases
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="relative overflow-hidden rounded-lg border bg-background p-2">
-							<div class="flex h-[180px] flex-col justify-between rounded-md p-6">
-								<div class="space-y-2">
-									<h3 class="font-bold">Data Integration</h3>
-									<p class="text-sm text-muted-foreground">
-										Combining multi-omics data with mechanistic knowledge for better insights
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="relative overflow-hidden rounded-lg border bg-background p-2">
-							<div class="flex h-[180px] flex-col justify-between rounded-md p-6">
-								<div class="space-y-2">
-									<h3 class="font-bold">Therapeutic Development</h3>
-									<p class="text-sm text-muted-foreground">
-										Translating research findings into novel therapeutic approaches
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
+<Layout title="Home">
+	<div class="flex-1">
+		<section class="space-y-6 pb-8 pt-6 md:pb-12 md:pt-10 lg:py-32">
+			<div class="container flex max-w-[64rem] mx-auto flex-col items-center gap-4 text-center">
+				<h1 class="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl">
+					Saez-Rodriguez Group
+				</h1>
+				<p class="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
+					Systems Biomedicine
+				</p>
 			</div>
-		</Layout>
-	</body>
-</html>
+		</section>
+
+		<section class="container space-y-6 bg-slate-50 py-8 dark:bg-transparent md:py-12 lg:py-24">
+			<div class="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
+				<h2 class="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
+					Our Mission
+				</h2>
+				<p class="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
+					Our goal is to acquire a functional understanding of the deregulation of signalling networks in disease and to apply this knowledge to develop novel therapeutics. We focus on cancer, auto-immune and fibrotic disease. Towards this goal, we integrate big ('Omics') data with mechanistic molecular knowledge into statistical and machine learning methods.
+				</p>
+			</div>
+		</section>
+
+		<section class="container space-y-6 py-8 md:py-12 lg:py-24">
+			<div class="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3">
+				<div class="relative overflow-hidden rounded-lg border bg-background p-2">
+					<div class="flex h-[180px] flex-col justify-between rounded-md p-6">
+						<div class="space-y-2">
+							<h3 class="font-bold">Disease Understanding</h3>
+							<p class="text-sm text-muted-foreground">
+								Analyzing deregulation of signalling networks in cancer, auto-immune and fibrotic diseases
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="relative overflow-hidden rounded-lg border bg-background p-2">
+					<div class="flex h-[180px] flex-col justify-between rounded-md p-6">
+						<div class="space-y-2">
+							<h3 class="font-bold">Data Integration</h3>
+							<p class="text-sm text-muted-foreground">
+								Combining multi-omics data with mechanistic knowledge for better insights
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="relative overflow-hidden rounded-lg border bg-background p-2">
+					<div class="flex h-[180px] flex-col justify-between rounded-md p-6">
+						<div class="space-y-2">
+							<h3 class="font-bold">Therapeutic Development</h3>
+							<p class="text-sm text-muted-foreground">
+								Translating research findings into novel therapeutic approaches
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+</Layout>

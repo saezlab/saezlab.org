@@ -18,22 +18,17 @@ import SoftwareCard from '../components/SoftwareCard';
     <div class="mx-auto max-w-[980px] py-6 md:py-12">
       <h2 class="mb-8 text-2xl font-bold">Featured</h2>
       <div class="grid gap-6 md:grid-cols-2">
-        {softwareData.tools.filter(tool => tool.featured).map((tool) => (
+        {softwareData.filter(item => item.categories.featured).map((item) => (
           <SoftwareCard
             client:load
-            name={tool.name}
-            description={tool.description}
-            category={tool.category}
-            language={tool.language}
-          />
-        ))}
-        {softwareData.databases.filter(db => db.featured).map((db) => (
-          <SoftwareCard
-            client:load
-            name={db.name}
-            description={db.description}
-            category={db.category}
-            language=""
+            name={item.name}
+            short_description={item.short_description}
+            long_description={item.long_description}
+            code_repository={item.code_repository}
+            website={item.website}
+            publication={item.publication}
+            image={item.image}
+            categories={item.categories}
           />
         ))}
       </div>
@@ -42,13 +37,17 @@ import SoftwareCard from '../components/SoftwareCard';
     <div class="mx-auto max-w-[980px] py-6 md:py-12">
       <h2 class="mb-8 text-2xl font-bold">All Tools</h2>
       <div class="grid gap-6 md:grid-cols-2">
-        {softwareData.tools.map((tool) => (
+        {softwareData.filter(item => item.categories.tool).map((item) => (
           <SoftwareCard
             client:load
-            name={tool.name}
-            description={tool.description}
-            category={tool.category}
-            language={tool.language}
+            name={item.name}
+            short_description={item.short_description}
+            long_description={item.long_description}
+            code_repository={item.code_repository}
+            website={item.website}
+            publication={item.publication}
+            image={item.image}
+            categories={item.categories}
           />
         ))}
       </div>
@@ -57,13 +56,17 @@ import SoftwareCard from '../components/SoftwareCard';
     <div class="mx-auto max-w-[980px] py-6 md:py-12">
       <h2 class="mb-8 text-2xl font-bold">All Databases</h2>
       <div class="grid gap-6 md:grid-cols-2">
-        {softwareData.databases.map((db) => (
+        {softwareData.filter(item => item.categories.database).map((item) => (
           <SoftwareCard
             client:load
-            name={db.name}
-            description={db.description}
-            category={db.category}
-            language=""
+            name={item.name}
+            short_description={item.short_description}
+            long_description={item.long_description}
+            code_repository={item.code_repository}
+            website={item.website}
+            publication={item.publication}
+            image={item.image}
+            categories={item.categories}
           />
         ))}
       </div>
