@@ -3,696 +3,2119 @@
     {
       "name": "Julio Saez-Rodriguez",
       "role": "Group Leader",
-      "image": "/team/saez-rodriguez.jpg",
-      "bio": "Group Leader of the Systems Biology and Bioinformatics Research Group",
-      "email": "julio.saez-rodriguez@example.com",
-      "website": "https://example.com/saez-rodriguez"
+      "description": "Julio Saez-Rodriguez is Head of Research at the European Bioinformatics Institute (EMBL-EBI), Professor on leave of Medical Bioinformatics and Data Analysis at the Faculty of Medicine of Heidelberg University,  Group Leader at the EMBL- Heidelberg UniversityMolecular Medicine Partnership Unit (MMPU),  member ofELLIS Heidelbergand a co-director of theDREAM challenges.Contact: \\ saez (at) ebi {dot} ac.uk",
+      "research_interests": "Julio is broadly interested in how large biological data sets can be interrogated with mathematical models to unveil the molecular basis of disease as a means to develop novel therapies. The current emphasis of his research is on single-cell and spatial data, multi-omics integration, and understanding multi-cellular communication. He is particularly interested in how to use the existing knowledge of biological processes to support computational analysis. He supports open science, especially bydeveloping open-sourcecomputational toolsand co-organization oftheDREAM challenges.While the computational methods are broadly applicable,  his focus is on cancer,  autoimmune diseases, and conditions of the kidney and heart.",
+      "professional_career": [
+        {
+          "period": "2024-present",
+          "position": "Head of Research,  European Bioinformatics Institute, European Molecular Biology Laboratory (EMBL-EBI)"
+        },
+        {
+          "period": "2018-present",
+          "position": "Full (W3) Professor of Medical Bioinformatics and Data Analysis & Director of the Institute for Computational Biomedicine Heidelberg University, Faculty of Medicine, Germany (on leave since 2024)"
+        },
+        {
+          "period": "2018-present",
+          "position": "Group Leader at EMBL - University Hospital Heidelberg  Molecular Medicine Partnership Unit (MMPU)"
+        },
+        {
+          "period": "2015-2018",
+          "position": "Full (W3) Professor of Computational Biomedicine & Director of the Institute for Computational Biomedicine I, RWTH-Aachen University, Faculty of Medicine, Germany"
+        },
+        {
+          "period": "2015-2018",
+          "position": "Visiting group leader at the European Bioinformatics Institute, European Molecular Biology Laboratory (EMBL-EBI)"
+        },
+        {
+          "period": "2010-2015",
+          "position": "Group Leader at the European Bioinformatics Institute, European Molecular Biology Laboratory (EMBL-EBI), with a joint appointment in the EMBL Genome Biology Unit in Heidelberg"
+        },
+        {
+          "period": "2010-2015",
+          "position": "Senior fellow at Wolfson College (Cambridge, UK)"
+        },
+        {
+          "period": "2008-2010",
+          "position": "Scientific Coordinator of the NIH-NIGMS Cell Decision Process Center, Cambridge, MA, USA"
+        },
+        {
+          "period": "2007-2010",
+          "position": "Postdoctoral Fellow, Harvard Medical School and MIT, Boston USA"
+        },
+        {
+          "period": "2002-2007",
+          "position": "Research Assistant, Max Planck Institute, Magdeburg, Germany"
+        },
+        {
+          "period": "2001-2002",
+          "position": "Research assistant, University of Stuttgart, Institute of Biochemical Engineering, Germany, and Insilico Biotechnology, Germany"
+        }
+      ],
+      "education": [
+        {
+          "period": "2002-2007",
+          "degree": "PhD summa cum laude in Process Engineering; Max-Planck-Institute for Dynamics of Complex Technical Systems and University of Magdeburg, Germany (Advisor: E. D. Gilles)"
+        },
+        {
+          "period": "2000-2001",
+          "degree": "Exchange Erasmus student at the University of Stuttgart, Germany"
+        },
+        {
+          "period": "1996-2001",
+          "degree": "’Licenciatura’ (MS), in Chemical Engineering University of Oviedo, Spain, finished with the best academic record of the year"
+        }
+      ],
+      "email": "",
+      "telephone": "+ 49 622 15451210",
+      "orcid": "0000-0002-8552-8976",
+      "image": "julio-saez-rodriguez.jpeg"
     },
     {
       "name": "Erika Schulz",
       "role": "Administration",
-      "image": "/team/schulz.jpg",
-      "bio": "Administrative support for the research group",
-      "email": "erika.schulz@example.com",
-      "website": ""
+      "description": "After completing my diploma in languages at Heidelberg University in 1994, I started my career as administrative  assistant , working in several international companies, mostly in the IT industry. In April 2007, I took up a position as secretary and project assistant in Heidelberg University Hospital, in a department of dermatological patient care and research. In July 2018, I joined the Saez-Rodriguez group as administrative assistant.———————————————————————–*protected email*",
+      "research_interests": "",
+      "professional_career": [],
+      "education": [],
+      "email": "",
+      "telephone": "+49 6221 5451334‬",
+      "orcid": "",
+      "image": "erika-schulz.png"
     },
     {
       "name": "Lydia Roeder",
       "role": "Administration",
-      "image": "/team/roeder.jpg",
-      "bio": "Administrative support for the research group",
-      "email": "lydia.roeder@example.com",
-      "website": ""
+      "description": "After finishing my studies at the Heidelberg Institute of Foreign Languages, I worked as a freelancer for many years. In 2000 I started as a secretary at the University Hospital (Dental Clinic, Institute of Human Genetics, Institute of Medical Informatics) and in February 2023 I joined the Saez Rodríguez-Group and Schapiro-Group as administrative assistant.",
+      "research_interests": "",
+      "professional_career": [],
+      "education": [],
+      "email": "lydia.roeder@bioquant.uni-heidelberg.de",
+      "telephone": "",
+      "orcid": "",
+      "image": "lydia-roeder.jpeg"
     },
     {
       "name": "Paula Frampton",
       "role": "Administration",
-      "image": "/team/frampton.jpg",
-      "bio": "Administrative support for the research group",
-      "email": "paula.frampton@example.com",
-      "website": ""
+      "description": "Paula did a PhD in Molecular Biology in 2001 followed by postdoctoral research in Manchester, Japan and Brighton, all focused around single-strand DNA repair and proteins binding to XRCC1. After realising she really didn’t have the patience to deal with any more cell culture or another Western blot, Paula moved into using her science and communications background to support the wider scientific community. Paula worked at the MRC head office for six years running funding panels and strategic initiatives across several areas including structural biology, bioinformatics, large scale cohorts, genetics and genomics. From 2012, Paula worked at the University of Cambridge setting up and running initiatives to create multidisciplinary and multi-sector networks for research (first in public health, and then in therapeutics working with the pharma and biotech industry). Her role now is to work behind the scenes to give strategic and operational support to the various projects and programmes the Saez Group and EMBL-EBI Research overall are involved in.",
+      "research_interests": "",
+      "professional_career": [],
+      "education": [],
+      "email": "paula@ebi.ac.uk",
+      "telephone": "",
+      "orcid": "",
+      "image": "paula-frampton.jpeg"
     },
     {
       "name": "Anna Moore",
       "role": "Administration",
-      "image": "/team/moore.jpg",
-      "bio": "Administrative support for the research group",
-      "email": "anna.moore@example.com",
-      "website": ""
+      "description": "I started my career as a logistics project manager in commercial business, and then spent two years with the British Red Cross as the Family Reunion Co-ordinator for Bosnia.I returned to work in administration following the births of my children and prior to coming to EMBL EBI in September 2022 I was the Student Services Manager at Hills Road Sixth Form College in Cambridge (16-19 year olds), focussing on Safeguarding, Child Protection and student wellbeing.",
+      "research_interests": "",
+      "professional_career": [],
+      "education": [],
+      "email": "roffice@ebi.ac.uk",
+      "telephone": "",
+      "orcid": "",
+      "image": "anna-moore.jpg"
     },
     {
       "name": "Aurélien Dugourd",
       "role": "Staff Scientist",
-      "image": "/team/dugourd.jpg",
-      "bio": "Staff Scientist in Systems Biology",
-      "email": "aurelien.dugourd@example.com",
-      "website": "https://example.com/dugourd"
+      "description": "After I graduated from my Computational Biology master’s degree in 2015, I joined Julio Saez-Rodriguez team as a PhD student. I worked on the development of hybrid mechanistic models, integrating gene regulation, signaling pathways and metabolomics data to explain disease phenotypes, help find new therapeutic targets and predict their potential effect based on a specific patient profile. This led to the development of the tools COSMOS and oCEan. This project was part of the collaborative SyMBioSys ITN project,  financed by the European Marie Skłodowska-Curie actions, as well as theSMART-CAREconsortium to apply mass-spectrometry-based systems medicine to cancer.Today, I lead the development and application of methods to extract interpretable mechanistic insights from multi-omic datasets. I especially focus on leveraging prior knowledge, in the context of signaling and metabolism of complex diseases, such as cancer and development of treatment resistance. I work in collaboration with pharmaceutical partners, notably Pfizer, to support the development of novel cancer treatments and better understand the development of resistances by bringing those methods closer to relevant industrial applications.",
+      "research_interests": "Models are everywhere; we create and use them constantly most of the time without even being aware of it. As an example, every morning we use an implicit model to determine how much time it will take us to reach our workplace based on contextual parameters such as weather and traffic, hence allowing us to find out at what hour we have to leave to be on time.Thus, thanks to the ever-increasing power of computers, we now use models in biology to process large amount of biological data generated by experimentalists. These models allow us to better understand how biological systems work and even to predict their behaviors in the limits of clearly defined boundaries.Hence, my work focuses on the development of accurate biological models that aim at bridging three different layers of biological systems: the gene regulation, signaling and metabolic pathways. These models are developed based on comprehensive biological data in order to be as relevant as possible. My goal is to use these models both to have a better understanding of cell functioning and to help develop more relevant and personalized treatments for patients.",
+      "professional_career": [
+        {
+          "period": "2024-present: Senior Staff Scientist Saezlab, EMBL-EBI",
+          "position": ""
+        },
+        {
+          "period": "2020-2024",
+          "position": "Post-doctoral fellow Saez Lab, Heidelberg University"
+        },
+        {
+          "period": "2020-2021",
+          "position": "Post-doctoral fellow Kramann Lab, RWTH Aachen"
+        },
+        {
+          "period": "2015-2020",
+          "position": "Marie Curie Early Stage Researcher (SymBioSys)"
+        }
+      ],
+      "education": [
+        {
+          "period": "2015-2020",
+          "degree": "PhD student in mechanistic modeling at Saez Lab, Heidelberg University."
+        },
+        {
+          "period": "2013-2015",
+          "degree": "M. Sc. in Computational biology at University of Nantes, France."
+        },
+        {
+          "period": "2011-2013",
+          "degree": "M. Sc. in Genetic, Genomic and Biotechnology at University of Occidental Brittany, France."
+        },
+        {
+          "period": "2009-2011",
+          "degree": "Bachelor in Biology at University of Occidental Brittany, France."
+        }
+      ],
+      "email": "dugourd@ebi.ac.uk",
+      "telephone": "",
+      "orcid": "0000-0002-0714-028X",
+      "image": "aurelien-dugourd.jpg"
     },
     {
       "name": "Ricardo O. Ramirez-Flores",
       "role": "Staff Scientist",
-      "image": "/team/ramirez-flores.jpg",
-      "bio": "Staff Scientist in Systems Biology",
-      "email": "ricardo.ramirez-flores@example.com",
-      "website": "https://example.com/ramirez-flores"
+      "description": "My expertise lies at the intersection of computational biology, molecular biology, and biomedicine. My work focuses on developing computational methods that integrate -omics data at multiple scales—bulk, single-cell, and spatial—to investigate how cells are organized within tissues and how this organization changes in disease. A key area of my research is performing meta-analyses of -omics studies from independent patient cohorts, which I believe strengthens the reliability of identifying molecular biomarkers.I began my academic career in the Saez-Rodriguez group in 2015 as a Bachelor intern, continuing my PhD studies within the same group. Currently, I am a Staff Scientist at EMBL-EBI, where I am expanding my research on gene regulatory mechanisms driving multicellular responses, with a growing emphasis on understanding host-microbiome interactions.",
+      "research_interests": "I’m interested in understanding how the cells in our bodies work together to form tissues and how this organization changes during disease. By combining different types of data—such as bulk, single-cell, and spatial omics—I study how the structure of tissues impacts what individual cells do, and how individual cell behavior can affect the larger tissue. My goal is to understand how changes in one part of a tissue can influence the whole system. I believe that a multicellular functional perspective of single-cell data could promote the emergence of novel analysis strategies that could synergize the knowledge of the fields of mathematical physiology, ecology, and systems biology. I also explore whether different diseases or perturbations lead to similar changes in tissues, which helps us better understand how cells respond to stress or damage. For the same reason, I have also focused on systemic meta-analyses of distinct patient cohorts and etiologies to provide consensus transcriptional signatures that serve as references for future studies.",
+      "professional_career": [
+        {
+          "period": "2024-Present: Staff Scientist, European Bioinformatics Institute, European Molecular Biology Laboratory (EMBL-EBI)",
+          "position": ""
+        },
+        {
+          "period": "2023-2024: Postdoctoral Researcher, Institute for Computational Biomedicine, Heidelberg University, Faculty of Medicine & Heidelberg University Hospital, Germany.",
+          "position": ""
+        },
+        {
+          "period": "2019-2023: PhD Candidate, Institute for Computational Biomedicine, Heidelberg University, Faculty of Medicine & Heidelberg University Hospital, Germany.",
+          "position": ""
+        },
+        {
+          "period": "2016-2017: Research Assistant, Microbiology and Cell Science Department, University of Florida, USA.",
+          "position": ""
+        },
+        {
+          "period": "2015-2016: Trainee, JRC­-COMBINE, RWTH Aachen University, Germany.",
+          "position": ""
+        },
+        {
+          "period": "2015-2015: Research Assistant, Center for Genomic Sciences, UNAM, Mexico.",
+          "position": ""
+        }
+      ],
+      "education": [
+        {
+          "period": "2019-2023: PhD summa cum laude in Natural Sciences, Heidelberg University, Germany",
+          "degree": ""
+        },
+        {
+          "period": "2017-2018: Specialist in Applied Statistics, National Autonomous University of Mexico, Mexico",
+          "degree": ""
+        },
+        {
+          "period": "2012-2016: B.Sc. in Genomics, National Autonomous University of Mexico, Mexico",
+          "degree": ""
+        }
+      ],
+      "email": "flores@ebi.ac.uk",
+      "telephone": "",
+      "orcid": "0000-0003-0087-371X",
+      "image": "ricardo-o-ramirez-flores.png"
     },
     {
       "name": "Nicolàs Palacio",
       "role": "Bioinformatician",
-      "image": "/team/palacio.jpg",
-      "bio": "Bioinformatician in the research group",
-      "email": "nicolas.palacio@example.com",
-      "website": "https://example.com/palacio"
+      "description": "After obtaining my BSc in Biotechnology at the Universitat of Girona, I​​ acquired a MSc in Mathematical modeling for Science and Engineering at the Universitat Autònoma de Barcelona. During those years I closely worked with Prof. Dr. Garcia-Ojalv​​o in the mathematical modeling of complex biological systems.Then I moved to Germany, where I started my PhD in Computational Biomedicine at the​​ Ruprecht-Karls-Universität Heidelberg, led by Prof. Dr. Saez-Rodriguez, where I developed extensive data analysis skills. After graduating, I worked as a postdoctoral researcher at EMBL and DKFZ for Prof. Dr. Krijgsveld, where I analyzed complex mass spectrometry proteomic data sets. Currently I am working as a Bioinformatician at the Institute of Computational Biomedicine at the Universitätsklinikum Heidelberg.",
+      "research_interests": "I am mainly interested in the description and understanding of complex biological systems from a physical/mathematical point of view. I am passionate about programming and the development of bioinformatic tools and resources that can be useful for the scientific community and the research and development of new biological and medical insights.",
+      "professional_career": [
+        {
+          "period": "2024-present",
+          "position": "Bioinformatician, Institute for Computational Biomedicine, Universitätsklinikum Heidelberg (Heidelberg, Germany)"
+        },
+        {
+          "period": "2022-2024",
+          "position": "Postdoctoral researcher, Division of Proteomics of Stem Cells and Cancer, Deutsches Krebsforschungszentrum (Heidelberg, Germany)"
+        },
+        {
+          "period": "2021-2022",
+          "position": "Postdoctoral fellow, Genome Biology Unit, European Molecular Biology Laboratory (Heidelberg, Germany)"
+        },
+        {
+          "period": "2020",
+          "position": "Doctoral researcher, Institute for Computational Biomedicine, Universitätsklinikum Heidelberg (Heidelberg, Germany)"
+        },
+        {
+          "period": "2017-2020",
+          "position": "Doctoral researcher, Joint Research Centre for Computational Biomedicine, Rheinisch-Westfälische Technische Hochschule (Aachen, Germany)"
+        },
+        {
+          "period": "2016-2017",
+          "position": "Research intern, Joint Research Centre for Computational Biomedicine, Rheinisch-Westfälische Technische Hochschule (Aachen, Germany)"
+        },
+        {
+          "period": "2016",
+          "position": "Research intern, Dynamical Systems Biology lab, Department of Experimental and Health Sciences, Universitat Pompeu Fabra (Barcelona, Spain)"
+        },
+        {
+          "period": "2014-2015",
+          "position": "Research intern, Biochemistry of Cancer lab, Department of Biology, Universitat de Girona (Girona, Spain)"
+        },
+        {
+          "period": "2012",
+          "position": "Research assistant, Department of Physics and Nuclear Engineering, Universitat Politècnica de Catalunya (Terrassa, Spain)"
+        },
+        {
+          "period": "2011",
+          "position": "Research assistant, Molecular Modeling Platform, Institute of Molecular and Cellular Biology, Universidad Miguel Hernández (Elx, Spain)"
+        }
+      ],
+      "education": [
+        {
+          "period": "2017-2021",
+          "degree": "PhD in Computational Biomedicine, Ruprecht-Karls-Universität Heidelberg (Germany)"
+        },
+        {
+          "period": "2015-2016",
+          "degree": "MSc in Mathematical Modeling for Science and Engineering, Universitat Autònoma de Barcelona (Spain)"
+        },
+        {
+          "period": "2009-2015",
+          "degree": "BSc in Biotechnology, Universitat de Girona (Spain)"
+        }
+      ],
+      "email": "",
+      "telephone": "+49 6221 54 51212",
+      "orcid": "0000-0002-7022-1437",
+      "image": "nicolas-palacio.jpeg"
     },
     {
       "name": "Edwin Carreño",
       "role": "Bioinformatician",
-      "image": "/team/carreno.jpg",
-      "bio": "Bioinformatician in the research group",
-      "email": "edwin.carreno@example.com",
-      "website": "https://example.com/carreno"
+      "description": "Edwin Carreño is an engineer with experience in ASIC design, computer architecture, and large-scale data processing. In industry, he has contributed to developing data pipelines, supporting infrastructure decisions, and applying machine learning techniques for applications such as fraud detection. His academic work includes the design and implementation of an integrated circuit for data compression in the ALICE experiment at CERN, completed with a silicon tapeout in 130nm technology at TSMC. During his master’s studies, he focused on software engineering and deep learning, particularly in computer vision and inference under uncertainty, with both his bachelor’s and master’s theses earning the maximum grade.",
+      "research_interests": "Research Software EngineeringDesign of systems for data intensive applicationsBiological circuits designComputer ArchitectureComputer Vision (including embedded machine learning)",
+      "professional_career": [
+        {
+          "period": "2024-present",
+          "position": "Research Software Engineer, Scientific Software Center (Heidelberg University), Heidelberg, Germany"
+        },
+        {
+          "period": "2023-2024",
+          "position": "Research Assitant with a scientific degree, Process Optimization Group, Ilmenau, Germany"
+        },
+        {
+          "period": "2021-2023",
+          "position": "Research Assitant (HiWi), dAI.SY (Data-intensive Systems and Visualization) Group, Ilmenau, Germany"
+        },
+        {
+          "period": "2017-2020",
+          "position": "Data Engineer, Banco Davivienda S.A, Bogotá, Colombia"
+        },
+        {
+          "period": "2016",
+          "position": "Electronics Engineer, Agromax Tecnologia S.A, Arauca, Colombia"
+        }
+      ],
+      "education": [
+        {
+          "period": "2021-2023",
+          "degree": "M.Sc. Research in Computer and Systems Engineering; Technische Universitaet Ilmenau, Ilmenau, Germany"
+        },
+        {
+          "period": "2009-2016",
+          "degree": "Bachelor of Science in Electronics Engineering, Universidad Industrial de Santander, Bucaramanga, Colombia"
+        }
+      ],
+      "email": "edwin.carreno@iwr.uni-heidelberg.de",
+      "telephone": "",
+      "orcid": "0009-0005-3359-2211",
+      "image": "edwin-carreno.jpeg"
     },
     {
       "name": "Paul To",
       "role": "Bioinformatician",
-      "image": "/team/to.jpg",
-      "bio": "Bioinformatician in the research group",
-      "email": "paul.to@example.com",
-      "website": "https://example.com/to"
+      "description": "Paulis a bioinformatician and software engineer with a keen interest in longevity research. Starting his academic journey in Biochemistry, he earned an MPhil in Bioinformatics, where he leveraged graph theory and GPU computing to process large-scale biological datasets. Noticing a gap in coding practices within academia,Paulpivoted to industry, where he built expertise as a full-stack software engineer. He played a key role in developing a construction supervision system, gaining comprehensive experience in front-end and back-end development, infrastructure management, and server scaling.",
+      "research_interests": "Paul‘s ultimate research goal is to extend human lifespan. He is particularly interested in leveraging knowledge graphs and biological networks to enable AI-driven automated research cycles, with the aim of advancing systems biology and pharmaceutical research, ultimately uncovering the mechanisms of ageing.",
+      "professional_career": [
+        {
+          "period": "2018-2024",
+          "position": "Full-stack Software Engineer, SnagR Software Ltd, Hong Kong/United Kingdom"
+        }
+      ],
+      "education": [
+        {
+          "period": "2015-2017",
+          "degree": "MPhil in Bioengineering, The Hong Kong University of Science and Technology, Hong Kong"
+        },
+        {
+          "period": "2012-2015",
+          "degree": "Bsc in Biochemistry, The Hong Kong University of Science and Technology, Hong Kong"
+        }
+      ],
+      "email": "kto@ebi.ac.uk",
+      "telephone": "",
+      "orcid": "0000-0001-5343-9170",
+      "image": "paul-to.jpg"
     },
     {
       "name": "Francesco Carli",
       "role": "Bioinformatician",
-      "image": "/team/carli.jpg",
-      "bio": "Bioinformatician in the research group",
-      "email": "francesco.carli@example.com",
-      "website": "https://example.com/carli"
+      "description": "Francesco Carli has a multidisciplinary background in economics, maths, and data science. He completed his B.Sc. in Economics and Social Sciences at Bocconi University in Milan, Italy, followed by an MSc in Stochastics and Data Science at the University of Turin. During his master’s, he collaborated with Biorek s.r.l., a startup incubated by San Raffaele Hospital, where he developed machine learning models to detect and characterize renal cancer using genetic biomarkers. In 2019, he received the “Best Project Prize” at the Milan Critical Care Datathon, a 24-hour international challenge organized by MIT Critical Data, Humanitas Research Hospital, and Politecnico di Milano. This achievement led to a research collaboration with the MIT Critical Data Lab, where he worked with Prof. Leo Celi to design AI-based tools for enhancing clinical decision-making in intensive care units. Afterward, he contributed to the DTeam2Vec project at the University of Turin, applying graph-based deep learning techniques to model collaborative dynamics in online communities. Francesco then pursued a Ph.D. at Scuola Normale Superiore in Pisa, where he focused on developing machine-learning models to explore drug-biosystem interactions across multiple biological scales.",
+      "research_interests": "Francesco’s research focuses on enhancing tasks in computational biology by leveraging the reasoning and agentic capabilities of large language models (LLMs). He is particularly interested in exploring how LLMs can be integrated with classical modeling techniques to harness their complementary strengths, aiming to improve interpretability, robustness, and generalizability in biological data analysis.",
+      "professional_career": [
+        {
+          "period": "2025-present",
+          "position": "Research Software Engineer, European Bioinformatics Institute, European Molecular Biology Laboratory (EMBL-EBI) and OpenTargets"
+        },
+        {
+          "period": "2021",
+          "position": "Research Assistant, Departement of Computer Science, University of Turin, Italy"
+        },
+        {
+          "period": "2019-2020",
+          "position": "Data Scientist, Biorek S.r.l., San Raffaele Hospital, Milano, Italy"
+        }
+      ],
+      "education": [
+        {
+          "period": "2021-2025",
+          "degree": "PhD in Artificial Intelligence, Joint National PhD program at Scuola Normale Superiore and University of Pisa, Italy"
+        },
+        {
+          "period": "2016-2020",
+          "degree": "M.Sc. in Stochastics and Data Science, University of Turin, Turin, Italy"
+        },
+        {
+          "period": "2013-2016",
+          "degree": "B.Sc. in Economics, Bocconi University, Milano, Italy"
+        }
+      ],
+      "email": "carli@ebi.ac.uk",
+      "telephone": "",
+      "orcid": "0009-0006-6980-9440",
+      "image": "francesco-carli.jpeg"
     },
     {
       "name": "Denes Turei",
       "role": "Postdoc",
-      "image": "/team/turei.jpg",
-      "bio": "Postdoctoral Researcher in Systems Biology",
-      "email": "denes.turei@example.com",
-      "website": "https://example.com/turei"
+      "description": "In 2011 I took my master degree in Biology at Eötvös Loránd University Budapest, Hungary, specialized to ecology and carried out experiments with freshwater mesocosms. I defended my PhD thesis in 2014 at Semmelweis University, also in Budapest. I designed and built a number of signaling pathway databases with special focus on manually curated protein-protein interactions, and feedback loops involving transcriptional regulation and miRNAs. From 2007 I started to learn programming and bioinformatics a self-taught way. In particular PHP, JavaScript, R, Bash, MySQL, LaTeX, Linux system administration and Python. In 2014 I got a 3 years European Interdisciplinary Post-doctoral fellowship (EIPOD) from the European Molecular Biology Laboratory (EMBL), involving the groups of Julio Saez-Rodriguez, Anne-Claude Gavin and John Overington. My first project focused on a comparative analysis and integration of literature curated signaling pathway resources, as these are important sources of prior knowledge for many projects in our group. With Gavin group in EMBL Heidelberg I analysed lipidomics mass spectrometry data.",
+      "research_interests": "I am interested in various approaches, including networks and modeling, to capture the behavior of complex biological systems. Recently I focus on autophagy and I intend to develop efficient way of screening drug combinations effect on autophagic activity, and to build models of autophagy regulation.",
+      "professional_career": [
+        {
+          "period": "2018-present",
+          "position": "Postdoctoral fellow at Heidelberg University and visitor postdoc at EMBL Heidelberg"
+        },
+        {
+          "period": "2017-2018",
+          "position": "Postdoctoral fellow at Uniklinik Aachen, visitor postdoc at EMBL Heidelberg and Heidelberg University"
+        },
+        {
+          "period": "2014-2017",
+          "position": "Postdoctoral fellow (EIPOD) at European Molecular Biology Laboratory (EMBL) Heidelberg, Germany"
+        },
+        {
+          "period": "2011-2014",
+          "position": "Network Biology Group, Department of Genetics, Eötvös Loránd University, Budapest, Hungary"
+        },
+        {
+          "period": "2011-2014",
+          "position": "LINK Group, Department of Medical Chemistry, Semmelweis University, Budapest, Hungary"
+        },
+        {
+          "period": "2004-2011",
+          "position": "Hufnagel Group, Corvinus University, Budapest, Hungary"
+        }
+      ],
+      "education": [
+        {
+          "period": "2011-2014",
+          "degree": "PhD in Molecular Medicine, Semmelweis University, Budapest, Hungary"
+        },
+        {
+          "period": "2005-2011",
+          "degree": "MSc in Biology, Eötvös Loránd University, Budapest, Hungary"
+        }
+      ],
+      "email": "be242@uni-heidelberg.de",
+      "telephone": "+49 1516 62 99 976",
+      "orcid": "0000-0002-7249-9379",
+      "image": "denes-turei.jpeg"
     },
     {
       "name": "Attila Gabor",
       "role": "Postdoc",
-      "image": "/team/gabor.jpg",
-      "bio": "Postdoctoral Researcher in Systems Biology",
-      "email": "attila.gabor@example.com",
-      "website": "https://example.com/gabor"
+      "description": "During the university studies in physics at the Budapest University of Technology, I joint the Process Control Research  group of Prof. Katalin M. Hangos at the Computer and Automation Research Institute of the Hungarian Academy of Science. I developed process models based on thermodynamics and thermo-hydraulics for control design and nonlinear analysis.After my MSc in physics, I started my doctoral studies in Computer Science under the joint supervision of Prof. Katalin Hangos and Prof. Julio Banga at the Marine Research Institute in Vigo, Spain. My main interest become biochemical reaction networks: mathematical modelling of reaction networks, model reduction of biochemical reaction networks and the application of regularization techniques in parameter estimation problems in dynamic biological systems.Currently, I am a post-doc at Julio Saez-Rodriguez’s group at the Joint Research Center for Computational Biomedicine in Aachen where I am working on single cell modelling.",
+      "research_interests": "In the group of Julio Saez-Rodriguez I am developing dynamic mathematical models of cell signalling based on single cell measurements.Mechanistic models are based on detailed biochemical studies and try to condense the biological knowledge in a dense and well-defined mathematical form. This way, these models have the potential to provide biological insight in the explanation of cell responses to combined perturbation experiments. However, due to complexity of pure mechanistic models (many unknown model parameters and non-measured variables)  it is often impossible to calibrate them to scarce data, which results in poor predictive power of these models.  On the other hand, data-driven/machine learning methods are great in prediction, but lack the biological interpretation of the model.My main research interest is the application of semi-mechanistic models to cell responses to single and combined growth factor perturbations. These semi-mechanistic models, for example the logic based dynamic models, combine the biological knowledge reported in the literature, with the flexibility and simplicity of data driven methods, therefore it has the predictive power and also the biological interpretability.Applying the above models to single cell measurements, we get closer to understand(1) how the signalling network changes upon treatments,(2) how combination of treatments affects each other (pathway cross-talks)(3) how the cell-to-cell variability in the signalling state can result in different response to treatments.",
+      "professional_career": [
+        {
+          "period": "2015-present",
+          "position": "Post-Doc at the JRC-COMBINE, Aachen, Germany"
+        }
+      ],
+      "education": [
+        {
+          "period": "2012-2015",
+          "degree": "Marie Curie Early Stage Researcher, Bioprocess Engineering Group, Vigo, Spain"
+        },
+        {
+          "period": "2011-2012",
+          "degree": "Research assistant, Process Control Research Group, MTA SZTAKI, Budapest"
+        },
+        {
+          "period": "2011-2017",
+          "degree": "Phd Student of University of Pannonia, Veszprem, Hungary"
+        },
+        {
+          "period": "2009-2011",
+          "degree": "MSc in Physics, Budapest University of Technology and Economics, Hungary"
+        }
+      ],
+      "email": "attila.gabor@uni-heidelberg.de",
+      "telephone": "+49 241 80 85359",
+      "orcid": "0000-0002-0776-1182",
+      "image": "attila-gabor.jpg"
     },
     {
       "name": "Jan Lanzer",
       "role": "Postdoc",
-      "image": "/team/lanzer.jpg",
-      "bio": "Postdoctoral Researcher in Systems Biology",
-      "email": "jan.lanzer@example.com",
-      "website": "https://example.com/lanzer"
+      "description": "I have studied medicine at Heidelberg University and gained clinical experience during my medical clerckships at Charité Clinical Center in Berlin (gastroenterology), Groote Schuur Hospital in Cape Town (pulmonology), Egas-Moniz Hospital in Lisbon (neurosurgery), Hospital Clinica in Porto Alegre (surgery), Heart Center in Leipzig (cardiology) and at the University Hospital in Heidelberg (neurology).In 2013/15 I worked as a research fellow in Dr. Manfred Boehm’s laboratory at the NIH in Bethesda, USA on my M.D. thesis entitled “CD73 Inhibits Vascular Inflammation During Vein Graft Remodeling”. Following graduation I joined Saez-Rodriguez’s as well asSchultz’s groupat the Center for Psychosocial Medicine (head of deparment: Prof. Dr. med. Hans-Christoph Friederich), Heidelberg University Hospital,  to work on a modeling approach to heart failure as a part of theInformatics for Lifeconsortium.———————————————————*protected email*",
+      "research_interests": "I am primarily interested in exploring the potential of computational methods to assist the process of clinical data analysis. While the complexity and inhomogeneity of clinical data often limits its evaluation, advanced statistical methods may be able to extract the most relevant information and reduce multidimensionality. Combining a patient’s molecular signature with his clinical profile in a modeling approach may further improve our understanding of the disease mechanisms and promote a more personalized health care.",
+      "professional_career": [
+        {
+          "period": "2019-present: PhD in Clinical Data Science at Saez-Rodriguez’s group, Institute for Computational Biomedicine, Heidelberg University, Faculty of Medicine & Heidelberg University Hospital, Germany and at Schultz’s group, Department of General Internal Medicine and Psychosomatics, Center for Psychosocial Medicine, Heidelberg University Hospital, Germany",
+          "position": ""
+        },
+        {
+          "period": "2013-2015: MD in Cardiovascular Biology at Boehm’s group, National Heart, Lung and Blood Institute,  National Institutes of Health, USA",
+          "position": ""
+        }
+      ],
+      "education": [
+        {
+          "period": "2010-2018: Study of Medicine at Heidelberg University",
+          "degree": ""
+        },
+        {
+          "period": "2016-2016: Study of Medicine at Coimbra University, Portugal",
+          "degree": ""
+        }
+      ],
+      "email": "",
+      "telephone": "",
+      "orcid": "0000-0001-9373-2160",
+      "image": "jan-david-lanzer.png"
     },
     {
       "name": "Pau Badia i Mompel",
       "role": "Postdoc",
-      "image": "/team/badia.jpg",
-      "bio": "Postdoctoral Researcher in Systems Biology",
-      "email": "pau.badia@example.com",
-      "website": "https://example.com/badia"
+      "description": "Thanks to a wonderful high school teacher, I have been interested in Biology since I was a teenager. Following this enthusiasm, in 2014 I decided to pursue a Bachelor’s degree in Biology. Because I have always been a computer nerd, I was delighted when I “discovered” the field of Bioinformatics. It motivated me to start programming on my own, implementing algorithms from scratch or toying with data visualization methods. After my Bachelor’s internship in a Computational Biology group, I enrolled in a two years Master in Bioinformatics for Health Sciences. For my Master’s internship, I had the pleasure to work in Patrick Aloy’s group developing theChemical Checker, a chemoinformatics resource of bioactivity signatures for small molecules. Specifically, my Master’s thesis focused on the inference of bioactivity signatures for uncharacterized compounds and the automated generation of novel molecules optimized by a target bioactivity signature. This project allowed me to learn about the state of the art in deep learning algorithms and spurred me to learn more about the modeling of biological data. In September 2020 I started pursuing my PhD here in the Saez group.————————————————-*protected email*",
+      "research_interests": "Coming from a deep learning background, I am keen to implement mechanism  based models, which do not behave like a “black box”, allowing to infer clear biological insights. I am also interested in the combination of multiple high-throughput omics data, specifically with single cell resolution, to understand the underlying mechanisms of a wide variety of diseases.",
+      "professional_career": [
+        {
+          "period": "2020 - Present: PhD Candidate, Institute for Computational Biomedicine, Heidelberg University, Faculty of Medicine & Heidelberg University Hospital, Germany.",
+          "position": ""
+        },
+        {
+          "period": "2019 - 2020: Master student at the Structural Bioinformatics and Network Biology group in Institute for Research in Biomedicine (IRB), led by Patrick Aloy.",
+          "position": ""
+        },
+        {
+          "period": "2017: Summer Internship at the Computational Biology group in Institut de Biotecnologia i Biomedicina (IBB), led by Xavier Daura.",
+          "position": ""
+        }
+      ],
+      "education": [
+        {
+          "period": "2020 - Present: PhD Candidate, Institute for Computational Biomedicine, Heidelberg University, Faculty of Medicine & Heidelberg University Hospital, Germany.",
+          "degree": ""
+        },
+        {
+          "period": "2018 - 2020: MSc in Bioinformatics for Health Sciences, Pompeu Fabra University (UPF), Catalonia, Spain.",
+          "degree": ""
+        },
+        {
+          "period": "2014 - 2018: BSc in Biology, Autonomous University of Barcelona (UAB), Catalonia, Spain.",
+          "degree": ""
+        }
+      ],
+      "email": "pau.badia@uni-heidelberg.de",
+      "telephone": "",
+      "orcid": "0000-0002-1004-3923",
+      "image": "pau-badia-i-mompel.jpg"
     },
     {
       "name": "Sophia Müller-Dott",
       "role": "Postdoc",
-      "image": "/team/muller-dott.jpg",
-      "bio": "Postdoctoral Researcher in Systems Biology",
-      "email": "sophia.muller-dott@example.com",
-      "website": "https://example.com/muller-dott"
+      "description": "I studied biochemistry at the Goethe University Frankfurt and then transitioned for my M.Sc. degree to the Heidelberg University, where I focused on computational biology. During my master’s thesis in Judith Zaugg’s group I was working on the reconstruction and comparison of gene regulatory networks across different immune cells, in particular CD4-positive T cells. In 2021, I joined the group of Julio Saez-Rodriguez as a PhD student. As part of the Liver Systems Medicine (LiSyM)-Cancer project, I will focus on the dissection of the tipping point from liver cirrhosis to hepatocellular carcinoma through multi-omics data analysis.",
+      "research_interests": "My main research interest is the combination of computational methods with biomedical knowledge to better understand regulatory mechanisms underlying human diseases, especially in the context of cancer and autoimmune diseases. I am interested in using multi-omics data integration to incorporate multiple layers of biological information and develop accurate biological models. These models allow the identification of structures and patterns underpinning pathological processes.",
+      "professional_career": [
+        {
+          "period": "2021–present",
+          "position": "PhD Candidate, Institute for Computational Biomedicine, Heidelberg University, Faculty of Medicine & Heidelberg University Hospital, Germany"
+        },
+        {
+          "period": "2020–2021",
+          "position": "Master’s Thesis at EMBL Heidelberg, Zaugg Group, Germany"
+        },
+        {
+          "period": "2020",
+          "position": "Research internship at the Baker and Bio21 Institutes Melbourne, Ascher group, Australia"
+        },
+        {
+          "period": "2019",
+          "position": "Research internship at BASF SE in the Department of Experimental Toxicology and Ecology, Germany"
+        }
+      ],
+      "education": [
+        {
+          "period": "2018–2021",
+          "degree": "M.Sc. Biochemistry, Heidelberg University, Germany"
+        },
+        {
+          "period": "2015–2018",
+          "degree": "B.Sc. Biochemistry, Frankfurt University, Germany"
+        }
+      ],
+      "email": "sophia.mueller-dott@uni-heidelberg.de",
+      "telephone": "",
+      "orcid": "",
+      "image": "sophia-muller-dott.jpeg"
     },
     {
       "name": "Martín Garrido Rodríguez-Córdoba",
       "role": "Postdoc",
-      "image": "/team/garrido.jpg",
-      "bio": "Postdoctoral Researcher in Systems Biology",
-      "email": "martin.garrido@example.com",
-      "website": "https://example.com/garrido"
+      "description": "I started my professional journey in 2015 with a Bachelor’s degree in Biochemistry from the University of Córdoba in Spain, my hometown. During my undergraduate thesis, I got my first taste of computational biomedical research, sparking my passion for the field. In 2016, I earned a Master’s degree in Translational Biomedical Research, followed by another Master’s in Bioinformatics and Computational Biology. During my studies, I gained practical experience at innoHealth, a biotech company, where I honed my computational skills in an industrial setting.Afterward, I returned to Córdoba to pursue a Ph.D. in Biomedicine at the University. My Ph.D. work focused on developing innovative computational methods to analyze transcriptomics and proteomics data in various biomedical research contexts. Upon completing my Ph.D., I joined the Saez-Rodriguez team as a Postdoctoral Researcher. In my first year, I secured a fellowship from the AI Health Innovation Cluster, allowing me to continue my research in a collaborative framework between the Saez-Rodriguez team (Heidelberg University) and the Savitski team (EMBL). In 2023, I was also appointed as a Research Area Leader within the Saez-Rodriguez group, providing me with valuable managerial and coordination experience on various lab projects.",
+      "research_interests": "My primary research interest is to gain a deeper understanding of molecular mechanisms underlying disease and drug response through the analysis of large molecular datasets. I achieve this by integrating existing biological knowledge with data-driven approaches. In the realm of systems biology, my focus centers on proteins and their role in signaling processes. This is why most of my projects revolve around the analysis and interpretation of transcriptomics and proteomics data. From a technological perspective, I am mostly interested in the downstream analysis and exploitation of functional proteomics data. Functional proteomics techniques, such as phosphoproteomics and thermal proteome profiling, allow the identification and measurement of targets, off-targets and downstream signaling events following perturbation of a biological system. Currently, my main focus lies on how to combine these powerful data modalities with prior knowledge via network models, in order to formulate mechanistic molecular hypotheses.",
+      "professional_career": [
+        {
+          "period": "2023-Present",
+          "position": "Research Area Leader, Institute for Computational Biomedicine, Heidelberg University, Germany"
+        },
+        {
+          "period": "2022-Present",
+          "position": "Postdoctoral fellow, European Molecular Biology Laboratory (EMBL), Germany"
+        },
+        {
+          "period": "2021-Present",
+          "position": "Postdoctoral researcher, Institute for Computational Biomedicine, Heidelberg University, Germany"
+        },
+        {
+          "period": "2017-2021",
+          "position": "Research associate, Maimonides Biomedical Research Institute of Córdoba (IMIBIC, Córdoba) and Clinical Bioinformatics Area (CBA, Sevilla), Spain"
+        },
+        {
+          "period": "2016-2019",
+          "position": "Bioinformatician, InnoHealth, Madrid, Spain"
+        }
+      ],
+      "education": [
+        {
+          "period": "2017-2021",
+          "degree": "PhD in Biomedicine, University of Córdoba, Córdoba, Spain"
+        },
+        {
+          "period": "2016-2017",
+          "degree": "MSc in Bioinformatics and Computational Biology, National Institute of Health Carlos III, Madrid, Spain"
+        },
+        {
+          "period": "2015-2016",
+          "degree": "MSc in Translational Biomedical Research, University of Córdoba, Córdoba, Spain"
+        },
+        {
+          "period": "2011-2015",
+          "degree": "BSc in Biochemistry, University of Córdoba, Córdoba, Spain"
+        }
+      ],
+      "email": "martin.garrido@embl.de",
+      "telephone": "",
+      "orcid": "0000-0003-4125-5643",
+      "image": "martin-garrido-rodriguez-cordoba.jpg"
     },
     {
       "name": "Ahmet Sureyya Rifaioglu",
       "role": "Postdoc",
-      "image": "/team/rifaioglu.jpg",
-      "bio": "Postdoctoral Researcher in Systems Biology",
-      "email": "ahmet.rifaioglu@example.com",
-      "website": "https://example.com/rifaioglu"
+      "description": "I obtained my B.Sc. degree from the Computer Engineering Department of İstanbul Doğuş University in 2010. After working in a software company for a short period as a software engineer, I joined the Middle East Technical University (METU), Ankara as a teaching/research assistant and a master student. I also joined the Cancer Systems Laboratory at METU and started doing research in the bioinformatics field where I worked on computational protein function prediction.After I got my master degree in 2015, I continued my PhD in the same department and started working on a project called “Comprehensive Resource of Biomedical Relations with Deep Learning and Network Representations” (CROssBAR). This was a joint project between Middle East Technical University and EMBL-EBI where I have spent about one year during my PhD studies. My main aim was to develop deep learning-based methods for computational drug discovery and work with the EMBL-EBI team to create the CROssBAR database. In 2020 I obtained my PhD degree and became a faculty member at İskenderun Technical University, Hatay, Turkey.In July 2021, I joined the Saez-Rodriguez group as a postdoctoral researcher. In this position, I will mainly work on the application of deep learning algorithms to single-cell data in cancer.",
+      "research_interests": "Understanding the inner mechanisms of living beings from the molecular level to the organism level is one of the most challenging and important research areas of our era. With the advance of technology, a massive amount of experimental data has accumulated in public and private databases. I believe that the availability of these data will help us understand our complex biological system using the correct usage of data and machine learning algorithms. My main research interest is to extract hidden knowledge from these complex and big data using machine learning algorithms. Specifically, I am highly interested in computational drug discovery and developing machine learning methods for understanding molecular mechanisms of diseases such as cancer.My current goal is to propose new methods and develop machine learning algorithms on single-cell data. Specifically, I will be working on applications of deep learning methods using large-scale single-cell data focusing on cancer within the framework of the  “DeepSC2 – Deep learning for single-cell genomics in cancer”, a project funded by the German Government (BMBF).",
+      "professional_career": [
+        {
+          "period": "2021 - Present     Postdoctoral Researcher, Institute for Computational Biomedicine, Heidelberg University, Germany",
+          "position": ""
+        },
+        {
+          "period": "2020 - Present    Faculty Member, İskenderun Technical University, Hatay, Turkey",
+          "position": ""
+        },
+        {
+          "period": "2011-2020          Teaching/Research Assistant, Computer Engineering Department, Middle East Technical University, Ankara, Turkey",
+          "position": ""
+        },
+        {
+          "period": "2019-2020         Predoctoral Visiting Researcher, EMBL-EBI, Automatic Annotation Team, Cambridge, UK",
+          "position": ""
+        },
+        {
+          "period": "2011-2011           Software Engineer, ISIS Information Technologies, İstanbul, Turkey",
+          "position": ""
+        }
+      ],
+      "education": [
+        {
+          "period": "2015-2020    Ph.D. in Computer Engineering, Middle East Technical University, Ankara, Turkey",
+          "degree": ""
+        },
+        {
+          "period": "2012-2015    M.Sc. in Computer Engineering, Middle East Technical University, Ankara, Turkey",
+          "degree": ""
+        },
+        {
+          "period": "2006-2010    B.Sc. in Computer Engineering, İstanbul Doğuş University, İstanbul, Turkey",
+          "degree": ""
+        }
+      ],
+      "email": "ahmet.rifaioglu@uni-heidelberg.de",
+      "telephone": "",
+      "orcid": "0000-0001-6717-4767",
+      "image": "ahmet-sureyya-rifaioglu.jpeg"
     },
     {
       "name": "Pablo Rodríguez Mier",
       "role": "Postdoc",
-      "image": "/team/rodriguez-mier.jpg",
-      "bio": "Postdoctoral Researcher in Systems Biology",
-      "email": "pablo.rodriguez-mier@example.com",
-      "website": "https://example.com/rodriguez-mier"
+      "description": "After finishing my PhD in Computer Science and Artificial Intelligence at the University of Santiago de Compostela (Spain), I reoriented my research career to combine two of my passions: biomedicine and informatics. I started working as a postdoctoral researcher at the Food Toxicology Research Center of the French National Institute for Agricultural Research (INRAE) in Toulouse, in a project funded by the French National Cancer Institute (INCA). Here I was in charge of developing new computational methods to understand metabolic dysregulations in cancer due to mutations in the p53 gene and also in key target genes, combining previous biological knowledge with experimental data. During these years, I gained extensive knowledge on mathematical modeling for metabolism, as well as linear and  discrete optimization. One of the things I realized is that many challenges cannot be solved without knowledge of signaling and regulatory networks, and vice versa. Moreover, many of the methodological problems in metabolic modeling are also shared in causal modeling of regulatory networks. I joined the Saez-Rodríguez group at Heidelberg University as a Postdoctoral Researcher with the aim of improving some of the current technical and methodological issues of the current methods for causal inference of signalling networks, in the context of the European projectPerMedCoE.This project aims to improve current methods and prepare them for pre-exascale computing, enabling large-scale modeling using omics data for personalized medicine.",
+      "research_interests": "I am interested in deciphering how complex biological systems behave under different conditions through mechanistic and computational models that integrate both prior biological knowledge and experimental data, with the aim of discovering novel biomedical applications. More specifically, I am currently exploring issues related to causal reasoning for network identification of signalling pathways, spanning from technical issues, such as improving the scalability of methods with large-scale datasets (e.g. scRNA-seq datasets), to research oriented questions more related to conceptual limits of current techniques. I have a background in Computer Science & Artificial Intelligence, and I have experience in mathematical/mechanistic modeling of complex biological systems. I am also passionate about questions related to Machine Learning, Optimization and Biostatistics, and their potential applications to personalized medicine.",
+      "professional_career": [
+        {
+          "period": "2021-present",
+          "position": "Postdoctoral researcher, Institute for Computational Biomedicine, Heidelberg University, Faculty of Medicine & Heidelberg University Hospital, Germany."
+        },
+        {
+          "period": "2018-2021",
+          "position": "Postdoctoral Researcher, Food Toxicology Research Center (TOXALIM), French National Institute of Agricultural Research (INRAE), Toulouse, France."
+        },
+        {
+          "period": "2016-2018",
+          "position": "Associate Researcher, CiTIUS, University of Santiago de Compostela, Spain."
+        },
+        {
+          "period": "2012-2016",
+          "position": "PhD student, CiTIUS, University of Santiago de Compostela, Spain."
+        }
+      ],
+      "education": [
+        {
+          "period": "2011-2016",
+          "degree": "PhD in Computer Science & Artificial Intelligence, University of Santiago de Compostela (USC), Spain."
+        },
+        {
+          "period": "2010-2011",
+          "degree": "MSc in Computer Science & Artificial Intelligence, USC, Spain."
+        },
+        {
+          "period": "2006-2010",
+          "degree": "BSc in Computer Science, USC, Spain."
+        }
+      ],
+      "email": "pablo.rodriguez-mier@uni-heidelberg.de",
+      "telephone": "",
+      "orcid": "0000-0002-4938-4418",
+      "image": "pablo-rodriguez-mier.jpg"
     },
     {
       "name": "Chang Lu",
       "role": "Postdoc",
-      "image": "/team/lu.jpg",
-      "bio": "Postdoctoral Researcher in Systems Biology",
-      "email": "chang.lu@example.com",
-      "website": "https://example.com/lu"
+      "description": "I studied biometrics identification at the Beijing University, a topic that gave rise to my interest in the application of computational methods to biological data. In my master studies at the Machine Learning and Data Analytics Lab of Southwestern University, China I gained knowledge of machine learning and data mining and applied them to the prediction of protein function and noise functional annotations. In 2017, I crossed Eurasia to Maastricht, the Netherlands, to pursue my PhD in machine learning and statistic approaches for multi-omics and multimodal image data to analyze the mechanism of cardiometabolic diseases. Starting in October 2022, I continued my research path as a postdoctoral fellow at the Institute for Computational Biomedicine (Saez-Rodriguez Group) at Heidelberg University, Germany, studying computational integration of cellular circuits and immune cell repertoires in spatial and temporal resolution.",
+      "research_interests": "I am interested in the design and application of computational strategies for spatial multi-omics data to study disease mechanisms in complex diseases. During my PhD, I analysed high-dimensional omics and imaging data of plaque and liver through a combination of computational strategies including statistical inference, machine learning and image processing, to dissect the pathogenesis of  cardiovascular and  liver diseases at the molecular, spatial and temporal level. Currently, I focus on the cellular circuit and immune cell repertoire integration at spatial and temporal resolution.",
+      "professional_career": [
+        {
+          "period": "10/2022 – Present",
+          "position": "Postdoctoral researcher, Institute for Computational Biomedicine, Heidelberg University, Germany"
+        },
+        {
+          "period": "10/2017 – 09/2022",
+          "position": "Research assistant, Department of Pathology, Maastricht University Medical Center+ (MUMC+), Maastricht, The Netherlands"
+        },
+        {
+          "period": "09/2014 – 06/2017",
+          "position": "Research assistant, Department of Computer and Information Science, Southwest University, Chongqing, China"
+        }
+      ],
+      "education": [
+        {
+          "period": "10/2017 – 09/2022",
+          "degree": "PhD in Computational Biology, investigating cardiometabolic diseases at the Maastricht University Medical Center+ (MUMC+), Maastricht, The Netherlands"
+        },
+        {
+          "period": "09/2014 – 06/2017",
+          "degree": "Master of Engineering in Computer Application Technology, Southwest University, Chongqing, China"
+        },
+        {
+          "period": "09/2010 – 06/2014",
+          "degree": "Bachelor of Science in Computer Science and Technology, Jiangxi Normal University, Nanchang, China"
+        }
+      ],
+      "email": "chang.lu@uni-heidelberg.de",
+      "telephone": "",
+      "orcid": "0000-0001-6304-2820",
+      "image": "chang-lu.jpg"
     },
     {
       "name": "Christina Schmidt",
       "role": "Postdoc",
-      "image": "/team/schmidt.jpg",
-      "bio": "Postdoctoral Researcher in Systems Biology",
-      "email": "christina.schmidt@example.com",
-      "website": "https://example.com/schmidt"
+      "description": "I studied biochemistry at the Julius-Maximilians University of Würzburg (GER) focusing on molecular and clinical oncology. My aim to study the metabolic rewiring of cancer cells I discovered as part of my seminars with Prof. Almut Schulze (Würzburg, GER), where I later wrote my master thesis.With the support from the Marie Sklodowska-Curie [ITN] Fellowship “TRANSMIT – TRANSlating the role of Mitochondria in Tumorigenesis”, I started my PhD in October 2017 in the lab of Prof. Christian Frezza (University of Cambridge, UK). During my PhD I developed a novel model of Fumarate Hydratase deficiency and cultured it in a 3D system to study the impact of nutrient and oxygen gradients. Moreover, I developed my passion of combining wet-lab experiments with tailored bioinformatics analysis using multi-omics data integration and transitioned into data science.After finishing my PhD in February 2021, I stayed as a Postdoc in the Frezza Lab, which moved to the University of Cologne (GER). During this time, I worked as a data scientist focusing on data landscapes such as transcriptome, proteome and metabolome, applying my knowledge in different collaborative projects.In January 2023 I joined the Saez-Rodriguez group as postdoctoral researcher working primarily in the SMART-CARE consortium to apply mass-spectrometry-based systems medicine to cancer.",
+      "research_interests": "It is fascinating how cancer cells manage to continuously rewire their metabolism to facilitate their rapid growth and survival, whilst being challenged by changes in environmental cues. Hence, I want to understand this metabolic adaptability in cancer to enable better therapies. To embark in this endeavour the advances in the metabolomics field, which led to a massive amount of data, are key. Yet, there is still work needed to increase data interpretation for which it is essential to develop advanced bioinformatics analysis tools to fully extract the information hidden in the data.Hence, my current goal is to build prior knowledge databases that aids biological interpretation and to combine metabolomics data with other layers of biological information such as proteomics to ultimately develop more accurate biological models, thus enhancing our current understanding of metabolic rewiring in cancer.",
+      "professional_career": [
+        {
+          "period": "2021 - 2022",
+          "position": "Post-doctoral researcher, CECAD - Cluster of Excellence for Aging Research, University of Cologne, Germany"
+        },
+        {
+          "period": "2021",
+          "position": "Postdoctoral researcher, MRC Cancer Unit, University of Cambridge, UK"
+        },
+        {
+          "period": "2017 - 2021",
+          "position": "Marie Curie Early Stage Researcher (TRANSMIT), MRC Cancer Unit, University of Cambridge, UK"
+        }
+      ],
+      "education": [
+        {
+          "period": "2017 - 2021",
+          "degree": "PhD in Medical Sciences, University of Cambridge, UK"
+        },
+        {
+          "period": "2014 - 2017",
+          "degree": "M.Sc. Biochemistry, University of Würzburg, Germany"
+        },
+        {
+          "period": "2014 - 2015",
+          "degree": "M.Sc. Biochemistry, Erasmus Exchange, University of Oulu, Finland"
+        },
+        {
+          "period": "2011 - 2014",
+          "degree": "B.Sc. Biochemistry, University of Würzburg, Germany"
+        }
+      ],
+      "email": "christina.schmidt@uni-heidelberg.de",
+      "telephone": "",
+      "orcid": "0000-0002-3867-0881",
+      "image": "christina-schmidt.jpeg"
     },
     {
       "name": "José Liñares Blanco",
       "role": "Postdoc",
-      "image": "/team/linares-blanco.jpg",
-      "bio": "Postdoctoral Researcher in Systems Biology",
-      "email": "jose.linares-blanco@example.com",
-      "website": "https://example.com/linares-blanco"
+      "description": "I have a multidisciplinary background in Molecular Biology (BSc), Bioinformatics (MSc) and Computer Science (PhD).During my PhD stage (2017-2021) at University of A Coruña I have applied Machine Learning based techniques for the analysis of omics data in large cohorts of cancer patients for the search of new diagnostic and treatment strategies. During this period, I also collaborated through research internships with the Wellcome-Wolfson Institute for Experimental Medicine (Queen’s University Belfast) and with the Cancer Computational Biology Group at Vall D’Hebron Institute of Oncology.In 2022 I moved to University of Granada (GENyO) as postdoc to apply Machine Learning techniques in the field of precision medicine in autoimmune diseases.In 2023, I started as a Margarita Salas research fellow at Institute of Computational Biomedicine of University of Heidelberg under the supervision of Julio Saez-Rodriguez.",
+      "research_interests": "My current interests are focused on the development and application of new statistical, computational and Machine Learning methods capable of analyzing in an integrated manner clinical and multi-omics data.",
+      "professional_career": [
+        {
+          "period": "2023",
+          "position": "Margarita Salas researcher. Institute of Computational Biomedicine. Heidelberg University."
+        },
+        {
+          "period": "2022",
+          "position": "Postdoc at at Pfizer Center - Universidad de Granada - Junta de Andalucía Centre for Genomics and Oncological Research (GENYO)"
+        }
+      ],
+      "education": [
+        {
+          "period": "2018 - 2021",
+          "degree": "PhD in Computer Science. University of A Coruña. Spain"
+        },
+        {
+          "period": "2016 - 2017",
+          "degree": "MSc in Bioinformatics and Biostatistics. Universidad Oberta de Catalunya. Spain."
+        },
+        {
+          "period": "2011 - 2016",
+          "degree": "Biology Degree. University of Santiago de Compostela, Spain"
+        }
+      ],
+      "email": "",
+      "telephone": "",
+      "orcid": "",
+      "image": "jose-linares-blanco.jpeg"
     },
     {
       "name": "Yunfan Bai",
       "role": "Postdoc",
-      "image": "/team/bai.jpg",
-      "bio": "Postdoctoral Researcher in Systems Biology",
-      "email": "yunfan.bai@example.com",
-      "website": "https://example.com/bai"
+      "description": "I conducted UPLC-MS metabolomics and lipidomics analysis during my Master studies at Harbin Institute of Technology, China. In this period, finding ways to connect different omics data came into the forefront of my interest, which ultimately prompted me to enroll to a doctoral programme in the lab of Prof. Shinya Kuroda at the University of Tokyo, Japan, where I worked on prior-knowledge based multi-omics integration and analysis of obese mice liver data. Since then, I developed an interest and passion towards the research of metabolism and computational biology.In November 2024, I joined Saez-Rodriguez group at Heidelberg University, Germany as a postdoctoral researcher. I work in a collaborative project with pharmaceutical partner, to train patient-specific logic models derived from prior knowledge-based multi-omics network, by leveraging tools developed in the lab, such as COSMOS and CellNOptR.",
+      "research_interests": "I’m interested in understanding how biomolecules in our bodies work together as a system, and how such system changes during disease. By integrating different types of data, I construct multi-omics networks based on prior knowledge, by which I train and calibrate dynamic logic models. I’m passionate about quantifying regulations in metabolic pathways, including signaling transduction, gene regulation, enzyme phosphorylation, and metabolite-enzyme modulation.Compare to bulk omics, single-cell and spatial omics bring us more information on multi-cellular communication, and the interplay between tissue structure and individual cell behaviors. I also work on understanding the pathogenesis of cancer and other metabolic disease in a space and time resolved way. Through collaboration with molecular experimentalists, my scientific goal is to extract interpretable mechanistic insights from clinical data and develop personalized treatments for patients.",
+      "professional_career": [
+        {
+          "period": "2024-present",
+          "position": "Post-doctoral fellow, Saez Lab, Heidelberg University Hospital, Germany"
+        },
+        {
+          "period": "2022-2024",
+          "position": "Project research associate, Kuroda Lab, University of Tokyo, Japan"
+        }
+      ],
+      "education": [
+        {
+          "period": "2019-2022",
+          "degree": "PhD student in computational biology and medical science at Kuroda lab, University of Tokyo, Japan"
+        },
+        {
+          "period": "2017-2019",
+          "degree": "Master in Biology at Harbin Institute of Technology, China"
+        },
+        {
+          "period": "2013-2017",
+          "degree": "Bachelor in Forestry at Northeast Forestry University, China"
+        }
+      ],
+      "email": "yunfan.bai@uni-heidelberg.de",
+      "telephone": "",
+      "orcid": "0000-0003-0479-2108",
+      "image": "yunfan-bai.jpeg"
     },
     {
       "name": "Ines Rivero Garcia",
       "role": "Postdoc",
-      "image": "/team/rivero-garcia.jpg",
-      "bio": "Postdoctoral Researcher in Systems Biology",
-      "email": "ines.rivero-garcia@example.com",
-      "website": "https://example.com/rivero-garcia"
+      "description": "I graduated from Biochemistry by Universidad Autónoma de Madrid (UAM) in 2018, studying one semester at Boston University as a BU-UAM Science School scholar. As an undergrad, I performed wet and dry lab internships that applied omics technologies to detect rare mutations (Centro de Biologia Molecular Severo Ochoa, Spain) and to understand mouse limb development (Miguel Torres’ group at CNIC, Spain). During my Master’s and as a Fundación Margrit y Folke Pehrzon fellow, I left the wet lab to focus on the analysis of omics data with a systems biology perspective, first as a research intern at the clinical genetics laboratory (Karolinska Institutet, Sweden) and then at Erik Sonnhammer’s Systems Biology group (SciLifeLab, Sweden), where I used network modelling to quantify drug repurposing opportunities in over 100 complex diseases, including COVID-19. After my Master’s I joined Miguel Torres’ and Fatima Sanchez-Cabo groups at CNIC funded by a “la Caixa” INPhINIT doctoral fellowship. As a PhD Student, I modelled the gene regulatory networks controlling cardiomyocyte proliferation in mouse and axolotl for the discovery of new therapeutic targets to induce heart regeneration. My PhD project included a research stay in Elly Tanaka’s group at IMBA (Austria) and was part of the REANIMA Project funded by Horizon2020.In January 2025, I joined Saez Lab as a postdoc to work on the integration of bulk and single-cell omics data to identify key molecular circuits and therapeutic interventions to fight cardiac disease.",
+      "research_interests": "I’m fascinated by the complexity of living systems and how life not only is a sum of its parts, but also determined by the interactions between its components. Therefore, in my research I take a systems biology approach by integrating different flavours of multi-omics data with prior knowledge to build models that reflect the composition and interactions that make complex systems. I use these models to simulate how changes in gene function affect the system as a whole and to predict new therapeutic avenues. From a biomedical point of view, I am curious about what mechanisms trigger acute and chronic heart disease and, through collaboration with experimentalists, I aim to identify actionable targets that can derive in novel, more efficient and safer therapies.",
+      "professional_career": [
+        {
+          "period": "2025-Present",
+          "position": "Postdoc at Saez Lab. Institute for Computational Biomedicine, Universitätsklinikum Heidelberg (Heidelberg, Germany)."
+        },
+        {
+          "period": "2020-2024",
+          "position": "PhD Student at Miguel Torres’ lab and the CNIC Bioinformatics Unit. Spanish National Center for Cardiovascular Research (CNIC) (Marid, Spain)."
+        },
+        {
+          "period": "2019-2020",
+          "position": "Master’s Student at Erik Sonnahmmer’s lab. SciLifeLab (Stockholm, Sweden)"
+        },
+        {
+          "period": "2018-2019",
+          "position": "Master’s Student at Ann Nordgren’s lab. Karolinska University Hospital (Solna, Sweden)"
+        },
+        {
+          "period": "2017-2018",
+          "position": "Undergraduate Student at Belen Perez’s group. Centro de Biología Molecular Severo Ochoa (CBMSO) (Madrid, Spain)"
+        }
+      ],
+      "education": [
+        {
+          "period": "2020-2024",
+          "degree": "PhD in Biomedical Engineering. Universidad Politécnica de Madrid (Madrid, Spain)"
+        },
+        {
+          "period": "2018-2020",
+          "degree": "Joint Master’s Programme in Molecular Techniques in Life Sciences. KTH Royal Institute of Technology, Karolinska Institutet and Stockholm University (Stockholm, Sweden)"
+        },
+        {
+          "period": "2014-2018",
+          "degree": "Bachelor’s in Biochemistry. Universidad Autónoma de Madrid (Madrid, Spain)"
+        }
+      ],
+      "email": "ines.rivero@uni-heidelberg.de",
+      "telephone": "",
+      "orcid": "0000-0002-9428-0992",
+      "image": "ines-rivero-garcia.jpeg"
     },
     {
       "name": "Robin Fallegger",
       "role": "PhD Student",
-      "image": "/team/fallegger.jpg",
-      "bio": "PhD Student in Systems Biology",
-      "email": "robin.fallegger@example.com",
-      "website": "https://example.com/fallegger"
+      "description": "Both my Bachelor and Master degrees were both obtained at the Ecole Polytechnique Fédérale de Lausanne in Switzerland. Over the course of my studies, I was able to learn from various fields ranging from oncology, medical engineering to advanced data analysis and machine learning methods. Over the course of my Master’s studies I focused on the latter in a variety of fields such as brain-computer interfaces, image analysis and more importantly genomics and transcriptomics.The aim of my Master thesis at the Computational Biology & Cancer Genomic group (UNIL) was to predict the efficacy of the off-label use of targeted cancer therapies for individual patients by using open source gene essentiality screens (both CRISPR and RNAi).I joined the Saez lab as a PhD candidate in the fall of 2021 and will be working on single-cell transcriptomics data from neuronal tissues in collaboration with the lab of Prof. Rohini Kuner and theHeidelberg Pain Consortium.",
+      "research_interests": "I am interested in how experimental data and prior biological evidence can be used to generate and address new hypotheses by using computational techniques. In particular, I find it fascinating how data analysis techniques from various fields (such as image analysis and machine learning) can be applied to biological data in order to gain valuable insight into the mechanistic background of biological processes or pathogenesis of various diseases.My current research project is investigating the transcriptomic changes that occur in cortical regions of the brain under chronic pain.",
+      "professional_career": [
+        {
+          "period": "2021 - Present",
+          "position": "PhD Candidate, Institute for Computational Biomedicine, Heidelberg University, Faculty of Medicine & Heidelberg University Hospital"
+        },
+        {
+          "period": "2018",
+          "position": "Internship at the Science and Technology office at the Swiss Embassy in Tokyo"
+        },
+        {
+          "period": "2015",
+          "position": "Research Internship at the AIDS Vaccine Research Laboratory, University of Wisconsin"
+        }
+      ],
+      "education": [
+        {
+          "period": "2018-2020",
+          "degree": "MSc in Life Sciences Engineering, Ecole Polytechnique Fédérale de Lausanne, Switzerland"
+        },
+        {
+          "period": "2013-2017",
+          "degree": "BSc in Life Sciences and Technologies, Ecole Polytechnique Fédérale de Lausanne, Switzerland"
+        }
+      ],
+      "email": "robin.fallegger@uni-heidelberg.de",
+      "telephone": "",
+      "orcid": "",
+      "image": "robin-fallegger.jpg"
     },
     {
       "name": "Charlotte Boys",
       "role": "PhD Student",
-      "image": "/team/boys.jpg",
-      "bio": "PhD Student in Systems Biology",
-      "email": "charlotte.boys@example.com",
-      "website": "https://example.com/boys"
+      "description": "I have spent much of my studies looking for the ways in which mathematics can be used to give us a new understanding of how the human body works, and of what separates health from disease. For my final year BSc project under the supervision of Professor Andrew Hazel, I reviewed PDE models of blood flow in the human placenta as a first step towards understanding fetal growth restriction.The Scientific Computing MSc at the University of Heidelberg offered a perfect environment to build from mathematics on the page towards computational work. In my first year, I joined the group of Professor Heuveline at EMCL to study models of carcinogenesis under the supervision of Saskia Haupt. There, I got a first taste of omics data analysis while researching the evolving neoantigen landscapes in Lynch syndrome colorectal cancer.Wanting to work more closely with molecular data, I found my current scientific home in the Saez-Rodriguez group. I feel exceptionally lucky to work alongside and learn from biologists, computer scientists, and clinicians in such a supportive lab. Here, I have worked on a variety of projects: from bulk RNA-seq analysis of primary myelofibrosis in mice to single-cell analysis of chronic kidney disease. My PhD will focus on a multi-omics analysis of IgA nephropathy.",
+      "research_interests": "I am interested in how mathematical modelling and statistical data analysis can be used to interrogate large datasets, both molecular and clinical. In doing so, I enjoy working closely with clinicians and disease experts, framing relevant questions to increase our understanding of how a disease unfolds. In particular, I am interested in how we can infer coordination and communication between cell populations within a tissue from the snapshot-in-time offered by omics datasets. My PhD research is in the context of IgA nephropathy, a chronic kidney disease.",
+      "professional_career": [
+        {
+          "period": "November 2021-present",
+          "position": "PhD candidate, Saez-Rodriguez Group, Institute for Computational Biomedicine, Universität Heidelberg, Germany."
+        },
+        {
+          "period": "July 2020-July 2021",
+          "position": "Student research assistant, Saez-Rodriguez Group, Institute for Computational Biomedicine, Universität Heidelberg, Germany."
+        },
+        {
+          "period": "April 2019-September 2020",
+          "position": "Student research assistant, Engineering Mathematics and Computing Lab, Universität Heidelberg, Germany."
+        }
+      ],
+      "education": [
+        {
+          "period": "October 2018-July 2021",
+          "degree": "Scientific Computing MSc, Universität Heidelberg, Germany."
+        },
+        {
+          "period": "September 2014-June 2018",
+          "degree": "Mathematics with a Modern Language (Spanish) BSc, University of Manchester, UK."
+        },
+        {
+          "period": "September 2016-June 2017",
+          "degree": "Erasmus study, Faculty of Mathematics, Universidad Complutense de Madrid, Spain."
+        }
+      ],
+      "email": "charlotte.boys@bioquant.uni-heidelberg.de",
+      "telephone": "",
+      "orcid": "",
+      "image": "charlotte-boys.jpg"
     },
     {
       "name": "Leonie Küchenhoff",
       "role": "PhD Student",
-      "image": "/team/kuchenhoff.jpg",
-      "bio": "PhD Student in Systems Biology",
-      "email": "leonie.kuchenhoff@example.com",
-      "website": "https://example.com/kuchenhoff"
+      "description": "In 2016, I started with my Bachelor studies in Molecular Medicine in Freiburg, Germany. In my Bachelor thesis, I got first insights into computational work within biomedical research. I decided to pursue this area of research further by studying Systems Biology at Heidelberg University. Through the program and several research internships, I explored multiple research areas from scDNA methylation analysis to clustering algorithm development. Finally, I completed my master thesis at EMBL, Heidelberg, where I assessed on- and off-target effects of CRISPR base editing.In my PhD project, I aim to integrate multi-omics data from several organs of fibrosis patients to identifyshared mechanisms of fibrosis across organs aspotentialtherapeutic targets.",
+      "research_interests": "I am fascinated by the speed at which new knowledge and data is produced in the field of biomedical research. I want to leverage already existing information and datasets and combine them with newly acquired data todisentangle the complex and vast world of biomedicine. I aim to gain a better functional understanding of diseases by focusing on the bigger picture through the use of high-throughput multi-omics technologies. More specifically, my research focuses on the meta-analysis of fibrotic diseases across multiple organ systems.",
+      "professional_career": [
+        {
+          "period": "2023-present",
+          "position": "PhD candidate, Institute for Computational Biomedicine, Heidelberg University Hospital, Germany"
+        },
+        {
+          "period": "2022-2023",
+          "position": "Master thesis in Steinmetz group at EMBL (Heidelberg, Germany)"
+        },
+        {
+          "period": "2021-2022",
+          "position": "Research internships at the German Cancer Research Center (Heidelberg, Germany), Bioquant Institute (Heidelberg, Germany), and Institut Pasteur (Paris, France)"
+        }
+      ],
+      "education": [
+        {
+          "period": "2020-2023",
+          "degree": "M.Sc. Molecular Biosciences (Major: Systems Biology), Heidelberg University, Germany"
+        },
+        {
+          "period": "2016-2019",
+          "degree": "B.Sc. Molecular Medicine, University of Freiburg, Germany"
+        }
+      ],
+      "email": "leonie.kuechenhoff@uni-heidelberg.de",
+      "telephone": "",
+      "orcid": "0000-0002-3715-4551",
+      "image": "leonie-kuchenhoff.jpeg"
     },
     {
       "name": "Philipp Schaefer",
       "role": "PhD Student",
-      "image": "/team/schaefer.jpg",
-      "bio": "PhD Student in Systems Biology",
-      "email": "philipp.schaefer@example.com",
-      "website": "https://example.com/schaefer"
+      "description": "I completed my Bachelor’s degree in Biochemistry at Heinrich-Heine University in Düsseldorf and Michigan State University in the US. Throughout this period, I actively participated in various research endeavors primarily centered around the analysis and characterization of individual proteins. However, during my Master’s program at Heidelberg University, my focus shifted towards investigating biological processes more holistically using large single-cell and spatial multi-omics data sets. In my Master’s thesis, for example, I leveraged single-cell RNA and ATAC-seq data to infer and compare gene regulatory networks underlying the development of the mammalian cerebellum. Now I work on deciphering myeloid subtype diversity in multiple sclerosis supported by the DFG  Priority Programme “Local and Peripheral Drivers of Microglial Diversity and Function” (SPP 2395)",
+      "research_interests": "My research interests lie at the intersection of systems immunology and machine learning. I am intrigued by the immense potential of emerging single-cell and spatial multi-omics technologies, which allow us to explore the establishment of biological function under normal circumstances as well as its disruption in various diseases. In this regard, my specific interest lies in developing computational methodologies that can elucidate the underlying regulatory mechanisms responsible for autoimmune disorders like multiple sclerosis.",
+      "professional_career": [
+        {
+          "period": "2022",
+          "position": "Master's Thesis at the Zentrum für Molekulare Biologie der Universität Heidelberg, Kaessmann Group"
+        },
+        {
+          "period": "2020",
+          "position": "Bachelor's Thesis at the Research Center Jülich, Pietruszka Group"
+        },
+        {
+          "period": "2019",
+          "position": "Research internship at the Max Planck Institute for Biology of Ageing, Denzel Group"
+        },
+        {
+          "period": "2019",
+          "position": "Research intership at the Institute for Quantitative Health Science and Engineering at Michigan State University, Bachmann Group"
+        },
+        {
+          "period": "2018",
+          "position": "Research internship in the Department of Physiology at Michigan State University, Doseff Group"
+        }
+      ],
+      "education": [
+        {
+          "period": "2020-2022",
+          "degree": "M.Sc. Molecular Biosciences (Major: Molecular & Cellular Biology), Heidelberg University, Germany"
+        },
+        {
+          "period": "2018-2019",
+          "degree": "Academic Year, Michigan State University, US"
+        },
+        {
+          "period": "2016-2020",
+          "degree": "B.Sc Biochemistry, Heinrich-Heine University in Düsseldorf, Germany"
+        }
+      ],
+      "email": "",
+      "telephone": "",
+      "orcid": "",
+      "image": "philipp-schaefer.jpg"
     },
     {
       "name": "Bárbara Zita Peters Couto",
       "role": "PhD Student",
-      "image": "/team/peters-couto.jpg",
-      "bio": "PhD Student in Systems Biology",
-      "email": "barbara.peters-couto@example.com",
-      "website": "https://example.com/peters-couto"
+      "description": "I have always liked biology and medicine, so studying biochemistry for my undergrad was a good decision. My journey of liking computers so much started when I went to the CRUK-CI for a wet lab summer internship. I saw two interns next to me working on a super cool-looking computer screen. Since then, I have pursued computational knowledge constantly. During my master’s in Berlin, I again had both wet lab and dry lab experience, and realised that I am very passionate about computers (thank you Vim). During my master’s thesis at Stefanie Großwendt’s lab, I also realised that I am super interested in the topic of cell-cell communication, and in databases with biological prior knowledge. Therefore (and especially thanks to all my previous supervisors, colleagues, family and friends) I have decided to pursue academia further, joining the Saez-Rodriguez lab as a PhD student.",
+      "research_interests": "With the existing and upcoming omics technologies, it could be possible to get deep insights into a cell’s way of working. I am super interested in how cells communicate/interact with each other, and how this knowledge could help us find therapeutic strategies for cancer and other diseases. During my PhD I am going to be part of theDECIDER project(European Union-funded project, grant agreement No 965193). Ultimately, my aim is to better understand the biology of cancer, to hopefully help patients down the line!",
+      "professional_career": [
+        {
+          "period": "2023-present",
+          "position": "PhD Candidate, Saez-Rodriguez Group, Institute for Computational Biomedicine, Heidelberg University, Faculty of Medicine & Heidelberg University Hospital, Germany"
+        },
+        {
+          "period": "2023",
+          "position": "Visiting Researcher, groups of Shila Ghazanfar and Ellis Patrick, School of Mathematics and Statistics, University of Sydney, Australia"
+        },
+        {
+          "period": "2022",
+          "position": "MSc Student, Grosswendt lab, Berlin Institute for Medical Systems Biology, Max Delbrück Centre, Germany"
+        },
+        {
+          "period": "2021",
+          "position": "Research internships at the Institute for Theoretical Biology and Department of Radiation Oncology and Radiotherapy, Charité Universitätsmedizin Berlin, Germany"
+        },
+        {
+          "period": "2019",
+          "position": "Summer studentship, Hannon lab, CRUK-CI, University of Cambridge, UK"
+        }
+      ],
+      "education": [
+        {
+          "period": "2020-2022",
+          "degree": "MSc Molecular Medicine, Charité Universitätsmedizin Berlin, Germany"
+        },
+        {
+          "period": "2017-2020",
+          "degree": "BSc Biochemistry, King’s College London, UK"
+        },
+        {
+          "period": "2018-2019",
+          "degree": "BSc Biochemistry, University of California, Santa Barbara"
+        }
+      ],
+      "email": "barbara-zita.peters-couto@uni-heidelberg.de",
+      "telephone": "",
+      "orcid": "",
+      "image": "barbara-zita-peters-couto.jpg"
     },
     {
       "name": "Miguel Hernandez",
       "role": "PhD Student",
-      "image": "/team/hernandez.jpg",
-      "bio": "PhD Student in Systems Biology",
-      "email": "miguel.hernandez@example.com",
-      "website": "https://example.com/hernandez"
+      "description": "I did my bachelor’s degree in Biology at the Universidad de Guadalajara in Mexico. Back then I had joined a couple of wet-lab groups focused on molecular biology and immunology. After having the opportunity to do research in Germany, I started my M.Sc degree in Molecular Bioscience at Heidelberg University. While exploring my interests, at first, I carried out internships which had both wet-lab and dry-lab components, but then I fully transitioned to bioinformatics. The projects included high-throughput screens of regulatory sequences, tool development in the context of a TCR-epitope deconvolution platform for autoimmune diseases, and studying gene regulatory networks in the immune system using a multi-omics cell atlas. During this time, my interest on two areas only grew: i) the immune system and its impact on disease mechanisms, and ii) tool development and data analysis to better understand biology. I will focus on both of these areas during my PhD at the Saez-Rodriguez group. I will explore IgA nephropathy by analyzing multi-omics datasets and will also dedicate my time to the prior-knowledge tools developed by the group.",
+      "research_interests": "I am very excited about the ever expanding reach of bioinformatics and multi-omics datasets, and the opportunity that this brings to better understand disease mechanisms. My interest lies at this intersection. Particularly, I am fascinated about the immune system and its involvement in an array of diseases, including cancer and autoimmune disorders. On the bioinformatics side, I enjoy exploring multi-layered datasets and piecing together the clues from the biology that lies behind.",
+      "professional_career": [
+        {
+          "period": "2023-present",
+          "position": "PhD candidate, Saez-Rodriguez group, Institute for Computational Biomedicine, Heidelberg University Hospital, Germany"
+        },
+        {
+          "period": "2023",
+          "position": "M.Sc in Molecular Biosciences, Major in Molecular and Cellular Biology, Heidelberg University, Germany"
+        },
+        {
+          "period": "2023",
+          "position": "Internship, Saez-Rodriguez group, Institute for Computational Biomedicine, Heidelberg"
+        },
+        {
+          "period": "2023",
+          "position": "M. Sc. Thesis, Zaugg group, EMBL, Heidelberg"
+        },
+        {
+          "period": "2022",
+          "position": "Internship, Lu group, Institute for Computational Biomedicine, Heidelberg"
+        },
+        {
+          "period": "2021",
+          "position": "Internship, Platten group, DKFZ"
+        },
+        {
+          "period": "2020",
+          "position": "Internship, Lindner group, BioMed X"
+        },
+        {
+          "period": "2019",
+          "position": "B.Sc in Biology, Universidad de Guadalajara, Mexico"
+        },
+        {
+          "period": "2018",
+          "position": "Internship at the Max Planck for Developmental Biology, Tuebingen, Germany"
+        }
+      ],
+      "education": [
+        {
+          "period": "2019-2023",
+          "degree": "M.Sc. in Molecular Biosciences, Heidelberg University, Germany"
+        },
+        {
+          "period": "2014-2019",
+          "degree": "B.Sc in Biology, Universidad de Guadalajara, Mexico"
+        }
+      ],
+      "email": "miguel.hernandez@uni-heidelberg.de",
+      "telephone": "",
+      "orcid": "0000-0001-8503-1954",
+      "image": "miguel-hernandez.jpeg"
     },
     {
       "name": "Naomi Murphy",
       "role": "PhD Student",
-      "image": "/team/murphy.jpg",
-      "bio": "PhD Student in Systems Biology",
-      "email": "naomi.murphy@example.com",
-      "website": "https://example.com/murphy"
+      "description": "My final year project during my degree in natural sciences involved a model neuron. I was hooked – to learn more about solving problems with code, I went into industry. As a data consultant, I learned Python and software engineering best practices, and was exposed to a range of problems and very different teams. A core part of my role was to consider what a dataset could offer in answering a particular question and developing tools to transform or enrich it to make it more useful. I realised I would rather be doing this in the context of my original academic interests, biology and disease, so took a sabbatical year to pursue a master’s in Bioinformatics. At the Institute of Genetics and Cancer in Edinburgh, I used single-cell RNA-seq data to explore the transition between inflammatory bowel disease and colorectal cancer. This confirmed I wanted to apply my skills omics-related research. I have now started my PhD in the Saez-Rodriguez group, and plan to be an active participant in the group’s culture of collaboration and methods development.",
+      "research_interests": "We understand surprisingly little about the healthy human body, let alone the mechanisms underlying disease. I find this both daunting and exciting – there’s so much to discover, and a breakthrough could transform patients’ lives. My interests lie in how spatial context, different modalities, and multi-omics can elucidate homeostasis and disease processes. I am particularly interested in the use of spatial multi-omics to explore host-microbiome interactions in the gut. This will be a focal points of my PhD as a member of theCartoHostBug project(ERC-funded, grant agreement ID 101118531).",
+      "professional_career": [
+        {
+          "period": "2024-present",
+          "position": "PhD student, Saez-Rodriguez group, European Bioinformatics Institute, European Molecular Biology Laboratory (EMBL-EBI)"
+        },
+        {
+          "period": "2012-2024",
+          "position": "Consultant Data Scientist, Detica / BAE Systems Digital Intelligence, UK"
+        },
+        {
+          "period": "2022",
+          "position": "Student researcher, Institute of Genetics & Cancer, University of Edinburgh"
+        },
+        {
+          "period": "2011",
+          "position": "Student researcher, Department of Pharmacology, University of Cambridge"
+        }
+      ],
+      "education": [
+        {
+          "period": "2021-2022",
+          "degree": "MSc Bioinformatics, University of Edinburgh, UK"
+        },
+        {
+          "period": "2008-2011",
+          "degree": "BA Natural Sciences, University of Cambridge, UK"
+        }
+      ],
+      "email": "nmurphy@ebi.ac.uk",
+      "telephone": "",
+      "orcid": "0000-0001-5606-0502",
+      "image": "naomi-murphy.jpeg"
     },
     {
       "name": "Jenna Keung",
       "role": "PhD Student",
-      "image": "/team/keung.jpg",
-      "bio": "PhD Student in Systems Biology",
-      "email": "jenna.keung@example.com",
-      "website": "https://example.com/keung"
+      "description": "I started with a biology background that focuses on cell biology and genetics. After working on a statistical genetics project during my undergraduate degree, I realised that I wanted to work in bioinformatics and learn more about computational biology. Afterwards, I had the opportunity to work on single-cell and bulk transcriptomics, as well as proteomics and metabolomics, in the context of different conditions such as cancer, and investigating immunological inter-pathways associations in COVID-19. Learning more about individual omics types led to an interest in multi-omics integration and methods development.",
+      "research_interests": "I’m interested in multi-omics integration methods to combine information from different biological data types, in particular single-cell and spatial technologies. My current research project is focused on understanding the interaction of different cell types during disease progression of IgA nephropathy, a chronic kidney disease. I aim to achieve a more comprehensive understanding of underlying disease mechanisms by analysing different omics across multiple cohorts.",
+      "professional_career": [
+        {
+          "period": "2025-present",
+          "position": "PhD student, Saez-Rodriguez group, European Bioinformatics Institute, European Molecular Biology Laboratory (EMBL-EBI)"
+        },
+        {
+          "period": "2023-2024",
+          "position": "Research Assistant, University of Oxford"
+        }
+      ],
+      "education": [
+        {
+          "period": "2024-present",
+          "degree": "PhD, European Bioinformatics Institute, European Molecular Biology Laboratory (EMBL-EBI)"
+        },
+        {
+          "period": "2022-2023",
+          "degree": "Msc Bioinformatics, Imperial College London"
+        },
+        {
+          "period": "2019-2022",
+          "degree": "Bsc Biomedical Science, King’s College London"
+        }
+      ],
+      "email": "keung@ebi.ac.uk",
+      "telephone": "",
+      "orcid": "0009-0006-4450-0834",
+      "image": "jenna-keung.jpeg"
     },
     {
       "name": "Jovan Tanevski",
       "role": "Associated Member",
-      "image": "/team/tanevski.jpg",
-      "bio": "Associated Member of the research group",
-      "email": "jovan.tanevski@example.com",
-      "website": "https://example.com/tanevski"
+      "description": "I received my Bachelor of Electrical Engineering and Information Technologies in in 2010, followed by a Master’s degree in Bioinformatics in 2011 in Skopje, Macedonia. For my PhD studies I moved to Ljubljana, Slovenia, where I started working at the Department of Knowledge Technologies at the Jožef Stefan Institute. For my thesis I developed methods for scientific knowledge discovery by modeling and design of deterministic and stochastic dynamical biological systems. Since 2016 I work as a research associate at the Jožef Stefan Institute.In 2018 I joined the Saez-Rodriguez group at the Heidelberg University, as a postdoctoral researcher, focusing on machine learning for modeling spatially resolved omics data. Since 2024 I am an independent group leader, working on the development and application of machine learning and optimization methods for analysis of spatial omics data within the institute.",
+      "research_interests": "My research interests are at the intersection of systems sciences and machine learning. I am interested in the development of methods that combine data and prior knowledge. I have a strong background in machine learning and experience in computational systems biology. I am experienced in modeling and design of dynamical systems and their application to problems coming from the domains of systems and synthetic biology. I am currently working on developing methods for analysis of highly multiplexed and spatially resolved data. I am keen to understand the different patterns of expression within the tissue and bridge them to the underlying dynamical mechanisms that can explain the emergent functional programs and organization.",
+      "professional_career": [
+        {
+          "period": "2024-present",
+          "position": "Independent group leader – Institute for Computational Biomedicine, Heidelberg University, Germany"
+        },
+        {
+          "period": "2022-2024",
+          "position": "Research Area Leader – Institute for Computational Biomedicine, Heidelberg University, Germany"
+        },
+        {
+          "period": "2018–2022",
+          "position": "Postdoctoral researcher – Institute for Computational Biomedicine, Heidelberg University, Germany"
+        },
+        {
+          "period": "2016–present",
+          "position": "Research associate – Department of Knowledge Technologies, Jožef Stefan Institute, Ljubljana, Slovenia"
+        },
+        {
+          "period": "2011-2016",
+          "position": "Research assistant – Department of Knowledge Technologies, Jožef Stefan Institute, Ljubljana, Slovenia"
+        }
+      ],
+      "education": [
+        {
+          "period": "2011–2016",
+          "degree": "PhD in Information and Communication Technologies – Jožef Stefan International Postgraduate School, Ljubljana, Slovenia"
+        },
+        {
+          "period": "2010–2011",
+          "degree": "Master of Science in Bioinformatics - Ss. Cyril and Methodius University, Skopje, Macedonia"
+        },
+        {
+          "period": "2006–2010",
+          "degree": "Bachelor of Electrical Engineering and Information Technologies – Ss. Cyril and Methodius University, Skopje, Macedonia"
+        }
+      ],
+      "email": "jovan.tanevski@uni-heidelberg.de",
+      "telephone": "",
+      "orcid": "0000-0001-7177-1003",
+      "image": "jovan-tanevski.jpg"
     },
     {
       "name": "Olga Ivanova",
       "role": "Associated Member",
-      "image": "/team/ivanova.jpg",
-      "bio": "Associated Member of the research group",
-      "email": "olga.ivanova@example.com",
-      "website": "https://example.com/ivanova"
+      "description": "I have computer science education and I worked as a java developer in telecom for a couple of years. IT is a well-paid and an exciting field, but not as rewarding as bioinformatics. So I opted for a more intricate career path and got a Masters of Science in bioinformatics in Amsterdam. It happened to be a difficult change since I needed to stretch my knowledge base to various areas that were previously irrelevant to me: molecular biology, chemistry, statistics, and physics.My master thesis started as a minor internship project aimed to model epistatic interactions in small networks using logical modeling (Petri nets). The project brought so many exciting results that we ended up with two papers and found another student to continue digging through the results.After finishing the MSc, I worked as a junior researcher in the respiratory field and as a junior teacher in bioinformatics master courses. Asthma, the disease I focused on, is among relatively well-controlled diseases, although much can still be done for hard-to-treat cases using computational approaches. My passion, however, lies in a slightly different direction – cancer and ageing, new technologies in biotech and data integration. In 2019, I started my PhD in Saez-Rodriguez group. Here, I will be involved in a cancer-related project with single-cell omics data.",
+      "research_interests": "I am easily excited by many things, curious about life in general, the universe, time, and the theory of all. Unfortunately for me and fortunately for my supervisors, I chose to concentrate on data analysis and modeling for single-cell omics in diseases (currently, cancer). I believe that my computational background combined with the expertise of clinicians, pharmacists and experimentalists, can help to resolve questions about disease development, progression and prediction. Also, I find ageing processes incredible and would want to (eventually) dig deeper into it.",
+      "professional_career": [
+        {
+          "period": "2019 - present: PhD Candidate, Institute for Computational Biomedicine, Heidelberg University, Faculty of Medicine & Heidelberg University Hospital, Germany.",
+          "position": ""
+        },
+        {
+          "period": "2018 - 2019 Junior research at Amsterdam UMC, Department of respiratory medicine, Amsterdam, The Netherlands.",
+          "position": ""
+        },
+        {
+          "period": "2018 - 2019 Junior teacher at Vrije Universiteit, bioinformatics courses, Amsterdam, The Netherlands.",
+          "position": ""
+        }
+      ],
+      "education": [
+        {
+          "period": "2013 - 2014, 2016 - 2017, MSc in Bioinformatics/Systems biology, Vrije Universiteit Amsterdam, University of Amsterdam, The Netherlands",
+          "degree": ""
+        },
+        {
+          "period": "2006 - 2010, BSc in Computer science, Voronezh state university, Russia",
+          "degree": ""
+        }
+      ],
+      "email": "olga.ivanova@uni-heidelberg.de",
+      "telephone": "",
+      "orcid": "0000-0002-9111-4593",
+      "image": "olga-ivanova.jpg"
     },
     {
       "name": "Sebastian Lobentanzer",
       "role": "Associated Member",
-      "image": "/team/lobentanzer.jpg",
-      "bio": "Associated Member of the research group",
-      "email": "sebastian.lobentanzer@example.com",
-      "website": "https://example.com/lobentanzer"
+      "description": "Dr. Sebastian Lobentanzer is a seasoned biomedical researcher with extensive expertise in systems pharmacology and research software engineering. During his PhD training in pharmacology, he combined his biomedical knowledge with information technology, starting with Java and later expanding to R, graph database systems, and Python. His postdoctoral work is characterized by a strong commitment to open-source Python frameworks, particularly in biomedical applications. As an advocate for open science and reproducibility, he is known for developing innovative solutions in biomedical research and promoting robust, reproducible workflows within the research community. His professional approach integrates markdown-based self-documenting workflows with containerisation. Sebastian’s contributions in both pharmacology and research software engineering have garnered respect and recognition among his peers. He actively shares his knowledge at conferences and workshops, empowering researchers to advance their work with accessible data analysis tools and open-source initiatives. In addition, he is dedicated to professional illustration and typesetting, British English, and the Oxford comma.",
+      "research_interests": "Sebastian is deeply invested in advancing causal reasoning in interaction modeling at both intra- and inter-cellular levels. Trained as a pharmacist, his focus centres on the complex dynamics of pathologic changes and the molecular action of drugs. Sebastian’s goal is to marry the vast informational wealth of modern omics data with the robust logic of causal reasoning. His approach aims to tackle the issue of irreproducibility due to spurious correlation and to enhance predictions for the application of therapeutics. To achieve this, he is developing open-source frameworks for the management and application of knowledge, which includes the automation of research tasks with the power of Large Language Models.His work primarily addresses overcoming drug resistance in High-Grade Serous Ovarian Cancer (HGSOC) as part of theDECIDER EUproject and integrating pharmacologic/toxicologic prior knowledge with omics data within the framework of theTransQST) project. Both projects are funded by the European Union (GA No. 965193 and No. 116030).",
+      "professional_career": [
+        {
+          "period": "2021-present",
+          "position": "Postdoctoral research fellow at Heidelberg University Hospital, Heidelberg, Germany"
+        },
+        {
+          "period": "2020-2021",
+          "position": "Postdoctoral research fellow at Goethe-University, Frankfurt, Germany and Hebrew University, Jerusalem, Israel"
+        },
+        {
+          "period": "2015-2020",
+          "position": "Research fellow and teaching assistant at Goethe-University, Frankfurt and Hebrew University, Jerusalem"
+        },
+        {
+          "period": "2014-present",
+          "position": "Pharmacist (deputy head), Spessart-Apotheke, Bad Orb, Germany"
+        }
+      ],
+      "education": [
+        {
+          "period": "2015-2020 PhD, Neuro-immune pharmacology, Goethe-University, Frankfurt, Germany",
+          "degree": ""
+        },
+        {
+          "period": "2008-2013 Pharmacy (Licensure), Goethe-University, Frankfurt, Germany",
+          "degree": ""
+        },
+        {
+          "period": "2004-2006 Audio engineer (Diploma), School of Audio Engineering, Frankfurt, Germany",
+          "degree": ""
+        }
+      ],
+      "email": "sebastian.lobentanzer@uni-heidelberg.de",
+      "telephone": "",
+      "orcid": "0000-0003-3399-6695",
+      "image": "sebastian-lobentanzer.jpg"
     },
     {
       "name": "Mira Burtscher",
       "role": "Associated Member",
-      "image": "/team/burtscher.jpg",
-      "bio": "Associated Member of the research group",
-      "email": "mira.burtscher@example.com",
-      "website": "https://example.com/burtscher"
+      "description": "I studied Molecular Biotechnology at the Heidelberg University with a focus on computational biology. During my master thesis I worked on multi-omics integration methods for functional proteomics data in a biomedical context as part of a collaboration between the lab of Julio Saez-Rodriguez and GSK. In 2022, I started my PhD in the group of Mikhail Savitski in the Genome Biology unit at the EMBL Heidelberg where I will focus on developing novel MS-based proteomics methods in different biological settings.",
+      "research_interests": "The main focus of my research is to develop MS-based proteomics methods that enhance our understanding of biological processes by measuring protein features like phosphorylation, thermal stability and solubility in a systematic and proteome-wide manner. I am further interested in ways to analyze and integrate the resulting data using computational biology methods.",
+      "professional_career": [
+        {
+          "period": "2022-current",
+          "position": "PhD candidate in the Savitski team at the EMBL Heidelberg"
+        },
+        {
+          "period": "2021-2022",
+          "position": "Master Thesis at Cellzome (GSK) and the Institute for Computational Biomedicine, Heidelberg University, Faculty of Medicine & Heidelberg University Hospital"
+        },
+        {
+          "period": "2019-2021",
+          "position": "Research internships at the German Cancer Research Center in Heidelberg, the Institute for Organic Chemistry and Biochemistry in Prague, the EMBL Heidelberg and the Heidelberg University Hospital"
+        }
+      ],
+      "education": [
+        {
+          "period": "2021",
+          "degree": "MSc. Molecular Biotechnology, Heidelberg University"
+        },
+        {
+          "period": "2019",
+          "degree": "BSc. Molecular Biotechnology, Heidelberg University"
+        }
+      ],
+      "email": "mira.burtscher@embl.de",
+      "telephone": "",
+      "orcid": "",
+      "image": "mira-burtscher.jpg"
     },
     {
       "name": "Lorna Wessels",
       "role": "Associated Member",
-      "image": "/team/wessels.jpg",
-      "bio": "Associated Member of the research group",
-      "email": "lorna.wessels@example.com",
-      "website": "https://example.com/wessels"
+      "description": "In my Bachelor studies I received extensive training in wet-lab molecular biotechnology as well as first insights into computational biology. During my master’s I took a deep dive into computational biology and bioinformatics focusing on the integration of different modalities of single-cell sequencing data. For my master thesis in the lab of Julio Saez-Rodriguez I constructed a resource for marker transcription factors across cell types and tissues as a reference in the context of gene regulatory network evaluation. In 2022, I started my PhD in the group of Mahak Singhal at the European Center for Angioscience where I will mainly focus on developing methods to uncover regulatory processes underlying the vascular circadian rhythms.",
+      "research_interests": "I am particularly interested in how we can computationally model the complex regulatory processes orchestrating gene expression in health and disease by integrating different omics data. Further, I am eager to find ways to translate the common effort of the scientific community into valuable resources in order to refine and evaluate gene regulatory networks in a variety of contexts.",
+      "professional_career": [
+        {
+          "period": "2022 - current",
+          "position": "PhD with Dr. Mahak Singhal at the European Center for Angioscience, Medical Faculty Mannheim, co-supervised by Julio Saez-Rodriguez"
+        },
+        {
+          "period": "2021 - 2022",
+          "position": "Master Thesis at the Institute for Computational Biomedicine, Heidelberg University Hospital"
+        },
+        {
+          "period": "2018 - 2022",
+          "position": "Research Internships at the German Cancer Research Center, the Women’s Hospital and the Institute of Pathology in Heidelberg"
+        },
+        {
+          "period": "2014 - 2018",
+          "position": "Student trainee at Heidelberg Instruments Mikrotechnik GmbH, Heidelberg, Germany"
+        }
+      ],
+      "education": [
+        {
+          "period": "2018 - 2022",
+          "degree": "Molecular Biotechnology, MSc., Universität Heidelberg, Germany"
+        },
+        {
+          "period": "2014 - 2018",
+          "degree": "Molecular Biotechnology, BSc., Universität Heidelberg, Germany"
+        }
+      ],
+      "email": "Lorna.Wessels@medma.uni-heidelberg.de",
+      "telephone": "",
+      "orcid": "",
+      "image": "lorna-wessels.jpeg"
     },
     {
       "name": "Loan Vulliard",
       "role": "Associated Member",
-      "image": "/team/vulliard.jpg",
-      "bio": "Associated Member of the research group",
-      "email": "loan.vulliard@example.com",
-      "website": "https://example.com/vulliard"
+      "description": "My bioinformatics studies at INSA Lyon sparked my interest in computational approaches to study molecular biology. There, I had the opportunity to study for a semester at KAIST in South Korea. I also completed two research internships in cancer immunoinformatics, first with Prof. Colinge and Prof. Cornillot in Montpellier, then with Prof. Nielsen in Copenhagen. These experiences motivated me to join the PhD program at CeMM in Vienna in October 2017, and thegroup of Prof. Menche.After successfully defending my PhD in January 2023, I was awarded a postdoctoral fellowship from theAI Health Innovation Clusterto work together with Dr. Hartmann and Prof. Saez-Rodriguez in Heidelberg.Since 2021, I am also a board member of theCytoData society, with whom we strive to foster a research community dedicated to image-based profiling assays and their computational analyses. I also believe in the importance of scientific outreach and joined the organization team for the first editions of thePint of Science festivalin Austria.",
+      "research_interests": "I am eager to reveal the quantitative principles underlying molecular biology and to better understand human health and diseases. For this, I use data analysis methods and collaborate with experimentalists and experts in the fields of immunology and cell biology.My undergraduate work focused on detecting and characterizing neoepitopes across cancer types, based on sequencing data.In my doctoral work, I studied cellular responses to chemical and genetic perturbations. I planned and coordinated imaging screens of combinations of CRISPR knockouts and drug treatments. I also established an image and data analysis pipeline to quantify morphologicalchanges in these experiments in order to create a map of how genes and drugs interact.My current aim is to develop and apply computational methods to profile and explain metabolic changes in multiplexed ion beam imaging experiments. I aim to contextualize and explain how spatial changes in the tumor immune microenvironment relate to disease stratification and therapeutic responses.",
+      "professional_career": [
+        {
+          "period": "2023–present",
+          "position": "AIH Postdoctoral Fellow in the groups of Felix Hartmann at the DKFZ and Julio Saez-Rodriguez at the Institute for Computational Biomedicine, Heidelberg University, in Heidelberg, Germany"
+        },
+        {
+          "period": "2017–2023",
+          "position": "predoctoral fellow in thegroup of Jörg Mencheat the CeMM Research Center for Molecular Medicine of the Austrian Academy of Sciences and the Max Perutz Labs in Vienna, Austria"
+        }
+      ],
+      "education": [
+        {
+          "period": "2017–2023",
+          "degree": "PhD in Medical lnformatics, Biostatistics & Complex Systems at the Medical University of Vienna, Austria"
+        },
+        {
+          "period": "2012–2017",
+          "degree": "MSc (Diplôme d'ingénieur) in Bioinformatics and Biosciences at INSA Lyon, France"
+        }
+      ],
+      "email": "loan.vulliard@dkfz.de",
+      "telephone": "",
+      "orcid": "0000-0002-2260-4935",
+      "image": "loan-vulliard.jpeg"
     },
     {
       "name": "Maria Puschhof",
       "role": "Associated Member",
-      "image": "/team/puschhof.jpg",
-      "bio": "Associated Member of the research group",
-      "email": "maria.puschhof@example.com",
-      "website": "https://example.com/puschhof"
+      "description": "My computational research career started during my Bachelor studies in Physics where I simulated particle decay properties upon hardware exchange at the ALICE experiment, CERN. During my subsequent Master studies, I majored in Medical Physics, co-developing a semi-automated image analysis pipeline for heavy ion radiotherapy experiments.Sparked by the heterogeneity in biological response upon radiotherapy, I decided to pursue a second, interdisciplinary Master degree in Radiation Biology to deepen my understanding in biological and medical aspects of cancer treatment.During my subsequent PhD, I combined wet and dry lab approaches to profile transcriptional, cellular, and phenotypic changes during metastasis formation in colorectal cancer and to shed light on the question as to why some metastasis grow in an uncontrolled manner, while others can stay dormant for years or even decades.Within my postdoctoral research, I am building on both wet- and dry lab background to integrate single-cell and spatially-resolved transcriptome data in glioblastoma multiforme.",
+      "research_interests": "The success of cancer treatment is frequently limited by the intra-tumour heterogeneity of the cancer cells which therefore respond differently well to particular therapeutics. Due to the vast number of sequencing technologies that have developed over the past decades, we can now resolve and integrate different layers of cancer heterogeneity and consequently better understand the cellular make-up of tumours, their spatial organisation, as well as their interaction with the surrounding microenvironment.As these findings may be instrumental to improving current therapies (e.g. through patient stratification) or unveil novel therapeutic approaches, I am keen on integrating, for instance, single-cell and spatially-resolved transcriptome data to analyse neighbourhood relationships in cancer. Having received a postdoctoral fellowship from theAI Health Innovation Cluster, my project shared between the Saez-Rodriguez, Saka, and Venkataramani groups focuses on the identification and profiling of functional subpopulations in glioblastoma to ultimately unravel novel therapeutic approaches.",
+      "professional_career": [
+        {
+          "period": "2023-Present",
+          "position": "AIH Postdoctoral researcher in the Saez-Rodriguez group, Institute for Computational Biomedicine, Heidelberg University, the Saka group, European Molecular Biology Laboratory (EMBL), Heidelberg and the Venkataramani group, Heidelberg University Hospital"
+        },
+        {
+          "period": "2017-2022",
+          "position": "PhD in Cancer Research, University Medical Center Utrecht, Utrecht, Netherlands"
+        },
+        {
+          "period": "2015-2016",
+          "position": "MSc in Radiation Biology, University of Oxford, Oxford, United Kingdom"
+        },
+        {
+          "period": "2013-2015",
+          "position": "MSc in Physics, Heidelberg University, Heidelberg, Germany"
+        },
+        {
+          "period": "2010-2013",
+          "position": "BSc in Physics, Heidelberg University, Heidelberg, Germany"
+        }
+      ],
+      "education": [],
+      "email": "maria.puschhof@uni-heidelberg.de",
+      "telephone": "",
+      "orcid": "0000-0003-2866-9155",
+      "image": "maria-puschhof.jpeg"
     },
     {
       "name": "Remi Trimbour",
       "role": "Associated Member",
-      "image": "/team/trimbour.jpg",
-      "bio": "Associated Member of the research group",
-      "email": "remi.trimbour@example.com",
-      "website": "https://example.com/trimbour"
+      "description": "I started to study medicine in Strasbourg in 2017 before joining the MD-PhD program of the École Normale Supérieure and the University of Paris.I completed in 2021 a master in systems biology and bioinformatics. My master thesis was on the personalisation of disease boolean models using mutational and single-cell RNA data at Curie Institute.I then realised 2 additional internships, one on the use of multilayer networks to integrate and analyse multiomics data at the ENS of Paris, the second one on gene regulatory networks evaluation in Julio Saez-Rodriguez’s group.I started my PhD in September co-supervised by Julio Saez-Rodriguez and Laura Cantini (Pasteur Institute, Paris), focusing on regulatory mechanisms inference at both intracellular and intercellular levels.",
+      "research_interests": "I am particularly interested in understanding and modelling the complex molecular interplays driving diseases and cellular conditions. I today focus on data-driven inference methods but remain very interested in the personalisation of existing knowledge-based networks.",
+      "professional_career": [
+        {
+          "period": "2022-present",
+          "position": "PhD student at Cantini lab (Pasteur Institute) and Saez lab (Heidelberg University)"
+        },
+        {
+          "period": "2022",
+          "position": "Research Internship Saez lab (Heidelberg University)"
+        },
+        {
+          "period": "2021",
+          "position": "Research internship, Computational Systems Biology team (ENS of Paris)"
+        }
+      ],
+      "education": [
+        {
+          "period": "2019-present",
+          "degree": "MD-PhD Program of the ENS and the University of Paris"
+        },
+        {
+          "period": "2019-2021",
+          "degree": "M.Sc. in Systems biology and Bioinformatics, ENS of Paris"
+        },
+        {
+          "period": "2017-2019",
+          "degree": "DFGSM3 (Medical studies), University of Strasbourg, University of Paris"
+        }
+      ],
+      "email": "remi.trimbour@pasteur.fr",
+      "telephone": "",
+      "orcid": "",
+      "image": "remi-trimbour.jpg"
     },
     {
       "name": "Jennifer Habbes",
       "role": "Associated Member",
-      "image": "/team/habbes.jpg",
-      "bio": "Associated Member of the research group",
-      "email": "jennifer.habbes@example.com",
-      "website": "https://example.com/habbes"
+      "description": "During my physics degree I have focused on molecular and medical imaging and have found a deep interest in both computational methods and biology. Working at the Heidelberg ion beam therapy centre (HIT) and being exposed to very hands-on medical applications of fundamental physical principles I have decided to pursue a medical degree starting in 2019. The pre-clinical years and my elective in digital medicine then drove me towards the topics of bioinformatics and molecular biology. I joined the Saez-Rodriguez group in 2024 for my medical doctoral degree (Dr. med.).",
+      "research_interests": "Medical research is not exclusively conducted in the wet lab anymore. We create and analyse more data than ever, both from human tissue and animal models. My research will focus on single-cell transcriptomics in heart failure and the correlation of animal models to human samples.",
+      "professional_career": [
+        {
+          "period": "2024-present",
+          "position": "MD candidate, Institute for Computational Biomedicine, Heidelberg University Hospital, Germany"
+        },
+        {
+          "period": "2018-2024",
+          "position": "Research/accelerator operating assistant at Heidelberg Ion Beam Therapy Centre (HIT)"
+        },
+        {
+          "period": "2023",
+          "position": "Research assistant in the radiology department of DKFZ for project Clinic 5.1"
+        },
+        {
+          "period": "2019",
+          "position": "Bachelor thesis in physics at the German Cancer Research Institute"
+        }
+      ],
+      "education": [
+        {
+          "period": "2019-present",
+          "degree": "Medicine at Heidelberg University"
+        },
+        {
+          "period": "2016-2017",
+          "degree": "Physics at Umeå university, Sweden"
+        },
+        {
+          "period": "2014-2019",
+          "degree": "Physics at Heidelberg university"
+        }
+      ],
+      "email": "",
+      "telephone": "",
+      "orcid": "",
+      "image": "jennifer-habbes.jpeg"
     },
     {
       "name": "Thorben Söhngen",
       "role": "Associated Member",
-      "image": "/team/sohngen.jpg",
-      "bio": "Associated Member of the research group",
-      "email": "thorben.sohngen@example.com",
-      "website": "https://example.com/sohngen"
+      "description": "I completed both my Bachelor’s and Master’s degrees in Molecular Biotechnology at Heidelberg University, starting in 2016. My fascination with coding began early on, leading me to grasp Python and R during my undergraduate studies. This interest propelled me towards specializing in Bioinformatics, a journey I continued during my Master’s program. Through several research internships, I explored a broad variety of topics, from spatial quantification of miRNA expression to integrating proteome and clinical data from patients with myeloproliferative neoplasm. Now, during my PhD, I’m focusing on colorectal cancer (CRC), collaborating with Rene Jackstadt’s group at HI-STEM and I aim to investigate the impact of novel treatments on disease progression using various single-cell techniques.",
+      "research_interests": "The ever-growing number of methods and resources available for studying disease development and progression have excited me ever since I encountered them during my studies. I am particularly interested in single cell technologies and quickly became fascinated by the resolution and insights offered by those methods. During my PhD, my research will focus on the progression and metastasis in the context of colorectal cancer using multiomics data.",
+      "professional_career": [
+        {
+          "period": "2024–present",
+          "position": "PhD Candidate, Heidelberg Institute for Stem Cell Research and Experimental Medicine (HI-STEM) and Institute for Computational Biomedicine"
+        },
+        {
+          "period": "2022–2023",
+          "position": "Student research assistant, Proteomics and Cell Signaling Group, DKFZ Heidelberg"
+        },
+        {
+          "period": "2019–2023",
+          "position": "Research internships at the Harvard Medical School (SlackLab), DKFZ Heidelberg and Bioquant (RusselLab)"
+        }
+      ],
+      "education": [
+        {
+          "period": "2019–2023",
+          "degree": "M.Sc. in Molecular Biotechnology, Heidelberg University"
+        },
+        {
+          "period": "2016–2019",
+          "degree": "B.Sc. in Molecular Biotechnology, Heidelberg University"
+        }
+      ],
+      "email": "t.soehngen@dkfz-heidelberg.de",
+      "telephone": "",
+      "orcid": "0000-0001-6683-8269",
+      "image": "thorben-hennig.jpeg"
     },
     {
       "name": "Macabe Daley",
       "role": "Associated Member",
-      "image": "/team/daley.jpg",
-      "bio": "Associated Member of the research group",
-      "email": "macabe.daley@example.com",
-      "website": "https://example.com/daley"
+      "description": "My relatively short but varied career so far (read: weird but wonderful), has been driven by a desire to play some kind of role in improving cancer care, even though the exact role that I envisioned has had some iterations along the way.Driven by an interest in innovation and intellectual property, in 2015 I started a dual degree in Biomedical Science and Law, in Australia. Realising Law wasn´t for me, I became interested in the commercial side of life sciences. But some time later, after some stints in a business development role and two biopharmaceutical manufacturing companies, I became much more interested in being a part of the research itself. Not one to love lab work however, I stumbled into the AI/ML field and began to gain skills and programming experience along the way through electives and summer internships.After graduating in 2020, I was fortunate to join the Children’s Cancer Institute as a Bioinformatics RA, within the Computational Biology team and Dr Mark Pinese’s Genomic Childhood Cancer risk team. Over the course of 2.5 years, I worked as part of a multi-disciplinerary clinical team to develop and maintain the pipeline for a clinical study on childhood cancer predisposition using whole-genome sequencing trio data.Then in 2023, I moved to Europe and started an online Masters in Biomedical Data Science offered by a consortium of Spanish universities and led by Universitat Rovira i Virgil. Most recently in June 2024, I joined DKFZ and the Saez-Rodriguez lab on a part-time basis as a Data Scientist, where I am excited to be primarily working in the SMART-CARE consortium to analyse metabolomics and proteomics data in the context of cancer relapse.",
+      "research_interests": "Cancer research holds a special place in my heart, and I am especially passionate about understanding the mechanisms behind its development, progression, and relapse. My research interests within the scope of this is varied, because there is so much biology we do not yet understand and many promising areas of research. However particular areas of interest to me revolve around quantifying risk of occurrence and relapse, whether this be prediction, stratification or treatment efficacy, and I am also interested in survival analysis and spatial omics. My previous research experience includes machine learning, cancer predisposition, clinical genetics, and computational pipeline development. Ultimately, contributing to research that can translate into meaningful outcomes to patients means a lot to me, and being a part of a team working on this is very motivating.",
+      "professional_career": [
+        {
+          "period": "2021-2023",
+          "position": "Bioinformatics Research Assistant, Children's Cancer Institute, Sydney, Australia."
+        },
+        {
+          "period": "2020",
+          "position": "Associate Project Manager, Luina Bio, Brisbane, Australia."
+        },
+        {
+          "period": "2021-2023",
+          "position": "Bioinformatics Research Assistant, Children's Cancer Institute, Sydney, Australia."
+        },
+        {
+          "period": "2020",
+          "position": "Associate Project Manager, Luina Bio, Brisbane, Australia."
+        },
+        {
+          "period": "2019",
+          "position": "Summer Research, Centre for Accident Research and Road Safety, QUT, Australia."
+        },
+        {
+          "period": "2018",
+          "position": "Summer Research, Institute of Health and Biomedical Innovation, QUT, Australia."
+        },
+        {
+          "period": "2018",
+          "position": "Quality Control Intern, Patheon (Thermo Fisher Scientific), Brisbane, Australia."
+        },
+        {
+          "period": "2018",
+          "position": "Summer Research, Centre for Accident Research and Road Safety, QUT, Australia."
+        },
+        {
+          "period": "2018",
+          "position": "Summer Research, Institute of Health and Biomedical Innovation, QUT, Australia."
+        },
+        {
+          "period": "2018",
+          "position": "Quality Control Intern, Patheon (Thermo Fisher Scientific), Brisbane, Australia."
+        }
+      ],
+      "education": [
+        {
+          "period": "2023-present",
+          "degree": "MSc in Biomedical Data Science"
+        },
+        {
+          "period": "2015-2020",
+          "degree": "BBiomedSc & LLB(Hons)"
+        }
+      ],
+      "email": "",
+      "telephone": "",
+      "orcid": "",
+      "image": "macabe-daley.jpeg"
     },
     {
       "name": "Louisa Gerhardt",
       "role": "Associated Member",
-      "image": "/team/gerhardt.jpg",
-      "bio": "Associated Member of the research group",
-      "email": "louisa.gerhardt@example.com",
-      "website": "https://example.com/gerhardt"
+      "description": "Louisa Gerhardt studied medicine at the University of Freiburg and completed her MD thesis on repair mechanisms following myocardial infarction at the Center of Systems Biology (MGH, HMS) in Boston. She started her medical training in Internal medicine in Switzerland and was awarded a research fellowship from the German Research Foundation in 2020 to study kidney repair mechanisms in the laboratory of Andrew McMahon at the University of Southern California, Los Angeles. During her postdoctoral studies she combined single cell omics and spatial transcriptomics with lineage tracing approaches to enhance our understanding of adaptive and maladaptive repair following acute kidney injury. In 2022 Louisa Gerhardt relocated to the University Hospital Mannheim and the University of Heidelberg, where she continues her training as a clinician-scientist in Internal medicine and Nephrology, supported by a clinician-scientist fellowship of the German Society of Internal Medicine. Both as physician and as scientist she strives to improve care for patients with kidney disease.",
+      "research_interests": "My research focuses on understanding the molecular and cellular mechanisms of acute and chronic kidney diseases as well as their prognostic impact in the clinical context. In collaboration with the Saez-Rodriguez group, I employ spatial transcriptomics to unravel pathophysiologic processes in kidney disease.",
+      "professional_career": [
+        {
+          "period": "2022 - Present",
+          "position": "Clinician-scientist fellowship of the German Society of Internal Medicine"
+        },
+        {
+          "period": "2022 - Present",
+          "position": "Residency in Internal medicine and Nephrology at the University Hospital Mannheim, Germany"
+        },
+        {
+          "period": "2020 - 2022",
+          "position": "Postdoctoral Fellowship at the McMahon Laboratory, Eli and Edythe Broad Center for Regenerative Medicine and Stem Cell Research of the University of Southern California (supported by a DFG postdoctoral scholarship)"
+        },
+        {
+          "period": "2017 - 2020",
+          "position": "Residency in Internal medicine at Kantonsspital Aarau, Switzerland"
+        }
+      ],
+      "education": [
+        {
+          "period": "2012 -2013",
+          "degree": "Research fellowship for doctoral thesis (MD) in the Swirski laboratory at the Center for Systems Biology, MGH, Harvard Medical School, Boston, USA (supported by MD Research Fellowship of the Boehringer-Ingelheim-Fonds)"
+        },
+        {
+          "period": "2009 - 2016",
+          "degree": "Medical studies at the University of Freiburg, Germany"
+        }
+      ],
+      "email": "louisamariasophie.gerhardt@umm.de",
+      "telephone": "",
+      "orcid": "0000-0003-3052-1563",
+      "image": "louisa-gerhardt.jpeg"
     },
     {
       "name": "Francisca Gaspar Vieira",
       "role": "Associated Member",
-      "image": "/team/vieira.jpg",
-      "bio": "Associated Member of the research group",
-      "email": "francisca.vieira@example.com",
-      "website": "https://example.com/vieira"
+      "description": "I am a PhD student supervised by Dr. Britta Velten (Centre for Organismal Studies, Heidelberg University) and co-supervised by Dr. Julio Saez-Rodriguez (EMBL’s European Bioinformatics Institute), as a fellow member of the European Laboratory for Learning and Intelligent Systems (ELLIS) PhD program. In my research, I am developing statistical methods and computational tools based on probabilistic factor models to infer and compare perturbation responses from single-cell CRISPR screens across different biological contexts on time-course data.I hold an Integrated Master’s degree in Biological Engineering and a second Master’s degree in Computational Biology and Bioinformatics. In my first master’s thesis, I was at the Laboratory of Gene Technology at KU Leuven, investigating bacteriophage genomics and biocontrol. In my second master’s thesis, I focused on multi-omics integration and classification of glioma types, at NOVA Math – Center for Mathematics and Applications, NOVA University of Lisbon, where I continued for one more year as a researcher on identifying biomolecular mechanisms driving human disease, discovering new therapeutic targets, performing patient stratification and predicting patient outcomes.",
+      "research_interests": "I am fascinated by the incredible potential of computational methods to decode genetic patterns, extract meaningful insights from complex biological datasets, and disentangle different phenotypes. My current research focuses on analyzing single-cell transcriptomics data with CRISPR-based genetic perturbations to understand the regulatory mechanisms governing cellular function and development. In particular, I aim to build upon probabilistic factor models to identify molecular signatures of various interventions and compare them across different biological contexts and time points, uncovering their interplay with dynamic processes.",
+      "professional_career": [
+        {
+          "period": "2024-present",
+          "position": "PhD Candidate, Velten Group, Centre for Organismal Studies, Heidelberg University, Germany"
+        },
+        {
+          "period": "2023-2024",
+          "position": "Research Assistant, NOVA Math - Center for Mathematics and Applications, NOVA University of Lisbon, Portugal"
+        },
+        {
+          "period": "2023",
+          "position": "Member of PerMediK (Personalized Medicine in Chronic Kidney Disease) COST Action, European Cooperation in Science and Technology"
+        },
+        {
+          "period": "2022-2023",
+          "position": "Research internship, NOVA Math - Center for Mathematics and Applications, NOVA University of Lisbon, Portugal"
+        },
+        {
+          "period": "2021",
+          "position": "Research internship, Laboratory of Gene Technology, KU Leuven, Belgium"
+        },
+        {
+          "period": "2020",
+          "position": "Research internship, Computer and Robot Vision Laboratory, University of Lisbon, Portugal"
+        }
+      ],
+      "education": [
+        {
+          "period": "2024-present",
+          "degree": "Doctoral Studies in Biology, Faculty of Biosciences, University of Heidelberg, Germany"
+        },
+        {
+          "period": "2021-2023",
+          "degree": "Master in Computational Biology and Bioinformatics, NOVA University of Lisbon, Portugal"
+        },
+        {
+          "period": "2021",
+          "degree": "Master Thesis, Laboratory of Gene Technology, KU Leuven, Belgium"
+        },
+        {
+          "period": "2016-2021",
+          "degree": "Integrated Master in Biological Engineering, Instituto Superior Técnico, University of Lisbon, Portugal"
+        }
+      ],
+      "email": "francisca.gaspar.vieira@cos.uni-heidelberg.de",
+      "telephone": "",
+      "orcid": "0000-0002-9767-4356",
+      "image": "francisca-gaspar-vieira.jpeg"
     },
     {
       "name": "Christoph Mahler",
       "role": "Associated Member",
-      "image": "/team/mahler.jpg",
-      "bio": "Associated Member of the research group",
-      "email": "christoph.mahler@example.com",
-      "website": "https://example.com/mahler"
+      "description": "I gained my medical degree at LMU Munich, where I joined the group of Martin Kerschensteiner at the Institute of Clinical Neuroimmunology. In cooperation with Thomas Misgeld, I applied 2-photon in-vivo imaging to track axonal calcium dynamics in an animal model of multiple sclerosis. I started clinical training in neurology and collaborated with the Institute of Nuclear Medicine to establish TSPO-PET imaging of neuroinflammatory dynamics. I continued internal medicine training at the West London Renal and Transplant Centre, where my interest in kidney transplantation at the intersection between medicine and immunology was sparked. Currently, I am supported by the clinician scientist program Heidelberg, where my research is focused on improving outcomes for patients with end stage kidney disease through transplantation.",
+      "research_interests": "Physician scientist with a background in immunology and nephrology. My research focuses on regulatory B-cells, the development of tolerance inducing therapies for kidney transplant recipients, and the prediction of kidney graft survival through electronic health records and deep phenotyping.",
+      "professional_career": [
+        {
+          "period": "2024-present",
+          "position": "Clinician Scientist Program, Medical Faculty, Universität Heidelberg; Advisor: Julio Saez-Rodriguez"
+        },
+        {
+          "period": "2020-2024",
+          "position": "Residency (Internal medicine and Nephrology), University Hospital, Universität Heidelberg"
+        },
+        {
+          "period": "2019-2020",
+          "position": "Internal medicine training, Imperial College Healthcare NHS Trust, London, United Kingdom"
+        },
+        {
+          "period": "2018",
+          "position": "Residency (Neurology), University Hospital, Ludwig-Maximilians-Universität München, Germany"
+        }
+      ],
+      "education": [
+        {
+          "period": "2018",
+          "degree": "Dr. med., (Medicine), Ludwig-Maximilians-Universität München, Germany; Thesis Title: Mechanisms of axonal calcium dynamics in an animal model of multiple sclerosis; Advisor: Martin Kerschensteiner"
+        }
+      ],
+      "email": "christophfriedrich.mahler@med.uni-heidelberg.de",
+      "telephone": "",
+      "orcid": "0000-0002-2990-1975",
+      "image": "christoph-mahler.jpeg"
     }
   ],
   "alumni": [
     {
       "name": "Fabian Fröhlich",
-      "role": "PostDoc",
-      "years": "2022-2023",
-      "linkedin": "https://www.linkedin.com/in/fabian-frohlich/"
+      "linkedin": "https://www.linkedin.com/in/fabian-froehlich-10a65838/",
+      "duration": "2022-2023",
+      "position": "PostDoc"
     },
     {
       "name": "Katharina Zirngibl",
-      "role": "PostDoc",
-      "years": "2021-2023",
-      "linkedin": "https://www.linkedin.com/in/katharina-zirngibl/"
+      "linkedin": "https://www.linkedin.com/in/katharina-zirngibl-3aa711a9/",
+      "duration": "2021-2023",
+      "position": "PostDoc"
     },
     {
       "name": "Marzia Sidri",
-      "role": "Project Manager",
-      "years": "2021-2022",
-      "linkedin": "https://www.linkedin.com/in/marzia-sidri/"
+      "linkedin": "https://www.linkedin.com/in/marzia-sidri-97900b4/",
+      "duration": "2021-2022",
+      "position": "project manager"
     },
     {
       "name": "Bartosz Bartmanski",
-      "role": "Postdoc",
-      "years": "2021",
-      "linkedin": "https://www.linkedin.com/in/bartosz-bartmanski/"
+      "linkedin": "https://bartoszbartmanski.github.io/cv/",
+      "duration": "2021-2021",
+      "position": "Postdoc"
     },
     {
       "name": "Arezou Rahimi",
-      "role": "Postdoc",
-      "years": "2021-2024",
-      "linkedin": "https://www.linkedin.com/in/arezou-rahimi/"
+      "linkedin": "https://de.linkedin.com/in/arezou-rahimi",
+      "duration": "2021-2024",
+      "position": "postdoc"
     },
     {
       "name": "Ece Kartal",
-      "role": "Postdoc",
-      "years": "2021-2024",
-      "linkedin": "https://www.linkedin.com/in/ece-kartal/"
+      "linkedin": "https://www.linkedin.com/in/ece-kartal/",
+      "duration": "2021-2024",
+      "position": "Postdoc"
     },
     {
       "name": "Hanna Schumacher",
-      "role": "Bioinformatician",
-      "years": "2021-2023",
-      "linkedin": "https://www.linkedin.com/in/hanna-schumacher/"
+      "linkedin": "https://www.linkedin.com/in/hanna-schumacher/",
+      "duration": "2021-2023",
+      "position": "Bioinformatician"
     },
     {
       "name": "Daniel Dimitrov",
-      "role": "PhD Student",
-      "years": "2020-2024",
-      "linkedin": "https://www.linkedin.com/in/daniel-dimitrov/"
+      "linkedin": "https://www.linkedin.com/in/dboykovdimitrov/",
+      "duration": "2020-2024",
+      "position": "PhD Student"
     },
     {
       "name": "Eleanor Fewings",
-      "role": "Bioinformatician",
-      "years": "2020-2021",
-      "linkedin": "https://www.linkedin.com/in/eleanor-fewings/"
+      "linkedin": "https://www.linkedin.com/in/dr-eleanor-fewings-a08a90159/?originalSubdomain=de",
+      "duration": "2020-2021",
+      "position": "Bioinformatician"
     },
     {
       "name": "Rosa Hernansaiz Ballesteros",
-      "role": "PostDoc",
-      "years": "2019-2021",
-      "linkedin": "https://www.linkedin.com/in/rosa-hernansaiz-ballesteros/"
+      "linkedin": "https://www.linkedin.com/in/rosahernansaizballesteros",
+      "duration": "2019-2021",
+      "position": "PostDoc"
     },
     {
       "name": "Igor Bulanov",
-      "role": "Intern",
-      "years": "2019-2020",
-      "linkedin": "https://www.linkedin.com/in/igor-bulanov/"
+      "linkedin": "https://www.linkedin.com/in/igor-bulanov/",
+      "duration": "2019-2020",
+      "position": "intern"
     },
     {
       "name": "Minoo Ashtiani",
-      "role": "Intern",
-      "years": "2019-2020",
-      "linkedin": "https://www.linkedin.com/in/minoo-ashtiani/"
+      "linkedin": "https://www.linkedin.com/in/minooashtiani",
+      "duration": "2019-2020",
+      "position": "intern"
     },
     {
       "name": "Alice Driessen",
-      "role": "Intern",
-      "years": "2019-2020",
-      "linkedin": "https://www.linkedin.com/in/alice-driessen/"
+      "linkedin": "https://www.linkedin.com/in/alice-driessen",
+      "duration": "2019-2020",
+      "position": "intern"
     },
     {
       "name": "Ana Victoria Ponce-Bobadilla",
-      "role": "Postdoc",
-      "years": "2019-2020",
-      "linkedin": "https://www.linkedin.com/in/ana-victoria-ponce-bobadilla/"
+      "linkedin": "https://www.linkedin.com/in/ana-victoria-ponce-bobadilla-521627101/",
+      "duration": "2019-2020",
+      "position": "Postdoc"
     },
     {
       "name": "Alberto Valdeolivas Urbelz",
-      "role": "Postdoc",
-      "years": "2019-2020",
-      "linkedin": "https://www.linkedin.com/in/alberto-valdeolivas/"
+      "linkedin": "https://de.linkedin.com/in/alberto-valdeolivas",
+      "duration": "2019-2020",
+      "position": "Postdoc"
     },
     {
       "name": "Nadine Tüchler",
-      "role": "PhD Student",
-      "years": "2019-2024",
-      "linkedin": "https://www.linkedin.com/in/nadine-tuechler/"
+      "linkedin": "https://www.linkedin.com/in/nadine-tuechler/",
+      "duration": "2019-2024",
+      "position": "PhD Student"
     },
     {
       "name": "Javier Perales-Patón",
-      "role": "Postdoc",
-      "years": "2018-2022",
-      "linkedin": "https://www.linkedin.com/in/javier-perales-patón/"
+      "linkedin": "https://www.linkedin.com/in/javier-perales-pat%C3%B3n-27baa154/?originalSubdomain=nl",
+      "duration": "2018-2022",
+      "position": "Postdoc"
     },
     {
       "name": "Charlie Pieterman",
-      "role": "Intern",
-      "years": "2018",
-      "linkedin": "https://www.linkedin.com/in/charlie-pieterman/"
+      "linkedin": "https://de.linkedin.com/in/charlie-pieterman-29317b156/de",
+      "duration": "2018-2018",
+      "position": "intern"
     },
     {
       "name": "Anika Liu",
-      "role": "Master Thesis",
-      "years": "2018",
-      "linkedin": "https://www.linkedin.com/in/anika-liu/"
+      "linkedin": "https://www.linkedin.com/in/anikaliu386/",
+      "duration": "2018-2018",
+      "position": "Master Thesis"
     },
     {
       "name": "Hyojin Kim",
-      "role": "PhD Student",
-      "years": "2017-2020",
-      "linkedin": "https://www.linkedin.com/in/hyojin-kim/"
+      "linkedin": "https://www.linkedin.com/in/hyojin-kim-b3bb711ab/",
+      "duration": "2017-2020",
+      "position": "Phd student"
     },
     {
       "name": "Nicolas Palacio-Escat",
-      "role": "PhD Student",
-      "years": "2017-2020",
-      "linkedin": "https://www.linkedin.com/in/nicolas-palacio-escat/"
+      "linkedin": "https://www.linkedin.com/in/palacioescatn/",
+      "duration": "2017-2020",
+      "position": "PhD Student"
     },
     {
       "name": "Panuwat Trairatphisan",
-      "role": "Postdoc",
-      "years": "2017-2019",
-      "linkedin": "https://www.linkedin.com/in/panuwat-trairatphisan/"
+      "linkedin": "https://www.linkedin.com/in/panuwat-trairatphisan-25046b75/",
+      "duration": "2017-2019",
+      "position": "Postdoc"
     },
     {
       "name": "Bence Szalai",
-      "role": "Postdoc",
-      "years": "2017-2018",
-      "linkedin": "https://www.linkedin.com/in/bence-szalai/"
+      "linkedin": "https://www.linkedin.com/in/bence-szalai-ba403878/de",
+      "duration": "2017-2018",
+      "position": "Postdoc"
     },
     {
       "name": "Ferenc Tajti",
-      "role": "Intern",
-      "years": "2017-2018",
-      "linkedin": "https://www.linkedin.com/in/ferenc-tajti/"
+      "linkedin": "",
+      "duration": "2017-2018",
+      "position": "Intern"
     },
     {
       "name": "Francesco Ceccarelli",
-      "role": "Intern",
-      "years": "2017-2018",
-      "linkedin": "https://www.linkedin.com/in/francesco-ceccarelli/"
+      "linkedin": "https://www.linkedin.com/in/francesco-ceccarelli-41a660161/",
+      "duration": "2017-2018",
+      "position": "intern"
     },
     {
       "name": "Vigneshwari Subramanian",
-      "role": "Postdoc",
-      "years": "2017-2018",
-      "linkedin": "https://www.linkedin.com/in/vigneshwari-subramanian/"
+      "linkedin": "https://de.linkedin.com/in/vigneshwari-subramanian-10931749",
+      "duration": "2017-2018",
+      "position": "Postdoc"
     },
     {
       "name": "Christian Holland",
-      "role": "PhD Student",
-      "years": "2017-2021",
-      "linkedin": "https://www.linkedin.com/in/christian-holland/"
+      "linkedin": "https://www.linkedin.com/in/christian-holland-88848611a/",
+      "duration": "2017-2021",
+      "position": "PhD Student"
     },
     {
       "name": "Mahmoud Ibrahim",
-      "role": "Postdoc",
-      "years": "2017",
-      "linkedin": "https://www.linkedin.com/in/mahmoud-ibrahim/"
+      "linkedin": "https://www.linkedin.com/in/mahmoud-ibrahim-47b78b22/",
+      "duration": "2017-2017",
+      "position": "Postdoc"
     },
     {
       "name": "Enio Gjerga",
-      "role": "PhD Student",
-      "years": "2016-2020",
-      "linkedin": "https://www.linkedin.com/in/enio-gjerga/"
+      "linkedin": "https://www.linkedin.com/in/enio-gjerga-9032a599/",
+      "duration": "2016-2020",
+      "position": "Phd student"
     },
     {
       "name": "Luis Tobalina Segura",
-      "role": "Postdoc",
-      "years": "2016-2019",
-      "linkedin": "https://www.linkedin.com/in/luis-tobalina-segura/"
+      "linkedin": "https://es.linkedin.com/in/luis-tobalina-614bb646",
+      "duration": "2016-2019",
+      "position": "Postdoc"
     },
     {
       "name": "Melanie Rinas",
-      "role": "Postdoc",
-      "years": "2016-2019",
-      "linkedin": "https://www.linkedin.com/in/melanie-rinas/"
+      "linkedin": "https://de.linkedin.com/in/melanie-rinas-a122538a",
+      "duration": "2016-2019",
+      "position": "Postdoc"
     },
     {
       "name": "Mi Yang",
-      "role": "PhD Student / Postdoc",
-      "years": "2015-2019",
-      "linkedin": "https://www.linkedin.com/in/mi-yang/"
+      "linkedin": " https://www.linkedin.com/in/miyang0586/",
+      "duration": "2015-2019",
+      "position": "PhD Student / Postdoc"
     },
     {
       "name": "Angeliki Kalamara",
-      "role": "PhD Student",
-      "years": "2015-2019",
-      "linkedin": "https://www.linkedin.com/in/angeliki-kalamara/"
+      "linkedin": "https://www.linkedin.com/in/angeliki-kalamara/",
+      "duration": "2015-2019",
+      "position": "PhD Student"
     },
     {
       "name": "Jakob Wirbel",
-      "role": "Intern & Master Thesis",
-      "years": "2015-2017",
-      "linkedin": "https://www.linkedin.com/in/jakob-wirbel/"
+      "linkedin": "https://www.linkedin.com/in/jakob-wirbel-2a818a68/",
+      "duration": "2015-2017",
+      "position": "Intern & Master Thesis"
     },
     {
       "name": "Fatemeh Ghavidel",
-      "role": "Postdoc",
-      "years": "2015-2016",
-      "linkedin": "https://www.linkedin.com/in/fatemeh-ghavidel/"
+      "linkedin": "https://www.linkedin.com/in/fatemeh-zamanzad-ghavidel-44214b20/",
+      "duration": "2015-2016",
+      "position": "Postdoc (w O Stegle & A Brazma)"
     },
     {
       "name": "Pisanu Buphamalai",
-      "role": "Trainee",
-      "years": "2015-2016",
-      "linkedin": "https://www.linkedin.com/in/pisanu-buphamalai/"
+      "linkedin": "https://www.linkedin.com/in/pisanu-ize-buphamalai-38195286/",
+      "duration": "2015-2016",
+      "position": "Trainee (w. M Brehme)"
     },
     {
       "name": "Ricardo Ramirez",
-      "role": "Trainee",
-      "years": "2015-2016",
-      "linkedin": "https://www.linkedin.com/in/ricardo-ramirez/"
+      "linkedin": "https://www.linkedin.com/in/ricardo-ramirez-flores/",
+      "duration": "2015-2016",
+      "position": "Trainee"
     },
     {
       "name": "Luz Garcia-Alonso",
-      "role": "Postdoc",
-      "years": "2014-2018",
-      "linkedin": "https://www.linkedin.com/in/luz-garcia-alonso/"
+      "linkedin": "https://www.linkedin.com/in/luz-garcia-alonso-8b8a5125/",
+      "duration": "2014-2018",
+      "position": "Postdoc"
     },
     {
       "name": "Johannes Stephan",
-      "role": "Postdoc",
-      "years": "2014-2015",
-      "linkedin": "https://www.linkedin.com/in/johannes-stephan/"
+      "linkedin": "https://www.linkedin.com/in/johannes-stephan-33235583/",
+      "duration": "2014-2015",
+      "position": "Postdoc (w O Stegle)"
     },
     {
       "name": "Claudia Hernandez",
-      "role": "Trainee",
-      "years": "2014-2015",
-      "linkedin": "https://www.linkedin.com/in/claudia-hernandez/"
+      "linkedin": "https://www.linkedin.com/in/claudia-ivonne-hernández-armenta-9015b69b/",
+      "duration": "2014-2015",
+      "position": "Trainee"
     },
     {
       "name": "Martí Bernardo-Faura",
-      "role": "Postdoc",
-      "years": "2013-2015",
-      "linkedin": "https://www.linkedin.com/in/marti-bernardo-faura/"
+      "linkedin": "https://www.linkedin.com/in/marti-bernardo-faura-40b59130",
+      "duration": "2013-2015",
+      "position": "Postdoc"
     },
     {
       "name": "Ioannis Melas",
-      "role": "Postdoc",
-      "years": "2013-2014",
-      "linkedin": "https://www.linkedin.com/in/ioannis-melas/"
+      "linkedin": "https://uk.linkedin.com/in/ioannis-melas-a3248132",
+      "duration": "2013-2014",
+      "position": "Postdoc"
     },
     {
       "name": "Vitor Costa",
-      "role": "Master Thesis",
-      "years": "2013",
-      "linkedin": "https://www.linkedin.com/in/vitor-costa/"
+      "linkedin": "https://www.linkedin.com/in/vitorcoxta/",
+      "duration": "2013-2013",
+      "position": "Master Thesis"
     },
     {
       "name": "Luca Cerone",
-      "role": "Postdoc",
-      "years": "2013",
-      "linkedin": "https://www.linkedin.com/in/luca-cerone/"
+      "linkedin": "https://www.linkedin.com/in/lucacerone/",
+      "duration": "2013-2013",
+      "position": "Postdoc"
     },
     {
       "name": "Emanuel Gonçalves",
-      "role": "PhD Student",
-      "years": "2012-2017",
-      "linkedin": "https://www.linkedin.com/in/emanuel-goncalves/"
+      "linkedin": "https://orcid.org/0000-0002-9967-5205",
+      "duration": "2012-2017",
+      "position": "PhD Student"
     },
     {
       "name": "Michael Schubert",
-      "role": "PhD Student",
-      "years": "2012-2016",
-      "linkedin": "https://www.linkedin.com/in/michael-schubert/"
+      "linkedin": "https://github.com/mschubert",
+      "duration": "2012-2016",
+      "position": "PhD Student"
     },
     {
       "name": "Michael Menden",
-      "role": "PhD Student",
-      "years": "2011-2016",
-      "linkedin": "https://www.linkedin.com/in/michael-menden/"
+      "linkedin": "https://www.researchgate.net/profile/Michael_Menden",
+      "duration": "2011-2016",
+      "position": "PhD student"
     },
     {
       "name": "Thomas Cokelaer",
-      "role": "Staff Scientist",
-      "years": "2011-2015",
-      "linkedin": "https://www.linkedin.com/in/thomas-cokelaer/"
+      "linkedin": "https://www.linkedin.com/in/thomas-cokelaer-37842030/",
+      "duration": "2011-2015",
+      "position": "Staff Scientist"
     },
     {
       "name": "Martijn van Iersel",
-      "role": "Postdoc",
-      "years": "2011-2012",
-      "linkedin": "https://www.linkedin.com/in/martijn-van-iersel/"
+      "linkedin": "https://www.linkedin.com/in/martijn-van-iersel-2314464/",
+      "duration": "2011-2012",
+      "position": "Postdoc"
     },
     {
       "name": "Federica Eduati",
-      "role": "Postdoc",
-      "years": "2011-2017",
-      "linkedin": "https://www.linkedin.com/in/federica-eduati/"
+      "linkedin": "https://www.linkedin.com/in/eduati/",
+      "duration": "2011-2017",
+      "position": "Postdoc"
     },
     {
       "name": "Francesco Iorio",
-      "role": "Postdoc / Senior Bioinformatician",
-      "years": "2010-2017",
-      "linkedin": "https://www.linkedin.com/in/francesco-iorio/"
+      "linkedin": "https://www.linkedin.com/in/francesco-iorio-bb063a47/",
+      "duration": "2010-2017",
+      "position": "Postdoc / Senior Bioinformatician"
     },
     {
       "name": "Aidan MacNamara",
-      "role": "Postdoc",
-      "years": "2010-2014",
-      "linkedin": "https://www.linkedin.com/in/aidan-macnamara/"
+      "linkedin": "https://www.linkedin.com/in/aidan-macnamara-25448544/",
+      "duration": "2010-2014",
+      "position": "Postdoc"
     },
     {
       "name": "Camille Terfve",
-      "role": "PhD Student",
-      "years": "2010-2014",
-      "linkedin": "https://www.linkedin.com/in/camille-terfve/"
+      "linkedin": "https://www.linkedin.com/in/camille-terfve-b4909114",
+      "duration": "2010-2014",
+      "position": "PhD Student"
     },
     {
       "name": "David Henriques",
-      "role": "Master Thesis",
-      "years": "2010-2011",
-      "linkedin": "https://www.linkedin.com/in/david-henriques/"
+      "linkedin": "https://www.linkedin.com/in/david-saque-henriques-8a82b9a5/",
+      "duration": "2010-2011",
+      "position": "Master Thesis"
     }
   ]
 } 

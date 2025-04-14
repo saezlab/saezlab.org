@@ -18,15 +18,14 @@ import TeamMemberCard from '../components/TeamMemberCard';
     <div class="mx-auto max-w-[980px] py-6 md:py-12">
       <h2 class="mb-8 text-2xl font-bold">Group Leader</h2>
       <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {teamData.current.filter(member => member.role === "Group Leader").map((member) => (
+        {teamData.current.filter(member => member.role.includes("Group Leader")).map((member) => (
           <TeamMemberCard
             client:load
             name={member.name}
             role={member.role}
             image={member.image}
-            bio={member.bio}
+            bio={member.description}
             email={member.email}
-            website={member.website}
           />
         ))}
       </div>
@@ -35,15 +34,14 @@ import TeamMemberCard from '../components/TeamMemberCard';
     <div class="mx-auto max-w-[980px] py-6 md:py-12">
       <h2 class="mb-8 text-2xl font-bold">Administration</h2>
       <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {teamData.current.filter(member => member.role === "Administration").map((member) => (
+        {teamData.current.filter(member => member.role.includes("Administration")).map((member) => (
           <TeamMemberCard
             client:load
             name={member.name}
             role={member.role}
             image={member.image}
-            bio={member.bio}
+            bio={member.description}
             email={member.email}
-            website={member.website}
           />
         ))}
       </div>
@@ -52,15 +50,14 @@ import TeamMemberCard from '../components/TeamMemberCard';
     <div class="mx-auto max-w-[980px] py-6 md:py-12">
       <h2 class="mb-8 text-2xl font-bold">Staff Scientists</h2>
       <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {teamData.current.filter(member => member.role === "Staff Scientist").map((member) => (
+        {teamData.current.filter(member => member.role.includes("Staff Scientist")).map((member) => (
           <TeamMemberCard
             client:load
             name={member.name}
             role={member.role}
             image={member.image}
-            bio={member.bio}
+            bio={member.description}
             email={member.email}
-            website={member.website}
           />
         ))}
       </div>
@@ -69,15 +66,14 @@ import TeamMemberCard from '../components/TeamMemberCard';
     <div class="mx-auto max-w-[980px] py-6 md:py-12">
       <h2 class="mb-8 text-2xl font-bold">Bioinformaticians</h2>
       <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {teamData.current.filter(member => member.role === "Bioinformatician").map((member) => (
+        {teamData.current.filter(member => member.role.includes("Bioinformatician")).map((member) => (
           <TeamMemberCard
             client:load
             name={member.name}
             role={member.role}
             image={member.image}
-            bio={member.bio}
+            bio={member.description}
             email={member.email}
-            website={member.website}
           />
         ))}
       </div>
@@ -86,15 +82,14 @@ import TeamMemberCard from '../components/TeamMemberCard';
     <div class="mx-auto max-w-[980px] py-6 md:py-12">
       <h2 class="mb-8 text-2xl font-bold">Postdocs</h2>
       <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {teamData.current.filter(member => member.role === "Postdoc").map((member) => (
+        {teamData.current.filter(member => member.role.includes("Postdoc")).map((member) => (
           <TeamMemberCard
             client:load
             name={member.name}
             role={member.role}
             image={member.image}
-            bio={member.bio}
+            bio={member.description}
             email={member.email}
-            website={member.website}
           />
         ))}
       </div>
@@ -103,15 +98,14 @@ import TeamMemberCard from '../components/TeamMemberCard';
     <div class="mx-auto max-w-[980px] py-6 md:py-12">
       <h2 class="mb-8 text-2xl font-bold">PhD Students</h2>
       <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {teamData.current.filter(member => member.role === "PhD Student").map((member) => (
+        {teamData.current.filter(member => member.role.includes("PhD Student")).map((member) => (
           <TeamMemberCard
             client:load
             name={member.name}
             role={member.role}
             image={member.image}
-            bio={member.bio}
+            bio={member.description}
             email={member.email}
-            website={member.website}
           />
         ))}
       </div>
@@ -120,15 +114,14 @@ import TeamMemberCard from '../components/TeamMemberCard';
     <div class="mx-auto max-w-[980px] py-6 md:py-12">
       <h2 class="mb-8 text-2xl font-bold">Associated Members</h2>
       <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {teamData.current.filter(member => member.role === "Associated Member").map((member) => (
+        {teamData.current.filter(member => member.role.includes("Associated Member")).map((member) => (
           <TeamMemberCard
             client:load
             name={member.name}
             role={member.role}
             image={member.image}
-            bio={member.bio}
+            bio={member.description}
             email={member.email}
-            website={member.website}
           />
         ))}
       </div>
@@ -141,8 +134,8 @@ import TeamMemberCard from '../components/TeamMemberCard';
         {teamData.alumni.map((member) => (
           <div class="rounded-lg border p-6">
             <h3 class="text-xl font-bold">{member.name}</h3>
-            <p class="text-sm text-muted-foreground">{member.role}</p>
-            <p class="text-sm text-muted-foreground">{member.years}</p>
+            <p class="text-sm text-muted-foreground">{member.position}</p>
+            <p class="text-sm text-muted-foreground">{member.duration}</p>
             {member.linkedin && (
               <a
                 href={member.linkedin}
