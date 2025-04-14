@@ -61,25 +61,97 @@ Team member information is stored in `src/content/team/team.json`. To add or upd
 
 Publication data is stored in `src/content/publications/publications.json`. To add or update publications, edit this file.
 
-### News
-
-News articles are written in MDX format and stored in `src/content/news/`. To add a new article, create a new MDX file with the following frontmatter:
-
-```mdx
----
-title: "Article Title"
-date: "YYYY-MM-DD"
-author: "Author Name"
-image: "/path/to/image.jpg"
-excerpt: "Article excerpt"
----
-
-Article content...
-```
-
 ### Software
 
 Software tool information is stored in `src/content/software/software.json`. To add or update software tools, edit this file.
+
+### Partners
+
+Partner information is stored in `src/content/partners/partners.json`. To add or update partner information, edit this file.
+
+## Content Schemas
+
+### Team Schema (`src/content/team/team.json`)
+```json
+{
+  "current": [
+    {
+      "name": "string",
+      "role": "string",
+      "description": "string",
+      "research_interests": "string",
+      "professional_career": [
+        {
+          "period": "string",
+          "position": "string"
+        }
+      ],
+      "education": [
+        {
+          "period": "string",
+          "degree": "string",
+          "institution": "string"
+        }
+      ],
+      "image": "string"
+    }
+  ],
+  "alumni": [
+    {
+      "name": "string",
+      "role": "string",
+      "description": "string",
+      "current_position": "string"
+    }
+  ]
+}
+```
+
+### Publications Schema (`src/content/publications/publications.json`)
+```json
+[
+  {
+    "title": "string",
+    "url": "string",
+    "authors": "string",
+    "journal": "string",
+    "year": "string",
+    "featured": "boolean"
+  }
+]
+```
+
+### Software Schema (`src/content/software/software.json`)
+```json
+[
+  {
+    "name": "string",
+    "short_description": "string",
+    "long_description": "string",
+    "code_repository": "string",
+    "website": "string",
+    "publication": "string",
+    "image": "string",
+    "categories": {
+      "featured": "boolean",
+      "tool": "boolean",
+      "database": "boolean"
+    }
+  }
+]
+```
+
+### Partners Schema (`src/content/partners/partners.json`)
+```json
+{
+  "collaborators": [
+    {
+      "name": "string",
+      "institution": "string"
+    }
+  ]
+}
+```
 
 ## Building for Production
 
@@ -106,7 +178,3 @@ The site can be deployed to any static hosting service. For example, to deploy t
 3. Commit your changes
 4. Push to the branch
 5. Create a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
