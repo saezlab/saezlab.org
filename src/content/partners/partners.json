@@ -1,27 +1,93 @@
 {
   "collaborators": [
-    "Ruedi Aebersold, ETH Zurich",
-    "Leonidas G. Alexopoulos, National Technical University of Athens",
-    "Eduardo Villablanca, Karolinska Institute",
-    "Bernd Bodenmiller, University of Zurich",
-    "Julio Banga, (Bio)Process Engineering Group, CSIC",
-    "Pedro Beltrao, EMBL-EBI",
-    "CoLoMoTo Consortium, in particular Claudine Chaouiya, Denis Thieffry, Tomas Helikar, and Laurence Calzone",
-    "Thorsten Cramer, RWTH Aachen",
-    "Christian Frezza, MRC – Cambridge",
-    "DREAM Challenges, in particular Gustavo Stolovitzky",
-    "Mathew Garnett and Ultan McDermott, Sanger Institute",
-    "Steffen Klamt, Max Planck Institute",
-    "Tamás Korcsmáros, Earlham Institute and Institute of Food Research",
-    "Rafael Kramann, RWTH Aachen",
-    "Douglas Lauffenburger, Massachusetts Institute of Technology",
-    "Christoph Merten, EMBL / EPFL",
-    "Alexander Mitsos, RTWH Aachen, Germany",
-    "Rainer Pepperkok, EMBL",
-    "Miguel Rocha, University of Minho",
-    "Anne Siegel, INRIA/IRISA",
-    "Peter K. Sorger, Harvard Medical School",
-    "Oliver Stegle, EMBL / DKFZ"
+    {
+      "name": "Ruedi Aebersold",
+      "institution": "ETH Zurich"
+    },
+    {
+      "name": "Leonidas G. Alexopoulos",
+      "institution": "National Technical University of Athens"
+    },
+    {
+      "name": "Eduardo Villablanca",
+      "institution": "Karolinska Institute"
+    },
+    {
+      "name": "Bernd Bodenmiller",
+      "institution": "University of Zurich"
+    },
+    {
+      "name": "Julio Banga",
+      "institution": "(Bio)Process Engineering Group, CSIC"
+    },
+    {
+      "name": "Pedro Beltrao",
+      "institution": "EMBL-EBI"
+    },
+    {
+      "name": "CoLoMoTo Consortium",
+      "institution": "in particular Claudine Chaouiya, Denis Thieffry, Tomas Helikar, and Laurence Calzone"
+    },
+    {
+      "name": "Thorsten Cramer",
+      "institution": "RWTH Aachen"
+    },
+    {
+      "name": "Christian Frezza",
+      "institution": "MRC – Cambridge"
+    },
+    {
+      "name": "DREAM Challenges",
+      "institution": "in particular Gustavo Stolovitzky"
+    },
+    {
+      "name": "Mathew Garnett and Ultan McDermott",
+      "institution": "Sanger Institute"
+    },
+    {
+      "name": "Steffen Klamt",
+      "institution": "Max Planck Institute"
+    },
+    {
+      "name": "Tamás Korcsmáros",
+      "institution": "Earlham Institute and Institute of Food Research"
+    },
+    {
+      "name": "Rafael Kramann",
+      "institution": "RWTH Aachen"
+    },
+    {
+      "name": "Douglas Lauffenburger",
+      "institution": "Massachusetts Institute of Technology"
+    },
+    {
+      "name": "Christoph Merten",
+      "institution": "EMBL / EPFL"
+    },
+    {
+      "name": "Alexander Mitsos",
+      "institution": "RTWH Aachen, Germany"
+    },
+    {
+      "name": "Rainer Pepperkok",
+      "institution": "EMBL"
+    },
+    {
+      "name": "Miguel Rocha",
+      "institution": "University of Minho"
+    },
+    {
+      "name": "Anne Siegel",
+      "institution": "INRIA/IRISA"
+    },
+    {
+      "name": "Peter K. Sorger",
+      "institution": "Harvard Medical School"
+    },
+    {
+      "name": "Oliver Stegle",
+      "institution": "EMBL / DKFZ"
+    }
   ],
   "funding": [
     {
