@@ -2,6 +2,9 @@
 // Component Imports
 import Layout from '../layouts/Layout.astro';
 import { getInternalLink } from '../lib/utils';
+import { getCollection } from 'astro:content';
+import ResearchContent from '../content/research/index.mdx';
+import Prose from '../components/Prose.astro';
 // Full Astro Component Syntax:
 // https://docs.astro.build/basics/astro-components/
 ---
@@ -38,6 +41,17 @@ import { getInternalLink } from '../lib/utils';
 		</section>
 
 		<section class="container space-y-6 py-8 md:py-12 lg:py-24">
+			<div class="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
+				<h2 class="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
+					Our Locations
+				</h2>
+				<p class="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
+					We are at the European Bioinformatics Institute (EMBL-EBI) and at the Institute for Computational Biomedicine at the Medical Faculty of Heidelberg University and Heidelberg University Hospital. We are also part of the Molecular Medicine Partnership Unit (MMPU) between the Medical Faculty of the University of Heidelberg and the European Molecular Biology Laboratory (EMBL) and of ELLIS Heidelberg.
+				</p>
+			</div>
+		</section>
+		
+		<section class="container space-y-6 py-8 md:py-12 lg:py-24">
 			<div class="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3">
 				<div class="relative overflow-hidden rounded-lg border bg-background p-2">
 					<div class="flex h-[180px] flex-col justify-between rounded-md p-6">
@@ -73,37 +87,14 @@ import { getInternalLink } from '../lib/utils';
 		</section>
 
 		<section class="container space-y-6 py-8 md:py-12 lg:py-24">
-			<div class="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
-				<h2 class="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
-					Our Locations
-				</h2>
-				<p class="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
-					We are at the European Bioinformatics Institute (EMBL-EBI) and at the Institute for Computational Biomedicine at the Medical Faculty of Heidelberg University and Heidelberg University Hospital. We are also part of the Molecular Medicine Partnership Unit (MMPU) between the Medical Faculty of the University of Heidelberg and the European Molecular Biology Laboratory (EMBL) and of ELLIS Heidelberg.
-				</p>
-			</div>
-		</section>
-
-		<section class="container space-y-6 py-8 md:py-12 lg:py-24">
 			<div class="mx-auto flex max-w-[58rem] flex-col items-center space-y-4">
 				<h2 class="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl text-center">
 					Research
 				</h2>
-				<div class="space-y-6 text-muted-foreground sm:text-lg sm:leading-7">
-					<p>
-						Our research is application-driven and tailored towards producing computational models that integrate diverse data sources to better understand and treat diseases. Because of this, we collaborate closely with experimental groups. A major emphasis is to build context-specific models that are both mechanistic (to provide understanding) and predictive (to generate novel hypotheses). To build these models, we combine existing biochemical knowledge with different types of large scale data. We believe that this biological knowledge can be instrumental to move from pure correlation to causation in large data sets, and thereby identify the molecular processes that underlie specific phenomena.
-					</p>
-					<p>
-						We develop and apply methods to extract mechanistic features from diverse omics data, recently also for single-cell data. We then combine these multi-omics data sets into causal networks. Finally, we build dynamic models of specific subsystems using logic formalisms that we can analyze and simulate to predict the effect of new perturbations.
-					</p>
-					<p>
-						We apply these strategies in the context of many disease conditions. Particular areas of interest for us are cancer and fibrosis (in particular in kidney, heart, and liver). While our research is driven by applications, we develop open-source computational tools that share freely with the scientific community.
-					</p>
-					<p>
-						Finally, we support scientific crowdsourcing, specifically collaboratives competitions, through the DREAM challenges.
-					</p>
-					<p class="text-center">
-						<a href={getInternalLink('/publications')} class="text-primary hover:underline">Check our publications</a> to see some of our recent work.
-					</p>
+				<div class="prose prose-slate dark:prose-invert">
+					<Prose>
+						<ResearchContent />
+					</Prose>
 				</div>
 			</div>
 		</section>
