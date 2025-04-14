@@ -12,7 +12,7 @@ import {
 import { Separator } from "@/components/ui/separator"
 import { Calendar, Mail, User, Phone, Link } from "lucide-react"
 import { useState } from "react"
-
+import { getInternalLink } from '../lib/utils';
 interface TeamMemberProps {
   name: string
   role: string
@@ -51,7 +51,7 @@ export default function TeamMemberCard({
       <DialogTrigger asChild>
         <div className="flex flex-col items-center space-y-4 rounded-lg border p-6 text-center cursor-pointer hover:bg-accent/50 transition-colors">
           <Avatar className="h-24 w-24">
-            <AvatarImage src={`/saezlab.org-draft/team_images/${image}`} alt={name} />
+            <AvatarImage src={`${getInternalLink('/team_images')}/${image}`} alt={name} />
             <AvatarFallback>
               {name
                 .split(" ")
@@ -68,7 +68,7 @@ export default function TeamMemberCard({
       <DialogContent className="sm:max-w-[1024px] max-h-[85vh] overflow-y-auto p-6">
         <DialogHeader className="flex flex-col sm:flex-row sm:items-start gap-4 mb-6">
           <Avatar className="w-28 h-28 border">
-            <AvatarImage src={`/saezlab.org-draft/team_images/${image}`} alt={name} />
+            <AvatarImage src={`${getInternalLink('/team_images')}/${image}`} alt={name} />
             <AvatarFallback>
               {name
                 .split(" ")

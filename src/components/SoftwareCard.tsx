@@ -12,7 +12,7 @@ import {
 import { Separator } from "@/components/ui/separator"
 import { Github, BookOpen, ExternalLink } from "lucide-react"
 import { useState } from "react"
-
+import { getInternalLink } from '../lib/utils';
 interface SoftwareCardProps {
   name: string;
   short_description: string;
@@ -45,7 +45,7 @@ export default function SoftwareCard({
       <DialogTrigger asChild>
         <div className="flex flex-row items-center space-x-4 rounded-lg border p-4 cursor-pointer hover:bg-accent/50 transition-colors">
           <Avatar className="h-32 w-32">
-            <AvatarImage src={`/saezlab.org-draft/software_images/${image}`} alt={name} />
+            <AvatarImage src={`${getInternalLink('/software_images')}/${image}`} alt={name} />
             <AvatarFallback>
               {name
                 .split(" ")
@@ -65,7 +65,7 @@ export default function SoftwareCard({
       <DialogContent className="sm:max-w-[1024px] max-h-[85vh] overflow-y-auto p-6">
         <DialogHeader className="flex flex-col sm:flex-row sm:items-start gap-4 mb-6">
           <Avatar className="w-28 h-28 border">
-            <AvatarImage src={`/saezlab.org-draft/software_images/${image}`} alt={name} />
+            <AvatarImage src={`${getInternalLink('/software_images')}/${image}`} alt={name} />
             <AvatarFallback>
               {name
                 .split(" ")
