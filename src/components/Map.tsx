@@ -2,6 +2,18 @@ import { useEffect, useRef } from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 
+// Fix for marker icon in production
+const icon = L.icon({
+  iconUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon.png',
+  iconRetinaUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon-2x.png',
+  shadowUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-shadow.png',
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  tooltipAnchor: [16, -28],
+  shadowSize: [41, 41]
+});
+
 interface MapProps {
   location: {
     latitude: number;
@@ -30,8 +42,8 @@ export default function Map({ location, zoom = 17, markerMarkup = '' }: MapProps
         attribution: '© OpenStreetMap contributors'
       }).addTo(mapInstance.current);
 
-      // Add marker
-      const marker = L.marker([location.latitude, location.longitude]).addTo(mapInstance.current);
+      // Add marker with custom icon
+      const marker = L.marker([location.latitude, location.longitude], { icon }).addTo(mapInstance.current);
       
       if (markerMarkup) {
         marker.bindPopup(markerMarkup);
