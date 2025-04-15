@@ -59,7 +59,7 @@ Team member information is stored in `src/content/team/team.json`. To add or upd
 
 ### Publications
 
-Publication data is stored in `src/content/publications/publications.json`. To add or update publications, edit this file.
+Publication are automatically downloaded from Pubmed.
 
 ### Software
 
@@ -105,20 +105,6 @@ Partner information is stored in `src/content/partners/partners.json`. To add or
     }
   ]
 }
-```
-
-### Publications Schema (`src/content/publications/publications.json`)
-```json
-[
-  {
-    "title": "string",
-    "url": "string",
-    "authors": "string",
-    "journal": "string",
-    "year": "string",
-    "featured": "boolean"
-  }
-]
 ```
 
 ### Software Schema (`src/content/software/software.json`)
