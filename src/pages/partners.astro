@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import partnersData from '../content/partners/partners.json';
+import { getCollection } from 'astro:content';
 import { Separator } from '../components/ui/separator';
 import {
   Table,
@@ -11,6 +12,15 @@ import {
   TableHeader,
   TableRow,
 } from '../components/ui/table';
+
+const fundingData = await getCollection('funding_loaded');
+const grants = (fundingData[0]?.data.grants || []) as Array<{
+  duration: string;
+  name: string;
+  agency: string;
+  startYear: string;
+  url?: string;
+}>;
 ---
 
 <Layout title="Partners">
@@ -55,11 +65,24 @@ import {
             </TableRow>
           </TableHeader>
           <TableBody>
-            {partnersData.funding.map((grant) => (
+            {grants.map((grant) => (
               <TableRow>
                 <TableCell>{grant.agency}</TableCell>
                 <TableCell>{grant.duration}</TableCell>
-                <TableCell>{grant.name}</TableCell>
+                <TableCell>
+                  {grant.url ? (
+                    <a 
+                      href={grant.url} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      class="text-primary hover:underline"
+                    >
+                      {grant.name}
+                    </a>
+                  ) : (
+                    grant.name
+                  )}
+                </TableCell>
               </TableRow>
             ))}
           </TableBody>
