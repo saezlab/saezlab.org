@@ -11,14 +11,10 @@ import Prose from '../components/Prose.astro';
 
 <Layout title="Home">
 	<div class="flex-1">
-		<section class="space-y-6 pb-8 pt-6 md:pb-12 md:pt-10 lg:py-32">
-			<div class="container flex max-w-[64rem] mx-auto flex-col items-center gap-4 text-center">
-				<h1 class="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl">
-					Saez-Rodriguez Group
-				</h1>
-				<p class="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
-					Systems Biomedicine
-				</p>
+
+		<section class="space-y-6 py-8 md:py-12 lg:py-24">
+			<div class="mx-auto flex flex-col items-center max-w-6xl">
+				<img src={getInternalLink('/banner.svg')} alt="Saez-Rodriguez Group Banner" class="w-full" />
 			</div>
 		</section>
 
@@ -30,10 +26,10 @@ import Prose from '../components/Prose.astro';
 					</div>
 				</div>
 				<div class="flex-1 space-y-4">
-					<h2 class="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl text-center md:text-left">
+					<h2 class="font-heading text-2xl leading-[1.1] sm:text-2xl md:text-4xl text-center md:text-left">
 						Our Mission
 					</h2>
-					<p class="leading-normal text-muted-foreground sm:text-lg sm:leading-7">
+					<p class="leading-normal text-muted-foreground sm:text-base sm:leading-6">
 						Our goal is to acquire a functional understanding of the deregulation of signalling networks in disease and to apply this knowledge to develop novel therapeutics. We focus on cancer, auto-immune and fibrotic disease. Towards this goal, we integrate big ('Omics') data with mechanistic molecular knowledge into statistical and machine learning methods, and we share our tools as free open-source packages.
 					</p>
 				</div>
@@ -42,47 +38,12 @@ import Prose from '../components/Prose.astro';
 
 		<section class="container space-y-6 py-8 md:py-12 lg:py-24">
 			<div class="mx-auto flex max-w-[58rem] flex-col items-center space-y-4">
-				<h2 class="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl text-left">
+				<h2 class="font-heading text-2xl leading-[1.1] sm:text-2xl md:text-4xl text-left">
 					Our Locations
 				</h2>
-				<p class="leading-normal text-muted-foreground sm:text-lg sm:leading-7">
+				<p class="leading-normal text-muted-foreground sm:text-base sm:leading-6">
 					We are at the European Bioinformatics Institute (EMBL-EBI) and at the Institute for Computational Biomedicine at the Medical Faculty of Heidelberg University and Heidelberg University Hospital. We are also part of the Molecular Medicine Partnership Unit (MMPU) between the Medical Faculty of the University of Heidelberg and the European Molecular Biology Laboratory (EMBL) and of ELLIS Heidelberg.
 				</p>
-			</div>
-		</section>
-		
-		<section class="container space-y-6 py-8 md:py-12 lg:py-24">
-			<div class="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3">
-				<div class="relative overflow-hidden rounded-lg border bg-background p-2">
-					<div class="flex h-[180px] flex-col justify-between rounded-md p-6">
-						<div class="space-y-2">
-							<h3 class="font-bold">Disease Understanding</h3>
-							<p class="text-sm text-muted-foreground">
-								Analyzing deregulation of signalling networks in cancer, auto-immune and fibrotic diseases
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="relative overflow-hidden rounded-lg border bg-background p-2">
-					<div class="flex h-[180px] flex-col justify-between rounded-md p-6">
-						<div class="space-y-2">
-							<h3 class="font-bold">Data Integration</h3>
-							<p class="text-sm text-muted-foreground">
-								Combining multi-omics data with mechanistic knowledge for better insights
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="relative overflow-hidden rounded-lg border bg-background p-2">
-					<div class="flex h-[180px] flex-col justify-between rounded-md p-6">
-						<div class="space-y-2">
-							<h3 class="font-bold">Therapeutic Development</h3>
-							<p class="text-sm text-muted-foreground">
-								Translating research findings into novel therapeutic approaches
-							</p>
-						</div>
-					</div>
-				</div>
 			</div>
 		</section>
 
