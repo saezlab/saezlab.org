@@ -63,7 +63,7 @@ export function githubLoader(options: {
       const { org, teams, token } = options;
       const BASE_URL = 'https://api.github.com';
       const allTeams = [];
-      if (token === undefined) {
+      if (token === undefined || token === '' || token === null || token === 'undefined') {
         logger.error('No token provided');
         return;
       }
