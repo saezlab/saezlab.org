@@ -21,6 +21,7 @@ interface TeamMemberProps {
   email?: string
   telephone?: string
   orcid?: string
+  github_url?: string
   research_interests?: string
   professional_career?: Array<{
     period: string
@@ -40,6 +41,7 @@ export default function TeamMemberCard({
   email,
   telephone,
   orcid,
+  github_url,
   research_interests,
   professional_career,
   education,
@@ -52,7 +54,7 @@ export default function TeamMemberCard({
         <div className="flex flex-col items-center space-y-4 rounded-lg border p-6 text-center cursor-pointer hover:bg-accent/50 transition-colors">
           <Avatar className="h-24 w-24">
             <AvatarImage 
-              src={`${getInternalLink('/team_images')}/${image}`} 
+                src={image} 
               alt={name}
               className="object-contain object-center"
             />
@@ -73,7 +75,7 @@ export default function TeamMemberCard({
         <DialogHeader className="flex flex-col sm:flex-row sm:items-start gap-4 mb-6">
           <Avatar className="w-28 h-28 border">
             <AvatarImage 
-              src={`${getInternalLink('/team_images')}/${image}`} 
+              src={image} 
               alt={name}
               className="object-contain object-center"
             />
@@ -151,7 +153,7 @@ export default function TeamMemberCard({
             </>
           )}
 
-          {(email || telephone || orcid) && (
+          {(email || telephone || orcid || github_url) && (
             <>
               <Separator />
               <section>
@@ -181,6 +183,19 @@ export default function TeamMemberCard({
                         className="text-blue-600 hover:underline"
                       >
                         ORCID: {orcid}
+                      </a>
+                    </div>
+                  )}
+                  {github_url && (
+                    <div className="flex items-center gap-2">
+                      <Link className="h-5 w-5 text-muted-foreground" />
+                      <a 
+                        href={github_url} 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="text-blue-600 hover:underline"
+                      >
+                        GitHub Profile
                       </a>
                     </div>
                   )}

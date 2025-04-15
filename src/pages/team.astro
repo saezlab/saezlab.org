@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import teamData from '../content/team/team.json';
 import TeamMemberCard from '../components/TeamMemberCard';
 import AlumniCard from '../components/AlumniCard.astro';
+import { getInternalLink } from '../lib/utils';
 ---
 
 <Layout title="Team">
@@ -24,7 +25,7 @@ import AlumniCard from '../components/AlumniCard.astro';
             client:load
             name={member.name}
             role={member.role}
-            image={member.image}
+            image={getInternalLink("/team_images/" + member.image)}
             bio={member.description}
             email={member.email}
             telephone={member.telephone}
@@ -45,7 +46,7 @@ import AlumniCard from '../components/AlumniCard.astro';
             client:load
             name={member.name}
             role={member.role}
-            image={member.image}
+            image={getInternalLink("/team_images/" + member.image)}
             bio={member.description}
             email={member.email}
             telephone={member.telephone}
@@ -66,7 +67,7 @@ import AlumniCard from '../components/AlumniCard.astro';
             client:load
             name={member.name}
             role={member.role}
-            image={member.image}
+            image={getInternalLink("/team_images/" + member.image)  }
             bio={member.description}
             email={member.email}
             telephone={member.telephone}
@@ -87,7 +88,7 @@ import AlumniCard from '../components/AlumniCard.astro';
             client:load
             name={member.name}
             role={member.role}
-            image={member.image}
+            image={getInternalLink("/team_images/" + member.image)  }
             bio={member.description}
             email={member.email}
             telephone={member.telephone}
@@ -108,7 +109,7 @@ import AlumniCard from '../components/AlumniCard.astro';
             client:load
             name={member.name}
             role={member.role}
-            image={member.image}
+            image={getInternalLink("/team_images/" + member.image)    }
             bio={member.description}
             email={member.email}
             telephone={member.telephone}
@@ -129,7 +130,7 @@ import AlumniCard from '../components/AlumniCard.astro';
             client:load
             name={member.name}
             role={member.role}
-            image={member.image}
+            image={getInternalLink("/team_images/" + member.image)    }
             bio={member.description}
             email={member.email}
             telephone={member.telephone}
@@ -150,7 +151,7 @@ import AlumniCard from '../components/AlumniCard.astro';
             client:load
             name={member.name}
             role={member.role}
-            image={member.image}
+            image={getInternalLink("/team_images/" + member.image)    }
             bio={member.description}
             email={member.email}
             telephone={member.telephone}
