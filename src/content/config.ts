@@ -20,7 +20,7 @@ const teams_loaded = defineCollection({
   loader: githubLoader({
     org: 'saezlab',
     teams: ['core', 'intern-visitor', 'associated'],
-    token: import.meta.env.TOKEN_GITHUB
+    token: import.meta.env.GH_TOKEN
   }),
 });
 
