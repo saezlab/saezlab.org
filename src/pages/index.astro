@@ -1,16 +1,18 @@
 ---
 // Component Imports
 import Prose from '../components/Prose.astro';
-import ResearchContent from '../content/research/index.mdx';
+import ResearchContent from '../content/home_page/research.mdx';
+import MissionContent from '../content/home_page/mission.mdx';
+import LocationsContent from '../content/home_page/locations.mdx';
 import Layout from '../layouts/Layout.astro';
 import { getInternalLink } from '../lib/utils';
+import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card';
 // Full Astro Component Syntax:
 // https://docs.astro.build/basics/astro-components/
 ---
 
 <Layout title="Home">
 	<div class="flex-1">
-
 		<section class="space-y-6 py-8 md:py-12 lg:py-24">
 			<div class="mx-auto flex flex-col items-center max-w-6xl">
 				<img src={getInternalLink('/banner.svg')} alt="Saez-Rodriguez Group Banner" class="w-full" />
@@ -19,44 +21,62 @@ import { getInternalLink } from '../lib/utils';
 
 		<section class="container space-y-6 md:py-12 lg:py-24">
 			<div class="mx-auto flex max-w-[58rem] flex-col md:flex-row items-center gap-8">
-				<div class="flex-1">
-					<div class="dark:bg-white p-4 rounded-lg">
-						<img src={getInternalLink('/logo.png')} alt="Saez-Rodriguez Group Logo" class="h-64 w-auto mx-auto" />
+				<Card className="flex-1">
+					<CardContent className="flex flex-col md:flex-row items-center gap-8 p-6">
+						<div class="flex-1">
+							<div class="dark:bg-white p-4 rounded-lg">
+								<img src={getInternalLink('/logo.png')} alt="Saez-Rodriguez Group Logo" class="h-64 w-auto mx-auto" />
+							</div>
+						</div>
+						<div class="flex-1 space-y-4">
+							<CardHeader>
+								<CardTitle className="text-2xl leading-[1.1] sm:text-2xl md:text-4xl text-center">
+									Our Mission
+								</CardTitle>
+							</CardHeader>
+							<div class="leading-normal text-muted-foreground sm:text-base sm:leading-6">
+								<Prose>
+									<MissionContent />
+								</Prose>
+							</div>
+						</div>
+					</CardContent>
+				</Card>
+			</div>
+		</section>
+
+		<section class="container space-y-6 py-8 md:py-12 lg:py-24">
+			<Card className="mx-auto max-w-[58rem]">
+				<CardContent>
+					<CardHeader>
+						<CardTitle className="text-2xl leading-[1.1] sm:text-2xl md:text-4xl text-center mb-4">
+							Our Locations
+						</CardTitle>
+					</CardHeader>
+					<div class="leading-normal text-muted-foreground sm:text-base sm:leading-6">
+						<Prose>
+							<LocationsContent />
+						</Prose>
 					</div>
-				</div>
-				<div class="flex-1 space-y-4">
-					<h2 class="font-heading text-2xl leading-[1.1] sm:text-2xl md:text-4xl text-center md:text-left">
-						Our Mission
-					</h2>
-					<p class="leading-normal text-muted-foreground sm:text-base sm:leading-6">
-						Our goal is to acquire a functional understanding of the deregulation of signalling networks in disease and to apply this knowledge to develop novel therapeutics. We focus on cancer, auto-immune and fibrotic disease. Towards this goal, we integrate big ('Omics') data with mechanistic molecular knowledge into statistical and machine learning methods, and we share our tools as free open-source packages.
-					</p>
-				</div>
-			</div>
+				</CardContent>
+			</Card>
 		</section>
 
 		<section class="container space-y-6 py-8 md:py-12 lg:py-24">
-			<div class="mx-auto flex max-w-[58rem] flex-col items-center space-y-4">
-				<h2 class="font-heading text-2xl leading-[1.1] sm:text-2xl md:text-4xl text-left">
-					Our Locations
-				</h2>
-				<p class="leading-normal text-muted-foreground sm:text-base sm:leading-6">
-					We are at the European Bioinformatics Institute (EMBL-EBI) and at the Institute for Computational Biomedicine at the Medical Faculty of Heidelberg University and Heidelberg University Hospital. We are also part of the Molecular Medicine Partnership Unit (MMPU) between the Medical Faculty of the University of Heidelberg and the European Molecular Biology Laboratory (EMBL) and of ELLIS Heidelberg.
-				</p>
-			</div>
-		</section>
-
-		<section class="container space-y-6 py-8 md:py-12 lg:py-24">
-			<div class="mx-auto flex max-w-[58rem] flex-col items-center space-y-4">
-				<h2 class="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl text-center">
-					Research
-				</h2>
-				<div class="leading-normal text-muted-foreground sm:text-lg sm:leading-7">
-					<Prose>
-						<ResearchContent />
-					</Prose>
-				</div>
-			</div>
+			<Card className="mx-auto max-w-[58rem]">
+				<CardContent>
+					<CardHeader>
+						<CardTitle className="text-2xl leading-[1.1] sm:text-2xl md:text-4xl text-center mb-4">
+							Research
+						</CardTitle>
+					</CardHeader>
+					<div class="leading-normal text-muted-foreground sm:text-lg sm:leading-7">
+						<Prose>
+							<ResearchContent />
+						</Prose>
+					</div>
+				</CardContent>
+			</Card>
 		</section>
 	</div>
 </Layout>
