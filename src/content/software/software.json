@@ -9,8 +9,8 @@
     "image": "biochatter.png",
     "categories": {
       "featured": true,
-      "tool": false,
-      "database": true
+      "tool": true,
+      "database": false
     }
   },
   {
@@ -93,7 +93,7 @@
     "image": "decoupler.png",
     "categories": {
       "featured": true,
-      "tool": false,
+      "tool": true,
       "database": false
     }
   },
@@ -135,7 +135,7 @@
     "image": "misty.png",
     "categories": {
       "featured": true,
-      "tool": false,
+      "tool": true,
       "database": false
     }
   },
@@ -247,7 +247,7 @@
     "image": "drugvsdisease.png",
     "categories": {
       "featured": false,
-      "tool": false,
+      "tool": true,
       "database": false
     }
   },
