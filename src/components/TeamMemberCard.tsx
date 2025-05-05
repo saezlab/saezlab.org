@@ -94,10 +94,14 @@ export default function TeamMemberCard({
 
         <div className="space-y-8">
           {/* Biography Section */}
-          <section>
-            <h3 className="font-semibold text-xl mb-3">Biography</h3>
-            <p className="text-muted-foreground">{bio}</p>
-          </section>
+          {bio && (
+            <section>
+              <h3 className="font-semibold text-xl mb-3">
+                {role === "Intern / Visitor" ? "About" : "Biography"}
+              </h3>
+              <p className="text-muted-foreground">{bio}</p>
+            </section>
+          )}
 
           {research_interests && (
             <>
