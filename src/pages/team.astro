@@ -4,6 +4,36 @@ import teamData from '../content/team/team.json';
 import TeamMemberCard from '../components/TeamMemberCard';
 import AlumniCard from '../components/AlumniCard.astro';
 import { getInternalLink } from '../lib/utils';
+import { getCollection } from 'astro:content';
+
+// Interfaces for GitHub team data
+interface TeamMember {
+  login: string;
+  name: string | null;
+  avatar_url: string;
+  bio: string | null;
+  email: string | null;
+  location: string | null;
+  html_url: string;
+}
+
+interface Team {
+  name: string;
+  slug: string;
+  members: TeamMember[];
+}
+
+interface TeamData {
+  teams: Team[];
+}
+
+// Fetch GitHub team data
+const githubTeamsCollection = await getCollection('teams_loaded');
+const githubTeamData = githubTeamsCollection[0]?.data as unknown as TeamData | undefined;
+
+// Find Interns and Visitors teams from GitHub data
+const internsAndVisitorsTeam = githubTeamData?.teams.find(team => team.slug.toLowerCase() === 'intern-visitor');
+
 ---
 
 <Layout title="Team">
@@ -163,6 +193,30 @@ import { getInternalLink } from '../lib/utils';
         ))}
       </div>
     </div>
+
+
+    {/* Interns & Visitors Section (from GitHub) */}
+    {internsAndVisitorsTeam && internsAndVisitorsTeam.members.length > 0 && (
+      <div class="mx-auto max-w-[980px] py-6 md:py-12">
+        <h2 class="mb-8 text-2xl font-bold">Interns & Visitors</h2>
+        <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {internsAndVisitorsTeam.members.map((member: TeamMember) => (
+            <TeamMemberCard
+              client:load
+              name={member.name || member.login}
+              role="Intern / Visitor"
+              image={member.avatar_url}
+              bio={member.bio || ''}
+              email={member.email || ''}
+              github_url={member.html_url}
+              research_interests=""
+              professional_career={[]}
+              education={[]}
+            />
+          ))}
+        </div>
+      </div>
+    )}
 
     <div class="mx-auto max-w-[980px] py-6 md:py-12">
       <h2 class="mb-8 text-2xl font-bold">Alumni</h2>

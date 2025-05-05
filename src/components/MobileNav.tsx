@@ -41,12 +41,6 @@ export default function MobileNav() {
                 Team
               </a>
               <a
-                href={getInternalLink('/team_github')}
-                className="flex w-full items-center rounded-md p-2 text-sm font-medium hover:underline"
-              >
-                Team-Github
-              </a>
-              <a
                 href={getInternalLink('/software')}
                 className="flex w-full items-center rounded-md p-2 text-sm font-medium hover:underline"
               >
