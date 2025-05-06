@@ -1,0 +1,35 @@
+---
+import TeamMemberCard from "@/components/TeamMemberCard";
+import teamData from "@/content/team/team.json";
+import { getInternalLink } from "@/lib/utils";
+import Layout from "@/layouts/Layout.astro";
+export function getStaticPaths() {
+  return teamData.current.map(member => ({
+    params: { 
+      slug: member.name.toLowerCase().replace(/\s+/g, '-')
+    }
+  }));
+}
+
+const { slug } = Astro.params;
+const member = teamData.current.find(m => m.name.toLowerCase().replace(/\s+/g, '-') === slug);
+
+if (!member) {
+  return Astro.redirect('/404');
+}
+---
+<Layout title={member.name}>
+<TeamMemberCard
+  client:load
+  name={member.name}
+  role={member.role}
+  image={getInternalLink("/team_images/" + member.image)}
+  bio={member.description}
+  email={member.email}
+  telephone={member.telephone}
+  orcid={member.orcid}
+  research_interests={member.research_interests}
+  professional_career={member.professional_career}
+  education={member.education}
+/>
+</Layout>
