@@ -1,11 +1,10 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import teamData from '../content/team/team.json';
-import TeamMemberCardDialog from '../components/TeamMemberCardDialog';
+import TeamMemberCardDialog from '../components/TeamMemberCardLink';
 import AlumniCard from '../components/AlumniCard.astro';
 import { getInternalLink } from '../lib/utils';
 import { getCollection } from 'astro:content';
-
 // Interfaces for GitHub team data
 interface TeamMember {
   login: string;
