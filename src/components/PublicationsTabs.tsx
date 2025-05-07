@@ -1,8 +1,6 @@
-import { Card, CardContent, CardHeader, CardTitle, CardFooter } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { ExternalLink, FileText, Link2, BookOpen, Calendar, ChevronLeft, ChevronRight } from 'lucide-react';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { Card, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import {
   Pagination,
   PaginationContent,
@@ -11,9 +9,11 @@ import {
   PaginationLink,
   PaginationNext,
   PaginationPrevious,
-} from "@/components/ui/pagination"
-import { useState } from 'react';
+} from "@/components/ui/pagination";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import type { Publication } from "@/types/types";
+import { BookOpen, ExternalLink, FileText, Link2 } from 'lucide-react';
+import { useState } from 'react';
 
 interface PublicationsTabsLoadedProps {
   publications: Publication[];
@@ -78,11 +78,6 @@ export default function PublicationsTabsLoaded({ publications, featuredPmids }: 
                   <div className="flex justify-between items-start gap-4">
                     <CardTitle className="text-xl">{publication.title}</CardTitle>
                     <div className="flex flex-wrap gap-2 justify-end">
-                      {publication.isOpenAccess && (
-                        <Badge variant="outline" className="bg-blue-50 text-blue-700 dark:bg-blue-900/20 dark:text-blue-400">
-                          Open Access
-                        </Badge>
-                      )}
                       {publication.isPreprint && (
                         <Badge variant="outline" className="bg-amber-50 text-amber-700 dark:bg-amber-900/20 dark:text-amber-400">
                           Preprint
@@ -162,11 +157,6 @@ export default function PublicationsTabsLoaded({ publications, featuredPmids }: 
                     <div className="flex justify-between items-start gap-4">
                       <CardTitle className="text-xl">{publication.title}</CardTitle>
                       <div className="flex flex-wrap gap-2 justify-end">
-                        {publication.isOpenAccess && (
-                          <Badge variant="outline" className="bg-blue-50 text-blue-700 dark:bg-blue-900/20 dark:text-blue-400">
-                            Open Access
-                          </Badge>
-                        )}
                         {publication.isPreprint && (
                           <Badge variant="outline" className="bg-amber-50 text-amber-700 dark:bg-amber-900/20 dark:text-amber-400">
                             Preprint

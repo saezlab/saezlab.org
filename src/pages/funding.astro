@@ -1,0 +1,73 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import { Separator } from '../components/ui/separator';
+import {
+  Table,
+  TableBody,
+  TableCaption,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from '../components/ui/table';
+
+const fundingData = await getCollection('funding_loaded');
+const grants = (fundingData[0]?.data.grants || []) as Array<{
+  duration: string;
+  name: string;
+  agency: string;
+  startYear: string;
+  url?: string;
+}>;
+
+---
+
+<Layout title="Funding">
+  <div class="container py-6 md:py-12">
+    <div class="mx-auto max-w-[980px]">
+      <h1 class="mb-4 text-3xl font-bold leading-tight tracking-tighter md:text-6xl lg:leading-[1.1]">
+        Funding
+      </h1>
+      <p class="max-w-[750px] text-lg text-muted-foreground sm:text-xl">
+        Our current and past funding sources
+      </p>
+    </div>
+
+    <div class="mx-auto max-w-[980px] py-6 md:py-12">
+      <div class="rounded-md border">
+        <Table>
+          <TableHeader>
+            <TableRow>
+              <TableHead>Agency</TableHead>
+              <TableHead>Duration</TableHead>
+              <TableHead>Name</TableHead>
+            </TableRow>
+          </TableHeader>
+          <TableBody>
+            {grants.map((grant) => (
+              <TableRow>
+                <TableCell>{grant.agency}</TableCell>
+                <TableCell>{grant.duration}</TableCell>
+                <TableCell>
+                  {grant.url ? (
+                    <a 
+                      href={grant.url} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      class="text-primary hover:underline"
+                    >
+                      {grant.name}
+                    </a>
+                  ) : (
+                    grant.name
+                  )}
+                </TableCell>
+              </TableRow>
+            ))}
+          </TableBody>
+        </Table>
+      </div>
+    </div>
+  </div>
+</Layout> 
