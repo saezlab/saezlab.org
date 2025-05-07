@@ -13,22 +13,7 @@ import {
   PaginationPrevious,
 } from "@/components/ui/pagination"
 import { useState } from 'react';
-
-interface Publication {
-  title: string;
-  authors: string;
-  journal: string;
-  volume?: string;
-  issue?: string;
-  pages?: string;
-  date: string;
-  isOpenAccess?: boolean;
-  isPreprint?: boolean;
-  link?: string;
-  doi?: string;
-  pmid?: string;
-  pmcid?: string;
-}
+import type { Publication } from "@/types/types";
 
 interface PublicationsTabsLoadedProps {
   publications: Publication[];
@@ -37,7 +22,7 @@ interface PublicationsTabsLoadedProps {
 
 export default function PublicationsTabsLoaded({ publications, featuredPmids }: PublicationsTabsLoadedProps) {
   const [currentPage, setCurrentPage] = useState(1);
-  const publicationsPerPage = 10;
+  const publicationsPerPage = 15;
 
   // Filter featured publications
   const featuredPublications = publications.filter(pub => 
@@ -89,104 +74,10 @@ export default function PublicationsTabsLoaded({ publications, featuredPmids }: 
           <div className="grid gap-6">
             {sortedFeaturedPublications.map((publication) => (
               <Card key={publication.pmid} className="hover:shadow-lg transition-shadow">
-                <CardHeader>
-                  <CardTitle className="text-xl">{publication.title}</CardTitle>
-                  <div className="flex flex-wrap gap-2 items-center text-sm text-muted-foreground">
-                    <span>{publication.authors}</span>
-                    <span>•</span>
-                    <span className="italic">
-                      {publication.journal}
-                      {publication.volume && `, ${publication.volume}`}
-                      {publication.issue && `(${publication.issue})`}
-                      {publication.pages && `: ${publication.pages}`}
-                    </span>
-                  </div>
-                </CardHeader>
-                <CardContent>
-                  <div className="flex flex-wrap gap-3 mb-6">
-                    {publication.isOpenAccess && (
-                      <Badge variant="outline" className="bg-blue-50 text-blue-700 dark:bg-blue-900/20 dark:text-blue-400">
-                        Open Access
-                      </Badge>
-                    )}
-                    {publication.isPreprint && (
-                      <Badge variant="outline" className="bg-amber-50 text-amber-700 dark:bg-amber-900/20 dark:text-amber-400">
-                        Preprint
-                      </Badge>
-                    )}
-                    <Badge variant="outline" className="bg-muted flex items-center gap-1">
-                      <Calendar className="h-3 w-3" />
-                      {publication.date}
-                    </Badge>
-                  </div>
-                </CardContent>
-                <CardFooter className="pt-0">
-                  <div className="flex flex-wrap gap-4">
-                    {publication.link && (
-                      <Button variant="secondary" size="sm" asChild className="border">
-                        <a href={publication.link} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
-                          <ExternalLink className="h-4 w-4" />
-                          <span>View Publication</span>
-                        </a>
-                      </Button>
-                    )}
-                    {publication.doi && (
-                      <Button variant="outline" size="sm" asChild className="border">
-                        <a href={`https://doi.org/${publication.doi}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
-                          <Link2 className="h-4 w-4" />
-                          <span>DOI</span>
-                        </a>
-                      </Button>
-                    )}
-                    {publication.pmid && (
-                      <Button variant="outline" size="sm" asChild className="border">
-                        <a href={`https://pubmed.ncbi.nlm.nih.gov/${publication.pmid}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
-                          <FileText className="h-4 w-4" />
-                          <span>PubMed</span>
-                        </a>
-                      </Button>
-                    )}
-                    {publication.pmcid && (
-                      <Button variant="outline" size="sm" asChild className="border">
-                        <a href={`https://www.ncbi.nlm.nih.gov/pmc/articles/${publication.pmcid}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
-                          <BookOpen className="h-4 w-4" />
-                          <span>PMC</span>
-                        </a>
-                      </Button>
-                    )}
-                  </div>
-                </CardFooter>
-              </Card>
-            ))}
-          </div>
-        )}
-      </TabsContent>
-      
-      <TabsContent value="all">
-        {publications.length === 0 ? (
-          <div className="text-center text-muted-foreground py-12">
-            No publications found. Please check the PMC loader configuration.
-          </div>
-        ) : (
-          <>
-            <div className="grid gap-6">
-              {paginatedPublications.map((publication) => (
-                <Card key={publication.pmid} className="hover:shadow-lg transition-shadow">
-                  <CardHeader>
+                <CardHeader className="pb-2">
+                  <div className="flex justify-between items-start gap-4">
                     <CardTitle className="text-xl">{publication.title}</CardTitle>
-                    <div className="flex flex-wrap gap-2 items-center text-sm text-muted-foreground">
-                      <span>{publication.authors}</span>
-                      <span>•</span>
-                      <span className="italic">
-                        {publication.journal}
-                        {publication.volume && `, ${publication.volume}`}
-                        {publication.issue && `(${publication.issue})`}
-                        {publication.pages && `: ${publication.pages}`}
-                      </span>
-                    </div>
-                  </CardHeader>
-                  <CardContent>
-                    <div className="flex flex-wrap gap-3 mb-6">
+                    <div className="flex flex-wrap gap-2 justify-end">
                       {publication.isOpenAccess && (
                         <Badge variant="outline" className="bg-blue-50 text-blue-700 dark:bg-blue-900/20 dark:text-blue-400">
                           Open Access
@@ -197,13 +88,14 @@ export default function PublicationsTabsLoaded({ publications, featuredPmids }: 
                           Preprint
                         </Badge>
                       )}
-                      <Badge variant="outline" className="bg-muted flex items-center gap-1">
-                        <Calendar className="h-3 w-3" />
-                        {publication.date}
-                      </Badge>
                     </div>
-                  </CardContent>
-                  <CardFooter className="pt-0">
+                  </div>
+                  <div className="text-sm text-muted-foreground mt-1">
+                    {publication.authors}
+                  </div>
+                </CardHeader>
+                <CardFooter className="pt-0">
+                  <div className="flex flex-wrap gap-4 items-center justify-between w-full">
                     <div className="flex flex-wrap gap-4">
                       {publication.link && (
                         <Button variant="secondary" size="sm" asChild className="border">
@@ -237,6 +129,101 @@ export default function PublicationsTabsLoaded({ publications, featuredPmids }: 
                           </a>
                         </Button>
                       )}
+                    </div>
+                    <div className="text-sm text-muted-foreground italic">
+                      {publication.journal !== "Unknown Journal" && (
+                        <>
+                          {publication.journal}
+                          {publication.volume && `, ${publication.volume}`}
+                          {publication.issue && `(${publication.issue})`}
+                          {publication.pages && `: ${publication.pages}`}
+                        </>
+                      )}
+                    </div>
+                  </div>
+                </CardFooter>
+              </Card>
+            ))}
+          </div>
+        )}
+      </TabsContent>
+      
+      <TabsContent value="all">
+        {publications.length === 0 ? (
+          <div className="text-center text-muted-foreground py-12">
+            No publications found. Please check the PMC loader configuration.
+          </div>
+        ) : (
+          <>
+            <div className="grid gap-2">
+              {paginatedPublications.map((publication) => (
+                <Card key={publication.pmid} className="hover:shadow-lg transition-shadow">
+                  <CardHeader className="pb-2">
+                    <div className="flex justify-between items-start gap-4">
+                      <CardTitle className="text-xl">{publication.title}</CardTitle>
+                      <div className="flex flex-wrap gap-2 justify-end">
+                        {publication.isOpenAccess && (
+                          <Badge variant="outline" className="bg-blue-50 text-blue-700 dark:bg-blue-900/20 dark:text-blue-400">
+                            Open Access
+                          </Badge>
+                        )}
+                        {publication.isPreprint && (
+                          <Badge variant="outline" className="bg-amber-50 text-amber-700 dark:bg-amber-900/20 dark:text-amber-400">
+                            Preprint
+                          </Badge>
+                        )}
+                      </div>
+                    </div>
+                    <div className="text-sm text-muted-foreground mt-1">
+                      {publication.authors}
+                    </div>
+                  </CardHeader>
+                  <CardFooter className="pt-0">
+                    <div className="flex flex-wrap gap-4 items-center justify-between w-full">
+                      <div className="flex flex-wrap gap-4">
+                        {publication.link && (
+                          <Button variant="secondary" size="sm" asChild className="border">
+                            <a href={publication.link} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                              <ExternalLink className="h-4 w-4" />
+                              <span>View Publication</span>
+                            </a>
+                          </Button>
+                        )}
+                        {publication.doi && (
+                          <Button variant="outline" size="sm" asChild className="border">
+                            <a href={`https://doi.org/${publication.doi}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                              <Link2 className="h-4 w-4" />
+                              <span>DOI</span>
+                            </a>
+                          </Button>
+                        )}
+                        {publication.pmid && (
+                          <Button variant="outline" size="sm" asChild className="border">
+                            <a href={`https://pubmed.ncbi.nlm.nih.gov/${publication.pmid}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                              <FileText className="h-4 w-4" />
+                              <span>PubMed</span>
+                            </a>
+                          </Button>
+                        )}
+                        {publication.pmcid && (
+                          <Button variant="outline" size="sm" asChild className="border">
+                            <a href={`https://www.ncbi.nlm.nih.gov/pmc/articles/${publication.pmcid}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                              <BookOpen className="h-4 w-4" />
+                              <span>PMC</span>
+                            </a>
+                          </Button>
+                        )}
+                      </div>
+                      <div className="text-sm text-muted-foreground italic">
+                        {publication.journal !== "Unknown Journal" && (
+                          <>
+                            {publication.journal}
+                            {publication.volume && `, ${publication.volume}`}
+                            {publication.issue && `(${publication.issue})`}
+                            {publication.pages && `: ${publication.pages}`}
+                          </>
+                        )}
+                      </div>
                     </div>
                   </CardFooter>
                 </Card>

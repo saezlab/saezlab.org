@@ -13,21 +13,7 @@ import { Separator } from "@/components/ui/separator"
 import { Github, BookOpen, ExternalLink } from "lucide-react"
 import { useState } from "react"
 import { getInternalLink } from '../lib/utils';
-interface SoftwareCardProps {
-  name: string;
-  short_description: string;
-  long_description: string;
-  code_repository: string;
-  website: string;
-  publication: string;
-  image: string;
-  categories: {
-    featured: boolean;
-    tool: boolean;
-    database: boolean;
-  };
-}
-
+import type { SoftwareCardProps } from "@/types/types";
 export default function SoftwareCard({
   name,
   short_description,

@@ -3,26 +3,7 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Separator } from "@/components/ui/separator"
 import { Calendar, Mail, Phone, Link } from "lucide-react"
-
-interface TeamMemberProps {
-  name: string
-  role: string
-  image: string
-  bio: string
-  email?: string
-  telephone?: string
-  orcid?: string
-  github_url?: string
-  research_interests?: string
-  professional_career?: Array<{
-    period: string
-    position: string
-  }>
-  education?: Array<{
-    period: string
-    degree: string
-  }>
-}
+import type { TeamMemberProps } from "@/types/types"
 
 export default function TeamMemberCard({
   name,
