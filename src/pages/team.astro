@@ -1,10 +1,12 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import teamData from '../content/team/team.json';
-import TeamMemberCardDialog from '../components/TeamMemberCardLink';
+import TeamMemberCardLink from '../components/TeamMemberCardLink';
+import TeamMemberCardDialog from '../components/TeamMemberCardDialog';
 import AlumniCard from '../components/AlumniCard.astro';
 import { getInternalLink } from '../lib/utils';
 import { getCollection } from 'astro:content';
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 // Interfaces for GitHub team data
 interface TeamMember {
   login: string;
@@ -50,7 +52,7 @@ const internsAndVisitorsTeam = githubTeamData?.teams.find(team => team.slug.toLo
       <h2 class="mb-8 text-2xl font-bold">Group Leader</h2>
       <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {teamData.current.filter(member => member.role.includes("Group Leader")).map((member) => (
-          <TeamMemberCardDialog
+          <TeamMemberCardLink
             client:load
             name={member.name}
             role={member.role}
@@ -71,7 +73,7 @@ const internsAndVisitorsTeam = githubTeamData?.teams.find(team => team.slug.toLo
       <h2 class="mb-8 text-2xl font-bold">Administration</h2>
       <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {teamData.current.filter(member => member.role.includes("Administration")).map((member) => (
-          <TeamMemberCardDialog
+          <TeamMemberCardLink
             client:load
             name={member.name}
             role={member.role}
@@ -92,7 +94,7 @@ const internsAndVisitorsTeam = githubTeamData?.teams.find(team => team.slug.toLo
       <h2 class="mb-8 text-2xl font-bold">Staff Scientists</h2>
       <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {teamData.current.filter(member => member.role.includes("Staff Scientist")).map((member) => (
-          <TeamMemberCardDialog
+          <TeamMemberCardLink
             client:load
             name={member.name}
             role={member.role}
@@ -113,7 +115,7 @@ const internsAndVisitorsTeam = githubTeamData?.teams.find(team => team.slug.toLo
       <h2 class="mb-8 text-2xl font-bold">Bioinformaticians</h2>
       <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {teamData.current.filter(member => member.role.includes("Bioinformatician")).map((member) => (
-          <TeamMemberCardDialog
+          <TeamMemberCardLink
             client:load
             name={member.name}
             role={member.role}
@@ -134,7 +136,7 @@ const internsAndVisitorsTeam = githubTeamData?.teams.find(team => team.slug.toLo
       <h2 class="mb-8 text-2xl font-bold">Postdocs</h2>
       <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {teamData.current.filter(member => member.role.includes("Postdoc")).map((member) => (
-          <TeamMemberCardDialog
+          <TeamMemberCardLink
             client:load
             name={member.name}
             role={member.role}
@@ -155,7 +157,7 @@ const internsAndVisitorsTeam = githubTeamData?.teams.find(team => team.slug.toLo
       <h2 class="mb-8 text-2xl font-bold">PhD Students</h2>
       <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {teamData.current.filter(member => member.role.includes("PhD Student")).map((member) => (
-          <TeamMemberCardDialog
+          <TeamMemberCardLink
             client:load
             name={member.name}
             role={member.role}
@@ -176,7 +178,7 @@ const internsAndVisitorsTeam = githubTeamData?.teams.find(team => team.slug.toLo
       <h2 class="mb-8 text-2xl font-bold">Associated Members</h2>
       <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {teamData.current.filter(member => member.role.includes("Associated Member")).map((member) => (
-          <TeamMemberCardDialog
+          <TeamMemberCardLink
             client:load
             name={member.name}
             role={member.role}

@@ -1,7 +1,7 @@
 import type { TeamMemberProps } from "@/types/types"
 import {BASE_PATH} from '../lib/utils';
 
-export default function TeamMemberCardDialog(props: TeamMemberProps) {
+export default function TeamMemberCardLink(props: TeamMemberProps) {
   const slug = props.name.toLowerCase().replace(/\s+/g, '-')
 
   return (
