@@ -5,7 +5,7 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
 }
 
-export const BASE_PATH = '/saezlab.org-draft';
+export const BASE_PATH = '';
 
 export function getInternalLink(path: string): string {
   // Remove leading slash if present

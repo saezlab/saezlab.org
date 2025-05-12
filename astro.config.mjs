@@ -11,7 +11,7 @@ export default defineConfig({
   vite: {
       plugins: [tailwindcss()]
     },
-   site: 'https://saezlab.github.io',
-   base: '/saezlab.org-draft',
+   site: 'https://saezlab.org',
+   base: '',
   integrations: [react(), mdx()]
 });
