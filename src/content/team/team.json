@@ -432,40 +432,6 @@
       "image": "denes-turei.jpeg"
     },
     {
-      "name": "Attila Gabor",
-      "role": "Postdoc",
-      "description": "During the university studies in physics at the Budapest University of Technology, I joint the Process Control Research  group of Prof. Katalin M. Hangos at the Computer and Automation Research Institute of the Hungarian Academy of Science. I developed process models based on thermodynamics and thermo-hydraulics for control design and nonlinear analysis.After my MSc in physics, I started my doctoral studies in Computer Science under the joint supervision of Prof. Katalin Hangos and Prof. Julio Banga at the Marine Research Institute in Vigo, Spain. My main interest become biochemical reaction networks: mathematical modelling of reaction networks, model reduction of biochemical reaction networks and the application of regularization techniques in parameter estimation problems in dynamic biological systems.Currently, I am a post-doc at Julio Saez-Rodriguez’s group at the Joint Research Center for Computational Biomedicine in Aachen where I am working on single cell modelling.",
-      "research_interests": "In the group of Julio Saez-Rodriguez I am developing dynamic mathematical models of cell signalling based on single cell measurements.Mechanistic models are based on detailed biochemical studies and try to condense the biological knowledge in a dense and well-defined mathematical form. This way, these models have the potential to provide biological insight in the explanation of cell responses to combined perturbation experiments. However, due to complexity of pure mechanistic models (many unknown model parameters and non-measured variables)  it is often impossible to calibrate them to scarce data, which results in poor predictive power of these models.  On the other hand, data-driven/machine learning methods are great in prediction, but lack the biological interpretation of the model.My main research interest is the application of semi-mechanistic models to cell responses to single and combined growth factor perturbations. These semi-mechanistic models, for example the logic based dynamic models, combine the biological knowledge reported in the literature, with the flexibility and simplicity of data driven methods, therefore it has the predictive power and also the biological interpretability.Applying the above models to single cell measurements, we get closer to understand(1) how the signalling network changes upon treatments,(2) how combination of treatments affects each other (pathway cross-talks)(3) how the cell-to-cell variability in the signalling state can result in different response to treatments.",
-      "professional_career": [
-        {
-          "period": "2015-present",
-          "position": "Post-Doc at the JRC-COMBINE, Aachen, Germany"
-        }
-      ],
-      "education": [
-        {
-          "period": "2012-2015",
-          "degree": "Marie Curie Early Stage Researcher, Bioprocess Engineering Group, Vigo, Spain"
-        },
-        {
-          "period": "2011-2012",
-          "degree": "Research assistant, Process Control Research Group, MTA SZTAKI, Budapest"
-        },
-        {
-          "period": "2011-2017",
-          "degree": "Phd Student of University of Pannonia, Veszprem, Hungary"
-        },
-        {
-          "period": "2009-2011",
-          "degree": "MSc in Physics, Budapest University of Technology and Economics, Hungary"
-        }
-      ],
-      "email": "attila.gabor@uni-heidelberg.de",
-      "telephone": "+49 241 80 85359",
-      "orcid": "0000-0002-0776-1182",
-      "image": "attila-gabor.jpg"
-    },
-    {
       "name": "Jan Lanzer",
       "role": "Postdoc",
       "description": "I have studied medicine at Heidelberg University and gained clinical experience during my medical clerckships at Charité Clinical Center in Berlin (gastroenterology), Groote Schuur Hospital in Cape Town (pulmonology), Egas-Moniz Hospital in Lisbon (neurosurgery), Hospital Clinica in Porto Alegre (surgery), Heart Center in Leipzig (cardiology) and at the University Hospital in Heidelberg (neurology).In 2013/15 I worked as a research fellow in Dr. Manfred Boehm’s laboratory at the NIH in Bethesda, USA on my M.D. thesis entitled “CD73 Inhibits Vascular Inflammation During Vein Graft Remodeling”. Following graduation I joined Saez-Rodriguez’s as well asSchultz’s groupat the Center for Psychosocial Medicine (head of deparment: Prof. Dr. med. Hans-Christoph Friederich), Heidelberg University Hospital,  to work on a modeling approach to heart failure as a part of the Informatics for Life consortium.",
@@ -1231,162 +1197,7 @@
       "orcid": "0009-0006-4450-0834",
       "image": "jenna-keung.jpeg"
     },
-    {
-      "name": "Jovan Tanevski",
-      "role": "Associated Member",
-      "description": "I received my Bachelor of Electrical Engineering and Information Technologies in in 2010, followed by a Master’s degree in Bioinformatics in 2011 in Skopje, Macedonia. For my PhD studies I moved to Ljubljana, Slovenia, where I started working at the Department of Knowledge Technologies at the Jožef Stefan Institute. For my thesis I developed methods for scientific knowledge discovery by modeling and design of deterministic and stochastic dynamical biological systems. Since 2016 I work as a research associate at the Jožef Stefan Institute.In 2018 I joined the Saez-Rodriguez group at the Heidelberg University, as a postdoctoral researcher, focusing on machine learning for modeling spatially resolved omics data. Since 2024 I am an independent group leader, working on the development and application of machine learning and optimization methods for analysis of spatial omics data within the institute.",
-      "research_interests": "My research interests are at the intersection of systems sciences and machine learning. I am interested in the development of methods that combine data and prior knowledge. I have a strong background in machine learning and experience in computational systems biology. I am experienced in modeling and design of dynamical systems and their application to problems coming from the domains of systems and synthetic biology. I am currently working on developing methods for analysis of highly multiplexed and spatially resolved data. I am keen to understand the different patterns of expression within the tissue and bridge them to the underlying dynamical mechanisms that can explain the emergent functional programs and organization.",
-      "professional_career": [
-        {
-          "period": "2024-present",
-          "position": "Independent group leader – Institute for Computational Biomedicine, Heidelberg University, Germany"
-        },
-        {
-          "period": "2022-2024",
-          "position": "Research Area Leader – Institute for Computational Biomedicine, Heidelberg University, Germany"
-        },
-        {
-          "period": "2018–2022",
-          "position": "Postdoctoral researcher – Institute for Computational Biomedicine, Heidelberg University, Germany"
-        },
-        {
-          "period": "2016–present",
-          "position": "Research associate – Department of Knowledge Technologies, Jožef Stefan Institute, Ljubljana, Slovenia"
-        },
-        {
-          "period": "2011-2016",
-          "position": "Research assistant – Department of Knowledge Technologies, Jožef Stefan Institute, Ljubljana, Slovenia"
-        }
-      ],
-      "education": [
-        {
-          "period": "2011–2016",
-          "degree": "PhD in Information and Communication Technologies – Jožef Stefan International Postgraduate School, Ljubljana, Slovenia"
-        },
-        {
-          "period": "2010–2011",
-          "degree": "Master of Science in Bioinformatics - Ss. Cyril and Methodius University, Skopje, Macedonia"
-        },
-        {
-          "period": "2006–2010",
-          "degree": "Bachelor of Electrical Engineering and Information Technologies – Ss. Cyril and Methodius University, Skopje, Macedonia"
-        }
-      ],
-      "email": "jovan.tanevski@uni-heidelberg.de",
-      "telephone": "",
-      "orcid": "0000-0001-7177-1003",
-      "image": "jovan-tanevski.jpg"
-    },
-    {
-      "name": "Olga Ivanova",
-      "role": "Associated Member",
-      "description": "I have computer science education and I worked as a java developer in telecom for a couple of years. IT is a well-paid and an exciting field, but not as rewarding as bioinformatics. So I opted for a more intricate career path and got a Masters of Science in bioinformatics in Amsterdam. It happened to be a difficult change since I needed to stretch my knowledge base to various areas that were previously irrelevant to me: molecular biology, chemistry, statistics, and physics.My master thesis started as a minor internship project aimed to model epistatic interactions in small networks using logical modeling (Petri nets). The project brought so many exciting results that we ended up with two papers and found another student to continue digging through the results.After finishing the MSc, I worked as a junior researcher in the respiratory field and as a junior teacher in bioinformatics master courses. Asthma, the disease I focused on, is among relatively well-controlled diseases, although much can still be done for hard-to-treat cases using computational approaches. My passion, however, lies in a slightly different direction – cancer and ageing, new technologies in biotech and data integration. In 2019, I started my PhD in Saez-Rodriguez group. Here, I will be involved in a cancer-related project with single-cell omics data.",
-      "research_interests": "I am easily excited by many things, curious about life in general, the universe, time, and the theory of all. Unfortunately for me and fortunately for my supervisors, I chose to concentrate on data analysis and modeling for single-cell omics in diseases (currently, cancer). I believe that my computational background combined with the expertise of clinicians, pharmacists and experimentalists, can help to resolve questions about disease development, progression and prediction. Also, I find ageing processes incredible and would want to (eventually) dig deeper into it.",
-      "professional_career": [
-        {
-          "period": "2019 - present: PhD Candidate, Institute for Computational Biomedicine, Heidelberg University, Faculty of Medicine & Heidelberg University Hospital, Germany.",
-          "position": ""
-        },
-        {
-          "period": "2018 - 2019 Junior research at Amsterdam UMC, Department of respiratory medicine, Amsterdam, The Netherlands.",
-          "position": ""
-        },
-        {
-          "period": "2018 - 2019 Junior teacher at Vrije Universiteit, bioinformatics courses, Amsterdam, The Netherlands.",
-          "position": ""
-        }
-      ],
-      "education": [
-        {
-          "period": "2013 - 2014, 2016 - 2017, MSc in Bioinformatics/Systems biology, Vrije Universiteit Amsterdam, University of Amsterdam, The Netherlands",
-          "degree": ""
-        },
-        {
-          "period": "2006 - 2010, BSc in Computer science, Voronezh state university, Russia",
-          "degree": ""
-        }
-      ],
-      "email": "olga.ivanova@uni-heidelberg.de",
-      "telephone": "",
-      "orcid": "0000-0002-9111-4593",
-      "image": "olga-ivanova.jpg"
-    },
-    {
-      "name": "Sebastian Lobentanzer",
-      "role": "Associated Member",
-      "description": "Dr. Sebastian Lobentanzer is a seasoned biomedical researcher with extensive expertise in systems pharmacology and research software engineering. During his PhD training in pharmacology, he combined his biomedical knowledge with information technology, starting with Java and later expanding to R, graph database systems, and Python. His postdoctoral work is characterized by a strong commitment to open-source Python frameworks, particularly in biomedical applications. As an advocate for open science and reproducibility, he is known for developing innovative solutions in biomedical research and promoting robust, reproducible workflows within the research community. His professional approach integrates markdown-based self-documenting workflows with containerisation. Sebastian’s contributions in both pharmacology and research software engineering have garnered respect and recognition among his peers. He actively shares his knowledge at conferences and workshops, empowering researchers to advance their work with accessible data analysis tools and open-source initiatives. In addition, he is dedicated to professional illustration and typesetting, British English, and the Oxford comma.",
-      "research_interests": "Sebastian is deeply invested in advancing causal reasoning in interaction modeling at both intra- and inter-cellular levels. Trained as a pharmacist, his focus centres on the complex dynamics of pathologic changes and the molecular action of drugs. Sebastian’s goal is to marry the vast informational wealth of modern omics data with the robust logic of causal reasoning. His approach aims to tackle the issue of irreproducibility due to spurious correlation and to enhance predictions for the application of therapeutics. To achieve this, he is developing open-source frameworks for the management and application of knowledge, which includes the automation of research tasks with the power of Large Language Models.His work primarily addresses overcoming drug resistance in High-Grade Serous Ovarian Cancer (HGSOC) as part of theDECIDER EUproject and integrating pharmacologic/toxicologic prior knowledge with omics data within the framework of theTransQST) project. Both projects are funded by the European Union (GA No. 965193 and No. 116030).",
-      "professional_career": [
-        {
-          "period": "2021-present",
-          "position": "Postdoctoral research fellow at Heidelberg University Hospital, Heidelberg, Germany"
-        },
-        {
-          "period": "2020-2021",
-          "position": "Postdoctoral research fellow at Goethe-University, Frankfurt, Germany and Hebrew University, Jerusalem, Israel"
-        },
-        {
-          "period": "2015-2020",
-          "position": "Research fellow and teaching assistant at Goethe-University, Frankfurt and Hebrew University, Jerusalem"
-        },
-        {
-          "period": "2014-present",
-          "position": "Pharmacist (deputy head), Spessart-Apotheke, Bad Orb, Germany"
-        }
-      ],
-      "education": [
-        {
-          "period": "2015-2020 PhD, Neuro-immune pharmacology, Goethe-University, Frankfurt, Germany",
-          "degree": ""
-        },
-        {
-          "period": "2008-2013 Pharmacy (Licensure), Goethe-University, Frankfurt, Germany",
-          "degree": ""
-        },
-        {
-          "period": "2004-2006 Audio engineer (Diploma), School of Audio Engineering, Frankfurt, Germany",
-          "degree": ""
-        }
-      ],
-      "email": "sebastian.lobentanzer@uni-heidelberg.de",
-      "telephone": "",
-      "orcid": "0000-0003-3399-6695",
-      "image": "sebastian-lobentanzer.jpg"
-    },
-    {
-      "name": "Mira Burtscher",
-      "role": "Associated Member",
-      "description": "I studied Molecular Biotechnology at the Heidelberg University with a focus on computational biology. During my master thesis I worked on multi-omics integration methods for functional proteomics data in a biomedical context as part of a collaboration between the lab of Julio Saez-Rodriguez and GSK. In 2022, I started my PhD in the group of Mikhail Savitski in the Genome Biology unit at the EMBL Heidelberg where I will focus on developing novel MS-based proteomics methods in different biological settings.",
-      "research_interests": "The main focus of my research is to develop MS-based proteomics methods that enhance our understanding of biological processes by measuring protein features like phosphorylation, thermal stability and solubility in a systematic and proteome-wide manner. I am further interested in ways to analyze and integrate the resulting data using computational biology methods.",
-      "professional_career": [
-        {
-          "period": "2022-current",
-          "position": "PhD candidate in the Savitski team at the EMBL Heidelberg"
-        },
-        {
-          "period": "2021-2022",
-          "position": "Master Thesis at Cellzome (GSK) and the Institute for Computational Biomedicine, Heidelberg University, Faculty of Medicine & Heidelberg University Hospital"
-        },
-        {
-          "period": "2019-2021",
-          "position": "Research internships at the German Cancer Research Center in Heidelberg, the Institute for Organic Chemistry and Biochemistry in Prague, the EMBL Heidelberg and the Heidelberg University Hospital"
-        }
-      ],
-      "education": [
-        {
-          "period": "2021",
-          "degree": "MSc. Molecular Biotechnology, Heidelberg University"
-        },
-        {
-          "period": "2019",
-          "degree": "BSc. Molecular Biotechnology, Heidelberg University"
-        }
-      ],
-      "email": "mira.burtscher@embl.de",
-      "telephone": "",
-      "orcid": "",
-      "image": "mira-burtscher.jpg"
-    },
+  
     {
       "name": "Lorna Wessels",
       "role": "Associated Member",
@@ -1703,60 +1514,6 @@
       "image": "louisa-gerhardt.jpeg"
     },
     {
-      "name": "Francisca Gaspar Vieira",
-      "role": "Associated Member",
-      "description": "I am a PhD student supervised by Dr. Britta Velten (Centre for Organismal Studies, Heidelberg University) and co-supervised by Dr. Julio Saez-Rodriguez (EMBL’s European Bioinformatics Institute), as a fellow member of the European Laboratory for Learning and Intelligent Systems (ELLIS) PhD program. In my research, I am developing statistical methods and computational tools based on probabilistic factor models to infer and compare perturbation responses from single-cell CRISPR screens across different biological contexts on time-course data.I hold an Integrated Master’s degree in Biological Engineering and a second Master’s degree in Computational Biology and Bioinformatics. In my first master’s thesis, I was at the Laboratory of Gene Technology at KU Leuven, investigating bacteriophage genomics and biocontrol. In my second master’s thesis, I focused on multi-omics integration and classification of glioma types, at NOVA Math – Center for Mathematics and Applications, NOVA University of Lisbon, where I continued for one more year as a researcher on identifying biomolecular mechanisms driving human disease, discovering new therapeutic targets, performing patient stratification and predicting patient outcomes.",
-      "research_interests": "I am fascinated by the incredible potential of computational methods to decode genetic patterns, extract meaningful insights from complex biological datasets, and disentangle different phenotypes. My current research focuses on analyzing single-cell transcriptomics data with CRISPR-based genetic perturbations to understand the regulatory mechanisms governing cellular function and development. In particular, I aim to build upon probabilistic factor models to identify molecular signatures of various interventions and compare them across different biological contexts and time points, uncovering their interplay with dynamic processes.",
-      "professional_career": [
-        {
-          "period": "2024-present",
-          "position": "PhD Candidate, Velten Group, Centre for Organismal Studies, Heidelberg University, Germany"
-        },
-        {
-          "period": "2023-2024",
-          "position": "Research Assistant, NOVA Math - Center for Mathematics and Applications, NOVA University of Lisbon, Portugal"
-        },
-        {
-          "period": "2023",
-          "position": "Member of PerMediK (Personalized Medicine in Chronic Kidney Disease) COST Action, European Cooperation in Science and Technology"
-        },
-        {
-          "period": "2022-2023",
-          "position": "Research internship, NOVA Math - Center for Mathematics and Applications, NOVA University of Lisbon, Portugal"
-        },
-        {
-          "period": "2021",
-          "position": "Research internship, Laboratory of Gene Technology, KU Leuven, Belgium"
-        },
-        {
-          "period": "2020",
-          "position": "Research internship, Computer and Robot Vision Laboratory, University of Lisbon, Portugal"
-        }
-      ],
-      "education": [
-        {
-          "period": "2024-present",
-          "degree": "Doctoral Studies in Biology, Faculty of Biosciences, University of Heidelberg, Germany"
-        },
-        {
-          "period": "2021-2023",
-          "degree": "Master in Computational Biology and Bioinformatics, NOVA University of Lisbon, Portugal"
-        },
-        {
-          "period": "2021",
-          "degree": "Master Thesis, Laboratory of Gene Technology, KU Leuven, Belgium"
-        },
-        {
-          "period": "2016-2021",
-          "degree": "Integrated Master in Biological Engineering, Instituto Superior Técnico, University of Lisbon, Portugal"
-        }
-      ],
-      "email": "francisca.gaspar.vieira@cos.uni-heidelberg.de",
-      "telephone": "",
-      "orcid": "0000-0002-9767-4356",
-      "image": "francisca-gaspar-vieira.jpeg"
-    },
-    {
       "name": "Christoph Mahler",
       "role": "Associated Member",
       "description": "I gained my medical degree at LMU Munich, where I joined the group of Martin Kerschensteiner at the Institute of Clinical Neuroimmunology. In cooperation with Thomas Misgeld, I applied 2-photon in-vivo imaging to track axonal calcium dynamics in an animal model of multiple sclerosis. I started clinical training in neurology and collaborated with the Institute of Nuclear Medicine to establish TSPO-PET imaging of neuroinflammatory dynamics. I continued internal medicine training at the West London Renal and Transplant Centre, where my interest in kidney transplantation at the intersection between medicine and immunology was sparked. Currently, I am supported by the clinician scientist program Heidelberg, where my research is focused on improving outcomes for patients with end stage kidney disease through transplantation.",
@@ -1792,6 +1549,30 @@
     }
   ],
   "alumni": [
+    {
+      "name": "Jovan Tanevski",
+      "linkedin": "https://www.linkedin.com/in/tanevski/",
+      "position": "Postdoc",
+      "duration": "2018-2024"
+    },
+    {
+      "name": "Olga Ivanova",
+      "position": "PhD",
+      "linkedin": "https://www.linkedin.com/in/olga-ivanova-b984492a/",
+      "duration": "2019-2025"
+    },
+    {
+      "name": "Sebastian Lobentanzer",
+      "linkedin": "https://www.linkedin.com/in/slobentanzer/",
+      "position": "Postdoc",
+      "duration": "2015-2025"
+    },
+    {
+      "name": "Attila Gabor",
+      "linkedin": "https://www.linkedin.com/in/attila-g%C3%A1bor-94910524/",
+      "position": "Postdoc",
+      "duration": "2015-2025"
+    },
     {
       "name": "Fabian Fröhlich",
       "linkedin": "https://www.linkedin.com/in/fabian-froehlich-10a65838/",

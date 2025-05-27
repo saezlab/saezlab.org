@@ -33,6 +33,21 @@ export interface SoftwareCardProps {
     };
   }
 
+export interface Software {
+    name: string;
+    short_description: string;
+    long_description: string;
+    code_repository: string;
+    website: string;
+    publication: string;
+    image: string;
+    categories: {
+      featured: boolean;
+      tool: boolean;
+      database: boolean;
+    };
+  }
+
 export interface Publication {
     title: string;
     authors: string;
