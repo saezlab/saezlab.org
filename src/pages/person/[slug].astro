@@ -1,18 +1,22 @@
 ---
 import TeamMemberCard from "@/components/TeamMemberCard";
-import teamData from "@/content/team/team.json";
 import { getInternalLink } from "@/lib/utils";
+import { transformTeamMember } from "@/lib/team-utils";
 import Layout from "@/layouts/Layout.astro";
-export function getStaticPaths() {
-  return teamData.current.map(member => ({
+import { getCollection } from 'astro:content';
+export async function getStaticPaths() {
+  const currentTeamCollection = await getCollection('team_current');
+  const currentTeam = currentTeamCollection.map(member => transformTeamMember(member.data));
+  
+  return currentTeam.map(member => ({
     params: { 
       slug: member.name.toLowerCase().replace(/\s+/g, '-')
-    }
+    },
+    props: { member }
   }));
 }
 
-const { slug } = Astro.params;
-const member = teamData.current.find(m => m.name.toLowerCase().replace(/\s+/g, '-') === slug);
+const { member } = Astro.props;
 
 if (!member) {
   return Astro.redirect('/404');

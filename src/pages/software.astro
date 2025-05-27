@@ -1,7 +1,32 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import softwareData from '../content/software/software.json';
+import { getCollection } from 'astro:content';
 import SoftwareTabs from '../components/SoftwareTabs';
+
+// Fetch software data from Google Sheets
+const softwareCollection = await getCollection('software');
+
+// Transform the data to match the expected format
+const softwareData = softwareCollection.map(item => {
+  const data = item.data;
+  // Parse categories from comma-separated string
+  const categoryList = data.categories ? data.categories.split(',').map(c => c.trim()) : [];
+  
+  return {
+    name: data.name || '',
+    short_description: data.short_description || '',
+    long_description: data.long_description || '',
+    code_repository: data.code_repository || '',
+    website: data.website || '',
+    publication: data.publication || '',
+    image: data.image || '',
+    categories: {
+      featured: categoryList.includes('featured'),
+      tool: categoryList.includes('tool'),
+      database: categoryList.includes('database'),
+    }
+  };
+});
 ---
 
 <Layout title="Software">

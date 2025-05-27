@@ -11,7 +11,6 @@ export const navigationItems: NavItem[] = [
   { href: getInternalLink('/team'), label: 'Team' },
   { href: getInternalLink('/software'), label: 'Software' },
   { href: getInternalLink('/funding'), label: 'Funding' },
-  { href: getInternalLink('/partners'), label: 'Partners' },
   { href: getInternalLink('/jobs'), label: 'Jobs' },
   { href: getInternalLink('/contact'), label: 'Contact' },
 ]; 

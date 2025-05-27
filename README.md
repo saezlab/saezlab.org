@@ -44,100 +44,95 @@ src/
    pnpm install
    ```
 
-3. Start the development server:
+3. Set up environment variables:
+   ```bash
+   # Create .env file
+   echo "GH_TOKEN=your_github_personal_access_token" > .env
+   ```
+   The `GH_TOKEN` is required for fetching GitHub team data. [Create a token here](https://github.com/settings/tokens).
+
+4. Start the development server:
    ```bash
    pnpm dev
    ```
 
-4. Open [http://localhost:4321](http://localhost:4321) in your browser.
+5. Open [http://localhost:4321](http://localhost:4321) in your browser.
 
 ## Content Management
 
+Content is managed through Google Sheets, allowing non-technical team members to easily update information without code changes.
+
+**Google Sheets Document**: [https://docs.google.com/spreadsheets/d/1Mjn0C3gjSr5Wl2ZG41X813LLhL-y47DvLeEUCmagTe8](https://docs.google.com/spreadsheets/d/1Mjn0C3gjSr5Wl2ZG41X813LLhL-y47DvLeEUCmagTe8)
+
 ### Team Members
 
-Team member information is stored in `src/content/team/team.json`. To add or update team members, edit this file.
+Team information is managed in two sheets:
+- **current**: Current team members
+- **alumni**: Former team members
+
+#### Professional Career & Education Format
+- **Professional Career**: Multiple entries separated by `" || "`, each entry format: `"period | position"`
+  - Example: `"2024-present | Head of Research, EMBL-EBI || 2018-present | Professor at Heidelberg University"`
+- **Education**: Multiple entries separated by `" || "`, each entry format: `"period | degree"`
+  - Example: `"2002-2007 | PhD in Process Engineering || 2000-2001 | Exchange student"`
 
 ### Publications
 
-Publication are automatically downloaded from Pubmed.
+Publications are automatically fetched from PubMed using ORCID.
 
 ### Software
 
-Software tool information is stored in `src/content/software/software.json`. To add or update software tools, edit this file.
+Software tools are managed in the **software** sheet. Categories should be comma-separated values (e.g., `"featured, tool"` or `"database, tool"`).
 
-### Partners
+### Home Page Content
 
-Partner information is stored in `src/content/partners/partners.json`. To add or update partner information, edit this file.
+The home page content is managed through MDX files in `src/content/home_page/`:
 
-## Content Schemas
+- **`mission.mdx`**: The lab's mission statement displayed on the home page
+- **`research.mdx`**: Research areas and focus topics
+- **`locations.mdx`**: Lab locations and contact information
 
-### Team Schema (`src/content/team/team.json`)
-```json
-{
-  "current": [
-    {
-      "name": "string",
-      "role": "string",
-      "description": "string",
-      "research_interests": "string",
-      "professional_career": [
-        {
-          "period": "string",
-          "position": "string"
-        }
-      ],
-      "education": [
-        {
-          "period": "string",
-          "degree": "string",
-          "institution": "string"
-        }
-      ],
-      "image": "string"
-    }
-  ],
-  "alumni": [
-    {
-      "name": "string",
-      "role": "string",
-      "description": "string",
-      "current_position": "string"
-    }
-  ]
-}
-```
+These files support full MDX syntax, allowing you to use React components and Markdown together. To edit, simply modify the MDX files directly.
 
-### Software Schema (`src/content/software/software.json`)
-```json
-[
-  {
-    "name": "string",
-    "short_description": "string",
-    "long_description": "string",
-    "code_repository": "string",
-    "website": "string",
-    "publication": "string",
-    "image": "string",
-    "categories": {
-      "featured": "boolean",
-      "tool": "boolean",
-      "database": "boolean"
-    }
-  }
-]
-```
+### Navigation
 
-### Partners Schema (`src/content/partners/partners.json`)
-```json
-{
-  "collaborators": [
-    {
-      "name": "string",
-      "institution": "string"
-    }
-  ]
-}
-```
+The main navigation menu is configured in `src/config/navigation.ts`. To add, remove, or reorder menu items, edit this file.
+
+## Google Sheets Schemas
+
+### Current Team Members Sheet
+| Column | Description | Example |
+|--------|-------------|---------|
+| name | Full name | "Julio Saez-Rodriguez" |
+| role | Position/title | "Group Leader" |
+| description | Bio/description | "Brief biography..." |
+| research_interests | Research focus areas | "Systems biology..." |
+| professional_career | Career history (see format above) | "2024-present \| Head..." |
+| education | Education history (see format above) | "2002-2007 \| PhD..." |
+| email | Email address | "name@example.com" |
+| telephone | Phone number | "+49 123 456789" |
+| orcid | ORCID identifier | "0000-0002-8552-8976" |
+| image | Image filename | "person-name.jpg" |
+
+### Alumni Sheet
+| Column | Description | Example |
+|--------|-------------|---------|
+| name | Full name | "John Doe" |
+| position | Position held | "Postdoc" |
+| duration | Time period | "2018-2024" |
+| linkedin | LinkedIn profile URL | "https://linkedin.com/in/..." |
+
+### Software Sheet
+| Column | Description | Example |
+|--------|-------------|---------|
+| name | Software name | "BioCypher" |
+| short_description | Brief description | "A framework for..." |
+| long_description | Detailed description | "Extended description..." |
+| code_repository | GitHub/GitLab URL | "https://github.com/..." |
+| website | Project website | "https://biocypher.org" |
+| publication | Publication URL | "https://doi.org/..." |
+| image | Image filename | "biocypher.png" |
+| categories | Comma-separated categories | "featured, tool" |
 
 ## Building for Production
 

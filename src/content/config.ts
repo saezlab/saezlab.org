@@ -2,6 +2,7 @@ import { defineCollection, z } from 'astro:content';
 import { pmcLoader } from './loaders/pmc';
 import { fundingLoader } from './loaders/funding';
 import { githubLoader } from './loaders/github';
+import { googleSheetsLoader } from './loaders/google-sheets';
 // @ts-check
 
 const publications_loaded = defineCollection({
@@ -24,8 +25,34 @@ const teams_loaded = defineCollection({
   }),
 });
 
+const team_current = defineCollection({
+  loader: googleSheetsLoader({
+    spreadsheetId: '1Mjn0C3gjSr5Wl2ZG41X813LLhL-y47DvLeEUCmagTe8',
+    sheetName: 'current',
+    headers: ['name', 'role', 'description', 'research_interests', 'professional_career', 'education', 'email', 'telephone', 'orcid', 'image'],
+  }),
+});
+
+const team_alumni = defineCollection({
+  loader: googleSheetsLoader({
+    spreadsheetId: '1Mjn0C3gjSr5Wl2ZG41X813LLhL-y47DvLeEUCmagTe8',
+    sheetName: 'alumni',
+    headers: ['name', 'position', 'duration', 'linkedin'],
+  }),
+});
+const software = defineCollection({
+  loader: googleSheetsLoader({
+    spreadsheetId: '1Mjn0C3gjSr5Wl2ZG41X813LLhL-y47DvLeEUCmagTe8',
+    sheetName: 'software',
+    headers: ['name', 'short_description', 'long_description', 'code_repository', 'website', 'publication', 'image', 'categories'],
+  }),
+});
+
 export const collections = {
   publications_loaded,
   funding_loaded,
   teams_loaded,
+  team_current,
+  team_alumni,
+  software,
 }; 
