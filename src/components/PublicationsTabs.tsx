@@ -71,7 +71,7 @@ export default function PublicationsTabsLoaded({ publications, featuredPmids }: 
             No featured publications found.
           </div>
         ) : (
-          <div className="grid gap-6">
+          <div className="grid gap-4">
             {sortedFeaturedPublications.map((publication) => (
               <Card key={publication.pmid} className="hover:shadow-lg transition-shadow">
                 <CardHeader className="pb-2">
@@ -150,7 +150,7 @@ export default function PublicationsTabsLoaded({ publications, featuredPmids }: 
           </div>
         ) : (
           <>
-            <div className="grid gap-2">
+            <div className="grid gap-4">
               {paginatedPublications.map((publication) => (
                 <Card key={publication.pmid} className="hover:shadow-lg transition-shadow">
                   <CardHeader className="pb-2">
