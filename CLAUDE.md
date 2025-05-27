@@ -25,17 +25,23 @@ This is an Astro-based academic research group website with React components for
 
 ### Content Architecture
 Content is managed through multiple sources:
-1. **Static JSON files** in `src/content/`:
-   - `team/team.json` - Team members (current & alumni)
-   - `software/software.json` - Software tools & databases
-   - `partners/partners.json` - Collaborators
+1. **Google Sheets** (ID: `1Mjn0C3gjSr5Wl2ZG41X813LLhL-y47DvLeEUCmagTe8`):
+   - `current` sheet - Current team members
+   - `alumni` sheet - Former team members
+   - `software` sheet - Software tools & databases
 
 2. **Dynamic loaders** in `src/content/loaders/`:
    - `pmc.ts` - Fetches publications from PubMed
    - `funding.ts` - Fetches funding data
    - `github.ts` - Fetches GitHub team data
+   - `google-sheets.ts` - Custom loader for Google Sheets content
 
 3. **MDX files** in `src/content/home_page/` for rich homepage content
+
+### Data Formats
+- **Professional Career**: `"period | position || period | position"`
+- **Education**: `"period | degree || period | degree"`
+- **Software Categories**: Comma-separated values (e.g., `"featured, tool"`)
 
 ### Page Structure
 - **File-based routing** in `src/pages/`
