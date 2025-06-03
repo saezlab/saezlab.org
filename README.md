@@ -16,12 +16,12 @@ A modern, fast, and maintainable website for the Saez Lab built with Astro, Reac
 
 ```
 src/
-├── components/     # React components
+├── components/    # React components
 ├── content/       # Content files (MDX, JSON)
 ├── layouts/       # Layout components
 ├── pages/         # Astro pages
 ├── styles/        # Global styles
-└── lib/          # Utility functions
+└── lib/           # Utility functions
 ```
 
 ## Getting Started
@@ -35,8 +35,8 @@ src/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/saezlab/website.git
-   cd website
+   git clone https://github.com/saezlab/saezlab.org.git
+   cd saezlab.org
    ```
 
 2. Install dependencies:
@@ -49,7 +49,7 @@ src/
    # Create .env file
    echo "GH_TOKEN=your_github_personal_access_token" > .env
    ```
-   The `GH_TOKEN` is required for fetching GitHub team data. [Create a token here](https://github.com/settings/tokens).
+   The `GH_TOKEN` is required for fetching GitHub team data. [Create a token here](https://github.com/settings/personal-access-tokens/new). Create a "classic" token, as this token is not for the repo, but to fetch internal data of the organization. When setting the permissions, select the items under the "org" scope.
 
 4. Start the development server:
    ```bash
