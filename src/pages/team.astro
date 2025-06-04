@@ -38,6 +38,22 @@ const alumni = alumniCollection.map(member => member.data as any as {
   position: string;
   duration: string;
   linkedin?: string;
+}).sort((a, b) => {
+  // Extract end years from duration strings (e.g., "2018-2020" -> 2020)
+  const getEndYear = (duration: string) => {
+    const years = duration.match(/\d{4}/g);
+    if (years && years.length > 0) {
+      // Return the last year found (the end year)
+      return parseInt(years[years.length - 1]);
+    }
+    return 0;
+  };
+  
+  const yearA = getEndYear(a.duration);
+  const yearB = getEndYear(b.duration);
+  
+  // Sort in descending order (most recent first)
+  return yearB - yearA;
 });
 
 // Fetch GitHub team data

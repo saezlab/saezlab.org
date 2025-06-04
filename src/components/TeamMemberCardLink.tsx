@@ -5,8 +5,8 @@ export default function TeamMemberCardLink(props: TeamMemberProps) {
   const slug = props.name.toLowerCase().replace(/\s+/g, '-')
 
   return (
-        <a href={`${BASE_PATH}/person/${slug}`} className="block">
-          <div className="flex flex-col items-center space-y-4 rounded-lg border p-6 text-center cursor-pointer hover:bg-accent/50 transition-colors">
+        <a href={`${BASE_PATH}/person/${slug}`} className="block h-full">
+          <div className="flex h-full flex-col items-center space-y-4 rounded-lg border p-6 text-center cursor-pointer hover:bg-accent/50 transition-colors">
             <img 
               src={props.image} 
               alt={props.name}
