@@ -12,7 +12,14 @@ if (!publications || publications.length === 0) {
 }
 
 // Get the publications data with error handling
-const publicationsData = publications?.[0]?.data?.publications || [];
+const allPublications = publications?.[0]?.data?.publications || [];
+
+// Filter publications to only include those after July 2010
+const publicationsData = allPublications.filter(pub => {
+  if (!pub.date) return false;
+  // Filter publications after July 2010 (2010-07-01)
+  return pub.date > '2010-07-01';
+});
 
 // Featured PubMed IDs
 const featuredPmids = [
