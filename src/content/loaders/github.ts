@@ -64,8 +64,9 @@ export function githubLoader(options: {
       const BASE_URL = 'https://api.github.com';
       const allTeams = [];
       if (token === undefined || token === '' || token === null || token === 'undefined') {
-        logger.error('No token provided');
-        return;
+        const error = new Error('GitHub token is required but not provided');
+        logger.error(error.message);
+        throw error;
       }
 
       logger.info(`Fetching teams for organization: ${org}`);
@@ -125,6 +126,7 @@ export function githubLoader(options: {
 
         } catch (error) {
           logger.error(`Error fetching team ${teamSlug}: ${error}`);
+          throw error;
         }
       }
 

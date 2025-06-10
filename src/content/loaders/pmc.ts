@@ -110,7 +110,7 @@ export function pmcLoader(options: { orcid: string }): Loader {
           logger.info(`Processed ${data.resultList.result.length} publications`);
         } catch (error) {
           logger.error(`Error fetching publications: ${error}`);
-          break;
+          throw error;
         }
       }
 
