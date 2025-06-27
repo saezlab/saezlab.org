@@ -12,7 +12,7 @@ import {
 } from "@/components/ui/pagination";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import type { Publication } from "@/types/types";
-import { BookOpen, ExternalLink, FileText, Link2 } from 'lucide-react';
+import { ExternalLink, FileText, Link2 } from 'lucide-react';
 import { useState } from 'react';
 
 interface PublicationsTabsLoadedProps {
@@ -100,19 +100,19 @@ export default function PublicationsTabsLoaded({ publications, featuredPmids }: 
                 <CardFooter className="pt-0">
                   <div className="flex flex-wrap gap-4 items-center justify-between w-full">
                     <div className="flex flex-wrap gap-4">
-                      {publication.link && (
+                      {publication.doi && (
                         <Button variant="secondary" size="sm" asChild className="border">
-                          <a href={publication.link} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                          <a href={`https://doi.org/${publication.doi}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                             <ExternalLink className="h-4 w-4" />
                             <span>View Publication</span>
                           </a>
                         </Button>
                       )}
-                      {publication.doi && (
+                      {publication.europePmc && (
                         <Button variant="outline" size="sm" asChild className="border">
-                          <a href={`https://doi.org/${publication.doi}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                          <a href={publication.europePmc} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                             <Link2 className="h-4 w-4" />
-                            <span>DOI</span>
+                            <span>EuropePMC</span>
                           </a>
                         </Button>
                       )}
@@ -121,14 +121,6 @@ export default function PublicationsTabsLoaded({ publications, featuredPmids }: 
                           <a href={`https://pubmed.ncbi.nlm.nih.gov/${publication.pmid}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                             <FileText className="h-4 w-4" />
                             <span>PubMed</span>
-                          </a>
-                        </Button>
-                      )}
-                      {publication.pmcid && (
-                        <Button variant="outline" size="sm" asChild className="border">
-                          <a href={`https://www.ncbi.nlm.nih.gov/pmc/articles/${publication.pmcid}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
-                            <BookOpen className="h-4 w-4" />
-                            <span>PMC</span>
                           </a>
                         </Button>
                       )}
@@ -187,19 +179,19 @@ export default function PublicationsTabsLoaded({ publications, featuredPmids }: 
                   <CardFooter className="pt-0">
                     <div className="flex flex-wrap gap-4 items-center justify-between w-full">
                       <div className="flex flex-wrap gap-4">
-                        {publication.link && (
+                        {publication.doi && (
                           <Button variant="secondary" size="sm" asChild className="border">
-                            <a href={publication.link} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                            <a href={`https://doi.org/${publication.doi}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                               <ExternalLink className="h-4 w-4" />
                               <span>View Publication</span>
                             </a>
                           </Button>
                         )}
-                        {publication.doi && (
+                        {publication.europePmc && (
                           <Button variant="outline" size="sm" asChild className="border">
-                            <a href={`https://doi.org/${publication.doi}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                            <a href={publication.europePmc} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                               <Link2 className="h-4 w-4" />
-                              <span>DOI</span>
+                              <span>EuropePMC</span>
                             </a>
                           </Button>
                         )}
@@ -208,14 +200,6 @@ export default function PublicationsTabsLoaded({ publications, featuredPmids }: 
                             <a href={`https://pubmed.ncbi.nlm.nih.gov/${publication.pmid}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                               <FileText className="h-4 w-4" />
                               <span>PubMed</span>
-                            </a>
-                          </Button>
-                        )}
-                        {publication.pmcid && (
-                          <Button variant="outline" size="sm" asChild className="border">
-                            <a href={`https://www.ncbi.nlm.nih.gov/pmc/articles/${publication.pmcid}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
-                              <BookOpen className="h-4 w-4" />
-                              <span>PMC</span>
                             </a>
                           </Button>
                         )}

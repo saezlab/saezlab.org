@@ -41,7 +41,7 @@ export function pmcLoader(options: { orcid: string }): Loader {
         date: z.string(),
         year: z.number(),
         journal: z.string(),
-        link: z.string().url(),
+        europePmc: z.string().optional(),
         isPreprint: z.boolean(),
         isReview: z.boolean(),
         pmid: z.string().optional(),
@@ -98,11 +98,9 @@ export function pmcLoader(options: { orcid: string }): Loader {
               date: publicationDate,
               year: year,
               journal: pub.journalTitle || 'Unknown Journal',
-              link: pub.source && pub.id 
+              europePmc: pub.source && pub.id 
                 ? `http://europepmc.org/abstract/${pub.source}/${pub.id}`
-                : pub.doi 
-                  ? `https://doi.org/${pub.doi}`
-                  : '',
+                : undefined,
               isPreprint: pubTypeString.includes('preprint'),
               isReview: pubTypeString.includes('review') || titleString.includes('review'),
               pmid: pub.pmid,

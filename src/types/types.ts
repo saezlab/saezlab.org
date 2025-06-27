@@ -60,8 +60,8 @@ export interface Publication {
     isOpenAccess?: boolean;
     isPreprint?: boolean;
     isReview?: boolean;
-    link?: string;
     doi?: string;
     pmid?: string;
     pmcid?: string;
+    europePmc?: string;
   }
