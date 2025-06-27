@@ -78,6 +78,14 @@ export default function PublicationsTabsLoaded({ publications, featuredPmids }: 
                   <div className="flex justify-between items-start gap-4">
                     <CardTitle className="text-xl">{publication.title}</CardTitle>
                     <div className="flex flex-wrap gap-2 justify-end">
+                      <Badge variant="secondary" className="text-xs">
+                        {publication.year}
+                      </Badge>
+                      {publication.isReview && (
+                        <Badge variant="outline" className="bg-blue-50 text-blue-700 dark:bg-blue-900/20 dark:text-blue-400">
+                          Review
+                        </Badge>
+                      )}
                       {publication.isPreprint && (
                         <Badge variant="outline" className="bg-amber-50 text-amber-700 dark:bg-amber-900/20 dark:text-amber-400">
                           Preprint
@@ -157,6 +165,14 @@ export default function PublicationsTabsLoaded({ publications, featuredPmids }: 
                     <div className="flex justify-between items-start gap-4">
                       <CardTitle className="text-xl">{publication.title}</CardTitle>
                       <div className="flex flex-wrap gap-2 justify-end">
+                        <Badge variant="secondary" className="text-xs">
+                          {publication.year}
+                        </Badge>
+                        {publication.isReview && (
+                          <Badge variant="outline" className="bg-blue-50 text-blue-700 dark:bg-blue-900/20 dark:text-blue-400">
+                            Review
+                          </Badge>
+                        )}
                         {publication.isPreprint && (
                           <Badge variant="outline" className="bg-amber-50 text-amber-700 dark:bg-amber-900/20 dark:text-amber-400">
                             Preprint

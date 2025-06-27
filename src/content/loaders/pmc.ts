@@ -39,9 +39,11 @@ export function pmcLoader(options: { orcid: string }): Loader {
         authors: z.string(),
         firstAuthor: z.string(),
         date: z.string(),
+        year: z.number(),
         journal: z.string(),
         link: z.string().url(),
         isPreprint: z.boolean(),
+        isReview: z.boolean(),
         pmid: z.string().optional(),
         doi: z.string().optional(),
         pmcid: z.string().optional(),
@@ -84,22 +86,29 @@ export function pmcLoader(options: { orcid: string }): Loader {
 
           for (const pub of data.resultList.result) {
 
+            const publicationDate = pub.firstPublicationDate || '';
+            const year = publicationDate ? new Date(publicationDate).getFullYear() : new Date().getFullYear();
+            const pubTypeString = pub.pubType?.toLowerCase() || '';
+            const titleString = (pub.title || '').toLowerCase();
+            
             const processedPub = {
               title: pub.title || '',
               authors: pub.authorString || '',
               firstAuthor: pub.authorString ? pub.authorString.split(',')[0].trim() : '',
-              date: pub.firstPublicationDate || '',
+              date: publicationDate,
+              year: year,
               journal: pub.journalTitle || 'Unknown Journal',
               link: pub.source && pub.id 
                 ? `http://europepmc.org/abstract/${pub.source}/${pub.id}`
                 : pub.doi 
                   ? `https://doi.org/${pub.doi}`
                   : '',
-              isPreprint: pub.pubType?.toLowerCase().includes('preprint') || false,
+              isPreprint: pubTypeString.includes('preprint'),
+              isReview: pubTypeString.includes('review') || titleString.includes('review'),
               pmid: pub.pmid,
               doi: pub.doi,
               pmcid: pub.pmcid,
-              isOpenAccess: pub.isOpenAccess === 'Y' || pub.pubType?.toLowerCase().includes('preprint'),
+              isOpenAccess: pub.isOpenAccess === 'Y' || pubTypeString.includes('preprint'),
               volume: pub.journalVolume,
               issue: pub.issue,
               pages: pub.pageInfo,

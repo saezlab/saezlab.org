@@ -56,8 +56,10 @@ export interface Publication {
     issue?: string;
     pages?: string;
     date: string;
+    year: number;
     isOpenAccess?: boolean;
     isPreprint?: boolean;
+    isReview?: boolean;
     link?: string;
     doi?: string;
     pmid?: string;
