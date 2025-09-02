@@ -63,6 +63,9 @@ const githubTeamData = githubTeamsCollection[0]?.data as unknown as TeamData | u
 // Find Interns and Visitors teams from GitHub data
 const internsAndVisitorsTeam = githubTeamData?.teams.find(team => team.slug.toLowerCase() === 'intern-visitor');
 
+// List of team members to exclude from display
+const excludedMembers = ['Inga Ulusoy'];
+
 ---
 
 <Layout title="Team">
@@ -228,7 +231,9 @@ const internsAndVisitorsTeam = githubTeamData?.teams.find(team => team.slug.toLo
       <div class="mx-auto max-w-[980px] py-6 md:py-12">
         <h2 class="mb-8 text-2xl font-bold">Interns & Visitors</h2>
         <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {internsAndVisitorsTeam.members.map((member: TeamMember) => (
+          {internsAndVisitorsTeam.members
+            .filter((member: TeamMember) => !excludedMembers.includes(member.name || member.login))
+            .map((member: TeamMember) => (
             <TeamMemberCardDialog
               client:load
               name={member.name || member.login}
