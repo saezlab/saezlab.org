@@ -90,8 +90,8 @@ export default function PublicationsTabsLoaded({ publications, featuredPmids, fe
           </div>
         ) : (
           <div className="grid gap-4">
-            {sortedFeaturedPublications.map((publication) => (
-              <Card key={publication.pmid} className="hover:shadow-lg transition-shadow">
+            {sortedFeaturedPublications.map((publication, index) => (
+              <Card key={index + 1} className="hover:shadow-lg transition-shadow">
                 <CardHeader className="pb-2">
                   <div className="flex justify-between items-start gap-4">
                     <CardTitle className="text-xl">{publication.title}</CardTitle>
@@ -169,8 +169,8 @@ export default function PublicationsTabsLoaded({ publications, featuredPmids, fe
         ) : (
           <>
             <div className="grid gap-4">
-              {paginatedPublications.map((publication) => (
-                <Card key={publication.pmid} className="hover:shadow-lg transition-shadow">
+              {paginatedPublications.map((publication, index) => (
+                <Card key={index + 1000} className="hover:shadow-lg transition-shadow">
                   <CardHeader className="pb-2">
                     <div className="flex justify-between items-start gap-4">
                       <CardTitle className="text-xl">{publication.title}</CardTitle>
@@ -322,8 +322,8 @@ export default function PublicationsTabsLoaded({ publications, featuredPmids, fe
           </div>
         ) : (
           <div className="grid gap-4">
-            {sortedPreprintPublications.map((publication) => (
-              <Card key={publication.pmid || publication.doi} className="hover:shadow-lg transition-shadow">
+            {sortedPreprintPublications.map((publication, index) => (
+              <Card key={index + 10000} className="hover:shadow-lg transition-shadow">
                 <CardHeader className="pb-2">
                   <div className="flex justify-between items-start gap-4">
                     <CardTitle className="text-xl">{publication.title}</CardTitle>
