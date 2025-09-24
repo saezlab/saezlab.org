@@ -18,23 +18,35 @@ import { useState } from 'react';
 interface PublicationsTabsLoadedProps {
   publications: Publication[];
   featuredPmids: string[];
+  featuredDois?: string[];
 }
 
-export default function PublicationsTabsLoaded({ publications, featuredPmids }: PublicationsTabsLoadedProps) {
+export default function PublicationsTabsLoaded({ publications, featuredPmids, featuredDois = [] }: PublicationsTabsLoadedProps) {
   const [currentPage, setCurrentPage] = useState(1);
   const publicationsPerPage = 15;
 
   // Filter featured publications
-  const featuredPublications = publications.filter(pub => 
-    pub.pmid && featuredPmids.includes(pub.pmid)
+  const featuredPublications = publications.filter(pub =>
+    (pub.pmid && featuredPmids.includes(pub.pmid)) ||
+    (pub.doi && featuredDois.includes(pub.doi))
   );
 
+  // Filter preprints
+  const preprintPublications = publications.filter(pub => pub.isPreprint);
+
+  // Filter non-preprint publications for "All Publications" tab
+  const nonPreprintPublications = publications.filter(pub => !pub.isPreprint);
+
   // Sort publications by date (newest first)
-  const sortedPublications = [...publications].sort((a, b) => {
+  const sortedPublications = [...nonPreprintPublications].sort((a, b) => {
     return b.date.localeCompare(a.date);
   });
 
   const sortedFeaturedPublications = [...featuredPublications].sort((a, b) => {
+    return b.date.localeCompare(a.date);
+  });
+
+  const sortedPreprintPublications = [...preprintPublications].sort((a, b) => {
     return b.date.localeCompare(a.date);
   });
 
@@ -50,7 +62,7 @@ export default function PublicationsTabsLoaded({ publications, featuredPmids }: 
 
   return (
     <Tabs defaultValue="featured" className="w-full">
-      <TabsList className="grid w-full grid-cols-2 mb-8">
+      <TabsList className="grid w-full grid-cols-3 mb-8">
         <TabsTrigger value="featured" className="flex items-center gap-2">
           Featured
           <Badge variant="secondary" className="ml-1">
@@ -60,7 +72,13 @@ export default function PublicationsTabsLoaded({ publications, featuredPmids }: 
         <TabsTrigger value="all" className="flex items-center gap-2">
           All Publications
           <Badge variant="secondary" className="ml-1">
-            {publications.length}
+            {nonPreprintPublications.length}
+          </Badge>
+        </TabsTrigger>
+        <TabsTrigger value="preprints" className="flex items-center gap-2">
+          All Preprints
+          <Badge variant="secondary" className="ml-1">
+            {preprintPublications.length}
           </Badge>
         </TabsTrigger>
       </TabsList>
@@ -294,6 +312,84 @@ export default function PublicationsTabsLoaded({ publications, featuredPmids }: 
               </div>
             )}
           </>
+        )}
+      </TabsContent>
+
+      <TabsContent value="preprints">
+        {sortedPreprintPublications.length === 0 ? (
+          <div className="text-center text-muted-foreground py-12">
+            No preprints found.
+          </div>
+        ) : (
+          <div className="grid gap-4">
+            {sortedPreprintPublications.map((publication) => (
+              <Card key={publication.pmid || publication.doi} className="hover:shadow-lg transition-shadow">
+                <CardHeader className="pb-2">
+                  <div className="flex justify-between items-start gap-4">
+                    <CardTitle className="text-xl">{publication.title}</CardTitle>
+                    <div className="flex flex-wrap gap-2 justify-end">
+                      <Badge variant="secondary" className="text-xs">
+                        {publication.year}
+                      </Badge>
+                      {publication.isReview && (
+                        <Badge variant="outline" className="bg-blue-50 text-blue-700 dark:bg-blue-900/20 dark:text-blue-400">
+                          Review
+                        </Badge>
+                      )}
+                      {publication.isPreprint && (
+                        <Badge variant="outline" className="bg-amber-50 text-amber-700 dark:bg-amber-900/20 dark:text-amber-400">
+                          Preprint
+                        </Badge>
+                      )}
+                    </div>
+                  </div>
+                  <div className="text-sm text-muted-foreground mt-1">
+                    {publication.authors}
+                  </div>
+                </CardHeader>
+                <CardFooter className="pt-0">
+                  <div className="flex flex-wrap gap-4 items-center justify-between w-full">
+                    <div className="flex flex-wrap gap-4">
+                      {publication.doi && (
+                        <Button variant="secondary" size="sm" asChild className="border">
+                          <a href={`https://doi.org/${publication.doi}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                            <ExternalLink className="h-4 w-4" />
+                            <span>View Publication</span>
+                          </a>
+                        </Button>
+                      )}
+                      {publication.europePmc && (
+                        <Button variant="outline" size="sm" asChild className="border">
+                          <a href={publication.europePmc} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                            <Link2 className="h-4 w-4" />
+                            <span>EuropePMC</span>
+                          </a>
+                        </Button>
+                      )}
+                      {publication.pmid && (
+                        <Button variant="outline" size="sm" asChild className="border">
+                          <a href={`https://pubmed.ncbi.nlm.nih.gov/${publication.pmid}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                            <FileText className="h-4 w-4" />
+                            <span>PubMed</span>
+                          </a>
+                        </Button>
+                      )}
+                    </div>
+                    <div className="text-sm text-muted-foreground italic">
+                      {publication.journal !== "Unknown Journal" && (
+                        <>
+                          {publication.journal}
+                          {publication.volume && `, ${publication.volume}`}
+                          {publication.issue && `(${publication.issue})`}
+                          {publication.pages && `: ${publication.pages}`}
+                        </>
+                      )}
+                    </div>
+                  </div>
+                </CardFooter>
+              </Card>
+            ))}
+          </div>
         )}
       </TabsContent>
     </Tabs>

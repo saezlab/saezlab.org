@@ -1,12 +1,12 @@
 import { defineCollection, z } from 'astro:content';
-import { pmcLoader } from './loaders/pmc';
+import { orcidLoader } from './loaders/orcid';
 import { fundingLoader } from './loaders/funding';
 import { githubLoader } from './loaders/github';
 import { googleSheetsLoader } from './loaders/google-sheets';
 // @ts-check
 
 const publications_loaded = defineCollection({
-  loader: pmcLoader({
+  loader: orcidLoader({
     orcid: '0000-0002-8552-8976'
   }),
 });
