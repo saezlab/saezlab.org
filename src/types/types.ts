@@ -56,7 +56,7 @@ export interface Publication {
     issue?: string;
     pages?: string;
     date: string;
-    year: number;
+    year?: number;
     isOpenAccess?: boolean;
     isPreprint?: boolean;
     isReview?: boolean;

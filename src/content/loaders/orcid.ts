@@ -76,7 +76,7 @@ export function orcidLoader(options: { orcid: string }): Loader {
         authors: z.string(),
         firstAuthor: z.string(),
         date: z.string(),
-        year: z.number(),
+        year: z.number().optional(),
         journal: z.string(),
         europePmc: z.string().optional(),
         isPreprint: z.boolean(),
@@ -148,16 +148,45 @@ export function orcidLoader(options: { orcid: string }): Loader {
             }
 
             const journalMatch = workXml.match(/<work:journal-title>(.*?)<\/work:journal-title>/);
-            const journal = journalMatch?.[1] || 'Unknown Journal';
+            let journal = journalMatch?.[1] || 'Unknown Journal';
 
             const yearMatch = workXml.match(/<common:year>(.*?)<\/common:year>/);
             const monthMatch = workXml.match(/<common:month>(.*?)<\/common:month>/);
             const dayMatch = workXml.match(/<common:day>(.*?)<\/common:day>/);
 
-            const year = yearMatch?.[1] ? parseInt(yearMatch[1]) : new Date().getFullYear();
+            // Fallback: try to extract year from citation if structured date is missing
+            let year = yearMatch?.[1] ? parseInt(yearMatch[1]) : null;
+
+            if (!year) {
+              const citationMatch = workXml.match(/<work:citation-value>(.*?)<\/work:citation-value>/s);
+              if (citationMatch?.[1]) {
+                const citation = citationMatch[1];
+                // Try to extract 4-digit year from citation (look for years like 2012, 1999, etc.)
+                const citationYearMatch = citation.match(/\b(19|20)\d{2}\b/);
+                if (citationYearMatch?.[0]) {
+                  year = parseInt(citationYearMatch[0]);
+                  logger.info(`Extracted year ${year} from citation for: ${title}`);
+
+                  // Also try to extract journal from citation if not found
+                  if (journal === 'Unknown Journal') {
+                    // Look for text within <i>...</i> or &lt;i&gt;...&lt;/i&gt;
+                    const journalFromCitationMatch = citation.match(/(?:<i>|&lt;i&gt;)(.*?)(?:<\/i>|&lt;\/i&gt;)/);
+                    if (journalFromCitationMatch?.[1]) {
+                      journal = journalFromCitationMatch[1];
+                    }
+                  }
+                }
+              }
+            }
+
+            // If no year found, log warning but continue
+            if (!year) {
+              logger.warn(`No year found for publication: "${title}"`);
+            }
+
             const month = monthMatch?.[1]?.padStart(2, '0') || '01';
             const day = dayMatch?.[1]?.padStart(2, '0') || '01';
-            const dateString = `${year}-${month}-${day}`;
+            const dateString = year ? `${year}-${month}-${day}` : '';
 
             const doiMatch = workXml.match(/<common:external-id-type>doi<\/common:external-id-type>[\s\S]*?<common:external-id-value>(.*?)<\/common:external-id-value>/);
             const pmidMatch = workXml.match(/<common:external-id-type>pmid<\/common:external-id-type>[\s\S]*?<common:external-id-value>(.*?)<\/common:external-id-value>/);
@@ -213,8 +242,17 @@ export function orcidLoader(options: { orcid: string }): Loader {
         logger.info(`Successfully processed ${allPublications.length} publications from ORCID`);
 
         allPublications.sort((a, b) => {
-          if (a.year !== b.year) {
-            return b.year - a.year;
+          // Publications without year go to the end
+          if (!a.year && !b.year) {
+            return b.date.localeCompare(a.date);
+          }
+          if (!a.year) return 1;
+          if (!b.year) return -1;
+
+          // Both years are defined at this point
+          const yearDiff = b.year - a.year;
+          if (yearDiff !== 0) {
+            return yearDiff;
           }
           return b.date.localeCompare(a.date);
         });
