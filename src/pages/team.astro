@@ -143,27 +143,6 @@ const excludedMembers = ['Inga Ulusoy'];
     </div>
 
     <div class="mx-auto max-w-[980px] py-6 md:py-12">
-      <h2 class="mb-8 text-2xl font-bold">Bioinformaticians</h2>
-      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {currentTeam.filter(member => member.role.includes("Bioinformatician")).map((member) => (
-          <TeamMemberCardLink
-            client:load
-            name={member.name}
-            role={member.role}
-            image={getInternalLink("/team_images/" + member.image)}
-            bio={member.description}
-            email={member.email}
-            telephone={member.telephone}
-            orcid={member.orcid}
-            research_interests={member.research_interests}
-            professional_career={member.professional_career}
-            education={member.education}
-          />
-        ))}
-      </div>
-    </div>
-
-    <div class="mx-auto max-w-[980px] py-6 md:py-12">
       <h2 class="mb-8 text-2xl font-bold">Postdocs</h2>
       <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {currentTeam.filter(member => member.role.includes("Postdoc")).map((member) => (
