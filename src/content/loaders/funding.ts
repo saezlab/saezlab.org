@@ -62,6 +62,16 @@ export function fundingLoader(options: { orcid: string }): Loader {
 
         logger.info(`Successfully processed ${grants.length} grants`);
 
+        // Sanity checks
+        if (grants.length === 0) {
+          throw new Error('Funding loader returned 0 grants - this is likely an error');
+        }
+
+        const grantsWithoutName = grants.filter((g: any) => !g.name || g.name.trim() === '' || g.name === 'Untitled Grant');
+        if (grantsWithoutName.length > 0) {
+          throw new Error(`${grantsWithoutName.length} grants missing proper title - data quality issue`);
+        }
+
         store.set({
           id: 'funding_loaded',
           data: {

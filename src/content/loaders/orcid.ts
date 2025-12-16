@@ -241,6 +241,16 @@ export function orcidLoader(options: { orcid: string }): Loader {
 
         logger.info(`Successfully processed ${allPublications.length} publications from ORCID`);
 
+        // Sanity checks
+        if (allPublications.length < 10) {
+          throw new Error(`ORCID loader returned only ${allPublications.length} publications - expected at least 10`);
+        }
+
+        const publicationsWithoutTitle = allPublications.filter(p => !p.title || p.title.trim() === '');
+        if (publicationsWithoutTitle.length > 0) {
+          throw new Error(`${publicationsWithoutTitle.length} publications missing title - data quality issue`);
+        }
+
         allPublications.sort((a, b) => {
           // Publications without year go to the end
           if (!a.year && !b.year) {

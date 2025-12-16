@@ -132,6 +132,21 @@ export function githubLoader(options: {
 
       logger.info(`Total teams processed: ${allTeams.length}`);
 
+      // Sanity checks
+      if (allTeams.length === 0) {
+        throw new Error('GitHub loader returned 0 teams - this is likely an error');
+      }
+
+      const totalMembers = allTeams.reduce((sum, team) => sum + team.members.length, 0);
+      if (totalMembers === 0) {
+        throw new Error('GitHub loader returned 0 team members across all teams - this is likely an error');
+      }
+
+      const teamsWithoutMembers = allTeams.filter(team => team.members.length === 0);
+      if (teamsWithoutMembers.length > 0) {
+        logger.warn(`${teamsWithoutMembers.length} teams have no members: ${teamsWithoutMembers.map(t => t.name).join(', ')}`);
+      }
+
       store.set({
         id: 'teams_loaded',
         data: {

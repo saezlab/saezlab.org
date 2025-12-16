@@ -26,7 +26,12 @@ export function googleSheetsLoader(config: GoogleSheetsConfig): Loader {
         
         const csvText = await response.text();
         const rows = csvText.split('\n').filter(row => row.trim());
-        
+
+        // Sanity check: ensure we got data
+        if (rows.length <= 1) {
+          throw new Error(`Google Sheets loader for "${sheetName}" returned no data rows - expected at least 1`);
+        }
+
         // Skip header row and process data rows
         for (let i = 1; i < rows.length; i++) {
           const row = parseCSVRow(rows[i]);
