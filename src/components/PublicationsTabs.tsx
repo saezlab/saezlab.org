@@ -198,7 +198,7 @@ export default function PublicationsTabsLoaded({ publications, featuredPmids, fe
                       </div>
                     </div>
                     <div className="text-sm text-muted-foreground mt-1">
-                      {publication.authors}
+                      {formatAuthors(publication.authors)}
                     </div>
                   </CardHeader>
                   <CardFooter className="pt-0">
