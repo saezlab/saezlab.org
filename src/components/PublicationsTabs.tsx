@@ -25,6 +25,13 @@ export default function PublicationsTabsLoaded({ publications, featuredPmids, fe
   const [currentPage, setCurrentPage] = useState(1);
   const publicationsPerPage = 15;
 
+  // Format author list: if more than 10 authors, show first 10 + "et al."
+  const formatAuthors = (authors: string): string => {
+    if (!authors) return '';
+    const authorList = authors.split(',').map(a => a.trim());
+    return authorList.length > 10 ? `${authorList.slice(0, 10).join(', ')} et al.` : authors;
+  };
+
   // Filter featured publications
   const featuredPublications = publications.filter(pub =>
     (pub.pmid && featuredPmids.includes(pub.pmid)) ||
@@ -112,7 +119,7 @@ export default function PublicationsTabsLoaded({ publications, featuredPmids, fe
                     </div>
                   </div>
                   <div className="text-sm text-muted-foreground mt-1">
-                    {publication.authors}
+                    {formatAuthors(publication.authors)}
                   </div>
                 </CardHeader>
                 <CardFooter className="pt-0">
@@ -344,7 +351,7 @@ export default function PublicationsTabsLoaded({ publications, featuredPmids, fe
                     </div>
                   </div>
                   <div className="text-sm text-muted-foreground mt-1">
-                    {publication.authors}
+                    {formatAuthors(publication.authors)}
                   </div>
                 </CardHeader>
                 <CardFooter className="pt-0">
