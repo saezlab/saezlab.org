@@ -7,7 +7,11 @@ import { googleSheetsLoader } from './loaders/google-sheets';
 
 const publications_loaded = defineCollection({
   loader: orcidLoader({
-    orcid: '0000-0002-8552-8976'
+    orcid: '0000-0002-8552-8976',
+    preprintPublicationSheet: {
+      spreadsheetId: '1Mjn0C3gjSr5Wl2ZG41X813LLhL-y47DvLeEUCmagTe8',
+      sheetName: 'Preprint Publication Title Match',
+    }
   }),
 });
 
