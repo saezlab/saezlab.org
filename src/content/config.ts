@@ -52,6 +52,14 @@ const software = defineCollection({
   }),
 });
 
+const featured_publications = defineCollection({
+  loader: googleSheetsLoader({
+    spreadsheetId: '1Mjn0C3gjSr5Wl2ZG41X813LLhL-y47DvLeEUCmagTe8',
+    sheetName: 'Featured Publications',
+    headers: ['featured_pmid', 'featured_title', 'featured_doi'],
+  }),
+});
+
 export const collections = {
   publications_loaded,
   funding_loaded,
@@ -59,4 +67,5 @@ export const collections = {
   team_current,
   team_alumni,
   software,
+  featured_publications,
 }; 

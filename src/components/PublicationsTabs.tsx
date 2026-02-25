@@ -17,11 +17,10 @@ import { useState } from 'react';
 
 interface PublicationsTabsLoadedProps {
   publications: Publication[];
-  featuredPmids: string[];
-  featuredDois?: string[];
+  featuredPublications: Publication[];
 }
 
-export default function PublicationsTabsLoaded({ publications, featuredPmids, featuredDois = [] }: PublicationsTabsLoadedProps) {
+export default function PublicationsTabsLoaded({ publications, featuredPublications }: PublicationsTabsLoadedProps) {
   const [currentPage, setCurrentPage] = useState(1);
   const publicationsPerPage = 15;
 
@@ -31,12 +30,6 @@ export default function PublicationsTabsLoaded({ publications, featuredPmids, fe
     const authorList = authors.split(',').map(a => a.trim());
     return authorList.length > 10 ? `${authorList.slice(0, 10).join(', ')} et al.` : authors;
   };
-
-  // Filter featured publications
-  const featuredPublications = publications.filter(pub =>
-    (pub.pmid && featuredPmids.includes(pub.pmid)) ||
-    (pub.doi && featuredDois.includes(pub.doi))
-  );
 
   // Filter preprints
   const preprintPublications = publications.filter(pub => pub.isPreprint);

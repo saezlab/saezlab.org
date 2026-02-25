@@ -2,9 +2,11 @@
 import { getCollection } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
 import PublicationsTabsLoaded from '../components/PublicationsTabs';
+import type { Publication } from '../types/types';
 
 // Get all publications from the content collection
 const publications = await getCollection('publications_loaded');
+const featuredPublicationRows = await getCollection('featured_publications');
 
 // Check if we have any publications
 if (!publications || publications.length === 0) {
@@ -21,19 +23,65 @@ const publicationsData = allPublications.filter(pub => {
   return pub.date > '2010-07-01';
 });
 
-// Featured PubMed IDs
-const featuredPmids = [
-  '40307222','40404650','39843580', '39501036', '39223377', '38890548', '38862466',
-  '38454145', '37991480', '37843125', '37337100', '37365273',
-  '35948637', '35680885', '35422018', '33749993', '33502086',
-  '32051003', '32073727', '31340985', '31209238', '29295995',
-  '27898060', '27397505', '26901648'
-];
+const normalizeValue = (value?: string) => (value || '').trim().toLowerCase();
+const normalizeTitle = (title?: string) =>
+  normalizeValue(title)
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim();
 
-// Featured DOIs (for papers without PMIDs)
-const featuredDois = [
-  '10.1038/s42256-025-01069-9'
-];
+const publicationsByPmid = new Map<string, Publication>();
+const publicationsByDoi = new Map<string, Publication>();
+const publicationsByTitle = new Map<string, Publication>();
+const featuredPublicationKeys = new Set<string>();
+
+for (const publication of publicationsData) {
+  const pmidKey = normalizeValue(publication.pmid);
+  const doiKey = normalizeValue(publication.doi);
+  const titleKey = normalizeTitle(publication.title);
+
+  if (pmidKey && !publicationsByPmid.has(pmidKey)) {
+    publicationsByPmid.set(pmidKey, publication);
+  }
+  if (doiKey && !publicationsByDoi.has(doiKey)) {
+    publicationsByDoi.set(doiKey, publication);
+  }
+  if (titleKey && !publicationsByTitle.has(titleKey)) {
+    publicationsByTitle.set(titleKey, publication);
+  }
+}
+
+const featuredPublications = featuredPublicationRows
+  .reduce((ordered: Publication[], row) => {
+    const pmidKey = normalizeValue(row.data.featured_pmid);
+    const doiKey = normalizeValue(row.data.featured_doi);
+    const titleKey = normalizeTitle(row.data.featured_title);
+
+    let match: Publication | undefined;
+    if (pmidKey) {
+      match = publicationsByPmid.get(pmidKey);
+    }
+    if (!match && doiKey) {
+      match = publicationsByDoi.get(doiKey);
+    }
+    if (!match && titleKey) {
+      match = publicationsByTitle.get(titleKey);
+    }
+    if (!match) return ordered;
+
+    const matchKey =
+      (match.pmid && `pmid:${normalizeValue(match.pmid)}`) ||
+      (match.doi && `doi:${normalizeValue(match.doi)}`) ||
+      `title:${normalizeTitle(match.title)}`;
+
+    if (!featuredPublicationKeys.has(matchKey)) {
+      featuredPublicationKeys.add(matchKey);
+      ordered.push(match);
+    }
+
+    return ordered;
+  }, []);
 ---
 
 <Layout title="Publications">
@@ -42,8 +90,7 @@ const featuredDois = [
     
     <PublicationsTabsLoaded client:load
       publications={publicationsData}
-      featuredPmids={featuredPmids}
-      featuredDois={featuredDois}
+      featuredPublications={featuredPublications}
     />
   </div>
 </Layout> 
