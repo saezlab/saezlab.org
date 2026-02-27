@@ -3,6 +3,7 @@ import { ClientRouter } from 'astro:transitions';
 import '../styles/global.css';
 import MobileNav from '../components/MobileNav.tsx';
 import { ModeToggle } from '@/components/ModeToggle';
+import { ExternalLink } from 'lucide-react';
 import { getInternalLink } from '../lib/utils';
 import { navigationItems } from '../config/navigation';
 
@@ -71,14 +72,23 @@ const { title } = Astro.props;
             </span>
           </a>
           <nav class="hidden items-center space-x-6 text-sm font-medium md:flex">
-            {navigationItems.slice(1).map((item) => (
-              <a 
-                class="transition-colors hover:text-foreground/80 text-foreground" 
-                href={item.href}
-              >
-                {item.label}
-              </a>
-            ))}
+            {navigationItems.slice(1).map((item) => {
+              const isExternalSoftware = item.href === 'https://github.com/saezlab';
+
+              return (
+                <a
+                  class="transition-colors hover:text-foreground/80 text-foreground inline-flex items-center gap-1"
+                  href={item.href}
+                  target={isExternalSoftware ? '_blank' : undefined}
+                  rel={isExternalSoftware ? 'noopener noreferrer' : undefined}
+                >
+                  {item.label}
+                  {isExternalSoftware && (
+                    <ExternalLink className="h-4 w-4" aria-hidden="true" />
+                  )}
+                </a>
+              );
+            })}
             <ModeToggle client:load />
           </nav>
           <div class="md:hidden w-full">

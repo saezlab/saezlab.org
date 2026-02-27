@@ -9,7 +9,7 @@ export const navigationItems: NavItem[] = [
   { href: getInternalLink('/'), label: 'Home' },
   { href: getInternalLink('/publications'), label: 'Publications' },
   { href: getInternalLink('/team'), label: 'Team' },
-  { href: getInternalLink('/software'), label: 'Software' },
+  { href: 'https://github.com/saezlab', label: 'Software' },
   { href: getInternalLink('/funding'), label: 'Funding' },
   { href: getInternalLink('/jobs'), label: 'Jobs' },
   { href: getInternalLink('/contact'), label: 'Contact' },
