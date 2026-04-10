@@ -19,13 +19,16 @@ export function googleSheetsLoader(config: GoogleSheetsConfig): Loader {
       logger.info(`Fetching data from sheet: ${sheetName}`);
       
       try {
+        // Clear stale entries on reloads in dev/hot-reload.
+        store.clear();
+
         const response = await fetch(url);
         if (!response.ok) {
           throw new Error(`Failed to fetch sheet: ${response.statusText}`);
         }
         
         const csvText = await response.text();
-        const rows = csvText.split('\n').filter(row => row.trim());
+        const rows = parseCSV(csvText).filter(row => row.some(cell => cell.trim() !== ''));
 
         // Sanity check: ensure we got data
         if (rows.length <= 1) {
@@ -34,7 +37,7 @@ export function googleSheetsLoader(config: GoogleSheetsConfig): Loader {
 
         // Skip header row and process data rows
         for (let i = 1; i < rows.length; i++) {
-          const row = parseCSVRow(rows[i]);
+          const row = rows[i];
           if (row.length === 0) continue;
           
           // Create object from row data
@@ -64,40 +67,52 @@ export function googleSheetsLoader(config: GoogleSheetsConfig): Loader {
   };
 }
 
-// Simple CSV parser that handles quoted values
-function parseCSVRow(row: string): string[] {
-  const result: string[] = [];
-  let current = '';
+// CSV parser that handles quoted values, escaped quotes, and embedded newlines.
+function parseCSV(csvText: string): string[][] {
+  const rows: string[][] = [];
+  let currentRow: string[] = [];
+  let currentField = '';
   let inQuotes = false;
-  
-  for (let i = 0; i < row.length; i++) {
-    const char = row[i];
-    const nextChar = row[i + 1];
-    
-    if (char === '"' && inQuotes && nextChar === '"') {
-      // Escaped quote
-      current += '"';
-      i++; // Skip next quote
-    } else if (char === '"') {
-      // Toggle quote mode
-      inQuotes = !inQuotes;
-    } else if (char === ',' && !inQuotes) {
-      // End of field
-      result.push(current.trim());
-      current = '';
-    } else {
-      current += char;
+
+  for (let i = 0; i < csvText.length; i++) {
+    const char = csvText[i];
+    const nextChar = csvText[i + 1];
+
+    if (char === '"') {
+      if (inQuotes && nextChar === '"') {
+        currentField += '"';
+        i++;
+      } else {
+        inQuotes = !inQuotes;
+      }
+      continue;
     }
+
+    if (char === ',' && !inQuotes) {
+      currentRow.push(currentField.trim());
+      currentField = '';
+      continue;
+    }
+
+    if ((char === '\n' || char === '\r') && !inQuotes) {
+      if (char === '\r' && nextChar === '\n') {
+        i++;
+      }
+
+      currentRow.push(currentField.trim());
+      currentField = '';
+      rows.push(currentRow);
+      currentRow = [];
+      continue;
+    }
+
+    currentField += char;
   }
-  
-  // Don't forget last field
-  result.push(current.trim());
-  
-  // Remove surrounding quotes from fields
-  return result.map(field => {
-    if (field.startsWith('"') && field.endsWith('"')) {
-      return field.slice(1, -1);
-    }
-    return field;
-  });
+
+  if (currentField.length > 0 || currentRow.length > 0) {
+    currentRow.push(currentField.trim());
+    rows.push(currentRow);
+  }
+
+  return rows;
 }
