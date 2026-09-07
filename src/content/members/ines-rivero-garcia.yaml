@@ -1,0 +1,53 @@
+name: Ines Rivero Garcia
+status: current
+role: Postdoc
+order: 21
+group: postdocs
+image: ines-rivero-garcia.jpeg
+description: I graduated from Biochemistry by Universidad Autónoma de Madrid (UAM) in 2018, studying one
+  semester at Boston University as a BU-UAM Science School scholar. As an undergrad, I performed wet and
+  dry lab internships that applied omics technologies to detect rare mutations (Centro de Biologia Molecular
+  Severo Ochoa, Spain) and to understand mouse limb development (Miguel Torres’ group at CNIC, Spain).
+  During my Master’s and as a Fundación Margrit y Folke Pehrzon fellow, I left the wet lab to focus on
+  the analysis of omics data with a systems biology perspective, first as a research intern at the clinical
+  genetics laboratory (Karolinska Institutet, Sweden) and then at Erik Sonnhammer’s Systems Biology group
+  (SciLifeLab, Sweden), where I used network modelling to quantify drug repurposing opportunities in over
+  100 complex diseases, including COVID-19. After my Master’s I joined Miguel Torres’ and Fatima Sanchez-Cabo
+  groups at CNIC funded by a “la Caixa” INPhINIT doctoral fellowship. As a PhD Student, I modelled the
+  gene regulatory networks controlling cardiomyocyte proliferation in mouse and axolotl for the discovery
+  of new therapeutic targets to induce heart regeneration. My PhD project included a research stay in
+  Elly Tanaka’s group at IMBA (Austria) and was part of the REANIMA Project funded by Horizon2020.In January
+  2025, I joined Saez Lab as a postdoc to work on the integration of bulk and single-cell omics data to
+  identify key molecular circuits and therapeutic interventions to fight cardiac disease.
+research_interests: I’m fascinated by the complexity of living systems and how life not only is a sum
+  of its parts, but also determined by the interactions between its components. Therefore, in my research
+  I take a systems biology approach by integrating different flavours of multi-omics data with prior knowledge
+  to build models that reflect the composition and interactions that make complex systems. I use these
+  models to simulate how changes in gene function affect the system as a whole and to predict new therapeutic
+  avenues. From a biomedical point of view, I am curious about what mechanisms trigger acute and chronic
+  heart disease and, through collaboration with experimentalists, I aim to identify actionable targets
+  that can derive in novel, more efficient and safer therapies.
+email: ines.rivero@uni-heidelberg.de
+orcid: 0000-0002-9428-0992
+professional_career:
+- period: 2025-Present
+  position: Postdoc at Saez Lab. Institute for Computational Biomedicine, Universitätsklinikum Heidelberg
+    (Heidelberg, Germany).
+- period: 2020-2024
+  position: PhD Student at Miguel Torres’ lab and the CNIC Bioinformatics Unit. Spanish National Center
+    for Cardiovascular Research (CNIC) (Marid, Spain).
+- period: 2019-2020
+  position: Master’s Student at Erik Sonnahmmer’s lab. SciLifeLab (Stockholm, Sweden)
+- period: 2018-2019
+  position: Master’s Student at Ann Nordgren’s lab. Karolinska University Hospital (Solna, Sweden)
+- period: 2017-2018
+  position: Undergraduate Student at Belen Perez’s group. Centro de Biología Molecular Severo Ochoa (CBMSO)
+    (Madrid, Spain)
+education:
+- period: 2020-2024
+  degree: PhD in Biomedical Engineering. Universidad Politécnica de Madrid (Madrid, Spain)
+- period: 2018-2020
+  degree: Joint Master’s Programme in Molecular Techniques in Life Sciences. KTH Royal Institute of Technology,
+    Karolinska Institutet and Stockholm University (Stockholm, Sweden)
+- period: 2014-2018
+  degree: Bachelor’s in Biochemistry. Universidad Autónoma de Madrid (Madrid, Spain)

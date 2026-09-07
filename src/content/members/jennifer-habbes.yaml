@@ -1,0 +1,31 @@
+name: Jennifer Habbes
+status: current
+role: Associated Member
+order: 30
+group: associated-members
+image: jennifer-habbes.jpeg
+description: During my physics degree I have focused on molecular and medical imaging and have found a
+  deep interest in both computational methods and biology. Working at the Heidelberg ion beam therapy
+  centre (HIT) and being exposed to very hands-on medical applications of fundamental physical principles
+  I have decided to pursue a medical degree starting in 2019. The pre-clinical years and my elective in
+  digital medicine then drove me towards the topics of bioinformatics and molecular biology. I joined
+  the Saez-Rodriguez group in 2024 for my medical doctoral degree (Dr. med.).
+research_interests: Medical research is not exclusively conducted in the wet lab anymore. We create and
+  analyse more data than ever, both from human tissue and animal models. My research will focus on single-cell
+  transcriptomics in heart failure and the correlation of animal models to human samples.
+professional_career:
+- period: 2024-present
+  position: MD candidate, Institute for Computational Biomedicine, Heidelberg University Hospital, Germany
+- period: 2018-2024
+  position: Research/accelerator operating assistant at Heidelberg Ion Beam Therapy Centre (HIT)
+- period: '2023'
+  position: Research assistant in the radiology department of DKFZ for project Clinic 5.1
+- period: '2019'
+  position: Bachelor thesis in physics at the German Cancer Research Institute
+education:
+- period: 2019-present
+  degree: Medicine at Heidelberg University
+- period: 2016-2017
+  degree: Physics at Umeå university, Sweden
+- period: 2014-2019
+  degree: Physics at Heidelberg university

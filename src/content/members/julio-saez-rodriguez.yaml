@@ -1,0 +1,59 @@
+name: Julio Saez-Rodriguez
+status: current
+role: Group Leader
+order: 1
+group: group-leader
+image: julio-saez-rodriguez.jpeg
+description: Julio Saez-Rodriguez is Head of Research at the European Bioinformatics Institute (EMBL-EBI),
+  Professor on leave of Medical Bioinformatics and Data Analysis at the Faculty of Medicine of Heidelberg
+  University,  member of ELLIS Heidelbergand a co-director of the DREAM challenges.
+research_interests: Julio is broadly interested in how large biological data sets can be interrogated
+  with mathematical models to unveil the molecular basis of disease as a means to develop novel therapies.
+  The current emphasis of his research is on single-cell and spatial data, multi-omics integration, and
+  understanding multi-cellular communication. He is particularly interested in how to use the existing
+  knowledge of biological processes to support computational analysis. He supports open science, especially
+  by developing open-source computational tools and co-organization of the DREAM challenges.While the
+  computational methods are broadly applicable,  his focus is on cancer,  autoimmune diseases, and conditions
+  of the kidney and heart.
+email: saezlab@ebi.ac.uk
+orcid: 0000-0002-8552-8976
+professional_career:
+- period: 2024-present
+  position: Head of Research,  European Bioinformatics Institute, European Molecular Biology Laboratory
+    (EMBL-EBI)
+- period: 2018-present
+  position: Full (W3) Professor of Medical Bioinformatics and Data Analysis & Director of the Institute
+    for Computational Biomedicine Heidelberg University, Faculty of Medicine, Germany (on leave since
+    2024)
+- period: 2018-present
+  position: Group Leader at EMBL - University Hospital Heidelberg  Molecular Medicine Partnership Unit
+    (MMPU)
+- period: 2015-2018
+  position: Full (W3) Professor of Computational Biomedicine & Director of the Institute for Computational
+    Biomedicine I, RWTH-Aachen University, Faculty of Medicine, Germany
+- period: 2015-2018
+  position: Visiting group leader at the European Bioinformatics Institute, European Molecular Biology
+    Laboratory (EMBL-EBI)
+- period: 2010-2015
+  position: Group Leader at the European Bioinformatics Institute, European Molecular Biology Laboratory
+    (EMBL-EBI), with a joint appointment in the EMBL Genome Biology Unit in Heidelberg
+- period: 2010-2015
+  position: Senior fellow at Wolfson College (Cambridge, UK)
+- period: 2008-2010
+  position: Scientific Coordinator of the NIH-NIGMS Cell Decision Process Center, Cambridge, MA, USA
+- period: 2007-2010
+  position: Postdoctoral Fellow, Harvard Medical School and MIT, Boston USA
+- period: 2002-2007
+  position: Research Assistant, Max Planck Institute, Magdeburg, Germany
+- period: 2001-2002
+  position: Research assistant, University of Stuttgart, Institute of Biochemical Engineering, Germany,
+    and Insilico Biotechnology, Germany
+education:
+- period: 2002-2007
+  degree: 'PhD summa cum laude in Process Engineering; Max-Planck-Institute for Dynamics of Complex Technical
+    Systems and University of Magdeburg, Germany (Advisor: E. D. Gilles)'
+- period: 2000-2001
+  degree: Exchange Erasmus student at the University of Stuttgart, Germany
+- period: 1996-2001
+  degree: ’Licenciatura’ (MS), in Chemical Engineering University of Oviedo, Spain, finished with the
+    best academic record of the year

@@ -1,0 +1,48 @@
+name: Christina Schmidt
+status: current
+role: Postdoc
+order: 18
+group: postdocs
+image: christina-schmidt.jpeg
+description: I studied biochemistry at the Julius-Maximilians University of Würzburg (GER) focusing on
+  molecular and clinical oncology. My aim to study the metabolic rewiring of cancer cells I discovered
+  as part of my seminars with Prof. Almut Schulze (Würzburg, GER), where I later wrote my master thesis.With
+  the support from the Marie Sklodowska-Curie [ITN] Fellowship “TRANSMIT – TRANSlating the role of Mitochondria
+  in Tumorigenesis”, I started my PhD in October 2017 in the lab of Prof. Christian Frezza (University
+  of Cambridge, UK). During my PhD I developed a novel model of Fumarate Hydratase deficiency and cultured
+  it in a 3D system to study the impact of nutrient and oxygen gradients. Moreover, I developed my passion
+  of combining wet-lab experiments with tailored bioinformatics analysis using multi-omics data integration
+  and transitioned into data science.After finishing my PhD in February 2021, I stayed as a Postdoc in
+  the Frezza Lab, which moved to the University of Cologne (GER). During this time, I worked as a data
+  scientist focusing on data landscapes such as transcriptome, proteome and metabolome, applying my knowledge
+  in different collaborative projects.In January 2023 I joined the Saez-Rodriguez group as postdoctoral
+  researcher working primarily in the SMART-CARE consortium to apply mass-spectrometry-based systems medicine
+  to cancer.
+research_interests: It is fascinating how cancer cells manage to continuously rewire their metabolism
+  to facilitate their rapid growth and survival, whilst being challenged by changes in environmental cues.
+  Hence, I want to understand this metabolic adaptability in cancer to enable better therapies. To embark
+  in this endeavour the advances in the metabolomics field, which led to a massive amount of data, are
+  key. Yet, there is still work needed to increase data interpretation for which it is essential to develop
+  advanced bioinformatics analysis tools to fully extract the information hidden in the data.Hence, my
+  current goal is to build prior knowledge databases that aids biological interpretation and to combine
+  metabolomics data with other layers of biological information such as proteomics to ultimately develop
+  more accurate biological models, thus enhancing our current understanding of metabolic rewiring in cancer.
+email: christina.schmidt@uni-heidelberg.de
+orcid: 0000-0002-3867-0881
+professional_career:
+- period: 2021 - 2022
+  position: Post-doctoral researcher, CECAD - Cluster of Excellence for Aging Research, University of
+    Cologne, Germany
+- period: '2021'
+  position: Postdoctoral researcher, MRC Cancer Unit, University of Cambridge, UK
+- period: 2017 - 2021
+  position: Marie Curie Early Stage Researcher (TRANSMIT), MRC Cancer Unit, University of Cambridge, UK
+education:
+- period: 2017 - 2021
+  degree: PhD in Medical Sciences, University of Cambridge, UK
+- period: 2014 - 2017
+  degree: M.Sc. Biochemistry, University of Würzburg, Germany
+- period: 2014 - 2015
+  degree: M.Sc. Biochemistry, Erasmus Exchange, University of Oulu, Finland
+- period: 2011 - 2014
+  degree: B.Sc. Biochemistry, University of Würzburg, Germany

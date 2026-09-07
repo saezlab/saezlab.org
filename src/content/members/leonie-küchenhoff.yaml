@@ -1,0 +1,35 @@
+name: Leonie Küchenhoff
+status: current
+role: PhD Student
+order: 24
+group: phd-students
+image: leonie-kuchenhoff.jpeg
+description: I did my Bachelor studies in Molecular Medicine in Freiburg, Germany. In my Bachelor thesis,
+  I got first insights into computational work within biomedical research. I decided to pursue this area
+  of research further by studying Systems Biology at Heidelberg University for my Master studies. Through
+  the program and several research internships, I explored multiple research areas - from scDNA methylation
+  analysis to clustering algorithm development. Finally, I completed my master thesis at EMBL, Heidelberg,
+  where I assessed on- and off-target effects of CRISPR base editing. In my PhD project, I aim to integrate
+  multi-omics data from several organs of fibrosis patients to identify shared mechanisms of fibrosis
+  across organs as potential therapeutic targets.
+research_interests: I am fascinated by the speed at which new knowledge and data is produced in the field
+  of biomedical research. I want to leverage already existing information and datasets and combine them
+  with newly acquired data to disentangle the complex and vast world of biomedicine. I aim to gain a better
+  functional understanding of diseases by focusing on the bigger picture through the use of high-throughput
+  multi-omics technologies. More specifically, my research focuses on the meta-analysis of fibrotic diseases
+  across multiple organ systems.
+email: leonie.kuechenhoff@uni-heidelberg.de
+orcid: 0000-0002-3715-4551
+professional_career:
+- period: 2023-present
+  position: PhD candidate, Institute for Computational Biomedicine, Heidelberg University Hospital, Germany
+- period: 2022-2023
+  position: Master thesis in Steinmetz group at EMBL (Heidelberg, Germany)
+- period: 2021-2022
+  position: Research internships at the German Cancer Research Center (Heidelberg, Germany), Bioquant
+    Institute (Heidelberg, Germany), and Institut Pasteur (Paris, France)
+education:
+- period: 2020-2023
+  degree: 'M.Sc. Molecular Biosciences (Major: Systems Biology), Heidelberg University, Germany'
+- period: 2016-2019
+  degree: B.Sc. Molecular Medicine, University of Freiburg, Germany

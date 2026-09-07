@@ -1,0 +1,42 @@
+name: Denes Turei
+status: current
+role: Staff Scientist
+order: 10
+group: staff-scientists
+image: denes-turei.jpeg
+description: In 2011 I took my master degree in Biology at Eötvös Loránd University Budapest, Hungary,
+  specialized to ecology and carried out experiments with freshwater mesocosms. I defended my PhD thesis
+  in 2014 at Semmelweis University, also in Budapest. I designed and built a number of signaling pathway
+  databases with special focus on manually curated protein-protein interactions, and feedback loops involving
+  transcriptional regulation and miRNAs. From 2007 I started to learn programming and bioinformatics a
+  self-taught way. In particular PHP, JavaScript, R, Bash, MySQL, LaTeX, Linux system administration and
+  Python. In 2014 I got a 3 years European Interdisciplinary Post-doctoral fellowship (EIPOD) from the
+  European Molecular Biology Laboratory (EMBL), involving the groups of Julio Saez-Rodriguez, Anne-Claude
+  Gavin and John Overington. My first project focused on a comparative analysis and integration of literature
+  curated signaling pathway resources, as these are important sources of prior knowledge for many projects
+  in our group. With Gavin group in EMBL Heidelberg I analysed lipidomics mass spectrometry data.
+research_interests: I am interested in various approaches, including networks and modeling, to capture
+  the behavior of complex biological systems. Recently I focus on autophagy and I intend to develop efficient
+  way of screening drug combinations effect on autophagic activity, and to build models of autophagy regulation.
+email: turei.denes@gmail.com
+telephone: +49 1516 62 99 976
+orcid: 0000-0002-7249-9379
+professional_career:
+- period: 2018-present
+  position: Postdoctoral fellow at Heidelberg University and visitor postdoc at EMBL Heidelberg
+- period: 2017-2018
+  position: Postdoctoral fellow at Uniklinik Aachen, visitor postdoc at EMBL Heidelberg and Heidelberg
+    University
+- period: 2014-2017
+  position: Postdoctoral fellow (EIPOD) at European Molecular Biology Laboratory (EMBL) Heidelberg, Germany
+- period: 2011-2014
+  position: Network Biology Group, Department of Genetics, Eötvös Loránd University, Budapest, Hungary
+- period: 2011-2014
+  position: LINK Group, Department of Medical Chemistry, Semmelweis University, Budapest, Hungary
+- period: 2004-2011
+  position: Hufnagel Group, Corvinus University, Budapest, Hungary
+education:
+- period: 2011-2014
+  degree: PhD in Molecular Medicine, Semmelweis University, Budapest, Hungary
+- period: 2005-2011
+  degree: MSc in Biology, Eötvös Loránd University, Budapest, Hungary

@@ -1,0 +1,33 @@
+name: Lun Ai
+status: current
+role: Postdoc
+order: 34
+group: postdocs
+image: lun-ai.jpg
+description: I specialise in logical programming, which uses programs to reason about the world and derive
+  verifiable hypotheses. My doctoral research used logic programming to facilitate human comprehension
+  and human-AI partnership. My recent work developed a self-driving lab that combined logic programming
+  and lab robots to automate gene function discovery in bacteria. My research was supported by the UKRI
+  EPSRC Human-Like Computing network, EU Horizon 2020 research and innovation and the UKRI BBSRC AI-4-EB
+  consortium.
+research_interests: One overarching goal of AI research is to explore how artificial intelligence can
+  assist scientific discovery. I focus on developing human-like AI systems that generate interpretable
+  knowledge. I am interested in bridging existing biological knowledge with high-dimensional data by integrating
+  logical reasoning, mechanistic modelling, and deep learning. I am also investigating how large language
+  models can reason about complex biological questions, formulate plans for analysing multi-omics data,
+  and propose testable, logic-driven hypotheses.
+email: ail@ebi.ac.uk
+professional_career:
+- period: 2025-present
+  position: Postdoctoral Research Fellow, European Bioinformatics Institute, European Molecular Biology
+    Laboratory (EMBL-EBI), UK
+- period: 2024-2025
+  position: Research Associate, Department of Life Sciences, Imperial College London, UK
+- period: 2020-2024
+  position: Research Assistant, Department of Computing, Imperial College London, UK
+education:
+- period: 2019-2024
+  degree: PhD in Computer Science, Department of Computing, Imperial College London, UK
+- period: 2015-2019
+  degree: Master of Engineering in Computer Science, Specialist in Artificial Intelligence, Department
+    of Computing, Imperial College London, UK

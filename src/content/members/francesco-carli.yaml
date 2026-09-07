@@ -1,0 +1,41 @@
+name: Francesco Carli
+status: current
+role: Staff Scientist
+order: 12
+group: staff-scientists
+image: francesco-carli.jpeg
+description: Francesco Carli has a multidisciplinary background in economics, maths, and data science.
+  He completed his B.Sc. in Economics and Social Sciences at Bocconi University in Milan, Italy, followed
+  by an MSc in Stochastics and Data Science at the University of Turin. During his master’s, he collaborated
+  with Biorek s.r.l., a startup incubated by San Raffaele Hospital, where he developed machine learning
+  models to detect and characterize renal cancer using genetic biomarkers. In 2019, he received the “Best
+  Project Prize” at the Milan Critical Care Datathon, a 24-hour international challenge organized by MIT
+  Critical Data, Humanitas Research Hospital, and Politecnico di Milano. This achievement led to a research
+  collaboration with the MIT Critical Data Lab, where he worked with Prof. Leo Celi to design AI-based
+  tools for enhancing clinical decision-making in intensive care units. Afterward, he contributed to the
+  DTeam2Vec project at the University of Turin, applying graph-based deep learning techniques to model
+  collaborative dynamics in online communities. Francesco then pursued a Ph.D. at Scuola Normale Superiore
+  in Pisa, where he focused on developing machine-learning models to explore drug-biosystem interactions
+  across multiple biological scales.
+research_interests: Francesco’s research focuses on enhancing tasks in computational biology by leveraging
+  the reasoning and agentic capabilities of large language models (LLMs). He is particularly interested
+  in exploring how LLMs can be integrated with classical modeling techniques to harness their complementary
+  strengths, aiming to improve interpretability, robustness, and generalizability in biological data analysis.
+email: carli@ebi.ac.uk
+orcid: 0009-0006-6980-9440
+professional_career:
+- period: 2025-present
+  position: Research Software Engineer, European Bioinformatics Institute, European Molecular Biology
+    Laboratory (EMBL-EBI) and OpenTargets
+- period: '2021'
+  position: Research Assistant, Departement of Computer Science, University of Turin, Italy
+- period: 2019-2020
+  position: Data Scientist, Biorek S.r.l., San Raffaele Hospital, Milano, Italy
+education:
+- period: 2021-2025
+  degree: PhD in Artificial Intelligence, Joint National PhD program at Scuola Normale Superiore and University
+    of Pisa, Italy
+- period: 2016-2020
+  degree: M.Sc. in Stochastics and Data Science, University of Turin, Turin, Italy
+- period: 2013-2016
+  degree: B.Sc. in Economics, Bocconi University, Milano, Italy

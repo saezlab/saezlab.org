@@ -1,0 +1,40 @@
+name: Yunfan Bai
+status: current
+role: Postdoc
+order: 20
+group: postdocs
+image: yunfan-bai.jpeg
+description: I conducted UPLC-MS metabolomics and lipidomics analysis during my Master studies at Harbin
+  Institute of Technology, China. In this period, finding ways to connect different omics data came into
+  the forefront of my interest, which ultimately prompted me to enroll to a doctoral programme in the
+  lab of Prof. Shinya Kuroda at the University of Tokyo, Japan, where I worked on prior-knowledge based
+  multi-omics integration and analysis of obese mice liver data. Since then, I developed an interest and
+  passion towards the research of metabolism and computational biology.In November 2024, I joined Saez-Rodriguez
+  group at Heidelberg University, Germany as a postdoctoral researcher. I work in a collaborative project
+  with pharmaceutical partner, to train patient-specific logic models derived from prior knowledge-based
+  multi-omics network, by leveraging tools developed in the lab, such as COSMOS and CellNOptR.
+research_interests: I’m interested in understanding how biomolecules in our bodies work together as a
+  system, and how such system changes during disease. By integrating different types of data, I construct
+  multi-omics networks based on prior knowledge, by which I train and calibrate dynamic logic models.
+  I’m passionate about quantifying regulations in metabolic pathways, including signaling transduction,
+  gene regulation, enzyme phosphorylation, and metabolite-enzyme modulation.Compare to bulk omics, single-cell
+  and spatial omics bring us more information on multi-cellular communication, and the interplay between
+  tissue structure and individual cell behaviors. I also work on understanding the pathogenesis of cancer
+  and other metabolic disease in a space and time resolved way. Through collaboration with molecular experimentalists,
+  my scientific goal is to extract interpretable mechanistic insights from clinical data and develop personalized
+  treatments for patients.
+email: yunfan.bai@uni-heidelberg.de
+orcid: 0000-0003-0479-2108
+professional_career:
+- period: 2024-present
+  position: Post-doctoral fellow, Saez Lab, Heidelberg University Hospital, Germany
+- period: 2022-2024
+  position: Project research associate, Kuroda Lab, University of Tokyo, Japan
+education:
+- period: 2019-2022
+  degree: PhD student in computational biology and medical science at Kuroda lab, University of Tokyo,
+    Japan
+- period: 2017-2019
+  degree: Master in Biology at Harbin Institute of Technology, China
+- period: 2013-2017
+  degree: Bachelor in Forestry at Northeast Forestry University, China

@@ -1,0 +1,59 @@
+name: Nicolàs Palacio-Escat
+status: current
+role: Staff Scientist
+order: 9
+group: staff-scientists
+image: nicolas-palacio.jpeg
+description: After obtaining my BSc in Biotechnology at the Universitat of Girona, I​​ acquired a MSc
+  in Mathematical modeling for Science and Engineering at the Universitat Autònoma de Barcelona. During
+  those years I closely worked with Prof. Dr. Garcia-Ojalv​​o in the mathematical modeling of complex
+  biological systems.Then I moved to Germany, where I started my PhD in Computational Biomedicine at the​​
+  Ruprecht-Karls-Universität Heidelberg, led by Prof. Dr. Saez-Rodriguez, where I developed extensive
+  data analysis skills. After graduating, I worked as a postdoctoral researcher at EMBL and DKFZ for Prof.
+  Dr. Krijgsveld, where I analyzed complex mass spectrometry proteomic data sets. Currently I am working
+  as a Bioinformatician at the Institute of Computational Biomedicine at the Universitätsklinikum Heidelberg.
+research_interests: I am mainly interested in the description and understanding of complex biological
+  systems from a physical/mathematical point of view. I am passionate about programming and the development
+  of bioinformatic tools and resources that can be useful for the scientific community and the research
+  and development of new biological and medical insights.
+email: nicolas.palacio-escat@uni-heidelberg.de
+orcid: 0000-0002-7022-1437
+professional_career:
+- period: 2024-present
+  position: Staff Bioinformatician, Institute for Computational Biomedicine, Universitätsklinikum Heidelberg
+    (Heidelberg, Germany)
+- period: 2022-2024
+  position: Postdoctoral researcher, Division of Proteomics of Stem Cells and Cancer, Deutsches Krebsforschungszentrum
+    (Heidelberg, Germany)
+- period: 2021-2022
+  position: Postdoctoral fellow, Genome Biology Unit, European Molecular Biology Laboratory (Heidelberg,
+    Germany)
+- period: '2020'
+  position: Doctoral researcher, Institute for Computational Biomedicine, Universitätsklinikum Heidelberg
+    (Heidelberg, Germany)
+- period: 2017-2020
+  position: Doctoral researcher, Joint Research Centre for Computational Biomedicine, Rheinisch-Westfälische
+    Technische Hochschule (Aachen, Germany)
+- period: 2016-2017
+  position: Research intern, Joint Research Centre for Computational Biomedicine, Rheinisch-Westfälische
+    Technische Hochschule (Aachen, Germany)
+- period: '2016'
+  position: Research intern, Dynamical Systems Biology lab, Department of Experimental and Health Sciences,
+    Universitat Pompeu Fabra (Barcelona, Spain)
+- period: 2014-2015
+  position: Research intern, Biochemistry of Cancer lab, Department of Biology, Universitat de Girona
+    (Girona, Spain)
+- period: '2012'
+  position: Research assistant, Department of Physics and Nuclear Engineering, Universitat Politècnica
+    de Catalunya (Terrassa, Spain)
+- period: '2011'
+  position: Research assistant, Molecular Modeling Platform, Institute of Molecular and Cellular Biology,
+    Universidad Miguel Hernández (Elx, Spain)
+education:
+- period: 2017-2021
+  degree: PhD in Computational Biomedicine, Ruprecht-Karls-Universität Heidelberg (Germany)
+- period: 2015-2016
+  degree: MSc in Mathematical Modeling for Science and Engineering, Universitat Autònoma de Barcelona
+    (Spain)
+- period: 2009-2015
+  degree: BSc in Biotechnology, Universitat de Girona (Spain)

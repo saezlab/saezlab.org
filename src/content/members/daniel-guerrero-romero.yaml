@@ -1,0 +1,51 @@
+name: Daniel Guerrero Romero
+status: current
+role: Postdoc
+order: 35
+group: postdocs
+image: daniel-guerrero-romero.jpeg
+description: My expertise lies at the intersection of mathematical oncology, computational biology, and
+  precision medicine. I develop mathematical models and statistical frameworks that integrate multi-omics
+  datasets—including genomics, transcriptomics, and drug-response profiles—to dissect tumour evolution
+  and unravel mechanisms of treatment resistance. A central component of my work is the analysis of patient-derived
+  tumour xenografts (PDTXs) and ex vivo systems to characterize persister cell states and identify vulnerabilities
+  that can be exploited therapeutically. I began my academic journey in pure mathematics at the National
+  Polytechnic Institute in Mexico City, where I cultivated a passion for algebraic topology. During my
+  MSc, I transitioned into applied mathematics with a focus on stochastic processes in game theory. I
+  completed my PhD at the CRUK Cambridge Institute under Professor Carlos Caldas and Dr. Oscar Rueda,
+  designing high-throughput computational pipelines and formulating models of clonal evolution in breast
+  cancer. Currently, I am a Postdoctoral Fellow in the EAZPOD programme (EMBL-EBI and AstraZeneca DISC),
+  where I extend my research into multi-modal characterizations of persister cell populations to inform
+  personalized therapeutic strategies.
+research_interests: I’m driven to understand why certain cancers evade therapy and to predict, in advance,
+  which treatments will succeed for individual patients. By fusing mechanistic mathematical modelling
+  with rich multi-omics data—spanning genomic mutations, transcriptomic states, and quantitative drug-response
+  metrics—I aim to chart the evolutionary trajectories through which tumour cells acquire resistance,
+  with particular attention to the role of persister cells in driving relapse. My goal is to bridge the
+  translational divide between promising laboratory discoveries and clinical application by building predictive
+  models that leverage patient-derived tumour models (PDTXs), ex vivo cultures, and in vitro assays. These
+  models illuminate how tumour heterogeneity and clonal dynamics shape differential drug sensitivity across
+  breast cancer subtypes. To handle the complexity of longitudinal and high-dimensional datasets, I develop
+  computational pipelines that automate data preprocessing, feature extraction, and biomarker selection.
+  I am especially interested in integrating machine learning techniques—such as Bayesian inference and
+  reinforcement learning—with mechanistic frameworks to refine treatment recommendations. Ultimately,
+  I seek to create robust mathematical tools that not only explain resistance mechanisms but also guide
+  the optimal sequencing and combination of therapies to improve patient outcomes.
+email: dromero@ebi.ac.uk
+orcid: 0009-0004-2240-8231
+professional_career:
+- period: 2025-present
+  position: Postdoctoral Researcher, EAZPOD programme, European Bioinformatics Institute, European Molecular
+    Biology Laboratory (EMBL-EBI) and AstraZeneca
+- period: 2020-2024
+  position: PhD Candidate, Cancer Research UK Cambridge Institute, Cambridge, United Kingdom
+- period: 2019-2020
+  position: Internship, Cancer Research UK Cambridge Institute, Cambridge, United Kingdom
+education:
+- period: 2020-2024
+  degree: PhD in Medical Sciences, Cancer Research UK Cambridge Institute, Cambridge, United Kingdom
+- period: 2016-2018
+  degree: MSc in Applied Mathematics, National Polytechnic Institute (ESFM) and CINVESTAV (Automatic Control
+    Dept.), Mexico City, Mexico
+- period: 2012-2016
+  degree: B.Sc. in Mathematics and Physics, National Polytechnic Institute (ESFM), Mexico City, Mexico

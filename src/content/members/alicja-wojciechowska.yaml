@@ -1,0 +1,49 @@
+name: Alicja Wojciechowska
+status: current
+role: Postdoctoral fellow, Saez lab
+order: 44
+group: postdocs
+image: alicja-wojciechowska.png
+membership:
+  start_year: 2026
+description: >-
+  I started with a Bachelor’s in Applied Mathematics. Then, I took quite seriously the childhood advice
+  that ‘math is important for life’ and signed up for a Master’s in Bioinformatics. I also finished a
+  Master’s in Big Data Analytics. All these choices make me a person with a mixed but strongly
+  computational background.
+
+  During my PhD at the Wroclaw University of Science and Technology, I worked on host-microbiome
+  interactions in neurodegeneration. I was specifically interested in the aggregation properties of
+  bacterial proteins in our microbiome proteome and how they may influence Parkinson’s and Alzheimer’s
+  diseases. Later, I worked for a year at the Sano Centre for Computational Medicine in Cracow (an
+  institute funded by the European Union's Horizon 2020 program), studying antimicrobial resistance
+  and bacterial protein secretion.
+
+  I joined Saez lab in 2026 as a postdoctoral fellow. Now, I focus on analysis of multi-omics and
+  microbiome data to decipher host-microbiome interactions in intestinal diseases. This is part of the
+  CartoHostBug ERC grant.
+research_interests: >-
+  The complexity of life fascinates me. I’m particularly interested in how we can use large-scale data
+  and advanced computational methods to understand the biology of human and bacterial cells, and
+  their interactions.
+email: wojciechowska@ebi.ac.uk
+professional_career:
+  - period: 2026-current
+    position: Postdoc at Saez lab
+  - period: 2025-2026
+    position: Junior Research Specialist, Sano Centre for Computational Medicine
+  - period: "2025"
+    position: Science Communicator, Copernicus Science Centre
+  - period: "2023"
+    position: Research intern, Institute Pasteur de la Guadeloupe
+  - period: "2022"
+    position: Research intern, Max Planck Institute for Multidisciplinary Sciences
+  - period: 2021-2026
+    position: PhD, Wroclaw University of Science and Technology
+education:
+  - period: 2020-2022
+    degree: Master in Bioinformatics, Wroclaw University of Science and Technology
+  - period: 2020-2021
+    degree: Master in Big Data Analytics, Wroclaw University of Science and Technology
+  - period: 2016-2020
+    degree: Bachelor of Engineering in Applied Mathematics, Wroclaw University of Science and Technology

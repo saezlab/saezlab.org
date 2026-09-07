@@ -1,0 +1,49 @@
+name: Veronika Kedlian
+status: current
+role: Postdoc
+order: 39
+group: postdocs
+image: veronika-kedlian.jpg
+description: I completed my PhD with Sarah Teichmann at the Wellcome Sanger Institute and University of
+  Cambridge, where I applied single-cell and spatial genomics to systematically study human tissue ageing,
+  focusing on human thymus and skeletal muscle. A central question driving my doctoral work was how changes
+  in different cellular compartments of an ageing organ interact and compound to produce organ-level functional
+  decline. In my skeletal muscle ageing work, I mapped age-associated changes across different cellular
+  compartments of the muscle and their communication. I also co-led the construction of a spatial cell
+  atlas of the human thymus, providing a coordinate system for studying how the thymic microenvironment
+  remodels during the pre- to postnatal transition. Earlier, I studied inter-individual variability of
+  gene expression in the ageing human brain during an internship with Janet Thornton at EMBL-EBI, and
+  my interest in the biology of ageing was first sparked by undergraduate research on Hutchinson-Gilford
+  progeria syndrome at A*STAR Singapore. I hold BSc and MSc degrees in Biology from Taras Shevchenko National
+  University of Kyiv, Ukraine.
+research_interests: "My research focuses on understanding how tissue function emerges from interactions\
+  \ between diverse cell types, and how these interactions break down during ageing and chronic disease.\
+  \ I work to combine large-scale single-cell and spatial transcriptomics data with dynamical modelling\
+  \ to move beyond static tissue descriptions toward mechanistic, causal models of tissue-level change.\
+  \ \nMy current project  is focused on trying to understand mechanisms of neuroinflammatory diseases\
+  \ with colleagues from Sanger Institute, University of Oxford, University of Exeter and Imperial College\
+  \ as a part of collaboration sponsored by OpenTargets.  It aims to infer the coupled dynamics of multiple\
+  \ cell types in human tissues — disentangling contributions of local cell–cell interactions, tissue\
+  \ microenvironment, and systemic influences during ageing and disease progression."
+email: vkedlian@ebi.ac.uk
+orcid: 0000-0001-6563-0829
+professional_career:
+- period: Jan 2026–present
+  position: Postdoc, Saez-Rodriguez lab, EMBL-EBI (Cambridge, UK)
+- period: Oct 2023–Jan 2026
+  position: Postdoc, Teichmann lab, Cambridge Stem Cell Institute & Wellcome Sanger Institute (Cambridge,
+    UK)
+- period: 2018–2024
+  position: PhD, Teichmann & Martincorena labs, Wellcome Sanger Institute & University of Cambridge (Cambridge,
+    UK)
+- period: Nov 2016–Apr 2018
+  position: Internship, Prof Janet Thornton group, EMBL-EBI (Cambridge, UK)
+- period: Oct 2015–Apr 2016
+  position: Internship, Dr Oliver Dreesen lab, A*STAR (Singapore)
+education:
+- period: 2018–2024
+  degree: Ph.D. Biological Sciences, University of Cambridge & Wellcome Sanger Institute, UK
+- period: 2016–2018
+  degree: M.Sc. Biology (Molecular Biology), Taras Shevchenko National University of Kyiv, Ukraine
+- period: 2012–2016
+  degree: B.Sc. Biology, Taras Shevchenko National University of Kyiv, Ukraine

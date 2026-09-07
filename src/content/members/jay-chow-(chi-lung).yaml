@@ -1,0 +1,35 @@
+name: Jay Chow (Chi Lung)
+status: current
+role: Staff Scientist
+order: 36
+group: staff-scientists
+image: jay-chow-chilung.jpg
+description: Jay Chow (Chi Lung) is a Scientific Database Curator at EMBL-EBI. He is joining a focused
+  initiative on fibrosis research in collaboration with the Saez-Rodriguez Group, EMBL-EBI Functional
+  Genomics team and GSK. Here he is contributing to the thematic organization and retrieval of fibrosis
+  relevant multi-omics datasets as well as the integration of datasets into the Expression Atlases, ArrayExpress
+  collection in BioStudies, and Human Cell Atlas. He completed his MSc Bioinformatics degree in 2024 where
+  his dissertation focused on benchmarking spatial deconvolution methods within the tumour microenvironment.
+  He completed his BSc Biochemistry degree in 2022 where his dissertation focused on the validation of
+  Alphafoldv2 predicted structures of bacterial ATP synthases. During this time, he also completed an
+  internship at the University of Hong Kong helping the study of ultrafine bridge resolution during homologous
+  recombination. At his current post at EMBL-EBI, he hopes to actively help support fibrosis research
+  and therapeutic discovery.
+research_interests: It has been made clear with the explosion of data and data analysis techniques that
+  often the largest impact in the quality of data analysis is the quality of input data. The rate of data
+  collection far outpaces the development of techniques to sift through and organize the data, and I am
+  interested in bridging this gap. By collecting, integrating, and harmonizing datasets from multiple
+  omics platforms, we can increase the power and insights that can be gained from looking at the whole
+  system rather than inspecting a single piece of the puzzle. As such, I aim to create curated fibrosis
+  related resources to allow the further probing of the conserved mechanisms of fibrosis across diseases
+  for downstream thearapeutic discovery.
+email: chow@ebi.ac.uk
+professional_career:
+- period: 2025-present
+  position: Scientific Database Curator; European Bioinformatics Institute, European Molecular Biology
+    Laboratory (EMBL-EBI)
+education:
+- period: 2023-2024
+  degree: MSc in Bioinformatics; The University of Edinburgh, United Kingdom
+- period: 2019-2022
+  degree: BSc in Biochemistry; Imperial College London, United Kingdom

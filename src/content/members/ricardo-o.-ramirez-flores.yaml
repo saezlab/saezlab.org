@@ -1,0 +1,51 @@
+name: Ricardo O. Ramirez-Flores
+status: current
+role: Staff Scientist
+order: 8
+group: staff-scientists
+image: ricardo-o-ramirez-flores.png
+description: My expertise lies at the intersection of computational biology, molecular biology, and biomedicine.
+  My work focuses on developing computational methods that integrate -omics data at multiple scales—bulk,
+  single-cell, and spatial—to investigate how cells are organized within tissues and how this organization
+  changes in disease. A key area of my research is performing meta-analyses of -omics studies from independent
+  patient cohorts, which I believe strengthens the reliability of identifying molecular biomarkers.I began
+  my academic career in the Saez-Rodriguez group in 2015 as a Bachelor intern, continuing my PhD studies
+  within the same group. Currently, I am a Staff Scientist at EMBL-EBI, where I am expanding my research
+  on gene regulatory mechanisms driving multicellular responses, with a growing emphasis on understanding
+  host-microbiome interactions.
+research_interests: I’m interested in understanding how the cells in our bodies work together to form
+  tissues and how this organization changes during disease. By combining different types of data—such
+  as bulk, single-cell, and spatial omics—I study how the structure of tissues impacts what individual
+  cells do, and how individual cell behavior can affect the larger tissue. My goal is to understand how
+  changes in one part of a tissue can influence the whole system. I believe that a multicellular functional
+  perspective of single-cell data could promote the emergence of novel analysis strategies that could
+  synergize the knowledge of the fields of mathematical physiology, ecology, and systems biology. I also
+  explore whether different diseases or perturbations lead to similar changes in tissues, which helps
+  us better understand how cells respond to stress or damage. For the same reason, I have also focused
+  on systemic meta-analyses of distinct patient cohorts and etiologies to provide consensus transcriptional
+  signatures that serve as references for future studies.
+email: flores@ebi.ac.uk
+orcid: 0000-0003-0087-371X
+professional_career:
+- period: 2024-Present
+  position: Staff Scientist, European Bioinformatics Institute, European Molecular Biology Laboratory
+    (EMBL-EBI)
+- period: 2023-2024
+  position: Postdoctoral Researcher, Institute for Computational Biomedicine, Heidelberg University, Faculty
+    of Medicine & Heidelberg University Hospital, Germany.
+- period: 2019-2023
+  position: PhD Candidate, Institute for Computational Biomedicine, Heidelberg University, Faculty of
+    Medicine & Heidelberg University Hospital, Germany.
+- period: 2016-2017
+  position: Research Assistant, Microbiology and Cell Science Department, University of Florida, USA.
+- period: 2015-2016
+  position: Trainee, JRC­-COMBINE, RWTH Aachen University, Germany.
+- period: 2015-2015
+  position: Research Assistant, Center for Genomic Sciences, UNAM, Mexico.
+education:
+- period: 2019-2023
+  degree: PhD summa cum laude in Natural Sciences, Heidelberg University, Germany
+- period: 2017-2018
+  degree: Specialist in Applied Statistics, National Autonomous University of Mexico, Mexico
+- period: 2012-2016
+  degree: B.Sc. in Genomics, National Autonomous University of Mexico, Mexico

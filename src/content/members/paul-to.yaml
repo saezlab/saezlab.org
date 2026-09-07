@@ -1,0 +1,26 @@
+name: Paul To
+status: current
+role: Staff Scientist
+order: 11
+group: staff-scientists
+image: paul-to.jpg
+description: Paul is a bioinformatician and software engineer with a keen interest in longevity research.
+  Starting his academic journey in Biochemistry, he earned an MPhil in Bioinformatics, where he leveraged
+  graph theory and GPU computing to process large-scale biological datasets. Noticing a gap in coding
+  practices within academia,Paulpivoted to industry, where he built expertise as a full-stack software
+  engineer. He played a key role in developing a construction supervision system, gaining comprehensive
+  experience in front-end and back-end development, infrastructure management, and server scaling.
+research_interests: Paul‘s ultimate research goal is to extend human lifespan. He is particularly interested
+  in leveraging knowledge graphs and biological networks to enable AI-driven automated research cycles,
+  with the aim of advancing systems biology and pharmaceutical research, ultimately uncovering the mechanisms
+  of ageing.
+email: kto@ebi.ac.uk
+orcid: 0000-0001-5343-9170
+professional_career:
+- period: 2018-2024
+  position: Full-stack Software Engineer, SnagR Software Ltd, Hong Kong/United Kingdom
+education:
+- period: 2015-2017
+  degree: MPhil in Bioengineering, The Hong Kong University of Science and Technology, Hong Kong
+- period: 2012-2015
+  degree: Bsc in Biochemistry, The Hong Kong University of Science and Technology, Hong Kong

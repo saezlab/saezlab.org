@@ -1,0 +1,50 @@
+name: Aurélien Dugourd
+status: current
+role: Staff Scientist
+order: 7
+group: staff-scientists
+image: aurelien-dugourd.jpg
+description: After I graduated from my Computational Biology master’s degree in 2015, I joined Julio Saez-Rodriguez
+  team as a PhD student. I worked on the development of hybrid mechanistic models, integrating gene regulation,
+  signaling pathways and metabolomics data to explain disease phenotypes, help find new therapeutic targets
+  and predict their potential effect based on a specific patient profile. This led to the development
+  of the tools COSMOS and oCEan. This project was part of the collaborative SyMBioSys ITN project,  financed
+  by the European Marie Skłodowska-Curie actions, as well as the SMART-CARE consortium to apply mass-spectrometry-based
+  systems medicine to cancer. Today, I lead the development and application of methods to extract interpretable
+  mechanistic insights from multi-omic datasets. I especially focus on leveraging prior knowledge, in
+  the context of signaling and metabolism of complex diseases, such as cancer and development of treatment
+  resistance. I work in collaboration with pharmaceutical partners, notably Pfizer, to support the development
+  of novel cancer treatments and better understand the development of resistances by bringing those methods
+  closer to relevant industrial applications.
+research_interests: 'Models are everywhere; we create and use them constantly most of the time without
+  even being aware of it. As an example, every morning we use an implicit model to determine how much
+  time it will take us to reach our workplace based on contextual parameters such as weather and traffic,
+  hence allowing us to find out at what hour we have to leave to be on time. Thus, thanks to the ever-increasing
+  power of computers, we now use models in biology to process large amount of biological data generated
+  by experimentalists. These models allow us to better understand how biological systems work and even
+  to predict their behaviors in the limits of clearly defined boundaries.Hence, my work focuses on the
+  development of accurate biological models that aim at bridging three different layers of biological
+  systems: the gene regulation, signaling and metabolic pathways. These models are developed based on
+  comprehensive biological data in order to be as relevant as possible. My goal is to use these models
+  both to have a better understanding of cell functioning and to help develop more relevant and personalized
+  treatments for patients.'
+email: dugourd@ebi.ac.uk
+orcid: 0000-0002-0714-028X
+professional_career:
+- period: 2024-present
+  position: Senior Staff Scientist Saezlab, EMBL-EBI
+- period: 2020-2024
+  position: Post-doctoral fellow Saez Lab, Heidelberg University
+- period: 2020-2021
+  position: Post-doctoral fellow Kramann Lab, RWTH Aachen
+- period: 2015-2020
+  position: Marie Curie Early Stage Researcher (SymBioSys)
+education:
+- period: 2015-2020
+  degree: PhD student in mechanistic modeling at Saez Lab, Heidelberg University.
+- period: 2013-2015
+  degree: M. Sc. in Computational biology at University of Nantes, France.
+- period: 2011-2013
+  degree: M. Sc. in Genetic, Genomic and Biotechnology at University of Occidental Brittany, France.
+- period: 2009-2011
+  degree: Bachelor in Biology at University of Occidental Brittany, France.

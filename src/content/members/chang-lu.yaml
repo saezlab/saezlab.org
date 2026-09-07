@@ -1,0 +1,42 @@
+name: Chang Lu
+status: current
+role: Postdoc
+order: 17
+group: postdocs
+image: chang-lu.jpg
+description: I studied biometrics identification at the Beijing University, a topic that gave rise to
+  my interest in the application of computational methods to biological data. In my master studies at
+  the Machine Learning and Data Analytics Lab of Southwestern University, China I gained knowledge of
+  machine learning and data mining and applied them to the prediction of protein function and noise functional
+  annotations. In 2017, I crossed Eurasia to Maastricht, the Netherlands, to pursue my PhD in machine
+  learning and statistic approaches for multi-omics and multimodal image data to analyze the mechanism
+  of cardiometabolic diseases. Starting in October 2022, I continued my research path as a postdoctoral
+  fellow at the Institute for Computational Biomedicine (Saez-Rodriguez Group) at Heidelberg University,
+  Germany, studying computational integration of cellular circuits and immune cell repertoires in spatial
+  and temporal resolution.
+research_interests: I am interested in the design and application of computational strategies for spatial
+  multi-omics data to study disease mechanisms in complex diseases. During my PhD, I analysed high-dimensional
+  omics and imaging data of plaque and liver through a combination of computational strategies including
+  statistical inference, machine learning and image processing, to dissect the pathogenesis of  cardiovascular
+  and  liver diseases at the molecular, spatial and temporal level. Currently, I focus on the cellular
+  circuit and immune cell repertoire integration at spatial and temporal resolution.
+email: chang.lu@uni-heidelberg.de
+orcid: 0000-0001-6304-2820
+professional_career:
+- period: 10/2022 – Present
+  position: Postdoctoral researcher, Institute for Computational Biomedicine, Heidelberg University, Germany
+- period: 10/2017 – 09/2022
+  position: Research assistant, Department of Pathology, Maastricht University Medical Center+ (MUMC+),
+    Maastricht, The Netherlands
+- period: 09/2014 – 06/2017
+  position: Research assistant, Department of Computer and Information Science, Southwest University,
+    Chongqing, China
+education:
+- period: 10/2017 – 09/2022
+  degree: PhD in Computational Biology, investigating cardiometabolic diseases at the Maastricht University
+    Medical Center+ (MUMC+), Maastricht, The Netherlands
+- period: 09/2014 – 06/2017
+  degree: Master of Engineering in Computer Application Technology, Southwest University, Chongqing, China
+- period: 09/2010 – 06/2014
+  degree: Bachelor of Science in Computer Science and Technology, Jiangxi Normal University, Nanchang,
+    China

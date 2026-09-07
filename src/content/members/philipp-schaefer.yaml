@@ -1,0 +1,42 @@
+name: Philipp Schaefer
+status: current
+role: PhD Student
+order: 25
+group: phd-students
+image: philipp-schaefer.jpg
+description: I completed my Bachelor’s degree in Biochemistry at Heinrich-Heine University in Düsseldorf
+  and Michigan State University in the US. Throughout this period, I actively participated in various
+  research endeavors primarily centered around the analysis and characterization of individual proteins.
+  However, during my Master’s program at Heidelberg University, my focus shifted towards investigating
+  biological processes more holistically using large single-cell and spatial multi-omics data sets. In
+  my Master’s thesis, for example, I leveraged single-cell RNA and ATAC-seq data to infer and compare
+  gene regulatory networks underlying the development of the mammalian cerebellum. Now I work on deciphering
+  myeloid subtype diversity in multiple sclerosis supported by the DFG  Priority Programme “Local and
+  Peripheral Drivers of Microglial Diversity and Function” (SPP 2395)
+research_interests: My research interests lie at the intersection of systems immunology and machine learning.
+  I am intrigued by the immense potential of emerging single-cell and spatial multi-omics technologies,
+  which allow us to explore the establishment of biological function under normal circumstances as well
+  as its disruption in various diseases. In this regard, my specific interest lies in developing computational
+  methodologies that can elucidate the underlying regulatory mechanisms responsible for autoimmune disorders
+  like multiple sclerosis.
+email: philipp.schaefer@uni-heidelberg.de
+professional_career:
+- period: '2022'
+  position: Master's Thesis at the Zentrum für Molekulare Biologie der Universität Heidelberg, Kaessmann
+    Group
+- period: '2020'
+  position: Bachelor's Thesis at the Research Center Jülich, Pietruszka Group
+- period: '2019'
+  position: Research internship at the Max Planck Institute for Biology of Ageing, Denzel Group
+- period: '2019'
+  position: Research intership at the Institute for Quantitative Health Science and Engineering at Michigan
+    State University, Bachmann Group
+- period: '2018'
+  position: Research internship in the Department of Physiology at Michigan State University, Doseff Group
+education:
+- period: 2020-2022
+  degree: 'M.Sc. Molecular Biosciences (Major: Molecular & Cellular Biology), Heidelberg University, Germany'
+- period: 2018-2019
+  degree: Academic Year, Michigan State University, US
+- period: 2016-2020
+  degree: B.Sc Biochemistry, Heinrich-Heine University in Düsseldorf, Germany

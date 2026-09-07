@@ -17,7 +17,7 @@ A modern, fast, and maintainable website for the Saez Lab built with Astro, Reac
 ```
 src/
 ├── components/    # React components
-├── content/       # Content files (MDX, JSON)
+├── content/       # Content files (YAML, MDX, JSON)
 ├── layouts/       # Layout components
 ├── pages/         # Astro pages
 ├── styles/        # Global styles
@@ -60,21 +60,65 @@ src/
 
 ## Content Management
 
-Content is managed through Google Sheets, allowing non-technical team members to easily update information without code changes.
-
-**Google Sheets Document**: [https://docs.google.com/spreadsheets/d/1Mjn0C3gjSr5Wl2ZG41X813LLhL-y47DvLeEUCmagTe8](https://docs.google.com/spreadsheets/d/1Mjn0C3gjSr5Wl2ZG41X813LLhL-y47DvLeEUCmagTe8)
+Team profiles live in local YAML files. Software and publication curation still use the
+[Google Sheets document](https://docs.google.com/spreadsheets/d/1Mjn0C3gjSr5Wl2ZG41X813LLhL-y47DvLeEUCmagTe8).
 
 ### Team Members
 
-Team information is managed in two sheets:
-- **current**: Current team members
-- **alumni**: Former team members
+Edit one file per person in `src/content/members/`. These files are the source of truth for
+current members and alumni. They were initially exported from the `current` and `alumni`
+Google Sheets tabs on 2026-09-07 (43 current members and 66 alumni).
+The older `src/content/_team/team.json` and `_scripts/team_*.tsv` are historical files,
+not active content sources.
 
-#### Professional Career & Education Format
-- **Professional Career**: Multiple entries separated by `" || "`, each entry format: `"period | position"`
-  - Example: `"2024-present | Head of Research, EMBL-EBI || 2018-present | Professor at Heidelberg University"`
-- **Education**: Multiple entries separated by `" || "`, each entry format: `"period | degree"`
-  - Example: `"2002-2007 | PhD in Process Engineering || 2000-2001 | Exchange student"`
+```yaml
+name: Alex Example
+status: current
+role: Postdoctoral Fellow
+group: postdocs
+order: 10
+image: alex-example.jpg
+description: >-
+  Alex develops computational methods for analysing biological data.
+research_interests: Single-cell analysis and multi-omics integration.
+email: alex@example.org
+professional_career:
+  - period: "2023–present"
+    position: Postdoctoral Fellow, Example Institute
+education:
+  - period: "2018–2023"
+    degree: PhD in Computational Biology
+```
+
+- The filename (without `.yaml`) is the stable profile URL: `alex-example.yaml` gives
+  `/person/alex-example`. Keep filenames unchanged when editing display names. Existing
+  filenames preserve the previous URLs, including accents and punctuation.
+- Required fields: `name`, `status` (`current` or `alumni`), and `role`.
+- Current members also require `group`: `group-leader`, `administration`, `staff-scientists`,
+  `postdocs`, `phd-students`, or `associated-members`. `role` is the displayed title.
+- Photos are filenames within `public/team_images/`. Existing photos remain there.
+- Optional fields include `description`, `research_interests`, `email`, `telephone`,
+  `orcid`, `linkedin`, `professional_career`, `education`, and `membership`.
+  Omit unknown fields; career and education are arrays of objects, not delimited strings.
+- `order` controls placement within each group (ascending, default 1000, then name).
+  Imported values preserve the sheet order. Alumni sort by end year descending, then order.
+- To move someone to alumni, set `status: alumni` and add known membership years:
+
+  ```yaml
+  membership:
+    start_year: 2023
+    end_year: 2026
+  ```
+
+  Keep their other profile data. Alumni currently appear as summary cards without
+  individual profile pages, matching the previous site behaviour.
+- Membership years are optional; current start years were not available in the sheet
+  and have not been inferred. Alumni years come directly from the exported durations.
+- Interns and visitors still come from GitHub.
+
+The schema in `src/content/config.ts` validates member files during development and builds.
+Run `pnpm dev` to review `/team` and individual `/person/...` pages, or `pnpm build` to validate
+production output. Other site collections still need network access and GitHub credentials.
 
 ### Publications
 
@@ -99,28 +143,6 @@ These files support full MDX syntax, allowing you to use React components and Ma
 The main navigation menu is configured in `src/config/navigation.ts`. To add, remove, or reorder menu items, edit this file.
 
 ## Google Sheets Schemas
-
-### Current Team Members Sheet
-| Column | Description | Example |
-|--------|-------------|---------|
-| name | Full name | "Julio Saez-Rodriguez" |
-| role | Position/title | "Group Leader" |
-| description | Bio/description | "Brief biography..." |
-| research_interests | Research focus areas | "Systems biology..." |
-| professional_career | Career history (see format above) | "2024-present \| Head..." |
-| education | Education history (see format above) | "2002-2007 \| PhD..." |
-| email | Email address | "name@example.com" |
-| telephone | Phone number | "+49 123 456789" |
-| orcid | ORCID identifier | "0000-0002-8552-8976" |
-| image | Image filename | "person-name.jpg" |
-
-### Alumni Sheet
-| Column | Description | Example |
-|--------|-------------|---------|
-| name | Full name | "John Doe" |
-| position | Position held | "Postdoc" |
-| duration | Time period | "2018-2024" |
-| linkedin | LinkedIn profile URL | "https://linkedin.com/in/..." |
 
 ### Software Sheet
 | Column | Description | Example |

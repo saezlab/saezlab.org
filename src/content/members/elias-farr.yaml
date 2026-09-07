@@ -1,0 +1,42 @@
+name: Elias Farr
+status: current
+role: Associated Member
+order: 40
+group: associated-members
+image: ef6.jpg
+description: My fascination with biology started when I learned that life is organized by a code that
+  exists in the form of up to meter-long molecules in every cell of an organism. This fascination drove
+  me to study Molecular Biotechnology in Heidelberg, a multidisciplinary course that taught me how to
+  hold a pipette, code, and what systems biology is. My first deeper involvement in research was my bachelor's
+  thesis in the Lab of Freddy Frischknecht in Heidelberg, where we engineered the malaria parasite, Plasmodium,
+  to understand its lifecycle better. For my master's thesis, I then joined the lab of Julio Saez-Rodriguez,
+  where I learned about cell-cell communication inference, specifically of metabolites. From that moment
+  on, I was captivated by the question of how tissues form and organize. An opportunity to pursue this
+  interest was a PhD in the group of Muzlifah Haniffa, who studies human development, skin, and immunology
+  using patient samples as well as organoid systems. In the Saez Lab, we complement this approach by developing
+  and applying computational tools to study spatial organisation and cell-cell communication.
+research_interests: My work focuses on how cell-cell communication drives early organ development. Our
+  model system is the human hair follicle, a mini-organ that, like many other organs, forms prenatally
+  from reciprocal interactions of an epithelial and a mesenchymal cell layer. We study this organogenesis
+  using spatial transcriptomics and multiomics (nuclear single-cell RNA  and ATAC from the same cell).
+  Long-term, I am interested in developing new approaches to study cell-cell communication and developing
+  in vitro systems that recapitulate in vitro development, as well as allow better training of computational
+  models to infer cell-cell communication.
+email: ef6@sanger.ac.uk
+orcid: 0000-0002-4441-6513
+professional_career:
+- period: 2023–present
+  position: PhD Candidate, Wellcome Sanger Institute (Hinxton, UK)
+- period: 2023–present
+  position: Visiting PhD Student, European Bioinformatics Institute (EBI, Hinxton, UK)
+- period: 2019–2023
+  position: Research internships and student worker at the Max-Planck for Biophysics (Frankfurt, DE),
+    Wellcome Sanger Institute (Hinxton, UK), Konyang University (Daejeon, South Korea), DKFZ (Heidelberg,
+    DE), University Hospital Heidelberg (Heidelberg, DE), BASF (Ludwigshafen, DE)
+education:
+- period: 2023–Present
+  degree: D.Phil. Biological Sciences, University of Cambridge
+- period: 2020–2023
+  degree: M.Sc. in Molecular Biotechnology, Heidelberg University
+- period: 2017–2020
+  degree: B.Sc. in Molecular Biotechnology, Heidelberg University

@@ -1,0 +1,40 @@
+name: Jonathan Schaul
+status: current
+role: Staff Scientist
+order: 13
+group: staff-scientists
+image: jonathan-schaul.png
+description: A computational bioinformatician with a unique interdisciplinary background spanning clinical
+  practice, biomedical sciences, and data science. Beginning my career as a paramedic in Germany's emergency
+  medical services, I developed a deep appreciation for patient care and healthcare challenges. This experience
+  motivated me to pursue formal education in biomedical sciences at Maastricht University, where I discovered
+  my passion for data-driven approaches to medical research. After completing my Master's in Data Science
+  and gaining industry experience through an internship at Grünenthal Group, I pursued doctoral research
+  at REPO4EU. Currently, I serve as a Staff Bioinformatician at the Institute for Computational Biomedicine
+  at Universitätsklinikum Heidelberg, where I focus on enhancing access to prior knowledge, applying my
+  skills in data engineering and web development in the Omnipath project.
+research_interests: My research focuses on leveraging network medicine approaches to unravel the molecular
+  complexity of rare diseases and cancer. I am particularly interested in developing and implementing
+  FAIR (Findable, Accessible, Interoperable, and Reusable) data principles to enhance biomedical data
+  sharing and integration. A key aspect of my work involves creating innovative web-based tools and platforms
+  that make prior knowledge and computational analyses accessible to the broader biomedical research community.
+  By combining network biology, data science, and web development, I aim to accelerate the translation
+  of computational insights into clinical applications, ultimately improving diagnosis and treatment strategies
+  for patients with rare diseases and cancer.
+email: jonathan.schaul@uni-heidelberg.de
+professional_career:
+- period: 2025-present
+  position: Bioinformatician, Institute for Computational Biomedicine, Universitätsklinikum Heidelberg
+- period: 2024-2025
+  position: PhD Candidate, REPO4EU@Maastricht University
+- period: May-Oct 2023
+  position: Master Thesis Internship, Grünenthal Group
+- period: Aug 2019-Feb 2020
+  position: Student Tutor, Part-time
+- period: Oct 2016-Sep 2017
+  position: Paramedic (Rettungssanitäter), Arbeiter-Samariter-Bund Bonn/Rhein-Sieg/Eifel e.V.
+education:
+- period: 2021-2023
+  degree: Master of Data Science, Maastricht University
+- period: 2018-2021
+  degree: Bachelor of Biomedical Sciences, Maastricht University

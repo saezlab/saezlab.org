@@ -1,0 +1,45 @@
+name: Sergio Alejandro Gómez Ochoa
+status: current
+role: Associated Member
+order: 41
+group: associated-members
+image: ochoa.jpg
+description: After graduating as a physician in 2018, I completed a master's degree in bioinformatics
+  and biostatistics while working on heart failure and Chagas disease at the Fundación Cardiovascular
+  de Colombia. There, my research focused on circulating and imaging biomarkers for predicting adverse
+  outcomes in Chagas cardiomyopathy, as well as transcriptomic and metabolomic profiling of cardiac tissue
+  and peripheral blood to dissect the pathophysiological mechanisms unique to this condition. I began
+  my PhD at Heidelberg University in late 2022, where I work on the molecular basis of cardiac disease
+  using multi-omic approaches, including single-cell transcriptomics and genomics. Through my collaboration
+  with the Saez-Rodriguez group, I develop frameworks for projecting multicellular gene expression programs
+  identified in tissue biopsies onto circulating proteomic signatures, with the goal of translating organ-level
+  biology into non-invasively derived interpretable signatures for chronic diseases.
+research_interests: My research sits at the intersection of tissue biology and clinical translation. I
+  am interested in how the immune system drives cardiac damage and how modifiable molecular mechanisms
+  can be identified to slow the progression of heart failure, with a particular focus on Chagas cardiomyopathy,
+  a neglected cause of heart failure in Latin America. More broadly, I work on methods to bridge high-resolution
+  tissue modalities with accessible clinical readouts such as plasma proteomics and cardiac imaging, aiming
+  to provide both mechanistic insight and clinically actionable stratification tools.
+email: sergioalejandro.gomezochoa@med.uni-heidelberg.de
+orcid: 0000-0002-1396-5042
+professional_career:
+- period: 2025–Present
+  position: Visiting Researcher, Saez-Rodriguez Group, European Bioinformatics Institute (EMBL-EBI)
+- period: 2024–Present
+  position: Assistant Professor, Department of Surgery, School of Medicine, Universidad Industrial de
+    Santander
+- period: 2022–Present
+  position: PhD Candidate, Universität Heidelberg
+- period: 2022–Present
+  position: Research Associate, Research Department, Fundación Cardiovascular de Colombia
+- period: 2021–2022
+  position: Assistant Researcher III, Institute of Social and Preventive Medicine, University of Bern
+- period: 2019–2021
+  position: Clinical Study Coordinator, Research Department, Fundación Cardiovascular de Colombia
+education:
+- period: 2019–2021
+  degree: MSc in Bioinformatics and Biostatistics, Universitat Oberta de Catalunya & Universitat de Barcelona
+- period: '2018'
+  degree: Research Rotation, Neuroimmunopathology Lab, Johns Hopkins University
+- period: 2013–2018
+  degree: Medical studies, Universidad Industrial de Santander

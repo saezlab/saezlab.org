@@ -26,8 +26,6 @@ This is an Astro-based academic research group website with React components for
 ### Content Architecture
 Content is managed through multiple sources:
 1. **Google Sheets** (ID: `1Mjn0C3gjSr5Wl2ZG41X813LLhL-y47DvLeEUCmagTe8`):
-   - `current` sheet - Current team members
-   - `alumni` sheet - Former team members
    - `software` sheet - Software tools & databases
 
 2. **Dynamic loaders** in `src/content/loaders/`:
@@ -36,11 +34,16 @@ Content is managed through multiple sources:
    - `github.ts` - Fetches GitHub team data
    - `google-sheets.ts` - Custom loader for Google Sheets content
 
-3. **MDX files** in `src/content/home_page/` for rich homepage content
+3. **Local member files** in `src/content/members/*.yaml`:
+   - One file per person, shared `members` collection for current members and alumni
+   - Filename is the stable profile ID; `status` selects current or alumni
+   - Schema and validation in `src/content/config.ts`
+
+4. **MDX files** in `src/content/home_page/` for rich homepage content
 
 ### Data Formats
-- **Professional Career**: `"period | position || period | position"`
-- **Education**: `"period | degree || period | degree"`
+- **Professional Career**: YAML array of `{ period, position }` objects
+- **Education**: YAML array of `{ period, degree }` objects
 - **Software Categories**: Comma-separated values (e.g., `"featured, tool"`)
 
 ### Page Structure

@@ -1,8 +1,8 @@
 import type { TeamMemberProps } from "@/types/types"
 import {BASE_PATH} from '../lib/utils';
 
-export default function TeamMemberCardLink(props: TeamMemberProps) {
-  const slug = props.name.toLowerCase().replace(/\s+/g, '-')
+export default function TeamMemberCardLink(props: TeamMemberProps & { slug: string }) {
+  const slug = encodeURIComponent(props.slug)
 
   return (
         <a href={`${BASE_PATH}/person/${slug}`} className="block h-full">
@@ -19,4 +19,4 @@ export default function TeamMemberCardLink(props: TeamMemberProps) {
           </div>
         </a>
   )
-} 
+}

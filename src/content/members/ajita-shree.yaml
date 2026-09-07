@@ -1,0 +1,37 @@
+name: Ajita Shree
+status: current
+role: Postdoc
+order: 42
+group: postdocs
+image: ajita.jpg
+description: I completed PhD at the Department of Computer Science and Engineering, Indian Institute of
+  Technology Kanpur. My dissertation focused on deep generative models for single-cell and spatial transcriptomics
+  datasets. During my doctoral research, I developed scDREAMER, a deep generative model for unsupervised,
+  supervised, and atlas-level integration of single-cell transcriptomics datasets, across diverse integration
+  challenges. In the latter part, I introduced spDDB, a comprehensive benchmarking study of state-of-the-art
+  deconvolution and domain detection methods. This work included a novel evaluation framework for spatial
+  transcriptomics, an extensive dataset repository spanning brain, cancer, and multiple organ tissues,
+  as well as the development of a deep graph attention-based simulator for generating realistic simulated
+  spatial datasets. Previously, I completed M.Tech in Computer Science and Engineering from Indian Institute
+  of Technology Delhi. I also have industry experience at GE Global Research and GE Aviation, where I
+  contributed to the development of large-scale machine learning systems for flight scheduling, focusing
+  on engine failure forecasting for the international airline industry.
+research_interests: My current research focuses on computational method development leveraging probabilistic
+  techniques for single-cell and spatial transcriptomics data, aimed at studying cell–cell communication
+  within tissues
+email: shree@ebi.ac.uk
+orcid: 0000-0003-1064-6238
+professional_career:
+- period: Apr, 2026 - present
+  position: Postdoctoral Researcher, Saez-Rodriguez Group, EMBL-EBI, Cambridge, UK
+- period: July, 2017 - Aug, 2020
+  position: Data Scientist, GE Aviation, GE Global Research, India
+- period: July, 2017 - July, 2019
+  position: Digital Technology Leadership Program, DTX1(Detroit, USA), DTX2 (Budapest, Hungary), GE
+education:
+- period: 2020 - 2025
+  degree: PhD, Computer Science and Engineering, IIT Kanpur, India
+- period: 2015 - 2017
+  degree: MTech, Computer Science and Engineering, IIT Delhi, India
+- period: 2010 - 2014
+  degree: BTech, Computer Science and Engineering, MDU Rohtak, India

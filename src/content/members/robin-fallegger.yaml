@@ -1,0 +1,36 @@
+name: Robin Fallegger
+status: current
+role: PhD Student
+order: 22
+group: phd-students
+image: robin-fallegger.jpg
+description: Both my Bachelor and Master degrees were obtained at the Ecole Polytechnique Fédérale de
+  Lausanne in Switzerland. Over the course of my studies, I was able to learn from various fields ranging
+  from oncology, medical engineering to advanced data analysis and machine learning methods. Over the
+  course of my Master’s studies I focused on the latter in a variety of fields such as brain-computer
+  interfaces, image analysis and more importantly genomics and transcriptomics.The aim of my Master thesis
+  at the Computational Biology & Cancer Genomic group (UNIL) was to predict the efficacy of the off-label
+  use of targeted cancer therapies for individual patients by using open source gene essentiality screens
+  (both CRISPR and RNAi).I joined the Saez lab as a PhD candidate in the fall of 2021 and will be working
+  on single-cell transcriptomics data from neuronal tissues in collaboration with the lab of Prof. Rohini
+  Kuner and theHeidelberg Pain Consortium.
+research_interests: I am interested in how experimental data and prior biological evidence can be used
+  to generate and address new hypotheses by using computational techniques. In particular, I find it fascinating
+  how data analysis techniques from various fields (such as image analysis and machine learning) can be
+  applied to biological data in order to gain valuable insight into the mechanistic background of biological
+  processes or pathogenesis of various diseases.My current research project is investigating the transcriptomic
+  changes that occur in cortical regions of the brain under chronic pain.
+email: robin.fallegger@uni-heidelberg.de
+professional_career:
+- period: 2021 - Present
+  position: PhD Candidate, Institute for Computational Biomedicine, Heidelberg University, Faculty of
+    Medicine & Heidelberg University Hospital
+- period: '2018'
+  position: Internship at the Science and Technology office at the Swiss Embassy in Tokyo
+- period: '2015'
+  position: Research Internship at the AIDS Vaccine Research Laboratory, University of Wisconsin
+education:
+- period: 2018-2020
+  degree: MSc in Life Sciences Engineering, Ecole Polytechnique Fédérale de Lausanne, Switzerland
+- period: 2013-2017
+  degree: BSc in Life Sciences and Technologies, Ecole Polytechnique Fédérale de Lausanne, Switzerland

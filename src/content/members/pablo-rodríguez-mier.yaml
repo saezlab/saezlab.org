@@ -1,0 +1,49 @@
+name: Pablo Rodríguez Mier
+status: current
+role: Staff Scientist
+order: 16
+group: staff-scientists
+image: pablo-rodriguez-mier.jpg
+description: I am currently a research staff member in the Saez-Rodríguez group at EMBL-EBI. My research
+  focuses on network inference, optimization, and machine-learning models for perturbation biology. I
+  apply this work within NetworkCommons, an Open Targets research project, where we develop, integrate,
+  and benchmark network contextualization methods to study disease pathways, mechanisms of action, and
+  drug-target prioritization. Previously, I was a postdoctoral researcher in the same group at Heidelberg
+  University, contributing to projects including PerMedCoE, focused on scalable computational methods
+  for personalized medicine, and DECIDER, focused on ovarian cancer. Before that, at INRAE in Toulouse,
+  I developed computational approaches to study metabolic dysregulation in cancer by combining biological
+  knowledge, experimental data, and optimization methods. I hold a PhD in Computer Science and Artificial
+  Intelligence from the University of Santiago de Compostela, Spain.
+research_interests: My research focuses on network inference and computational modeling of complex biological
+  systems, with an emphasis on integrating prior biological knowledge with large-scale experimental and
+  perturbation data. I develop methods to reconstruct and analyze biological networks, including signaling,
+  metabolic, and protein–protein interaction networks, aiming to improve our understanding of disease
+  mechanisms, treatment response, and potential therapeutic targets. I am particularly interested in optimization-based
+  approaches to network inference and modeling, including CORNETO, a framework I continue to maintain
+  and expand. More recently, my work has increasingly focused on biologically informed machine-learning
+  models for perturbation biology, including methods to predict cellular responses to genetic and pharmacological
+  interventions. My research spans methodological development, scalable algorithms, and the integration
+  and benchmarking of computational approaches, with applications in drug discovery and precision medicine.
+email: mier@ebi.ac.uk
+orcid: 0000-0002-4938-4418
+professional_career:
+- period: 2026–present
+  position: Research Staff, Saez-Rodríguez Group, EMBL-EBI, Hinxton, United Kingdom.
+- period: 2021–2026
+  position: Postdoctoral Researcher, Institute for Computational Biomedicine, Heidelberg University, Faculty
+    of Medicine and Heidelberg University Hospital, Germany.
+- period: 2018–2021
+  position: Postdoctoral Researcher, Food Toxicology Research Center (TOXALIM), French National Research
+    Institute for Agriculture, Food and Environment (INRAE), Toulouse, France.
+- period: 2016–2018
+  position: Associate Researcher, CiTIUS, University of Santiago de Compostela, Spain.
+- period: 2012–2016
+  position: PhD Researcher, CiTIUS, University of Santiago de Compostela, Spain.
+education:
+- period: 2011-2016
+  degree: PhD in Computer Science & Artificial Intelligence, University of Santiago de Compostela (USC),
+    Spain.
+- period: 2010-2011
+  degree: MSc in Computer Science & Artificial Intelligence, USC, Spain.
+- period: 2006-2010
+  degree: BSc in Computer Science, USC, Spain.

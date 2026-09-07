@@ -1,0 +1,52 @@
+name: Ahmet Sureyya Rifaioglu
+status: current
+role: Postdoc
+order: 15
+group: postdocs
+image: ahmet-sureyya-rifaioglu.jpeg
+description: I obtained my B.Sc. degree from the Computer Engineering Department of İstanbul Doğuş University
+  in 2010. After working in a software company for a short period as a software engineer, I joined the
+  Middle East Technical University (METU), Ankara as a teaching/research assistant and a master student.
+  I also joined the Cancer Systems Laboratory at METU and started doing research in the bioinformatics
+  field where I worked on computational protein function prediction.After I got my master degree in 2015,
+  I continued my PhD in the same department and started working on a project called “Comprehensive Resource
+  of Biomedical Relations with Deep Learning and Network Representations” (CROssBAR). This was a joint
+  project between Middle East Technical University and EMBL-EBI where I have spent about one year during
+  my PhD studies. My main aim was to develop deep learning-based methods for computational drug discovery
+  and work with the EMBL-EBI team to create the CROssBAR database. In 2020 I obtained my PhD degree and
+  became a faculty member at İskenderun Technical University, Hatay, Turkey.In July 2021, I joined the
+  Saez-Rodriguez group as a postdoctoral researcher. In this position, I will mainly work on the application
+  of deep learning algorithms to single-cell data in cancer.
+research_interests: Understanding the inner mechanisms of living beings from the molecular level to the
+  organism level is one of the most challenging and important research areas of our era. With the advance
+  of technology, a massive amount of experimental data has accumulated in public and private databases.
+  I believe that the availability of these data will help us understand our complex biological system
+  using the correct usage of data and machine learning algorithms. My main research interest is to extract
+  hidden knowledge from these complex and big data using machine learning algorithms. Specifically, I
+  am highly interested in computational drug discovery and developing machine learning methods for understanding
+  molecular mechanisms of diseases such as cancer.My current goal is to propose new methods and develop
+  machine learning algorithms on single-cell data. Specifically, I will be working on applications of
+  deep learning methods using large-scale single-cell data focusing on cancer within the framework of
+  the  “DeepSC2 – Deep learning for single-cell genomics in cancer”, a project funded by the German Government
+  (BMBF).
+email: ahmet.rifaioglu@uni-heidelberg.de
+orcid: 0000-0001-6717-4767
+professional_career:
+- period: 2021 - Present
+  position: Postdoctoral Researcher, Institute for Computational Biomedicine, Heidelberg University, Germany
+- period: 2020 - Present
+  position: Faculty Member, İskenderun Technical University, Hatay, Turkey
+- period: 2011-2020
+  position: Teaching/Research Assistant, Computer Engineering Department, Middle East Technical University,
+    Ankara, Turkey
+- period: 2019-2020
+  position: Predoctoral Visiting Researcher, EMBL-EBI, Automatic Annotation Team, Cambridge, UK
+- period: 2011-2011
+  position: Software Engineer, ISIS Information Technologies, İstanbul, Turkey
+education:
+- period: 2015-2020
+  degree: Ph.D. in Computer Engineering, Middle East Technical University, Ankara, Turkey
+- period: 2012-2015
+  degree: M.Sc. in Computer Engineering, Middle East Technical University, Ankara, Turkey
+- period: 2006-2010
+  degree: B.Sc. in Computer Engineering, İstanbul Doğuş University, İstanbul, Turkey

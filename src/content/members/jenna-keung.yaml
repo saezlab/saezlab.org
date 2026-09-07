@@ -1,0 +1,33 @@
+name: Jenna Keung
+status: current
+role: PhD Student
+order: 28
+group: phd-students
+image: jenna-keung.jpeg
+description: I started with a biology background that focuses on cell biology and genetics. After working
+  on a statistical genetics project during my undergraduate degree, I realised that I wanted to work in
+  bioinformatics and learn more about computational biology. Afterwards, I had the opportunity to work
+  on single-cell and bulk transcriptomics, as well as proteomics and metabolomics, in the context of different
+  conditions such as cancer, and investigating immunological inter-pathways associations in COVID-19.
+  Learning more about individual omics types led to an interest in multi-omics integration and methods
+  development.
+research_interests: I’m interested in multi-omics integration methods to combine information from different
+  biological data types, in particular single-cell and spatial technologies. My current research project
+  is focused on understanding the interaction of different cell types during disease progression of IgA
+  nephropathy, a chronic kidney disease. I aim to achieve a more comprehensive understanding of underlying
+  disease mechanisms by analysing different omics across multiple cohorts.
+email: keung@ebi.ac.uk
+orcid: 0009-0006-4450-0834
+professional_career:
+- period: 2025-present
+  position: PhD student, Saez-Rodriguez group, European Bioinformatics Institute, European Molecular Biology
+    Laboratory (EMBL-EBI)
+- period: 2023-2024
+  position: Research Assistant, University of Oxford
+education:
+- period: 2024-present
+  degree: PhD, European Bioinformatics Institute, European Molecular Biology Laboratory (EMBL-EBI)
+- period: 2022-2023
+  degree: Msc Bioinformatics, Imperial College London
+- period: 2019-2022
+  degree: Bsc Biomedical Science, King’s College London

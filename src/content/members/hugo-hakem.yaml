@@ -1,0 +1,43 @@
+name: Hugo Hakem
+status: current
+role: PhD Student
+order: 38
+group: phd-students
+image: hugo-hakem.jpg
+description: I completed the French grandes écoles programme, beginning with classes préparatoires at
+  Lycée Aux Lazaristes, where I received training in mathematics, physics and chemistry. I then integrated
+  CentraleSupélec, continuing my education in the natural sciences while gaining exposure to bioengineering.
+  I subsequently moved to the United States to pursue a Master of Engineering in Bioengineering at the
+  University of California, Berkeley. During this time, I developed a strong interest in computational
+  biology, which led me to spend a year as a research intern at the Broad Institute of MIT and Harvard.
+  I first worked in the Carpenter–Singh Lab, developing deep learning and explainable AI methods to study
+  how genetic and chemical perturbations affect cell morphology using Cell Painting data. I then joined
+  the Cellarium AI Lab, where I contributed to the development of a foundational single-cell RNA-seq model
+  incorporating perturbation data. I am now eager to develop computational tools that leverage machine
+  learning and interpretability to understand gene regulation across biomolecular scales and how these
+  regulatory programs evolve under perturbations.
+research_interests: I am motivated by tool-building and deeply interested in artificial intelligence and
+  concepts of emergence. My research aims to develop scalable machine learning models that operate across
+  modalities and conditions to uncover the complex relationships between biomolecular scales, and to understand
+  how these relationships can be perturbed to achieve desired phenotypic outcomes. These goals are closely
+  aligned with drug target identification and, more broadly, with de novo drug design using generative
+  models. In parallel, I place strong emphasis on reproducibility and interpretability, and seek to develop
+  computational tools that are both reusable and genuinely insightful for the broader research community.
+email: hakem@ebi.ac.uk
+orcid: 0009-0006-4656-1462
+professional_career:
+- period: 2025-present
+  position: PhD student, Saez-Rodriguez group, European Bioinformatics Institute, European Molecular Biology
+    Laboratory (EMBL-EBI), UK
+- period: '2025'
+  position: Visiting Researcher, Cellarium AI Lab, Broad Institute of MIT and Harvard, US
+- period: '2024'
+  position: Visiting Researcher, Carpenter-Singh Lab, Broad Institute of MIT and Harvard, US
+education:
+- period: 2023-2024
+  degree: Meng in Bioengineering, University of California, Berkeley, US
+- period: 2021-2023
+  degree: Engineering degree in Bioengineering, CentraleSupélec, France
+- period: 2019-2021
+  degree: Classes Préparatoires aux Grandes Écoles in Mathematics, Physics and Chemistry, Lycée Aux Lazaristes,
+    France

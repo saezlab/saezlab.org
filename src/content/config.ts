@@ -1,4 +1,5 @@
 import { defineCollection, z } from 'astro:content';
+import { glob } from 'astro/loaders';
 import { orcidLoader } from './loaders/orcid';
 import { fundingLoader } from './loaders/funding';
 import { githubLoader } from './loaders/github';
@@ -29,19 +30,42 @@ const teams_loaded = defineCollection({
   }),
 });
 
-const team_current = defineCollection({
-  loader: googleSheetsLoader({
-    spreadsheetId: '1Mjn0C3gjSr5Wl2ZG41X813LLhL-y47DvLeEUCmagTe8',
-    sheetName: 'current',
-    headers: ['name', 'role', 'description', 'research_interests', 'professional_career', 'education', 'email', 'telephone', 'orcid', 'image'],
-  }),
-});
+const year = z.number().int().min(1900).max(2200);
+const membership = z.object({
+  start_year: year.optional(),
+  end_year: year.optional(),
+}).strict().refine(
+  ({ start_year, end_year }) => start_year === undefined || end_year === undefined || end_year >= start_year,
+  'Membership end year must not precede start year',
+);
 
-const team_alumni = defineCollection({
-  loader: googleSheetsLoader({
-    spreadsheetId: '1Mjn0C3gjSr5Wl2ZG41X813LLhL-y47DvLeEUCmagTe8',
-    sheetName: 'alumni',
-    headers: ['name', 'position', 'duration', 'linkedin'],
+const members = defineCollection({
+  loader: glob({
+    pattern: '*.yaml',
+    base: './src/content/members',
+    // Keep existing URLs, including accents and punctuation, stable across name edits.
+    generateId: ({ entry }) => entry.replace(/\.yaml$/, ''),
+  }),
+  schema: z.object({
+    name: z.string().min(1),
+    status: z.enum(['current', 'alumni']),
+    role: z.string().min(1),
+    group: z.enum(['group-leader', 'administration', 'staff-scientists', 'postdocs', 'phd-students', 'associated-members']).optional(),
+    order: z.number().int().nonnegative().default(1000),
+    image: z.string().default(''),
+    description: z.string().default(''),
+    research_interests: z.string().optional(),
+    email: z.string().email().optional(),
+    telephone: z.string().optional(),
+    orcid: z.string().regex(/^\d{4}-\d{4}-\d{4}-\d{3}[\dX]$/).optional(),
+    linkedin: z.string().url().optional(),
+    membership: membership.optional(),
+    professional_career: z.array(z.object({ period: z.string().min(1), position: z.string().min(1) }).strict()).default([]),
+    education: z.array(z.object({ period: z.string().min(1), degree: z.string().min(1) }).strict()).default([]),
+  }).strict().superRefine((member, ctx) => {
+    if (member.status === 'current' && !member.group) {
+      ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['group'], message: 'Current members need a display group' });
+    }
   }),
 });
 const software = defineCollection({
@@ -64,8 +88,7 @@ export const collections = {
   publications_loaded,
   funding_loaded,
   teams_loaded,
-  team_current,
-  team_alumni,
+  members,
   software,
   featured_publications,
 }; 

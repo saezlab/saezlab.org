@@ -1,0 +1,33 @@
+name: Christoph Mahler
+status: current
+role: Associated Member
+order: 33
+group: associated-members
+image: christoph-mahler.jpeg
+description: I gained my medical degree at LMU Munich, where I joined the group of Martin Kerschensteiner
+  at the Institute of Clinical Neuroimmunology. In cooperation with Thomas Misgeld, I applied 2-photon
+  in-vivo imaging to track axonal calcium dynamics in an animal model of multiple sclerosis. I started
+  clinical training in neurology and collaborated with the Institute of Nuclear Medicine to establish
+  TSPO-PET imaging of neuroinflammatory dynamics. I continued internal medicine training at the West London
+  Renal and Transplant Centre, where my interest in kidney transplantation at the intersection between
+  medicine and immunology was sparked. Currently, I am supported by the clinician scientist program Heidelberg,
+  where my research is focused on improving outcomes for patients with end stage kidney disease through
+  transplantation.
+research_interests: Physician scientist with a background in immunology and nephrology. My research focuses
+  on regulatory B-cells, the development of tolerance inducing therapies for kidney transplant recipients,
+  and the prediction of kidney graft survival through electronic health records and deep phenotyping.
+email: christophfriedrich.mahler@med.uni-heidelberg.de
+orcid: 0000-0002-2990-1975
+professional_career:
+- period: 2024-present
+  position: 'Clinician Scientist Program, Medical Faculty, Universität Heidelberg; Advisor: Julio Saez-Rodriguez'
+- period: 2020-2024
+  position: Residency (Internal medicine and Nephrology), University Hospital, Universität Heidelberg
+- period: 2019-2020
+  position: Internal medicine training, Imperial College Healthcare NHS Trust, London, United Kingdom
+- period: '2018'
+  position: Residency (Neurology), University Hospital, Ludwig-Maximilians-Universität München, Germany
+education:
+- period: '2018'
+  degree: 'Dr. med., (Medicine), Ludwig-Maximilians-Universität München, Germany; Thesis Title: Mechanisms
+    of axonal calcium dynamics in an animal model of multiple sclerosis; Advisor: Martin Kerschensteiner'

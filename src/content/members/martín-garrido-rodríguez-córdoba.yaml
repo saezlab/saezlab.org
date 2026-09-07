@@ -1,0 +1,54 @@
+name: Martín Garrido Rodríguez-Córdoba
+status: current
+role: Postdoc
+order: 14
+group: postdocs
+image: martin-garrido-rodriguez-cordoba.jpg
+description: I started my professional journey in 2015 with a Bachelor’s degree in Biochemistry from the
+  University of Córdoba in Spain, my hometown. During my undergraduate thesis, I got my first taste of
+  computational biomedical research, sparking my passion for the field. In 2016, I earned a Master’s degree
+  in Translational Biomedical Research, followed by another Master’s in Bioinformatics and Computational
+  Biology. During my studies, I gained practical experience at innoHealth, a biotech company, where I
+  honed my computational skills in an industrial setting.Afterward, I returned to Córdoba to pursue a
+  Ph.D. in Biomedicine at the University. My Ph.D. work focused on developing innovative computational
+  methods to analyze transcriptomics and proteomics data in various biomedical research contexts. Upon
+  completing my Ph.D., I joined the Saez-Rodriguez team as a Postdoctoral Researcher. In my first year,
+  I secured a fellowship from the AI Health Innovation Cluster, allowing me to continue my research in
+  a collaborative framework between the Saez-Rodriguez team (Heidelberg University) and the Savitski team
+  (EMBL). In 2023, I was also appointed as a Research Area Leader within the Saez-Rodriguez group, providing
+  me with valuable managerial and coordination experience on various lab projects.
+research_interests: My primary research interest is to gain a deeper understanding of molecular mechanisms
+  underlying disease and drug response through the analysis of large molecular datasets. I achieve this
+  by integrating existing biological knowledge with data-driven approaches. In the realm of systems biology,
+  my focus centers on proteins and their role in signaling processes. This is why most of my projects
+  revolve around the analysis and interpretation of transcriptomics and proteomics data. From a technological
+  perspective, I am mostly interested in the downstream analysis and exploitation of functional proteomics
+  data. Functional proteomics techniques, such as phosphoproteomics and thermal proteome profiling, allow
+  the identification and measurement of targets, off-targets and downstream signaling events following
+  perturbation of a biological system. Currently, my main focus lies on how to combine these powerful
+  data modalities with prior knowledge via network models, in order to formulate mechanistic molecular
+  hypotheses.
+email: martin.garrido@embl.de
+orcid: 0000-0003-4125-5643
+professional_career:
+- period: 2023-Present
+  position: Research Area Leader, Institute for Computational Biomedicine, Heidelberg University, Germany
+- period: 2022-Present
+  position: Postdoctoral fellow, European Molecular Biology Laboratory (EMBL), Germany
+- period: 2021-Present
+  position: Postdoctoral researcher, Institute for Computational Biomedicine, Heidelberg University, Germany
+- period: 2017-2021
+  position: Research associate, Maimonides Biomedical Research Institute of Córdoba (IMIBIC, Córdoba)
+    and Clinical Bioinformatics Area (CBA, Sevilla), Spain
+- period: 2016-2019
+  position: Bioinformatician, InnoHealth, Madrid, Spain
+education:
+- period: 2017-2021
+  degree: PhD in Biomedicine, University of Córdoba, Córdoba, Spain
+- period: 2016-2017
+  degree: MSc in Bioinformatics and Computational Biology, National Institute of Health Carlos III, Madrid,
+    Spain
+- period: 2015-2016
+  degree: MSc in Translational Biomedical Research, University of Córdoba, Córdoba, Spain
+- period: 2011-2015
+  degree: BSc in Biochemistry, University of Córdoba, Córdoba, Spain

@@ -1,0 +1,38 @@
+name: Marc-Antoine Jacques
+status: current
+role: Postdoc
+order: 37
+group: postdocs
+image: marcantoine_jacques.jpg
+description: I have a mixed background in biotechnology (Engineering degree, 2013-2016, ESBS, Strasbourg),
+  biophysics (Msc, 2015-2016, University of Strasbourg), and bioinformatics (Msc, 2016-2018, University
+  of Bern). For my PhD (2018–2022), I worked in the lab of Olivier Pertz at the University of Bern. There,
+  I developed computational techniques to study signalling dynamics in individual cells using live microscopy.
+  My work contributed to new insights into cancer, signalling networks, epithelium homeostasis, and the
+  prediction of cellular perturbations. I then joined the lab of John Marioni at the University of Cambridge
+  and EMBL-EBI (2022–2025) as an EMBO postdoctoral fellow, where I developed methods to compare and predict
+  single-cell transcriptomics atlases across species, with a focus on early embryo development.
+research_interests: In October 2025, I joined the Saez lab for a second postdoc, in collaboration with
+  GSK, to study fibrosis across multiple organs. I plan to leverage my background in dynamical biological
+  systems and my expertise in single-cell analysis to build a multi-scale picture of how fibrosis develops.
+  By integrating diverse data modalities, I aim to identify both organ-specific and common mechanisms
+  underlying fibrosis, with the ultimate goal of translating these insights into new therapeutic strategies.
+email: jacques@ebi.ac.uk
+professional_career:
+- period: 2025-present
+  position: Postdoc in the group Julio Saez at EMBL-EBI
+- period: 2022-2025
+  position: Postdoc in the group John Marioni at University of Cambridge and EMBL-EBI
+education:
+- period: 2018-2022
+  degree: PhD in Bioinformatics and Computational Biology - University of Bern - Switzerland
+- period: 2016-2018
+  degree: Msc in Bioinformatics - University of Bern - Switzerland - Summa cum laude
+- period: 2015-2016
+  degree: Msc in Cell Physics - UFR Physique, University of Strasbourg - France
+- period: 2013-2016
+  degree: Engineering degree in Biotechnology - École Supérieure de Biotechnologie Strasbourg (ESBS) -
+    France
+- period: 2011-2013
+  degree: Classe préparatoire BCPST (biology, chemistry, physics, geology, mathematics) - Lycée Carnot,
+    Dijon - France

@@ -1,0 +1,51 @@
+name: Miguel Hernandez
+status: current
+role: PhD Student
+order: 27
+group: phd-students
+image: miguel-hernandez.jpeg
+description: 'I did my bachelor’s degree in Biology at the Universidad de Guadalajara in Mexico. Back
+  then I had joined a couple of wet-lab groups focused on molecular biology and immunology. After having
+  the opportunity to do research in Germany, I started my M.Sc degree in Molecular Bioscience at Heidelberg
+  University. While exploring my interests, at first, I carried out internships which had both wet-lab
+  and dry-lab components, but then I fully transitioned to bioinformatics. The projects included high-throughput
+  screens of regulatory sequences, tool development in the context of a TCR-epitope deconvolution platform
+  for autoimmune diseases, and studying gene regulatory networks in the immune system using a multi-omics
+  cell atlas. During this time, my interest on two areas only grew: i) the immune system and its impact
+  on disease mechanisms, and ii) tool development and data analysis to better understand biology. I will
+  focus on both of these areas during my PhD at the Saez-Rodriguez group. I will explore IgA nephropathy
+  by analyzing multi-omics datasets and will also dedicate my time to the prior-knowledge tools developed
+  by the group.'
+research_interests: I am very excited about the ever expanding reach of bioinformatics and multi-omics
+  datasets, and the opportunity that this brings to better understand disease mechanisms. My interest
+  lies at this intersection. Particularly, I am fascinated about the immune system and its involvement
+  in an array of diseases, including cancer and autoimmune disorders. On the bioinformatics side, I enjoy
+  exploring multi-layered datasets and piecing together the clues from the biology that lies behind.
+email: miguel.hernandez@uni-heidelberg.de
+orcid: 0000-0001-8503-1954
+professional_career:
+- period: 2023-present
+  position: PhD candidate, Saez-Rodriguez group, Institute for Computational Biomedicine, Heidelberg University
+    Hospital, Germany
+- period: '2023'
+  position: M.Sc in Molecular Biosciences, Major in Molecular and Cellular Biology, Heidelberg University,
+    Germany
+- period: '2023'
+  position: Internship, Saez-Rodriguez group, Institute for Computational Biomedicine, Heidelberg
+- period: '2023'
+  position: M. Sc. Thesis, Zaugg group, EMBL, Heidelberg
+- period: '2022'
+  position: Internship, Lu group, Institute for Computational Biomedicine, Heidelberg
+- period: '2021'
+  position: Internship, Platten group, DKFZ
+- period: '2020'
+  position: Internship, Lindner group, BioMed X
+- period: '2019'
+  position: B.Sc in Biology, Universidad de Guadalajara, Mexico
+- period: '2018'
+  position: Internship at the Max Planck for Developmental Biology, Tuebingen, Germany
+education:
+- period: 2019-2023
+  degree: M.Sc. in Molecular Biosciences, Heidelberg University, Germany
+- period: 2014-2019
+  degree: B.Sc in Biology, Universidad de Guadalajara, Mexico

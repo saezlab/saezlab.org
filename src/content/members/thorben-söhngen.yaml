@@ -1,0 +1,35 @@
+name: Thorben Söhngen
+status: current
+role: Associated Member
+order: 31
+group: associated-members
+image: thorben-hennig.jpeg
+description: I completed both my Bachelor’s and Master’s degrees in Molecular Biotechnology at Heidelberg
+  University, starting in 2016. My fascination with coding began early on, leading me to grasp Python
+  and R during my undergraduate studies. This interest propelled me towards specializing in Bioinformatics,
+  a journey I continued during my Master’s program. Through several research internships, I explored a
+  broad variety of topics, from spatial quantification of miRNA expression to integrating proteome and
+  clinical data from patients with myeloproliferative neoplasm. Now, during my PhD, I’m focusing on colorectal
+  cancer (CRC), collaborating with Rene Jackstadt’s group at HI-STEM and I aim to investigate the impact
+  of novel treatments on disease progression using various single-cell techniques.
+research_interests: The ever-growing number of methods and resources available for studying disease development
+  and progression have excited me ever since I encountered them during my studies. I am particularly interested
+  in single cell technologies and quickly became fascinated by the resolution and insights offered by
+  those methods. During my PhD, my research will focus on the progression and metastasis in the context
+  of colorectal cancer using multiomics data.
+email: t.soehngen@dkfz-heidelberg.de
+orcid: 0000-0001-6683-8269
+professional_career:
+- period: 2024–present
+  position: PhD Candidate, Heidelberg Institute for Stem Cell Research and Experimental Medicine (HI-STEM)
+    and Institute for Computational Biomedicine
+- period: 2022–2023
+  position: Student research assistant, Proteomics and Cell Signaling Group, DKFZ Heidelberg
+- period: 2019–2023
+  position: Research internships at the Harvard Medical School (SlackLab), DKFZ Heidelberg and Bioquant
+    (RusselLab)
+education:
+- period: 2019–2023
+  degree: M.Sc. in Molecular Biotechnology, Heidelberg University
+- period: 2016–2019
+  degree: B.Sc. in Molecular Biotechnology, Heidelberg University

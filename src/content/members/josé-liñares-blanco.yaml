@@ -1,0 +1,32 @@
+name: José Liñares Blanco
+status: current
+role: Postdoc
+order: 19
+group: postdocs
+image: jose-linares-blanco.jpeg
+description: I have a multidisciplinary background in Molecular Biology (BSc), Bioinformatics (MSc) and
+  Computer Science (PhD).During my PhD stage (2017-2021) at University of A Coruña I have applied Machine
+  Learning based techniques for the analysis of omics data in large cohorts of cancer patients for the
+  search of new diagnostic and treatment strategies. During this period, I also collaborated through research
+  internships with the Wellcome-Wolfson Institute for Experimental Medicine (Queen’s University Belfast)
+  and with the Cancer Computational Biology Group at Vall D’Hebron Institute of Oncology.In 2022 I moved
+  to University of Granada (GENyO) as postdoc to apply Machine Learning techniques in the field of precision
+  medicine in autoimmune diseases.In 2023, I started as a Margarita Salas research fellow at Institute
+  of Computational Biomedicine of University of Heidelberg under the supervision of Julio Saez-Rodriguez.
+research_interests: My current interests are focused on the development and application of new statistical,
+  computational and Machine Learning methods capable of analyzing in an integrated manner clinical and
+  multi-omics data.
+email: linaresb@ebi.ac.uk
+professional_career:
+- period: '2023'
+  position: Margarita Salas researcher. Institute of Computational Biomedicine. Heidelberg University.
+- period: '2022'
+  position: Postdoc at at Pfizer Center - Universidad de Granada - Junta de Andalucía Centre for Genomics
+    and Oncological Research (GENYO)
+education:
+- period: 2018 - 2021
+  degree: PhD in Computer Science. University of A Coruña. Spain
+- period: 2016 - 2017
+  degree: MSc in Bioinformatics and Biostatistics. Universidad Oberta de Catalunya. Spain.
+- period: 2011 - 2016
+  degree: Biology Degree. University of Santiago de Compostela, Spain
