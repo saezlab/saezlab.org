@@ -1,8 +1,11 @@
 name: José Liñares Blanco
-status: current
+status: alumni
 role: Postdoc
-order: 19
-group: postdocs
+order: 0
+membership:
+  start_year: 2022
+  end_year: 2026
+linkedin: https://www.linkedin.com/in/jose-li%C3%B1ares-blanco-796608132/
 image: jose-linares-blanco.jpeg
 description: I have a multidisciplinary background in Molecular Biology (BSc), Bioinformatics (MSc) and
   Computer Science (PhD).During my PhD stage (2017-2021) at University of A Coruña I have applied Machine

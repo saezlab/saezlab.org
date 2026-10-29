@@ -1,0 +1,34 @@
+name: Stanislaus Stein
+status: current
+role: PhD Student
+order: 45
+group: phd-students
+description: >-
+  I completed my Bachelor's and Master's degree in Mathematics at the Ruprecht-Karls University of Heidelberg,
+  where I specialized in Scientific Computing and Statistical Geometry. I then worked as a researcher in
+  Simon Anders' lab at BioQuant, developing geometric methods for trajectory inference in single-cell
+  transcriptomics. Using diffusion maps, Fermat distances and the Hessian spectra of learned score functions,
+  I aimed to infer the underlying tree topology of differentiation datasets. I also dabbled in
+  sequence-to-function models with a specific focus on predicting chromatin accessibility based on CpG site
+  methylation. I am now a PhD student at EMBL-EBI as part of the ProtAIomics MSCA Doctoral Network, where I
+  work on ML-based analysis of mass spectrometry data.
+research_interests: >-
+  I believe that biology currently is the richest domain of the computational sciences in both complexity
+  and application. To answer questions about life and disease, one must constantly move on the spectrum
+  ranging from the basics of molecular biology, its formalization into mathematical concepts, the algorithms
+  that process it, and sometimes all the way down to computer engineering to ensure that the methods actually
+  run in reasonable time. For me this is a big puzzle of digging into the biology and finding the right
+  mathematical objects that capture the essence of the processes happening, while keeping in mind which
+  questions actually need answering and which can be answered.
+email: stein@ebi.ac.uk
+professional_career:
+- period: 2026-present
+  position: PhD Student, Saez-Rodriguez Group, European Bioinformatics Institute, European Molecular Biology
+    Laboratory (EMBL-EBI)
+- period: 2025-2026
+  position: Research Assistant in Simon Anders' Lab at the BioQuant, University of Heidelberg
+education:
+- period: 2022-2025
+  degree: M.Sc. Mathematics, University of Heidelberg, Germany
+- period: 2019-2022
+  degree: B.Sc. Mathematics, University of Heidelberg, Germany

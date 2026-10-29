@@ -1,8 +1,10 @@
 name: Nicolàs Palacio-Escat
-status: current
+status: alumni
 role: Staff Scientist
-order: 9
-group: staff-scientists
+order: 67
+membership:
+  start_year: 2020
+  end_year: 2026
 image: nicolas-palacio.jpeg
 description: After obtaining my BSc in Biotechnology at the Universitat of Girona, I​​ acquired a MSc
   in Mathematical modeling for Science and Engineering at the Universitat Autònoma de Barcelona. During

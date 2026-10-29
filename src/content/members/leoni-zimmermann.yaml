@@ -1,0 +1,22 @@
+name: Leoni Zimmermann
+status: current
+role: Associated Member
+order: 46
+group: associated-members
+description: >-
+  I completed my B.Sc. in Biology in 2022, followed by an M.Sc. in Molecular Biosciences with a major in
+  Systems Biology at Heidelberg University in 2025. During my studies, I became increasingly interested in
+  computational approaches for studying complex biological systems and in the analysis of high-dimensional
+  transcriptomics data. After an internship and my Master's thesis in the Saez-Rodriguez group, working on
+  MISTy and ParTIpy, I joined the Saez-Rodriguez and Tanevski groups as a PhD student in 2025.
+research_interests: >-
+  I am interested in developing machine-learning approaches to learn interpretable representations of tissue
+  organization, cellular states, and tissue remodeling from spatial omics data. My research focuses on
+  methods that capture biologically meaningful structure across spatial scales and help relate computational
+  representations back to the underlying molecular and cellular processes.
+email: leoni.zimmermann@uni-heidelberg.de
+education:
+- period: 2022–2025
+  degree: M.Sc. Molecular Biosciences, Major in Systems Biology, Heidelberg University, Germany
+- period: 2019–2022
+  degree: B.Sc. Biology, Heidelberg University, Germany

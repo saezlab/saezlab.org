@@ -1,0 +1,38 @@
+name: Amber Fijn
+status: current
+role: PhD Student
+order: 44
+group: phd-students
+description: >-
+  My undergrad was highly interdisciplinary, exposing me to a wide arrange of fields. I took a particular
+  interest to biology, as I was generally interested in better understanding how life operated at a
+  molecular level. Motivated by this, I continued my academic career with a MSc in Molecular Genetics and
+  Biotechnology at Leiden University. Through a wet-lab internship, I gained more insights into the process
+  of data generation. Simultaneously, I further developed my interests into computational processing of
+  these data to come to improve our understanding of the respective systems. This motivated me to pursue
+  a MSc in Bioinformatics and Systems Biology, where I was exposed to the various methods and data types
+  that dominate the field. During my internship, I developed a graph-based model that processes scRNA-seq
+  data of developing cells to predict their position along a pseudotemporal axis. This experience further
+  solidified my interest in tool development, with a particular interest to incorporate prior knowledge
+  into the inference process. I am excited to continue my scientific development as a PhD student in the
+  Saez-Rodriguez group.
+research_interests: >-
+  I am interested in developing tools that leverage prior knowledge to analyse biological data and come
+  to new (mechanistic) insights into the respective processes. My research aims to understand how
+  host-microbiome interactions take shape during health and disease by analysing scRNA-seq and spatial
+  transcriptomics data. Gaining insights into how these interactions are organised at a molecular scale,
+  and how this is disturbed in diseases such as IBD or CRC, can help us work towards treatment.
+email: fijn@ebi.ac.uk
+professional_career:
+- period: 2026-present
+  position: PhD Student, Saez-Rodriguez Group, European Bioinformatics Institute, European Molecular Biology
+    Laboratory (EMBL-EBI)
+- period: 2023-2026
+  position: Teaching Assistant, VU Amsterdam - University of Amsterdam
+education:
+- period: 2024-2026
+  degree: MSc Bioinformatics and Systems Biology, VU Amsterdam - University of Amsterdam (Joint degree)
+- period: 2023-2024 (Discontinued)
+  degree: MSc Molecular Genetics and Biotechnology, Leiden University
+- period: 2020-2023
+  degree: BSc Beta-Gamma (major Biology), University of Amsterdam
